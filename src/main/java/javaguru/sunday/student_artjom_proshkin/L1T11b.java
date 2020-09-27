@@ -1,4 +1,4 @@
-package student_artjom_proshkin;
+package main.java.javaguru.sunday.student_artjom_proshkin;
 
 public class L1T11b {
     public static void main(String[] args) {
