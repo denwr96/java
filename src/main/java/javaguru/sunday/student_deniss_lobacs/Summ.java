@@ -4,10 +4,26 @@ public class Summ {
 
     public static void main(String[] args) {
 
-        System.out.println("Test data:");
-        System.out.println("74+36");
-        System.out.println("Expected Output :");
-        System.out.println("110");
+        // First part
+
+        int a=74,b=36;
+        int c=a+b;
+
+        System.out.println("Test Data: 74+36");
+        System.out.print("Expected Output: ");
+        System.out.println(c);
+
+        System.out.println(); // разделение двух заданий
+
+        // Second part
+
+        int d=50,e=3;
+        int f=d/e;
+
+        System.out.println("Test Data: 50/3");
+        System.out.print("Expected Output: ");
+        System.out.print(f);
 
     }
 }
+
