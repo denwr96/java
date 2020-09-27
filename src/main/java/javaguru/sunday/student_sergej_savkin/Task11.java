@@ -5,10 +5,8 @@ public class Task11 {
         int x = 74;
         int y = 36;
         System.out.println(x + y);
-
         int a = 50;
         int b = 3;
-
         System.out.println(a / b);
     }
 }
