@@ -1,4 +1,4 @@
-package student_andrejs_ivanovs;
+package main.java.javaguru.sunday.student_andrejs_ivanovs;
 
 public class HelloWorld {
     public static void main(String[] args) {
