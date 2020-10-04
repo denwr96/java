@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_laura_upelniece;
+package main.java.javaguru.sunday.student_laura_upelniece.lesson2.lvl1;
 
 import java.util.Scanner;
 
