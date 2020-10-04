@@ -1,11 +1,11 @@
 package main.java.javaguru.sunday.student_laura_upelniece;
 
-
 import java.util.Scanner;
 //Imports scanner methods
 
 public class CalculatorDouble {
     public static void main(String[] args) {
+
         //Adds first input
         Scanner scan1 = new Scanner(System.in);
         double firstNumber = scan1.nextDouble();
@@ -20,9 +20,9 @@ public class CalculatorDouble {
         double multi = firstNumber * secondNumber;
         double div = firstNumber / secondNumber;
 
-        System.out.println(sum);
-        System.out.println(sub);
-        System.out.println(multi);
-        System.out.println(div);
+        System.out.println("Sum of numbers: " + sum);
+        System.out.println("Difference of numbers: " + sub);
+        System.out.println("Multiplication of numbers: " + multi);
+        System.out.println("Division of numbers: " + div);
     }
 }
