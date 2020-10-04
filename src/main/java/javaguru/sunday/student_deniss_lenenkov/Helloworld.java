@@ -1,4 +1,4 @@
-package student_deniss_lenenkov;
+package main.java.javaguru.sunday.student_deniss_lenenkov;
 
 public class Helloworld {
 
