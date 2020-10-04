@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_2.level_6_middle.task24;
+package main.java.javaguru.sunday.student_sergej_savkin.lesson_2.level_6_middle.task_24;
 
 class NoSleepNoFocus {
     public static void main(String[] args) {
