@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_violeta_klimova;
+package main.java.javaguru.sunday.student_violeta_klimova.lesson_1;
 
-public class lesson_1_task_11 {
+public class Lesson_1_task_11 {
     public static void main(String[] args) {
         int a = 74;
         int b = 36;

@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_2;
+package main.java.javaguru.sunday.student_violeta_klimova.lesson_2.level_3;
 
 import java.util.Scanner;
 
-public class lesson_2_task_9 {
+public class Lesson_2_task_9 {
 
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
