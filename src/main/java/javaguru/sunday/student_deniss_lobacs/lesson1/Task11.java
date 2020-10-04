@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lobacs;
+package main.java.javaguru.sunday.student_deniss_lobacs.lesson1;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
@@ -6,18 +6,18 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Перменные необходимо называть правильно." +
         "Необходимо ставить знаки пробела между математическими операциями.")
-public class Summ {
+public class Task11 {
 
     public static void main(String[] args) {
 
         // First part
 
-        int a=74, b=36, y=10;
-        int c=a+b;
+        int numberOne = 74 , numberTwo=36;
+        int result = numberOne + numberTwo;
 
         System.out.println("Test Data: 74+36");
         System.out.print("Expected Output: ");
-        System.out.println(c);
+        System.out.println(result);
 
         System.out.println(); // разделение двух заданий
 
