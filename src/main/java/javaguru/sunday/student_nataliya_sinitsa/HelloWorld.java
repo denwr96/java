@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_test_test;
+package main.java.javaguru.sunday.student_nataliya_sinitsa;
 
 public class HelloWorld {
 
