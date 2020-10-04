@@ -1,5 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lobacs;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Перменные необходимо называть правильно." +
+        "Необходимо ставить знаки пробела между математическими операциями.")
 public class Summ {
 
     public static void main(String[] args) {
