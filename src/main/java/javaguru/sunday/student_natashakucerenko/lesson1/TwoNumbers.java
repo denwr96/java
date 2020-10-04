@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natashakucerenko;
+package main.java.javaguru.sunday.student_natashakucerenko.lesson1;
 
 public class TwoNumbers {
     public static void main(String args[]) {
