@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa;
+package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson1.level4.task11;
 
 public class SumOfTwo {
     public static void main(String[] args) {
