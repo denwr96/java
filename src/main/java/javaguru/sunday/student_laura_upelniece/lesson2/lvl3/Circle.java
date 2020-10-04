@@ -4,8 +4,10 @@ import java.lang.Math;
 
 public class Circle {
     public static void main(String[] args) {
+
         //Takes number(radius) as an input
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter radius: ");
         double radius = input.nextDouble();
 
         //Calculates result and stores it in variables

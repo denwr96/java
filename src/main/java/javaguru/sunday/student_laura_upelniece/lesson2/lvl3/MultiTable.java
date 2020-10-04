@@ -5,10 +5,13 @@ import java.util.Scanner;
 public class MultiTable {
     public static void main(String[] args) {
 
+        //Adds new Scanner and prints input message
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter input: ");
         int number = input.nextInt();
 
-
+        //Prints multiplication table for given number
+        System.out.println("Multiplication table of number " + number);
         System.out.println(number + " * 1" + " = " + (number * 1));
         System.out.println(number + " * 2" + " = " + (number * 2));
         System.out.println(number + " * 3" + " = " + (number * 3));

@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class CalculatorInt {
     public static void main(String[] args) {
-        //Adds first input
-        Scanner scanner = new Scanner(System.in);
-        int firstNumber = scanner.nextInt();
 
-        //Adds second input
-        Scanner scanner2 = new Scanner(System.in);
-        int secondNumber = scanner2.nextInt();
+        //Makes scanner, prints input message, stores input in variables
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter two numbers: ");
+        int firstNumber = scan.nextInt();
+        int secondNumber = scan.nextInt();
 
         //Stores answers in variables
         int sum = firstNumber + secondNumber;
@@ -18,10 +17,11 @@ public class CalculatorInt {
         int multi = firstNumber * secondNumber;
         int div = firstNumber / secondNumber;
 
-        System.out.println(sum);
-        System.out.println(sub);
-        System.out.println(multi);
-        System.out.println(div);
+        //Prints result
+        System.out.println("Sum of numbers: " + sum);
+        System.out.println("Difference of numbers: " + sub);
+        System.out.println("Multiplication of numbers: " + multi);
+        System.out.println("Division of numbers: " + div);
     }
 
 }
