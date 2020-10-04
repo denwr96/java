@@ -12,7 +12,7 @@ public class Summ {
 
         // First part
 
-        int a=74,b=36;
+        int a=74, b=36, y=10;
         int c=a+b;
 
         System.out.println("Test Data: 74+36");
