@@ -1,5 +1,11 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Лучыше не использовать такие названия для классов. Создайте отдельные Package для каждого урока и для каждого уровня воответственно." +
+        "В названии переменных нельзя использовать _, цифры в том числе.")
 public class Lesson1Level5Task11 {
 
     public static void main(String[] args) {

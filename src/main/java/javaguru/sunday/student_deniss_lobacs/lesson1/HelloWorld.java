@@ -1,7 +1,8 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson1;
 
-import com.sun.source.doctree.SummaryTree;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class HelloWorld {
 
     public static void main(String[] args) {

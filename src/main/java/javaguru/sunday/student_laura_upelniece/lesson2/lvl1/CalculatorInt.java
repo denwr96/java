@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_laura_upelniece.lesson2.lvl1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class CalculatorInt {
     public static void main(String[] args) {
 

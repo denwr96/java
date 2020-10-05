@@ -1,6 +1,11 @@
 package main.java.javaguru.sunday.student_laura_upelniece.lesson2.lvl3;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Не очень нравяться названия переменных. Пишите уже лучше number ")
 public class Average {
     public static  void main(String[] args) {
 

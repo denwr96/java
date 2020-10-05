@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson2.homework.level_1_intern.task2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class DoubleNumbers {
 
     static Scanner scn = new Scanner(System.in);

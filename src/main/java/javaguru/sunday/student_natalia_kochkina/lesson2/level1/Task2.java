@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson2.level1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

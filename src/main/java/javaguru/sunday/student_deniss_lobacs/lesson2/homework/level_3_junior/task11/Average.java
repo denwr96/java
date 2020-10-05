@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson2.homework.level_3_junior.task11;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Average {
     static Scanner scn = new Scanner(System.in);
     public static void main(String[] args) {
