@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lobacs;
+package main.java.javaguru.sunday.student_deniss_lobacs.lesson1;
 
 import com.sun.source.doctree.SummaryTree;
 
