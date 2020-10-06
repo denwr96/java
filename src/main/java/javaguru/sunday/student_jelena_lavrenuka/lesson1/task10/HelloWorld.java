@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov;
+package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson1.task10;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
@@ -6,7 +6,8 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 public class HelloWorld {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!!!");
+        System.out.println("Hello World!");
+
     }
 
 }
