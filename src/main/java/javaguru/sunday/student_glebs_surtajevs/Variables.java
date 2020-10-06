@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_glebs_surtajevs;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class Variables {
     public static void main(String[] args) {
         int numberOne = 74 ;

@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_2.level_senior.super_task_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 /* The program should be used to check amount
 of pancakes can be cooked, from existing food */
+@CodeReview(approved = true)
 public class PancakeCounter {
 
     public static void main(String[] args) {

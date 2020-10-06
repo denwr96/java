@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_2.level_6_middle.task_23;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class AttentionPlease {
 
     public static void main(String[] args) {

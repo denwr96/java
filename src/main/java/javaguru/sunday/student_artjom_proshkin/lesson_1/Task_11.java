@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Будет лучше, если вы сразу привыкните писать понятные названия переменных")
 public class Task_11 {
     public static void main(String[] args) {
         int x = 74;

@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_alexandrs_ivanovs;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class HelloWorld {
 
     public static void main(String[] args) {
