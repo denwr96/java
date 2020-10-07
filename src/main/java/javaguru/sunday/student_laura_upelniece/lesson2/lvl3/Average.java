@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Не очень нравяться названия переменных. Пишите уже лучше number ")
+//Pochemu immeno? Num ploxo ili fakt nazvanija 'number'? Kak nazvatj horosho?
 public class Average {
     public static  void main(String[] args) {
 
