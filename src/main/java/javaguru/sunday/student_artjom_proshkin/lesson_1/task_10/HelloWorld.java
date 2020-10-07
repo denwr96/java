@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_1;
+package main.java.javaguru.sunday.student_artjom_proshkin.lesson_1.task_10;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
