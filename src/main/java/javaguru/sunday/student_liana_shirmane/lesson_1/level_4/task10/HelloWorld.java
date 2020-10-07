@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_1.task10;
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_1.level_4.task10;
 
 public class HelloWorld {
     public static void main(String[] args) {
