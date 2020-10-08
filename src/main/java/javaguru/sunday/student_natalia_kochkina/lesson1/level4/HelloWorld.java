@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natalia_kochkina;
+package main.java.javaguru.sunday.student_natalia_kochkina.lesson1.level4;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
