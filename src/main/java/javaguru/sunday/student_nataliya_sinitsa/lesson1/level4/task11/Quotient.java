@@ -7,10 +7,9 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Объявлять переменные в одну строку, это плохой стиль кода. Не надо так делать. Не хватает пробелов между математическими знаками")
 public class Quotient {
     public static void main(String[] args) {
-        int dividend, divisor, quotient;
-        dividend = 50;
-        divisor = 3;
-        quotient = dividend/divisor;
+        int dividend = 50;
+        int divisor = 3;
+        int quotient = dividend / divisor;
         System.out.println(quotient);
     }
 }
