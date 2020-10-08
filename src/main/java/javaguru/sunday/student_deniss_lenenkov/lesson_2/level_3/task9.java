@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_2.level_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Можно обойтись без лишних констант. Мы можем просто напрямую прописать эти инты в ваши строки System.out.println(number + x + 1 + = + p1)")
 public class task9 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson2.level1.task2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class ArithmeticOperationsWithTwoDecimals {
     public static void main(String[] args) {
 

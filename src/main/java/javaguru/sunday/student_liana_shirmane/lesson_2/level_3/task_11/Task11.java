@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_2.level_3.task_11;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task11 {
     public static void main(String[] args) {
         System.out.println("Please, enter first number:");

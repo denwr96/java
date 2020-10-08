@@ -1,7 +1,13 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_2.task_9;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Где я видел такое задание...так же не правильно сделанное ) У вас тут кстати переменная mult2 даже не используется." +
+        "Можно было обойтись без лишних констант. Сразу подставить инты в выражения")
 public class MultiplicationTable {
     public static void main(String[] args){
         Scanner Scanner = new Scanner(System.in);

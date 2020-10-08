@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson2.level2.task8;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Greeting {
     public static void main(String[] args) {
 

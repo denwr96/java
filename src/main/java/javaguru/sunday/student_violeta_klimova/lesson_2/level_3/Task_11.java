@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_2.level_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_11 {
 
     public static void main(String[] args) {
