@@ -18,8 +18,5 @@ public class Task_1 {
         int division = firstNumber / secondNumber;
         System.out.println("Division of two numbers =" + division);
 
-
-
-
     }
 }
