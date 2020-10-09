@@ -1,4 +1,4 @@
-package student_valeri_rozov.lesson1;
+package main.java.javaguru.sunday.student_valeri_rozov.lesson1;
 
 public class Divide {
     public static void main(String[] args) {

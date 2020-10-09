@@ -1,4 +1,4 @@
-package student_valeri_rozov.lesson2.lvl7;
+package main.java.javaguru.sunday.student_valeri_rozov.lesson2.lvl7;
 
 public class CorrectDataTypes {
 
