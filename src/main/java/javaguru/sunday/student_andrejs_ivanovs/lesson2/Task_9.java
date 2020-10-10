@@ -8,7 +8,7 @@ public class Task_9 {
         System.out.println("Enter your number");
         int YourNumber = Scan.nextInt();
 
-        System.out.println(YourNumber + " x 1 = " + (YourNumber * 1));
+        System.out.println(YourNumber + " x 1 = " + YourNumber);
         System.out.println(YourNumber + " x 2 = " + (YourNumber * 2));
         System.out.println(YourNumber + " x 3 = " + (YourNumber * 3));
         System.out.println(YourNumber + " x 4 = " + (YourNumber * 4));
