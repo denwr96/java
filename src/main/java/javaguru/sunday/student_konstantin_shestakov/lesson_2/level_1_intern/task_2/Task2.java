@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_2.level_1_intern.task_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task2 {
 
     public static void main(String[] args) {

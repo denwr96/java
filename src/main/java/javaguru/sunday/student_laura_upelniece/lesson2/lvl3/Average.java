@@ -7,6 +7,7 @@ import java.util.Scanner;
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Не очень нравяться названия переменных. Пишите уже лучше number ")
 //Pochemu immeno? Num ploxo ili fakt nazvanija 'number'? Kak nazvatj horosho?
+//Потому, что название переменных - это боль в любом языке программирования. Мы пишем программы для людей. Я не должен гадать, к чему относиться сокращение num? Может это numeric? или что-то еще
 public class Average {
     public static  void main(String[] args) {
 
