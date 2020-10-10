@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_2.Task_9;
+package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_2.level_3.task_9;
 
 import java.util.Scanner;
 
