@@ -11,15 +11,15 @@ public class Task_1 {
             Scanner scan = new Scanner (System.in);
 
             System.out.println ("Введите первое число: ");
-            double numbOne = scan.nextInt();
+            int numbOne = scan.nextInt();
 
             System.out.println ("Введите второе число: ");
-            double numbTwo = scan.nextInt();
+            int numbTwo = scan.nextInt();
 
-            double adt = numbOne + numbTwo;
-            double sub = numbOne - numbTwo;
+            int adt = numbOne + numbTwo;
+            int sub = numbOne - numbTwo;
             double div = numbOne / numbTwo;
-            double mult = numbOne * numbTwo;
+            int mult = numbOne * numbTwo;
 
             System.out.println("Результат сложения = " + adt);
             System.out.println("Результат вычитания = " + sub);
