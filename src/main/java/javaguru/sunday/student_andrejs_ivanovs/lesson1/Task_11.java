@@ -5,7 +5,11 @@ public class Task_11 {
         int NumberOne = 74;
         int NumberTwo = 36;
         int SumOfAllFears = NumberOne + NumberTwo;
-        System.out.println("Sum of 74 and 36 is" + SumOfAllFears);
+        double NumberThree = 50;
+        int NumberFour = 3;
+        double DevideResult = NumberThree / NumberFour;
+        System.out.println("Sum of 74 and 36 is " + SumOfAllFears);
+        System.out.println("Result of 50/3 is " + DevideResult);
 
 
     }
