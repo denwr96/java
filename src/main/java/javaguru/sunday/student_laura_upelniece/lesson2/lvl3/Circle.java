@@ -1,11 +1,16 @@
 package main.java.javaguru.sunday.student_laura_upelniece.lesson2.lvl3;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 import java.lang.Math;
 
+@CodeReview(approved = true)
 public class Circle {
     public static void main(String[] args) {
+
         //Takes number(radius) as an input
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter radius: ");
         double radius = input.nextDouble();
 
         //Calculates result and stores it in variables

@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_natashakucerenko.lesson1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Плохое название переменных")
 public class TwoNumbers {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int a = 74;
         int b = 36;
         System.out.println("a + b = " + (a + b));
