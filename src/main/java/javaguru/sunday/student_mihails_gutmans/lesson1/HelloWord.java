@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_mihails_gutmans;
+package main.java.javaguru.sunday.student_mihails_gutmans.lesson1;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
