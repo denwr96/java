@@ -9,7 +9,6 @@ public class Lesson_2_task_2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         System.out.println("Enter your first number:");
         double firstDoubleNumber = scanner.nextDouble();
         System.out.println("First number is "+ firstDoubleNumber);
