@@ -3,10 +3,9 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_1.level_4_
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Лучыше не использовать такие названия для классов. Создайте отдельные Package для каждого урока и для каждого уровня воответственно." +
-        "В названии переменных нельзя использовать _, цифры в том числе.")
+@CodeReview(approved = true)
 // 06.10.20 - Исправлено
+//Я вижу изменения в версиях. Но спасибо за коммент =)
 
 public class SumAndDivide {
 
