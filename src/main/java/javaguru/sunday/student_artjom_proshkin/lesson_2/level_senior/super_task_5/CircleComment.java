@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_2.level_senior.super_task_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class CircleComment {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

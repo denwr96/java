@@ -13,7 +13,6 @@ public class OutputInputExample {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Type your number...");
         int userInput = scanner.nextInt();
         System.out.println("User input = " + userInput);
 

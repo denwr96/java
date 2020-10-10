@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_2.level_5.task_15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task15 {
     public static void main(String[] args) {
         System.out.println("Please, enter your name:");

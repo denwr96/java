@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_2.level_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class task_15 {
     public static void main (String[] args) {
         String a = "Hello ";

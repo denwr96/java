@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_2.level_5_middle.task_15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень много лешнего кода ) ")
 public class Task15 {
 
     public static void main(String[] args){
