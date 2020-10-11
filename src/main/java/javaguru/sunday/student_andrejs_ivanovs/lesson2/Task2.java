@@ -2,7 +2,7 @@ package main.java.javaguru.sunday.student_andrejs_ivanovs.lesson2;
 
 import java.util.Scanner;
 
-public class Task_2 {
+public class Task2 {
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);
         System.out.println("Enter number one");

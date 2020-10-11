@@ -1,6 +1,6 @@
 package main.java.javaguru.sunday.student_andrejs_ivanovs.lesson1;
 
-public class Task_11 {
+public class Task11 {
     public static void main(String[] args) {
         int NumberOne = 74;
         int NumberTwo = 36;
