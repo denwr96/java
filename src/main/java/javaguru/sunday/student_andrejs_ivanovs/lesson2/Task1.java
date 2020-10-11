@@ -6,17 +6,17 @@ public class Task1 {
     public static void main(String[] args) {
         Scanner Scann = new Scanner(System.in);
         System.out.println("Enter number one");
-        int FirstNumber = Scann.nextInt();
+        int firstNumber = Scann.nextInt();
         System.out.println("Enter number two");
-        int SecondNumber = Scann.nextInt();
-int ResultOne = FirstNumber + SecondNumber;
-int ResultTwo = FirstNumber - SecondNumber;
-int ResultThree = FirstNumber *  SecondNumber;
-int ResultFour =  FirstNumber / SecondNumber;
-System.out.println("Number one + number two = "+ResultOne);
-        System.out.println("Number one - number two = "+ResultTwo);
-        System.out.println("Number one * number two = "+ResultThree);
-        System.out.println("Number one / number two = "+ResultFour);
+        int secondNumber = Scann.nextInt();
+int resultOne = firstNumber + secondNumber;
+int resultTwo = firstNumber - secondNumber;
+int resultThree = firstNumber *  secondNumber;
+int resultFour =  firstNumber / secondNumber;
+System.out.println("Number one + number two = "+resultOne);
+        System.out.println("Number one - number two = "+resultTwo);
+        System.out.println("Number one * number two = "+resultThree);
+        System.out.println("Number one / number two = "+resultFour);
 
     }
 }
