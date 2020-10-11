@@ -6,7 +6,7 @@ public class Task8 {
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);
         System.out.println("Please enter your name");
-        String UserName = Scan.nextLine();
-        System.out.println("Hello " +UserName);
+        String userName = Scan.nextLine();
+        System.out.println("Hello " +userName);
     }
 }
