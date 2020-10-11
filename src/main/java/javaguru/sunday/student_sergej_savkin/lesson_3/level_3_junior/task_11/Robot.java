@@ -1,0 +1,10 @@
+package main.java.javaguru.sunday.student_sergej_savkin.lesson_3.level_3_junior.task_11;
+
+class Robot {
+    String name;
+
+    void sayYourName(){
+
+        System.out.println("My name is "+ name);
+    }
+}
