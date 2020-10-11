@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva;
+package main.java.javaguru.sunday.student_anna_aleksejeva.Lesson_1;
 
 public class Task_11 {
     public static void main (String[] args) {
