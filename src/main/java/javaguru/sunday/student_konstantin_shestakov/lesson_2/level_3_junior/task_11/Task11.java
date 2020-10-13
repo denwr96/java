@@ -14,10 +14,10 @@ public class Task11 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter 3 numbers: ");
-        int num_1 = scanner.nextInt();
-        int num_2 = scanner.nextInt();
-        int num_3 = scanner.nextInt();
+        int numberOne = scanner.nextInt();
+        int numberTwo = scanner.nextInt();
+        int numberThree = scanner.nextInt();
 
-        System.out.println("Average of your numbers: " + (double)(num_1 + num_2 + num_3) / 3);
+        System.out.println("Average of your numbers: " + (double)(numberOne + numberTwo + numberThree) / 3);
     }
 }
