@@ -5,6 +5,5 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 @CodeReview(approved = true)
 public class SystemUnit {
     public static void main(String[] args){
-
     }
 }

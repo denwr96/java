@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_2.level_3;
+package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_2.level_3.task_11;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 

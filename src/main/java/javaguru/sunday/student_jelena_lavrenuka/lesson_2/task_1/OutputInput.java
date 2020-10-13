@@ -18,20 +18,20 @@ public class OutputInput {
         System.out.println("");
 
         System.out.println("Type your second number: ");
-        int secondnumber = Scanner.nextInt();
+        int secondNumber = Scanner.nextInt();
 
         System.out.println("");
 
-        int sum = firstNumber + secondnumber;
+        int sum = firstNumber + secondNumber;
         System.out.println("Sum = " + sum);
 
-        int sub = firstNumber - secondnumber;
+        int sub = firstNumber - secondNumber;
         System.out.println("Subtraction = " + sub);
 
-        int mult = firstNumber * secondnumber;
+        int mult = firstNumber * secondNumber;
         System.out.println("Multiplication = " + mult);
 
-        int div = firstNumber / secondnumber;
+        int div = firstNumber / secondNumber;
         System.out.println("Divide = " + div);
 
     }
