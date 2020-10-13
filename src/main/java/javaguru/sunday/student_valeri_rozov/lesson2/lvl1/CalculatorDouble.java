@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_valeri_rozov.lesson2.lvl1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Плохие названия переменных")
 public class CalculatorDouble {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

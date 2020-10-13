@@ -1,5 +1,11 @@
 package main.java.javaguru.sunday.student_alan.lesson_1.level_4;
 
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Плохое название переменных")
 public class Task_11 {
     public static void main(String[] args) {
 
