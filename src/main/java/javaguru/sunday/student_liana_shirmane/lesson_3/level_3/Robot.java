@@ -1,0 +1,20 @@
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_3.level_3;
+//task11
+//task12
+//task13
+
+
+public class Robot {
+    String name;
+    public Robot (String robotName) {
+        this.name = robotName;
+    }
+    public void sayHello() {
+        System.out.println("Hello!");
+    }
+    void sayYourName() {
+        System.out.println("My name is " + this.name);
+    }
+};
+
+
