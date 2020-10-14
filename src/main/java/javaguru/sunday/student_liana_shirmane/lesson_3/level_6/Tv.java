@@ -1,4 +1,5 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_3.level_6;
+
 //task24
 class Tv {
     int screenSize;
@@ -12,16 +13,18 @@ class Tv {
         this.power = power;
         this.tvChannel = tvChannel;
     }
-    void switchOn(){
+
+    void switchOn() {
         power = true;
         System.out.println("TV is On");
     }
+
     void switchChannel(String newTvChannel) {
         tvChannel = newTvChannel;
         System.out.println("Channel switched to " + tvChannel);
     }
-    void tvInfo()
-    {
-        System.out.println("TV "+brandName + " size "+ screenSize);
+
+    void tvInfo() {
+        System.out.println("TV " + brandName + " size " + screenSize);
     }
 }

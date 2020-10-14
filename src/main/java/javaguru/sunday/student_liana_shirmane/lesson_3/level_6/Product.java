@@ -23,6 +23,6 @@ class Product {
     }
 
     void printInformation() {
-        System.out.println(name + " price before: " + regularPrice + ", discount: " + discountInProc() +"%" + ", new price: " + actualPrice());
+        System.out.println(name + " price before: " + regularPrice + ", discount: " + discountInProc() + "%" + ", new price: " + actualPrice());
     }
 }

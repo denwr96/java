@@ -5,7 +5,7 @@ import java.util.Scanner;
 //task 7
 //task 8
 //task9
-public class Name {
+class Name {
     public static void main(String[] args) {
         String myName = "Liana";
         System.out.println(myName);

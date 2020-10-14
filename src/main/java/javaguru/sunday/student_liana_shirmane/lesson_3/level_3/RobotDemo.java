@@ -1,6 +1,6 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_3.level_3;
 
-public class RobotDemo {
+class RobotDemo {
     public static void main(String[] args) {
         Robot myRobot = new Robot("Marshall");
         myRobot.sayHello();

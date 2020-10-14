@@ -5,7 +5,7 @@ class CircleDemo {
         Circle myCircle = new Circle(7.85);
         myCircle.calculateArea();
 
-        Circle myOtherCircle = new Circle (2.76755);
+        Circle myOtherCircle = new Circle(2.76755);
         myOtherCircle.calculateArea();
     }
 }

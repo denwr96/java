@@ -6,13 +6,15 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_3.level_1;
 //task5
 //task6
 
-public class Robot {
-    public Robot() {
+class Robot {
+    Robot() {
     }
-    public void sayHello() {
+
+    void sayHello() {
         System.out.println("Hello!");
     }
-    public void sayYourName() {
+
+    void sayYourName() {
         System.out.println("My name is ROBO");
     }
 };

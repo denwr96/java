@@ -15,7 +15,7 @@ class BankAccount {
     }
 
     int getMoney() {
-     return this.money;
+        return this.money;
     }
 
 }

@@ -4,8 +4,9 @@ class Book {
 
     String bookTitle;
 
-    Book(String bookTitle)
-    { this.bookTitle = bookTitle;}
+    Book(String bookTitle) {
+        this.bookTitle = bookTitle;
+    }
 
     String getTitle() {
         return this.bookTitle;
