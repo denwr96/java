@@ -6,20 +6,19 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Очень сложно читать ваш класс. У вас совсем уехал формат. Надо исправить")
 class Robot {
+
     String name;
 
     public void sayHello(){
-
         System.out.println("Hello!");
     }
 
-        Robot(String robotName) {
-
+    Robot(String robotName) {
         this.name = robotName;
-        }
-        void sayYourName(){
+    }
 
+    void sayYourName(){
         System.out.println("My name is " + name);
         }
-    }
+}
 
