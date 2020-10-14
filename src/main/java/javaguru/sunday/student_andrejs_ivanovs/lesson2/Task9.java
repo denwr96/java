@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_andrejs_ivanovs.lesson2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
 @CodeReview(approved = true)
+
 public class Task9 {
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);
@@ -19,7 +22,6 @@ public class Task9 {
         System.out.println(yourNumber + " x 8 = " + (yourNumber * 8));
         System.out.println(yourNumber + " x 9 = " + (yourNumber * 9));
         System.out.println(yourNumber + " x 10 = " + (yourNumber * 10));
-
 
 
     }
