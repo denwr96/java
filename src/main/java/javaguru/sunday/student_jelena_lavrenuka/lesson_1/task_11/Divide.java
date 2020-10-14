@@ -11,9 +11,9 @@ public class Divide {
     public static void main(String[] args) {
         int numberOne = 50;
         int numberTwo = 3;
-        int Divine = numberOne / numberTwo;
+        int divide = numberOne / numberTwo;
 
-    System.out.println(Divine);
+    System.out.println(divide);
     }
 
 }
