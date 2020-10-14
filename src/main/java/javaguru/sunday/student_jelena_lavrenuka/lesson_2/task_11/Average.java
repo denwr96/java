@@ -15,13 +15,13 @@ public class Average {
         System.out.println("");
 
         System.out.println("Input three numbers: ");
-        int Number1 = Scanner.nextInt();
-        int Number2 = Scanner.nextInt();
-        int Number3 = Scanner.nextInt();
+        double number1 = Scanner.nextDouble();
+        double number2 = Scanner.nextDouble();
+        double number3 = Scanner.nextDouble();
 
-        byte three = 3;
+    //    byte three = 3;
 
-        double average = (Number1 + Number2 + Number3) / three;
+        double average = (number1 + number2 + number3) / 3;
         System.out.println("Average = " + average);
     }
 }

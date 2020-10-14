@@ -14,14 +14,14 @@ public class Circle {
         System.out.println("");
 
         System.out.println("Input a number: ");
-        double Number = Scanner.nextDouble();
+        double number = Scanner.nextDouble();
 
         byte one = 2;
 
-        double perimetr = one * Math.PI * Number;
-        double area = Math.PI * Math.pow(one, Number);
+        double perimetr = one * Math.PI * number;
+        double area = Math.PI * Math.pow(one, number);
 
-        System.out.println("Radius is " + Number);
+        System.out.println("Radius is " + number);
         System.out.println("Perimeter is " + perimetr);
         System.out.println("Area is " + area);
     }

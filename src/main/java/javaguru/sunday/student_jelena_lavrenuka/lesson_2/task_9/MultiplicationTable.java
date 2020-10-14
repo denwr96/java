@@ -15,48 +15,48 @@ public class MultiplicationTable {
         System.out.println("");
 
         System.out.println("Input a number: ");
-        int Number = Scanner.nextInt();
+        int number = Scanner.nextInt();
 
-        byte one = 1;
-        byte two = 2;
-        byte three = 3;
-        byte four = 4;
-        byte five = 5;
-        byte six = 6;
-        byte seven = 7;
-        byte eigth = 8;
-        byte nine = 9;
-        byte ten = 10;
+    //    byte one = 1;
+    //    byte two = 2;
+    //    byte three = 3;
+    //    byte four = 4;
+    //    byte five = 5;
+    //    byte six = 6;
+    //    byte seven = 7;
+    //    byte eight = 8;
+    //    byte nine = 9;
+    //    byte ten = 10;
 
-        int mult1 = Number * one;
-        System.out.println(Number + "x" + one + "=" + mult1);
+        int mult1 = number * 1;
+        System.out.println(number + "x" + "1" + "=" + mult1);
 
-        int mult2 = Number * two;
-        System.out.println(Number + "x" + two + "=" + mult1);
+        int mult2 = number * 2;
+        System.out.println(number + "x" + "2" + "=" + mult2);
 
-        int mult3 = Number * three;
-        System.out.println(Number + "x" + three + "=" + mult3);
+        int mult3 = number * 3;
+        System.out.println(number + "x" + "3" + "=" + mult3);
 
-        int mult4 = Number * four;
-        System.out.println(Number + "x" + four + "=" + mult4);
+        int mult4 = number * 4;
+        System.out.println(number + "x" + "4" + "=" + mult4);
 
-        int mult5 = Number * five;
-        System.out.println(Number + "x" + five + "=" + mult5);
+        int mult5 = number * 5;
+        System.out.println(number + "x" + "5" + "=" + mult5);
 
-        int mult6 = Number * six;
-        System.out.println(Number + "x" + six + "=" + mult6);
+        int mult6 = number * 6;
+        System.out.println(number + "x" + "6" + "=" + mult6);
 
-        int mult7 = Number * seven;
-        System.out.println(Number + "x" + seven + "=" + mult7);
+        int mult7 = number * 7;
+        System.out.println(number + "x" + "7" + "=" + mult7);
 
-        int mult8 = Number * eigth;
-        System.out.println(Number + "x" + eigth + "=" + mult8);
+        int mult8 = number * 8;
+        System.out.println(number + "x" + "8" + "=" + mult8);
 
-        int mult9 = Number * nine;
-        System.out.println(Number + "x" + nine + "=" + mult9);
+        int mult9 = number * 9;
+        System.out.println(number + "x" + "9" + "=" + mult9);
 
-        int mult10 = Number * ten;
-        System.out.println(Number + "x" + ten + "=" + mult10);
+        int mult10 = number * 10;
+        System.out.println(number + "x" + "10" + "=" + mult10);
 
     }
 }

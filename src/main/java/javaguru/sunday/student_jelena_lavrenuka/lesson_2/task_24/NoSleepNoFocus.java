@@ -8,10 +8,10 @@ import java.util.Scanner;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Зачем вам тут сканер? Формат уехал")
 public class NoSleepNoFocus {
-        public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("I wanna coffee");
-            System.out.println("So bad");
-        }
+    public static void main(String[] args) {
+  //      Scanner scanner = new Scanner(System.in);
+        System.out.println("I wanna coffee");
+        System.out.println("So bad");
     }
+}
 

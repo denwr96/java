@@ -7,10 +7,6 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Что-то тут не так...лишние скобки наверное?")
 public class Book {
     public static void main(String[] args) {
-
     }
 
-    {
-
-    }
 }

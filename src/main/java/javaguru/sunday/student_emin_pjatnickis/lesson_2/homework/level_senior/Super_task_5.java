@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_2.homework.level_senior;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Из за того что вы не приводите ни один аргумент к большему типу (к double например), вы потеряете в точности при вычислении")
 public class Super_task_5 {
 
     public static void main(String[] args) {
