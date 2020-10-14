@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task11 {
     public static void main(String[] args) {
         System.out.println("Please enter first number");
@@ -13,7 +16,7 @@ public class Task11 {
         int myThirdNumber = myNymber.nextInt();
 
 
-        System.out.println("Average = " + (((double)myFirstNumber + mySecondNumber+myThirdNumber))/3);
+        System.out.println("Average = " + (((double) myFirstNumber + mySecondNumber + myThirdNumber)) / 3);
 
 
     }

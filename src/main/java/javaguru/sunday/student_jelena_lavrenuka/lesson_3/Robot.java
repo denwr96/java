@@ -5,22 +5,27 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3;
 // Task_4
 // Task_5
 // Task_6
+// Task_11
+// Task_12
+// Task_13
 
 class Robot {
 
     public Robot() {
     }
+    public String robotName;
+    public Robot (String robotName){
+        this.robotName = robotName;
+    }
 
     public void sayHello() {
-        System.out.println("Hello!");
+        System.out.println("Hello! ");
     }
 
     public void sayYourName() {
-        System.out.println("My name is ROBO");
+        System.out.println("My name is " + this.robotName);
     }
-    public void MyName() {
-        String myName = "Jelena";
-        System.out.println(myName);
-    }
+
+
 }
 

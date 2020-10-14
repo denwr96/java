@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.teacher.lesson_3.lessoncode;
 
+import main.java.javaguru.sunday.teacher.lesson_3.lessoncode.Car;
+
 public class CarDemo {
 
     public static void main(String[] args) {

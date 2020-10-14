@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_2.homework.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_2 {
 
     public static void main(String[] args) {

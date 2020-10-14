@@ -1,5 +1,6 @@
 Заставьте эту программу работать!
 
+//Надо было сделать реальный класс с таким кодом, как в задании и заставить его работать )
 public class AttentionPlease {
 
     public static void main(String[] args) {
