@@ -1,0 +1,16 @@
+package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_6_middle.task_25;
+
+class Circle {
+
+    double radius;
+
+    Circle (double radius){
+        this.radius = radius;
+    }
+
+    double calculateArea(){
+        double circleArea = Math.PI * radius * radius;
+        System.out.println("Circle area is " + circleArea);
+        return circleArea;
+    }
+}
