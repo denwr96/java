@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3;
+package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.task_1;
 
 //Task_1
 //Task_2
