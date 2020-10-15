@@ -1,9 +1,6 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-
 import java.util.Scanner;
 
-@CodeReview(approved = true)
 public class Operations {
     public static void main(String[] args) {
 
