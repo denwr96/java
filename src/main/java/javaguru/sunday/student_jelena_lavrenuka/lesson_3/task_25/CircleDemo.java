@@ -1,7 +1,5 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3.task_25;
 
-import java.util.Scanner;
-
 class CircleDemo {
     public static void main(String[] args) {
         Circle myCircle = new Circle(5.5);
