@@ -1,0 +1,15 @@
+package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_2;
+
+import java.util.Scanner;
+
+public class Task_8_Hello {
+
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What's your name?");
+        String name = scanner.nextLine();
+        System.out.println("Hello, " + name + "!");
+
+    }
+}
