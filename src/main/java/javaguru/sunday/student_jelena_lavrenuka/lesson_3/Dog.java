@@ -17,15 +17,15 @@ class Dog {
         this.color = dogColor;
     }
 
-    void voice() { System.out.println(name + name + name); }
+    void voice() { System.out.println(name + ' ' + name + ' ' + name); }
 
-    void voice2() { System.out.println(name + age); }
+    void voice2() { System.out.println(name + ' ' + age); }
 
     void happyBirthday() { System.out.println(age + 1); }
 
-    void voice3() { System.out.println(name + age + color); }
+    void voice3() { System.out.println(name + ' ' + age + ' ' + color); }
 
-    void voice4() { System.out.println(name + name + name); }
+    void voice4() { System.out.println(name + ' ' + name + ' ' + name); }
 
     void changeColor(String newColor) { System.out.println(this.color = newColor); }
 }
