@@ -7,7 +7,7 @@ package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.level_1;
 //Task_5
 //Task_6
 
-public class Robot {
+class Robot {
 
     public Robot() {
     }
