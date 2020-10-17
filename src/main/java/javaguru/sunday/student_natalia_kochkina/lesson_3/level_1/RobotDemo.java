@@ -7,7 +7,9 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_1;
 //Task_12
 
 import main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_1.Robot;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class RobotDemo {
 
     public static void main(String[] args) {

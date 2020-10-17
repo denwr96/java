@@ -9,6 +9,9 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3;
 // Task_12
 // Task_13
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Robot {
 
     public Robot() {
