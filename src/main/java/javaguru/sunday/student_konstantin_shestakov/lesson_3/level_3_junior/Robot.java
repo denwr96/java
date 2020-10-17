@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_3_junior;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // Task 11
 // Task 12
 // Task 13
+@CodeReview(approved = true)
 class Robot {
 
     String name; // Task 11

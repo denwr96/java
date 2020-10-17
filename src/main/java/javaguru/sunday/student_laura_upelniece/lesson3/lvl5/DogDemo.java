@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_laura_upelniece.lesson3.lvl5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class DogDemo {
     public static void main(String[] args) {
 

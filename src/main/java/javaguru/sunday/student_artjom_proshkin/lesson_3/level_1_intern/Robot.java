@@ -1,12 +1,14 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_1_intern;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // Task_1
 // Task_2
 // Task_5
 // Task_11
 // Task_12
 // Task_13
-
+@CodeReview(approved = true)
 class Robot {
 
     String name;

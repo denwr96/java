@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3.task_26;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "А как вы узнали, что все работает привильно, если вы ни разу не вызвали метод actualPrice?")
 class Product {
     String name;
     double regularPrice;

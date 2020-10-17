@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_3.task_11_12_13;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task 11
 //Task 12
 //Task 13
-
+@CodeReview(approved = true)
 class Robot {
 
     String name;

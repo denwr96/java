@@ -2,6 +2,9 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_7_
 
 // Черновик
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class UserLoginServiceDraft {
 
     public static void main(String[] args) {

@@ -1,5 +1,11 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3.task_24;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Надо переделать. Нельзя писать методы в одну строчку. Не должно быть методов, название которых отличает просто 1-2." +
+        "Почему метод information меняет состояние флага isClean? Как это логически обоснованно?")
 class River {
     String riverName;
     int riverLength;

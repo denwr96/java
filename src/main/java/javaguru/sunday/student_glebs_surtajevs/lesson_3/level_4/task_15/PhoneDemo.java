@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.level_4.task_15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class PhoneDemo {
     public static void main(String[] args) {
         Phone myPhone = new Phone("Huawei");

@@ -3,8 +3,7 @@ package main.java.javaguru.sunday.student_sergej_savkin.lesson_3.level_4_junior.
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Очень сложно читать ваш класс. У вас совсем уехал формат. Надо исправить")
+@CodeReview(approved = true)
 class Phone {
 
     String model;

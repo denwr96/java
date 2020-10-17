@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_2_Calculator_Double {
 
     public static void main(String[] args) {

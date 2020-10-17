@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_3.homework.leve
 
 // level_4
 
-// Task_17
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task_17
+@CodeReview(approved = true)
 public class BankAccount {
 
     String ownerFirstName;

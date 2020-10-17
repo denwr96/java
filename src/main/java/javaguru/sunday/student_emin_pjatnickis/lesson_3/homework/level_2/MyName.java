@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_3.homework.level_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_7
 //Task_8
-
+@CodeReview(approved = true)
 public class MyName {
 
 

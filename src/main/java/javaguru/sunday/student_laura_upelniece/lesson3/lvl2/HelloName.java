@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_laura_upelniece.lesson3.lvl2;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class HelloName {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in); //Creates input scanner

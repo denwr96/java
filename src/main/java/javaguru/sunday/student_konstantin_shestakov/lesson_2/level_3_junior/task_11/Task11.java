@@ -5,8 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Переменные названы не правильно.")
+@CodeReview(approved = true)
 public class Task11 {
 
     public static void main(String[] args) {
