@@ -1,10 +1,13 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3;
+package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3.task_1_13;
 /// Task_1
 /// Task_2
 /// Task_3
 /// Task_4
 /// Task_5
 /// Task_6
+/// Task_11
+/// Task_12
+/// Task_13
 
 
  class Robot {
@@ -23,7 +26,8 @@ package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3;
      }
 
  public void sayYourName() {
-     System.out.println(" My name is  " + this.robotName);
+
+         System.out.println("My name is  " + this.robotName);
  }}
 
 
