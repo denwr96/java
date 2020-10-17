@@ -8,7 +8,7 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_2;
 import java.util.Scanner;
 
  class StringTask {
-     static void main(String[] args) {
+    public static void main(String[] args) {
         //Напишите программу в которой создайте переменную
         //типа String и присвойте ей в качестве начального значения
         //ваше имя. Выведете на консоль значение этой переменной.
