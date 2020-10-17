@@ -6,7 +6,7 @@ package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.level_2;
 
 import java.util.Scanner;
 
-public class Gleb {
+class Gleb {
     public static void main(String[] args) {
         String myName = "Gleb";
         System.out.println(myName);
