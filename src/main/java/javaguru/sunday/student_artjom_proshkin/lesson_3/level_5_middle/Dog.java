@@ -16,12 +16,18 @@ class Dog {
     int dogAge;
     String dogColour;
 
-    Dog(String dogName){this.dogName = dogName;}
-    Dog(String dogName,int dogAge){this.dogName = dogName; this.dogAge = dogAge;}
+    Dog(String dogName){
+        this.dogName = dogName;
+    }
+    Dog(String dogName,int dogAge){
+        this.dogName = dogName;
+        this.dogAge = dogAge;
+    }
     Dog(String dogName,int dogAge, String dogColour){
         this.dogName = dogName;
         this.dogAge = dogAge;
-        this.dogColour = dogColour;}
+        this.dogColour = dogColour;
+    }
 
     void voice3 (){
         System.out.print(dogName + " ");

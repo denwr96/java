@@ -31,5 +31,7 @@ class Radio {
         System.out.println(radioStation +" "+ getVolume());
 
     }
-    int getVolume(){return volume;}
+    int getVolume(){
+        return volume;
+    }
 }
