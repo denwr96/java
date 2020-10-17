@@ -4,7 +4,9 @@ package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.level_3;
 //Task_12
 //Task_13
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class Robot {
     String name;
     Robot(String robotName) {

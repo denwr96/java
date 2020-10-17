@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_4.task_14;
 
-//Task14
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task14
+@CodeReview(approved = true)
 class Book {
 
     String title;

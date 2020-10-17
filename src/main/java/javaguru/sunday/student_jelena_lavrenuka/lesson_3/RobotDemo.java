@@ -1,4 +1,7 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // Task_1
 // Task_2
 // Task_3
@@ -8,7 +11,7 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3;
 // Task_11
 // Task_12
 // Task_13
-
+@CodeReview(approved = true)
 class RobotDemo {
 
     public static void main(String[] args) {

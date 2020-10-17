@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.level_4.task_17;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class BankAccountDemo {
 
     public static void main(String[] args) {
@@ -12,4 +15,4 @@ class BankAccountDemo {
         System.out.println("Owner last name = " + ownerLastName);
         System.out.println("Money amount = " + moneyAmount);
     }
-    }
+}

@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_4.task_17;
 
-//Task_17
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_17
+@CodeReview(approved = true)
 class BankAccountDemo {
 
     public static void main(String[] args) {

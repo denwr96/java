@@ -1,11 +1,15 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_5_middle;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 // Task_18
 // Task_19
 // Task_20
 // Task_21
 // Task_22
-
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "очень плохо с форматом кода. Мы не пишем целые конструкции в строчку. Надо поправить конструкторы")
 class Dog {
 
     String dogName;

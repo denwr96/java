@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson3.level5;
 
-// Task 18 --> Task 22
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 18 --> Task 22
+@CodeReview(approved = true)
 class Dog {
 
     private String name;

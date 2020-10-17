@@ -1,11 +1,13 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // Task_18
 // Task_19
 // Task_20
 // Task_21
 // Task_22
-
+@CodeReview(approved = true)
 class Dog {
     String name;
     int age;

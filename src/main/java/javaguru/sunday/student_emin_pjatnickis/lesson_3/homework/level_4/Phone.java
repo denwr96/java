@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_3.homework.leve
 
 // level_4
 
-// Task_15
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task_15
+@CodeReview(approved = true)
 public class Phone {
 
     String model;

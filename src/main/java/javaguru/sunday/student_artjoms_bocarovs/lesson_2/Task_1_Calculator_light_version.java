@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_2;
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_1_Calculator_light_version {
 
     public static void main(String[] args) {

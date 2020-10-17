@@ -5,7 +5,6 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-
 public class Task9 {
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);

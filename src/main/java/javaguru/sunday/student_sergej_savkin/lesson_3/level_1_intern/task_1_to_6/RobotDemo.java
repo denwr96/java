@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_3.level_1_intern.task_1_to_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class RobotDemo {
     public static void main(String[] args) {
         Robot robot = new Robot();
