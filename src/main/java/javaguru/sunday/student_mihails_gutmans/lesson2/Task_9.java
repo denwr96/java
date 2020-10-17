@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Если хотите использовать циклы, то соблюдайте формат.")
-public class Task9 {
+public class Task_9 {
     public static void main(String[] args) {
         System.out.println("Please enter number");
         Scanner theNumber = new Scanner (System.in);
