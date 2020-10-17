@@ -2,8 +2,12 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_7_
 
 // Черновик
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень сложно читать код =) Но мы потом научимся делать его понятнее.")
 class UserDraft {
 
     String user;

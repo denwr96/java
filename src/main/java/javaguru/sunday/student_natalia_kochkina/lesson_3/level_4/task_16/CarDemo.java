@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_4.task_16;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class CarDemo {
 
     public static void main(String[] args) {

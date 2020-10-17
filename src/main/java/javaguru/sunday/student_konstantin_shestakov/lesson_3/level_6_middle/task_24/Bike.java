@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_6_middle.task_24;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Пишите хороший код, но почему так криво все? Надо исправить формат.")
 class Bike {
 
     String color;

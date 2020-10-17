@@ -11,7 +11,7 @@ public class Divide {
         int numberTwo = 3;
         int divide = numberOne / numberTwo;
 
-    System.out.println(divide);
+        System.out.println(divide);
     }
 
 }

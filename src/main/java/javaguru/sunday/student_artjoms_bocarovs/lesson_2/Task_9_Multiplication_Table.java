@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_2;
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Названия переменных n и с - вообще ничего не говорят о том, для чего эти переменные нужны. Не стоит задавать переменные в строчку.")
 public class Task_9_Multiplication_Table {
 
     public static void main(String args[]) {

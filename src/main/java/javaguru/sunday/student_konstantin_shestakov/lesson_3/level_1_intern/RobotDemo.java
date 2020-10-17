@@ -1,11 +1,13 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_1_intern;
 
 import main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_1_intern.Robot;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task 3
 // Task 4
 // Task 5
 // Task 6
+@CodeReview(approved = true)
 class RobotDemo {
 
     public static void main(String[] args){ // Task 3

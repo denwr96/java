@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
 // I tried to make calculator which accepts only numbers and if you enter letters or symbols it will show notification that it is possible to enter only numbers.
-
+@CodeReview(approved = true)
 public class Task_1_Calculator {
 
     public static void main(String[] args) {

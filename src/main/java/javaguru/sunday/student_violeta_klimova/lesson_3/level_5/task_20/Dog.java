@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_5.task_20;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Dog {
 
     String dogName;

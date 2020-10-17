@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_3.homework.leve
 
 //Task_9
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class MyName_Scan {
 
     public static void main(String[] args) {
