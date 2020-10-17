@@ -6,12 +6,12 @@ public class BankAccount {
     String ownerLastName;
     int moneyAmount;
 
-    BankAccount(String newOwnerFirstName,
-                String newOwnerLastName,
-                int newMoneyAmount) {
-        this.ownerFirstName = newOwnerFirstName;
-        this.ownerLastName = newOwnerLastName;
-        this.moneyAmount = newMoneyAmount;
+    BankAccount(String OwnerFirstName,
+                String OwnerLastName,
+                int MoneyAmount) {
+        this.ownerFirstName = OwnerFirstName;
+        this.ownerLastName = OwnerLastName;
+        this.moneyAmount = MoneyAmount;
     }
 
     String getOwnerFirstName() {
