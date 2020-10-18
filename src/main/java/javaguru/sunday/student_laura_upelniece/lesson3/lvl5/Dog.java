@@ -6,35 +6,34 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 public class Dog {
     String name; //TASK 18
     int age;     //Task 19
-    String color;
+    String color; //TASK 21
 
 
-    public Dog(String dogName, int dogAge) {  //Creates dog object with param as a dogs name TASK 18, creates age param TASK 19, creates color param
+    public Dog(String dogName, int dogAge, String dogColor) {  //Will create Dog object with dogs name as param TASK 18; Add dogAge param TASK 19; Add color param TASK 21
+
         this.name = dogName;
-        System.out.println("Dogs name: " + dogName);
+        System.out.println("Name: " + dogName);
 
         this.age = dogAge;
-        System.out.println("Dogs age: " + dogAge);
+        System.out.println("Age: " + dogAge);
+
+        this.color = dogColor;
+        System.out.println("Color: " + dogColor);
 
     }
 
-    public void voice(String dogName) {  //TASK 18
-        this.name = dogName;
-        System.out.println(this.name + " " + this.name + " " + this.name); //Prints dog name three times
-    }
+    //public void voice() { System.out.println(this.name + " " + this.name + " " + this.name); }  //Prints dog name three times TASK 18
 
-    public void voice(String dogName, int dogAge) {   //TASK 19
-        this.name = dogName;
-        this.age = dogAge;
-        System.out.println(this.name + " " + this.age); //Prints dog name and age
-    }
-    public void happyBirthday() {   //TASK 20
-        this.age = age + 1;
+    //public void voice() { System.out.println(this.name + " " + this.age); }                     //Prints dog name and age TASK 19
 
-    }
+    public void happyBirthday() { this.age = age + 1; }                                           //Adds 1 to dogs age TASK 20
 
-    public void voice(String dogName, int dogAge, String dogColor) {
-        System.out.println(this.name + this.age + this.color);
-    }
+    public void voice() { System.out.println(this.name + " " + this.age + " " + this.color); }    //Prints dogs name, age and color TASK 21
+
+    public void changeColor(String newColor) {                                                    //Assigns a new color to Dog object TASK 22
+        System.out.println("Change " + this.color + " to " + newColor);
+        this.color = newColor; }
+
+
 
 }

@@ -10,6 +10,7 @@ class BankAccountDemo {
         String firstName = bankAccount.getOwnerFirstName(); //ownerFirstName -> firstName
         String lastName = bankAccount.getOwnerLastName();   //ownerFirstName -> lastName
         int moneyAmount = bankAccount.getMoneyAmount();     //String -> int
+
         System.out.println("Owner first name = " + firstName); //ownerFirstName -> firstName
         System.out.println("Owner last name = " + lastName);   //ownerFirstName -> lastName
         System.out.println("Money amount = " + moneyAmount);
