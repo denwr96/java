@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_3;
+package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_3.level_5;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
@@ -6,13 +6,13 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 public class Dog {
 
     public String name;
-    public String age;
+    public int age;
     public String color;
 
 
 
 
-    public Dog(String name,String age,String color){
+    public Dog(String name,int age,String color){
         this.name = name;
         this.age = age;
         this.color = color;
