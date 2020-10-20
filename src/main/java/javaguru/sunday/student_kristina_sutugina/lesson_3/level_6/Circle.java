@@ -6,6 +6,7 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_6;
      double radius;
 
      public Circle(double radius) {
+
          this.radius = radius;
      }
 

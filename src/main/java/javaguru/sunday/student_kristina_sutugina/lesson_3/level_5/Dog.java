@@ -19,17 +19,18 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
 
  class Dog {
     private String name;
-    private int  age;
+    private int age;
     private String colour;
 
-     Dog(){
+    Dog() {
         this.name = "Luna";
         this.age = 4;
     }
-     Dog(String colour){
-        this.name ="Luna";
+
+    Dog(String colour) {
+        this.name = "Luna";
         this.age = 4;
-        this.colour=colour;
+        this.colour = colour;
     }
 
     void changeColor(String newColor) {
@@ -37,20 +38,23 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
     }
 
     void happyBirthday() {
-        this.age = age+1;
+
+        this.age = age + 1;
     }
 
-     void voice(){
-
+    void voice() {
         for (int i = 0; i < 3; i++) {
             System.out.println(this.name);
         }
     }
-     void voice2() {
+
+    void voice2() {
+
         System.out.println(this.name + " " + this.age);
     }
 
-     void voice3() {
-        System.out.println(this.name + " " + this.age+" "+this.colour);
+    void voice3() {
+
+        System.out.println(this.name + " " + this.age + " " + this.colour);
     }
-    }
+}
