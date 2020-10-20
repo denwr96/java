@@ -16,12 +16,9 @@ import java.util.Scanner;
         System.out.println(myName);
         System.out.println("Hi "+myName+"!");
 
-
         System.out.println("Please enter your name: ");
         Scanner input = new Scanner(System.in);
         String guestName = input.nextLine();
         System.out.println("Hello "+guestName+"!");
-
-
     }
 }

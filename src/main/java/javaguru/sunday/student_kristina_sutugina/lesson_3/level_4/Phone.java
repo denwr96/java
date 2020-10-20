@@ -12,5 +12,4 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_4;
         String getModel() {
             return this.model;
         }
-
     }

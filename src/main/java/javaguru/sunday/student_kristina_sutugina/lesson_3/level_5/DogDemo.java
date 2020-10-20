@@ -15,6 +15,5 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
         myDog2.voice3();
         myDog2.changeColor("blue");
         myDog2.voice3();
-
     }
 }

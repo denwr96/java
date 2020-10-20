@@ -11,6 +11,5 @@ class BankAccountDemo {
         System.out.println("Owner last name = " + ownerLastName);
         System.out.println("Money amount = " + moneyAmount);
     }
-
 }
 

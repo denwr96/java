@@ -4,11 +4,10 @@ import javax.lang.model.element.Name;
 
 class ProductDemo {
   public static void main(String[] args) {
-  Product myProduct = new Product("Milk");
-  myProduct.regularPrice=1.20;
-  myProduct.discount = 15;
-  myProduct.printInformation();
+    Product myProduct = new Product("Milk");
+    myProduct.regularPrice = 1.20;
+    myProduct.discount = 15;
+    myProduct.printInformation();
 
   }
-
 }

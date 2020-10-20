@@ -9,5 +9,4 @@ class BankAccountDemo {
         System.out.println("Owner = " + ownerFirstName);
         System.out.println("Money = " + moneyAmount);
     }
-
 }
