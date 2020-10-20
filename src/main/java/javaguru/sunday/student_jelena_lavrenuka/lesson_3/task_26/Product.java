@@ -15,10 +15,9 @@ class Product {
         this.name = "CocaCola";
         this.regularPrice = regularPrice;
         this.discount = discount;
-
     }
 
-    double actualPrice(double regularPrice, double discount){
+    double actualPrice(){
         double discountAmount = (regularPrice * discount)/100;
         double newPrice = regularPrice - discountAmount;
         return newPrice;
@@ -26,8 +25,7 @@ class Product {
 
     void printInformation(){
         System.out.println(this.name);
-        System.out.println("Discount " + discount + '%');
-        System.out.println("New price is " + newPrice);
-
+        System.out.println("Discount is " + discount + '%');
+        System.out.println("New price is " + actualPrice());
     }
 }

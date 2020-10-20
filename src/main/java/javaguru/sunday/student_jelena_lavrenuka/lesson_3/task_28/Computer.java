@@ -14,6 +14,7 @@ class Computer {
     }
 
     String getManufacturer() {
+
         return this.manufacturer;
     }
 
