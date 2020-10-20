@@ -1,0 +1,20 @@
+package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_1_intern.task_2;
+
+import java.util.Scanner;
+
+class PositiveOrNegativeOrZero {
+    public static void main(String[] args) {
+
+        System.out.println("Please enter number");
+        Scanner scanner = new Scanner(System.in);
+        int number = scanner.nextInt();
+
+        if (number < 0){
+            System.out.println("Number you entered is NEGATIVE");
+        } else if (number > 0){
+            System.out.println("Number you entered is POSITIVE");
+        } else {
+            System.out.println("Your number is ZERO");
+        }
+    }
+}
