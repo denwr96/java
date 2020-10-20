@@ -13,9 +13,11 @@ class Circle {
     double radius;
 
     Circle(double radius) {
-
+        this.radius = radius;
     }
 
-    double calculateArea = Math.PI * Math.pow(2, radius);
-
+    double calculateArea() {
+        double area = (Math.PI * Math.pow(2, radius));
+        return area;
+    }
 }

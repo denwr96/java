@@ -11,17 +11,17 @@ import java.util.Scanner;
         "Почему переменные one содержит значение 2? В чем логика?")
 public class Circle {
     public static void main(String[] agrs){
-        Scanner Scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("");
 
         System.out.println("Input a number: ");
-        double number = Scanner.nextDouble();
+        double number = scanner.nextDouble();
 
-        byte one = 2;
+        // byte one = 2;
 
-        double perimetr = one * Math.PI * number;
-        double area = Math.PI * Math.pow(one, number);
+        double perimetr = 2 * Math.PI * number;
+        double area = Math.PI * Math.pow(2, number);
 
         System.out.println("Radius is " + number);
         System.out.println("Perimeter is " + perimetr);

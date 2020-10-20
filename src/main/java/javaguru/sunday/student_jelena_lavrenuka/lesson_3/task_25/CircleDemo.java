@@ -8,7 +8,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 class CircleDemo {
     public static void main(String[] args) {
         Circle myCircle = new Circle(5.5);
-        double result = myCircle.calculateArea;
+        double result = myCircle.calculateArea();
         System.out.println(result);
     }
 }
