@@ -1,6 +1,6 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_4.level_7_senior.super_task_2;
 
-public class LeapYearTest {
+class LeapYearTest {
     public static void main(String[] args) {
         LeapYearTest leapYearTest = new LeapYearTest();
         leapYearTest.shouldBeRegularIfNotDividedBy4();
