@@ -6,6 +6,8 @@ class StockTest {
         stockTest.testCaseMax();
         stockTest.testCaseMin();
     }
+
+
     public void testCaseMax(){
         Stock google = new Stock("Google", 10);
         int firstPrice = google.currentPrice;
@@ -22,6 +24,7 @@ class StockTest {
         int maxPrice = google.getMaxPrice();
         System.out.println("Stock price change: " + firstPrice + " -> " + secondPrice + " -> " + thirdPrice + " -> " + fourthPrice + " -> " + fifthPrice + " -> " + sixthPrice + " = Max stock price for specified period is: " + maxPrice);
     }
+
     public void testCaseMin(){
         Stock google = new Stock("Google", 10);
         int firstPrice = google.currentPrice;

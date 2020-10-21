@@ -35,7 +35,7 @@ class Stock {
     public int getMinPrice(){
         return minPrice;
     }
-
+/*
     public static void main(String[] args) {
         Stock google = new Stock("Google", 10);
         String priceInformation = google.getPriceInformation();
@@ -47,6 +47,6 @@ class Stock {
 
         priceInformation = google.getPriceInformation();
         System.out.println(priceInformation);
-    }
+    } */
 
 }
