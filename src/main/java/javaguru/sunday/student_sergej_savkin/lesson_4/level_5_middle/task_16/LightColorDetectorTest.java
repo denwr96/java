@@ -21,7 +21,7 @@ class LightColorDetectorTest {
     }
 
     public void violetTestOne(){
-        int waveLength = 449;
+        int waveLength = 381;
         LightColorDetector lightColorDetector = new LightColorDetector();
         String result = lightColorDetector.detect(waveLength);
         if(result.equals("Violet")){
