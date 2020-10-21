@@ -4,8 +4,8 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_6;
 
 class Computer {
 
-    String manufacturer;
-    String model;
+    public String manufacturer;
+    public String model;
 
     Computer(String manufacturer, String model) {
         this.manufacturer = manufacturer;

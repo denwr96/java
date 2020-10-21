@@ -6,9 +6,8 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 class RiverDemo {
     public static void main(String[] args) {
 
-        River myRiver = new River("Daugava", 1020);
+        River myRiver = new River("Daugava", 1020, "Very clean");
         myRiver.information();
-        myRiver.information2();
-        System.out.println("Is River Daugava clean? " + myRiver.isClean);
+        myRiver.changePurity("dirty");
     }
 }
