@@ -22,18 +22,22 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
     private int age;
     private String colour;
 
-    Dog() {
-        this.name = "Luna";
-        this.age = 4;
+
+    Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+      //  this.colour = colour;
     }
 
-    Dog(String colour) {
-        this.name = "Luna";
-        this.age = 4;
+    Dog(String name, int age, String colour) {
+        this.name = name;
+        this.age = age;
         this.colour = colour;
     }
 
     void changeColor(String newColor) {
+
+
         this.colour = newColor;
     }
 
