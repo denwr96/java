@@ -1,6 +1,7 @@
 package main.java.javaguru.sunday.teacher.lesson_4.homework.level_7_senior.solutions.super_task_3;
 
 public class CalculatorTest {
+	private Calculator calculator = new Calculator();
 
 	public static void main(String[] args) {
 		CalculatorTest calculatorTest = new CalculatorTest();
@@ -14,7 +15,6 @@ public class CalculatorTest {
 	public void sumTest() {
 		int firstNumber = 35;
 		int secondNumber = 40;
-		Calculator calculator = new Calculator();
 		int result = calculator.sum(firstNumber, secondNumber);
 		checkResults(result == 75, "Sum test");
 	}
@@ -22,7 +22,6 @@ public class CalculatorTest {
 	public void subTest() {
 		int firstNumber = 35;
 		int secondNumber = 15;
-		Calculator calculator = new Calculator();
 		int result = calculator.sub(firstNumber, secondNumber);
 		checkResults(result == 20, "Sub test");
 	}
@@ -30,7 +29,6 @@ public class CalculatorTest {
 	public void mulTest() {
 		int firstNumber = 5;
 		int secondNumber = 5;
-		Calculator calculator = new Calculator();
 		int result = calculator.mul(firstNumber, secondNumber);
 		checkResults(result == 25, "Mul test");
 	}
@@ -38,7 +36,6 @@ public class CalculatorTest {
 	public void divTest() {
 		int firstNumber = 40;
 		int secondNumber = 8;
-		Calculator calculator = new Calculator();
 		int result = calculator.div(firstNumber, secondNumber);
 		checkResults(result == 5, "Div test");
 	}
