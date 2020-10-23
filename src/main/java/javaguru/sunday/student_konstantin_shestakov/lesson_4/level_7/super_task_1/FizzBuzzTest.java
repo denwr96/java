@@ -33,9 +33,7 @@ class FizzBuzzTest {
             System.out.println("FizzBuzz Test = OK - условие: введённое число делится и на 3, и на 5 без остатка");
         }
         else {
-//            System.out.println("Fizz Test = FAIL - условие: введённое число делится на 3 без остатка");
-//            System.out.println("Buzz Test = FAIL - условие: введённое число делится на 5 без остатка");
-            System.out.println("FizzBuzz Test = OK - условие: введённое число делится и на 3, и на 5 без остатка");
+            System.out.println("Fizz, Buzz, FizzBuzz Tests = FAIL - ни одно из условий не соблюдено");
         }
 
     }
@@ -64,9 +62,7 @@ class FizzBuzzTest {
             System.out.println("FizzBuzz Test = OK - условие: введённое число делится и на 3, и на 5 без остатка");
         }
         else {
-//            System.out.println("Fizz Test = FAIL - условие: введённое число делится на 3 без остатка");
-//            System.out.println("Buzz Test = FAIL - условие: введённое число делится на 5 без остатка");
-            System.out.println("FizzBuzz Test = OK - условие: введённое число делится и на 3, и на 5 без остатка");
+            System.out.println("Fizz, Buzz, FizzBuzz Tests = FAIL - ни одно из условий не соблюдено");
         }
 
     }
@@ -95,9 +91,7 @@ class FizzBuzzTest {
             System.out.println("FizzBuzz Test = OK - условие: введённое число делится и на 3, и на 5 без остатка");
         }
         else {
-//            System.out.println("Fizz Test = FAIL - условие: введённое число делится на 3 без остатка");
-//            System.out.println("Buzz Test = FAIL - условие: введённое число делится на 5 без остатка");
-            System.out.println("FizzBuzz Test = OK - условие: введённое число делится и на 3, и на 5 без остатка");
+            System.out.println("Fizz, Buzz, FizzBuzz Tests = FAIL - ни одно из условий не соблюдено");
         }
 
     }
