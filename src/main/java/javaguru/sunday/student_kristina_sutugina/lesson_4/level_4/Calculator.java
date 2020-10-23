@@ -6,18 +6,24 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_4.level_4;
 
 class Calculator {
     public int sum(int firstNumber, int secondNumber) {
+
+
         return firstNumber + secondNumber;
     }
 
     public int subtract(int firstNumber, int secondNumber) {
+
+
         return firstNumber - secondNumber;
     }
 
     public int multiply(int firstNumber, int secondNumber) {
+
         return firstNumber * secondNumber;
     }
 
     public int division(int firstNumber, int secondNumber) {
+
         return firstNumber / secondNumber;
     }
 
