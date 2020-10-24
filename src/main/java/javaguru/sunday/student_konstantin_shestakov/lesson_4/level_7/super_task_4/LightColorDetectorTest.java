@@ -26,36 +26,36 @@ class LightColorDetectorTest {
         }
     }
 
-    public void testViolet(int wavelength) {
-        result = lightColorDetector.detect(wavelength);
+    public void testViolet(int waveLength) {
+        result = lightColorDetector.detect(waveLength);
         checkResults(result == "Violet", "Violet Test");
         }
 
-    public void testBlue(int wavelength) {
-        result = lightColorDetector.detect(wavelength);
+    public void testBlue(int waveLength) {
+        result = lightColorDetector.detect(waveLength);
         checkResults(result == "Blue", "Blue Test");
     }
-    public void testGreen(int wavelength) {
-        result = lightColorDetector.detect(wavelength);
+    public void testGreen(int waveLength) {
+        result = lightColorDetector.detect(waveLength);
         checkResults(result == "Green", "Green Test");
     }
 
-    public void testYellow(int wavelength) {
-        result = lightColorDetector.detect(wavelength);
+    public void testYellow(int waveLength) {
+        result = lightColorDetector.detect(waveLength);
         checkResults(result == "Yellow", "Yellow Test");
     }
 
-    public void testOrange(int wavelength) {
-        result = lightColorDetector.detect(wavelength);
+    public void testOrange(int waveLength) {
+        result = lightColorDetector.detect(waveLength);
         checkResults(result == "Orange", "Orange Test");
     }
 
-    public void testRed(int wavelength) {
-        result = lightColorDetector.detect(wavelength);
+    public void testRed(int waveLength) {
+        result = lightColorDetector.detect(waveLength);
         checkResults(result == "Red", "Red Test");
     }
-    public void testInvisible(int wavelength) {
-        result = lightColorDetector.detect(wavelength);
+    public void testInvisible(int waveLength) {
+        result = lightColorDetector.detect(waveLength);
         checkResults(result == "Invisible Light", "Invisible Light Test");
     }
 }
