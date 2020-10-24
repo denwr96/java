@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.lang.Math;
 
 @CodeReview(approved = true)
-public class Circle {
+class Circle {
     public static void main(String[] args) {
 
         //Takes number(radius) as an input

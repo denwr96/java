@@ -5,7 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-public class CalculatorInt {
+class CalculatorInt {
     public static void main(String[] args) {
 
         //Makes scanner, prints input message, stores input in variables
