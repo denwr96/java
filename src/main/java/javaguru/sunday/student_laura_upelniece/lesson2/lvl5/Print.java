@@ -3,7 +3,7 @@ package main.java.javaguru.sunday.student_laura_upelniece.lesson2.lvl5;
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
-public class Print {
+class Print {
     public static void main(String[] args) {
 
         //.println prints every statement on new line
