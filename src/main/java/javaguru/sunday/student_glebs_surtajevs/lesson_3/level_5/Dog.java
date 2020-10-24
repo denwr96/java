@@ -33,7 +33,8 @@ class Dog {
     void color() {
         System.out.println(this.name + " " + this.age + " years old " + this.color);
     }
-    void changeColor(String newColor) { this.color = newColor;
+    void changeColor(String newColor) {
+        this.color = newColor;
     }
     void voice3() {
         System.out.println(this.name + " " + this.color + " " + this.name);

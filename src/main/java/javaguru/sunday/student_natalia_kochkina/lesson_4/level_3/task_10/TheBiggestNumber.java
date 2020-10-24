@@ -15,9 +15,9 @@ public class TheBiggestNumber {
         System.out.println("The third number: ");
         int numberThree = scanner.nextInt();
 
-        if ((numberOne > numberTwo) && (numberOne > numberThree)) {
+        if ((numberOne >= numberTwo) && (numberOne >= numberThree)) {
             System.out.println(numberOne);
-        } else if ((numberTwo > numberOne) && (numberTwo > numberThree)) {
+        } else if ((numberTwo >= numberOne) && (numberTwo >= numberThree)) {
             System.out.println(numberTwo);
         } else {
             System.out.println(numberThree);
