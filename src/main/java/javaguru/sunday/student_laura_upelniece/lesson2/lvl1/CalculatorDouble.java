@@ -6,7 +6,7 @@ import java.util.Scanner;
 //Imports scanner methods
 
 @CodeReview(approved = true)
-public class CalculatorDouble {
+class CalculatorDouble {
     public static void main(String[] args) {
 
         //Makes Scanner and prints input message

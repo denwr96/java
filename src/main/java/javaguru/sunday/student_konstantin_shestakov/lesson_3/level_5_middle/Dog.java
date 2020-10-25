@@ -6,6 +6,9 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_5_
 // Task 21
 // Task 22
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Dog {
 
     String name; // Task 18

@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_3.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task24
+@CodeReview(approved = true)
 class House {
     int floorNumber;
     int flatNumber;
