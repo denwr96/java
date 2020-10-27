@@ -4,7 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import java.util.Scanner;
 
 @CodeReview(approved = true)
-public class HelloUsername {
+class HelloUsername {
 
     public static void main(String[] args) {
         //Takes input word
