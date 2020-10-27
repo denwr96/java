@@ -1,7 +1,7 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_4.task_16;
 
 class LightColorDetector {
-    public String detect(int waveLength) {
+    public String colorDetector(int waveLength) {
         if (waveLength >= 380 && waveLength <= 449) {
             return "Violet";
         } else if (waveLength >= 450 && waveLength <= 494) {
