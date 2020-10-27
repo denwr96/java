@@ -1,8 +1,6 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_4.level_4;
 
-import main.java.javaguru.sunday.student_laura_upelniece.lesson1.homework.Calc;
-
-public class CalculatorTest {
+class CalculatorTest {
 
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();
