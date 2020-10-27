@@ -10,7 +10,7 @@ public class NegativePositive {
         int number = scanner.nextInt();
 
         if (number > 0 ) {
-            System.out.println("positive");
+            System.out.println("Positive");
         }else {
             System.out.println("Negative");
         }

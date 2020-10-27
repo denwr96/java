@@ -12,7 +12,7 @@ public class NegativePositiveEqual {
         if ( number > 0){
             System.out.println("Positive");
         }else if ( number < 0){
-            System.out.println("Negative");
+            System.out.println("negative");
         } else if (number == 0) {
             System.out.println("Equal");
         }

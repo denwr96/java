@@ -14,7 +14,7 @@ public class EqualsDifferent {
 
 
         if (numberOne == numberTwo){
-            System.out.println("Numbers are equals");
+            System.out.println("Number are equals");
         }else if (numberOne != numberTwo){
             System.out.println("Number are different");
         }

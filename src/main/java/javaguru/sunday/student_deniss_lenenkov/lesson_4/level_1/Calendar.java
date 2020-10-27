@@ -10,7 +10,7 @@ public class Calendar {
         int number = scanner.nextInt();
 
         if (number == 1){
-            System.out.println("Mondey");
+            System.out.println("Monday");
         }else if (number == 2){
             System.out.println("Tuesday");
         }else if ( number == 3){

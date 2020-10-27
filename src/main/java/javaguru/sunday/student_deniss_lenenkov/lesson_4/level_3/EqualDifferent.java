@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_4.levle_3;
+package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_4.level_3;
 
 import java.util.Scanner;
 
