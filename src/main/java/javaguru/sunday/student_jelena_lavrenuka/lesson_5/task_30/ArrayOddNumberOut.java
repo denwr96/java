@@ -14,7 +14,7 @@ class ArrayOddNumberOut {
         }
         for (int i = 0; i < myArray.length; i++) {
             if (myArray[i] % 2 != 0)
-                System.out.println("Odd number is array " + myArray[i]);
+                System.out.println("Odd number in array " + myArray[i]);
         }
     }
 }
