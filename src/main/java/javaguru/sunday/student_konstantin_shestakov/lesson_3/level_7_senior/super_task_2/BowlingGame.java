@@ -3,7 +3,6 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_7_
 import java.util.Arrays;
 
 class BowlingGame {
-
     String player;
     int score;
     int[] arrayScore = new int[21]; // 21 бросок; 1-9 фрейм по 2; 10 фрейм 2 или 3
@@ -14,7 +13,6 @@ class BowlingGame {
     }
 
     void roll() {
-
         //Фрейм 1-9
 
         for (int i = 0; i < arrayScore.length - 3; i++) { // 3 последних элемента массива зарезервированны под последний 10 фрейм
@@ -69,20 +67,19 @@ class BowlingGame {
                 arrayScore[arrayScore.length - 1] = (int) Math.round(Math.random() * 10);
             }
         }
-
         System.out.println(player + ", " + "Roll 19 (Frame 10) = " + arrayScore[arrayScore.length - 3]);
         System.out.println(player + ", " + "Roll 20 (Frame 10) = " + arrayScore[arrayScore.length - 2]);
         System.out.println(player + ", " + "Roll 21 (Frame 10) = " + arrayScore[arrayScore.length - 1] + "\n");
-
     }
 
     int score() {
         System.out.println(player + ", Score: " + Arrays.toString(arrayScore) + "\n");
-
         for (int i = 0; i < arrayScore.length; i++) {
             System.out.println(player + ", Roll " + (i + 1) + ", score = " + arrayScore[i]);
         }
-        score = arrayScore[0] + arrayScore[1] + arrayScore[2] + arrayScore[3] + arrayScore[4] + arrayScore[5] + arrayScore[6] + arrayScore[7] + arrayScore[8] + arrayScore[9] + arrayScore[10] + arrayScore[11] + arrayScore[12] + arrayScore[13] + arrayScore[14] + arrayScore[15] + arrayScore[16] + arrayScore[17] + arrayScore[18] + arrayScore[19] + arrayScore[20];
+        for (int i : arrayScore) {
+            score = score + i;
+        }
         System.out.println("-----------------------------");
         System.out.println(player + " total score = " + score + "\n");
         return score;
