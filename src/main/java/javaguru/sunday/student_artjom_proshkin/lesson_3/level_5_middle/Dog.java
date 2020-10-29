@@ -8,8 +8,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 // Task_20
 // Task_21
 // Task_22
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "очень плохо с форматом кода. Мы не пишем целые конструкции в строчку. Надо поправить конструкторы")
+@CodeReview(approved = true)
 class Dog {
 
     String dogName;

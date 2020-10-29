@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_5_middle;
 
-// Task_16
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task_16
+@CodeReview(approved = true)
 class LightColourDetectorTest {
     public static void main(String[] args) {
         LightColourDetectorTest lightColourDetectorTest = new LightColourDetectorTest();

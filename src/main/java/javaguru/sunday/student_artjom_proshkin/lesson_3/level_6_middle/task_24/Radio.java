@@ -4,7 +4,6 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "Почему метод getVolume в строчку?")
 class Radio {
     String brandName;
     String modelName;

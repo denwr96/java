@@ -1,6 +1,11 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_4;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень важно соблюдать скобки при написании конструкций типа if else!")
 public class EqualsDifferentTwo {
     public static void main(String[] args) {
 

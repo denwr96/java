@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_4.level_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Переменная vawelenght написана без использования camelCase")
 public class LightColorDetector {
     String detect(int vawelenght){
         if(vawelenght >= 380 && vawelenght <= 449){

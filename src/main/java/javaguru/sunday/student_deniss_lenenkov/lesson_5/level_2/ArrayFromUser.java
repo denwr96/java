@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_5.level_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class ArrayFromUser {
     public static void main(String[] args) {
 

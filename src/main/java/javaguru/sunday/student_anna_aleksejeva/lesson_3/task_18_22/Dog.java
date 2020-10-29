@@ -6,6 +6,9 @@ package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3.task_18_22;
 /// Task22
 
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Dog {
 
     String name;
@@ -37,7 +40,8 @@ class Dog {
     void voice4() {
         System.out.println(name + ' ' + name + ' ' + name);
     }
-        void changeColor(String newColor) {
-            System.out.println( this.color = newColor);
-        }
-        }
+
+    void changeColor(String newColor) {
+        System.out.println(this.color = newColor);
+    }
+}

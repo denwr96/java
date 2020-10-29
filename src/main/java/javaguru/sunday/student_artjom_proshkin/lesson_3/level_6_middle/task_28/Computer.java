@@ -3,8 +3,7 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_6_middl
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Нельзя писать целые конструкции в строчку. Между конструкциями должен быть один new line")
+@CodeReview(approved = true)
 class Computer {
 
     String manufacturer;

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_2_intern.task_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class NumberMax {
     public static void main(String[] args) {
 

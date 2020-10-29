@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_4.level_1;
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Тут лучше бы подошел switch")
 public class Calendar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

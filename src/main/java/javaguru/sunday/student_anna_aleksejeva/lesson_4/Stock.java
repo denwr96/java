@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Почти хорошо. Надо было еще в конструкторе прописать, что мы инициализируем начальные параметры minPrice maxPrice как currentPrice")
 public class Stock {
 
     private String name;

@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_4.level_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Если я ничего не путаю, то последнее условие else if тоже лишнее, два предыдущих условия исключают любую другую возможную комбинацию.")
 public class ThreeNumbers {
     public static void main(String[] args) {
 

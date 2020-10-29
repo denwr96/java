@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_3_junior.task_8;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class DifferentOrEqualOrElse {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

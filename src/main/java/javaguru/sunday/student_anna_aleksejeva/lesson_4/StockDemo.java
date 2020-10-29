@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "А тесты где? =)")
 public class StockDemo {
 
     public static void main(String[] args) {

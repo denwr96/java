@@ -2,6 +2,9 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_5_middl
 
 // Task_16
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class LightColourDetector {
     String detect (int lengthOfWave){
         if (lengthOfWave >= 380 && lengthOfWave <= 449){

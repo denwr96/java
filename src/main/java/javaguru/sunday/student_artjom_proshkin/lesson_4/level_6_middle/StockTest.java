@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_6_middle;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class StockTest {
     public static void main(String[] args) {
         StockTest victim = new StockTest();

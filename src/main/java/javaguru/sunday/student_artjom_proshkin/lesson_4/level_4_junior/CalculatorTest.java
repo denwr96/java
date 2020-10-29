@@ -5,7 +5,11 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_4_junio
 // Task_14
 // Task_15
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Довольно много тестов ) Жаль, что не вынисли в отдельный метод check, как я показывал на уроке. Кода было бы на мнооого меньше")
 class CalculatorTest {
 
     public static void main(String[] args) {
