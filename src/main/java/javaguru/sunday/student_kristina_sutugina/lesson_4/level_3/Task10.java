@@ -1,8 +1,13 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_4.level_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
 //Task_10
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Очень сложно с условиями. ")
 class Task10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

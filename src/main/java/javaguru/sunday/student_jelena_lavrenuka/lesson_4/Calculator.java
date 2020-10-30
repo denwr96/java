@@ -5,6 +5,9 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_4;
 // task_14
 // task_15
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Calculator {
     public int sum(int firstNumber, int secondNumber) {
         return firstNumber + secondNumber;

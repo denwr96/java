@@ -6,6 +6,9 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_4;
 // Task 14
 // Task 15
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class CalculatorTest {
 
     public static void main(String[] args) {

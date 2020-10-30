@@ -2,6 +2,9 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_5.level_x;
 
 //Super Task1
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilLauncher {
 
     public static void main(String[] args) {

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_2.level_2;
 //Task_8
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
  class AskName {
     public static void main(String[] args) {
         System.out.println("Please, enter your name: ");

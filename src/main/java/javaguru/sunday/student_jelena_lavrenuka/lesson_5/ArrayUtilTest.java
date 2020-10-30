@@ -6,6 +6,9 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_5;
 // task_37
 // task_39
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();

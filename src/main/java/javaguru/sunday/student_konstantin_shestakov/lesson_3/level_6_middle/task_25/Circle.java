@@ -5,8 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Формат поехал")
+@CodeReview(approved = true)
 class Circle {
 
     double radius;

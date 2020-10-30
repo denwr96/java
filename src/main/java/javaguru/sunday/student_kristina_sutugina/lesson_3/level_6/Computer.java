@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_6;
 
-//Task_28
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_28
+@CodeReview(approved = true)
 class Computer {
 
     public String manufacturer;

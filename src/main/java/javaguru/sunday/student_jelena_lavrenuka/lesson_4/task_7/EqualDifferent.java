@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_4.task_7;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class EqualDifferent {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

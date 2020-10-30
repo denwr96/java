@@ -5,8 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Пишите хороший код, но почему так криво все? Надо исправить формат.")
+@CodeReview(approved = true)
 class Bike {
 
     String color;

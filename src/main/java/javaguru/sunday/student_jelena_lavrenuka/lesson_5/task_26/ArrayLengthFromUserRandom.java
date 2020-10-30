@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_5.task_26;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayLengthFromUserRandom {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);

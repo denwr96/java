@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_5.task_10;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayInteger {
     public static void main(String[] args) {
         int[] myArrayLenghtThree = new int[3];

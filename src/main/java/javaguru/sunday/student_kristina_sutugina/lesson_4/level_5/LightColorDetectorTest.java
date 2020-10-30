@@ -1,6 +1,8 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_4.level_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetectorTest lightColorDetectorTest = new LightColorDetectorTest();

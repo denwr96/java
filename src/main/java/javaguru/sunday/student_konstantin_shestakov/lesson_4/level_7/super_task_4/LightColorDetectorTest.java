@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_7.super_task_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class LightColorDetectorTest {
 
     private LightColorDetector lightColorDetector = new LightColorDetector();

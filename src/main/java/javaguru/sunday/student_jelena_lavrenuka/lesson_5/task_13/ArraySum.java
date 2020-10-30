@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_5.task_13;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArraySum {
     public static void main(String[] args) {
         int[] myArray = new int[3];

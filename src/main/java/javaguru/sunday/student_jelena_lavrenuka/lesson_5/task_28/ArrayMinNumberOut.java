@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_5.task_28;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayMinNumberOut {
     public static void main(String[] args) {
         Random myRandom = new Random();

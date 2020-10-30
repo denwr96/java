@@ -2,10 +2,13 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_5.level_x;
 
 //Super Task1
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayUtil {
     Random random = new Random();
     Scanner scanner = new Scanner(System.in);

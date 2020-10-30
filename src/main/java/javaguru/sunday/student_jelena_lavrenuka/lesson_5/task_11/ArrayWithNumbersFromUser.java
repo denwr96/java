@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_5.task_11;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayWithNumbersFromUser {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);

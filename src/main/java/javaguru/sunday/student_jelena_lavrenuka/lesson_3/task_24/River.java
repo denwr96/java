@@ -5,9 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.sql.SQLOutput;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Надо переделать. Нельзя писать методы в одну строчку. Не должно быть методов, название которых отличает просто 1-2." +
-        "Почему метод information меняет состояние флага isClean? Как это логически обоснованно?")
+@CodeReview(approved = true)
 class River {
     String riverName;
     int riverLength;

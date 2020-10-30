@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_4.supertask_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class FizzBuzz {
 
     // Реализуйте следующие требования:

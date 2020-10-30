@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_6.task_17;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Метод updatePrice не должен возвращать значение.")
 class Stock {
 
     String companyName;

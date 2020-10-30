@@ -5,10 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Переменные не должны называться с большой буквы" +
-        "" +
-        "Почему переменные one содержит значение 2? В чем логика?")
+@CodeReview(approved = true)
 public class Circle {
     public static void main(String[] agrs){
         Scanner scanner = new Scanner(System.in);

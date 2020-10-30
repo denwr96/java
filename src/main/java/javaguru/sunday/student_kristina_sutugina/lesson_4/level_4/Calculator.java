@@ -1,9 +1,14 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_4.level_4;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 //Task_11
 //Task_13
 //Task_14
 //Task_15
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "метод maxOfThreeNumbers слишком пересложнили")
 class Calculator {
     public int sum(int firstNumber, int secondNumber) {
 

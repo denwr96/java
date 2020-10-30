@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_2.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
 //Task_2
+@CodeReview(approved = true)
 class CalculatorTask2 {
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);

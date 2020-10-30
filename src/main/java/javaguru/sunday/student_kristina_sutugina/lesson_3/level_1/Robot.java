@@ -1,12 +1,14 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_1
 //Task_2
 //Task_5
 //Task_11
 //Task_12
 //Task_13
-
+@CodeReview(approved = true)
  class Robot {
      // Добавьте в класс Robot свойство name (в этом свойстве наш виртуальный обьект робот будет запоминать своё имя.)
      String name;

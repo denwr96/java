@@ -2,6 +2,9 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_6;
 
 //Task_24
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Tree {
     public String species;
     public boolean conifer;

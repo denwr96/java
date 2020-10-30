@@ -6,6 +6,8 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
 //Task_21
 //Task_22
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 /**Бизнес требования:
         - У собаки должна быть кличка.
         - Кличку собаке дают в момент создания и потом ее изменить нельзя.
@@ -16,7 +18,7 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
         Создать отдельный класс DogDemo,
         объявить в нём main() метод и продемонстрировать
         использование класса собака (Dog).*/
-
+@CodeReview(approved = true)
  class Dog {
     private String name;
     private int age;

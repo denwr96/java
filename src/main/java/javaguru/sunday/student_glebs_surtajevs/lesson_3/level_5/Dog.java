@@ -9,7 +9,6 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 //Task_21
 //Task_22
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "Метод changeColor почему-то в строчку написан")
 class Dog {
 
     String name;

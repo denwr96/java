@@ -2,6 +2,9 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_5.level_3;
 
 //Task 21
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ForLoopDefinitionTask21 {
 
     public static void main(String[] args) {

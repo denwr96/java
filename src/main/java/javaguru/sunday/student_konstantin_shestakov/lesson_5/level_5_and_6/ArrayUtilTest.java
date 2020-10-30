@@ -5,8 +5,11 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_5.level_5_
 //Task 37
 //Task 39
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {
