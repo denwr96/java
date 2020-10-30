@@ -1,5 +1,5 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_3_junior.task10;
-
+import  main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_1_intern.task1.QuickMath;
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
@@ -20,7 +20,7 @@ public class QuickMathTest {
         int numberTwo = 2;
         int numberThree = 0;
         int expectedResult = 2;
-        int actualResult = victim.Max(numberOne , numberTwo , numberThree);
+        int actualResult = victim.maxOfThree(numberOne , numberTwo , numberThree);
         check(expectedResult, actualResult, "Test1");
     }
 
@@ -30,7 +30,7 @@ public class QuickMathTest {
         int numberTwo = 10;
         int numberThree = 10;
         int expectedResult = 10;
-        int actualResult = victim.Max(numberOne , numberTwo , numberThree);
+        int actualResult = victim.maxOfThree(numberOne , numberTwo , numberThree);
         check(expectedResult, actualResult, "Test2");
     }
 
@@ -40,7 +40,7 @@ public class QuickMathTest {
         int numberTwo = 2;
         int numberThree = 1;
         int expectedResult = 1;
-        int actualResult = victim.Max(numberOne , numberTwo , numberThree);
+        int actualResult = victim.maxOfThree(numberOne , numberTwo , numberThree);
         check(expectedResult, actualResult, "Test3");
     }
 

@@ -26,7 +26,6 @@ public class Stock {
         if (currentPrice < this.minPrice) {
             this.minPrice = currentPrice;
         }
-
         this.currentPrice = currentPrice;
     }
 
@@ -34,7 +33,7 @@ public class Stock {
         return maxPrice;
     }
 
-   int getCurrentPrice() {
+    int getCurrentPrice() {
         return currentPrice;
     }
 }

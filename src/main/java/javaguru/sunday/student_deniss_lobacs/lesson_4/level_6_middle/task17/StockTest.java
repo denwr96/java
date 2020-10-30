@@ -1,6 +1,6 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_6_middle.task17;
 
-public class StockTest {
+public class  StockTest {
     private Stock stock = new Stock("Google" , 999);
     public static void main(String[] args) {
         StockTest stockTest = new StockTest();

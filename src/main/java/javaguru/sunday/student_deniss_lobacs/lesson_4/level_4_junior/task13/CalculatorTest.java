@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_4_junior.task13;
 
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_1_intern.task1.QuickMath;
+
 public class CalculatorTest {
 
     public static void main(String[] args) {
@@ -15,7 +17,7 @@ public class CalculatorTest {
     public void sumTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        Calculator calculator = new Calculator();
+        QuickMath calculator = new QuickMath();
         int result = calculator.sum(firstNumber, secondNumber);
         if (result == 15) {
             System.out.println("Sum test = OK");
@@ -27,7 +29,7 @@ public class CalculatorTest {
     public void subTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        Calculator calculator = new Calculator();
+        QuickMath calculator = new QuickMath();
         int result = calculator.sub(firstNumber, secondNumber);
         if (result == 5) {
             System.out.println("Sub test = OK");
@@ -39,7 +41,7 @@ public class CalculatorTest {
     public void mulTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        Calculator calculator = new Calculator();
+        QuickMath calculator = new QuickMath();
         int result = calculator.mul(firstNumber, secondNumber);
         if (result == 50) {
             System.out.println("Mul test = OK");
@@ -51,7 +53,7 @@ public class CalculatorTest {
     public void divTest() {
         int firstNumber = 10;
         int secondNumber = 5;
-        Calculator calculator = new Calculator();
+        QuickMath calculator = new QuickMath();
         int result = calculator.div(firstNumber, secondNumber);
         if (result == 2) {
             System.out.println("Div test = OK");
@@ -62,7 +64,7 @@ public class CalculatorTest {
 
     public void isEvenTest() {
         int number = 10;
-        Calculator calculator = new Calculator();
+        QuickMath calculator = new QuickMath();
         boolean result = calculator.isEven(number);
         if (result) {
             System.out.println("IsEven test = OK");
