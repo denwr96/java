@@ -44,9 +44,9 @@ class BowlingGame {
                 arrayScore[i] = (int) Math.round(Math.random() * (10 - arrayScore[i - 1])); // 2ой бросок (нечётное значение массива), не более оставшихся кеглей
             }
         }
-
-        System.out.println("Roll number: [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21]");
-        System.out.println("Roll result: " + Arrays.toString(arrayScore)); // вывод промежуточного значения без модификаторов
+        System.out.println(player + ", Frame #: [ 1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |   10   ]");
+        System.out.println(player + ",  Roll #: [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21]");
+        System.out.println(player + ",  Roll =: " + Arrays.toString(arrayScore)); // вывод промежуточного значения без модификаторов
 
         // Посторочный вывод результатов бросков, фрейм 1-9
 //            for (int i = 0; i < arrayScore.length - 3; i++) {
@@ -68,7 +68,7 @@ class BowlingGame {
             }
 
         }
-        // Построычный вывод результатов бросков, фрейм 10
+        // Построчный вывод результатов бросков, фрейм 10
 //        System.out.println(player + ", " + "Roll 19 (Frame 10) = " + arrayScore[arrayScore.length - 3]);
 //        System.out.println(player + ", " + "Roll 20 (Frame 10) = " + arrayScore[arrayScore.length - 2]);
 //        System.out.println(player + ", " + "Roll 21 (Frame 10) = " + arrayScore[arrayScore.length - 1] + "\n");
@@ -76,8 +76,9 @@ class BowlingGame {
 
     int score() {
         System.out.println("-----------------------------");
-        System.out.println(player + ", Roll#: [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21]");
-        System.out.println(player + ", Score: " + Arrays.toString(arrayScore));
+        System.out.println(player + ", Frame #: [ 1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |   10   ]");
+        System.out.println(player + ",  Roll #: [1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,13,14,15,16,17,18,19,20,21]");
+        System.out.println(player + ",   Score: " + Arrays.toString(arrayScore));
         // Построчный вывод очков
 //        for (int i = 0; i < arrayScore.length; i++) {
 //            System.out.println(player + ", Roll " + (i + 1) + ", score = " + arrayScore[i]);
