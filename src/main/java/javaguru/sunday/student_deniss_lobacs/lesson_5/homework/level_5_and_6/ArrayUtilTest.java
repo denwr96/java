@@ -29,9 +29,9 @@ public class ArrayUtilTest {
         }
 
         if (containsZero = true){
-            System.out.println("Array not contains random numbers"); // vsjo hujovo
+            System.out.println("Array not contains random numbers");
         } else {
-            System.out.println("Array contains random numbers"); // zbs
+            System.out.println("Array contains random numbers");
         }
     }
 
