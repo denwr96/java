@@ -30,6 +30,8 @@ class ArrayUtilTest {
 
         if (testOk == true) {
             System.out.println("Test1 Ok");
+        } else {
+            System.out.println("Test1 failed");
         }
 
     }
@@ -49,6 +51,8 @@ class ArrayUtilTest {
 
         if (testOk == true) {
             System.out.println("Test2 Ok");
+        } else {
+            System.out.println("Test2 failed");
         }
     }
 
@@ -59,6 +63,8 @@ class ArrayUtilTest {
 
         if (maxNumber == 10) {
             System.out.println("MaxTest Ok");
+        } else {
+            System.out.println("MaxTest failed");
         }
     }
 
@@ -69,6 +75,8 @@ class ArrayUtilTest {
 
         if (minNumber == 2) {
             System.out.println("MinTest Ok");
+        } else {
+            System.out.println("MinTest failed");
         }
     }
 }
