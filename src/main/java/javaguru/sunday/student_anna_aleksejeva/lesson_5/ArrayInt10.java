@@ -2,15 +2,15 @@ package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_5;
 
 public class ArrayInt10 {
     public static void main(String[] args) {
-        int[] myIntegerArray = new int[3];
+        int[] IntegerArray = new int[3];
 
-        myIntegerArray[0] = 10;
-        myIntegerArray[1] = 20;
-        myIntegerArray[2] = 30;
+        IntegerArray[0] = 10;
+        IntegerArray[1] = 20;
+        IntegerArray[2] = 30;
 
 
-        System.out.println(myIntegerArray[0]);
-        System.out.println(myIntegerArray[1]);
-        System.out.println(myIntegerArray[2]);
+        System.out.println(IntegerArray[0]);
+        System.out.println(IntegerArray[1]);
+        System.out.println(IntegerArray[2]);
     }
 }

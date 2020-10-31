@@ -13,11 +13,9 @@ public class EqualsDifferentTwo {
         System.out.println(" Enter two numbers ");
         int numberOne = sc.nextInt();
         int numberTwo = sc.nextInt();
-        if
-        (numberOne == numberTwo) {
+        if (numberOne == numberTwo) {
             System.out.println(" Numbers are equals ");
-        }
-        else
+        } else
             System.out.println(" Numbers are different ");
         }
     }

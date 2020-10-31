@@ -14,15 +14,12 @@ public class EqualsDifferentThree {
         int numberOne = sc.nextInt();
         int numberTwo = sc.nextInt();
         int numberThree = sc.nextInt();
-        if
-        (numberOne == numberTwo && numberOne == numberThree) {
+        if (numberOne == numberTwo && numberOne == numberThree) {
             System.out.println(" All numbers are equal ");
-        }
-        else if
+        } else if
         (numberOne != numberTwo && numberOne != numberThree && numberTwo != numberThree){
             System.out.println(" All numbers are different ");
-        }
-        else{
+        } else{
             System.out.println(" Neither all are equal or different ");
         }
     }
