@@ -57,4 +57,13 @@ public class QuickMathTest {
             System.out.println("Expected: " + expectedResult + " but Actual: " + actualResult);
         }
     }
+
+    public void check(String expectedResult, String actualResult, String testName) {
+        if (expectedResult.equals(actualResult)) {
+            System.out.println(testName + "  has passed!");
+        } else {
+            System.out.println(testName + " failed!");
+            System.out.println("Expected: " + expectedResult + " but Actual: " + actualResult);
+        }
+    }
 }
