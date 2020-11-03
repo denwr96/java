@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_3.task_9_10_11_12_13;
+package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_3.task_9_10_11_12_13_14;
 
 
 class ArrayUtil {
@@ -46,6 +46,22 @@ class ArrayUtil {
             temp = array[i];
             array[i] = array[array.length - i -1];
             array[array.length - i - 1] = temp;
+        }
+    }
+
+    public void bubbleSort(int[] array) {
+        boolean sorted = false;
+        while (!sorted) {
+            sorted = true;
+            for (int i = 1; i < array.length; i++) {
+                if (array[i - 1] > array[i]) {
+                    int temp;
+                    temp = array[i];
+                    array[i] = array[i - 1];
+                    array[i - 1] = temp;
+                    sorted = false;
+                }
+            }
         }
     }
 

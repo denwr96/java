@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_3.task_9_10_11_12_13;
+package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_3.task_9_10_11_12_13_14;
 
 
 import java.util.Arrays;
@@ -14,6 +14,7 @@ class ArrayUtilTest {
         arrayUtilTest.replaceFirstNumberTest();
         arrayUtilTest.replaceAllMatchesTest();
         arrayUtilTest.reverseArrayTest();
+        arrayUtilTest.bubbleSortTest();
     }
 
     public void containsNumberShouldReturnTrueTest(int number){
@@ -66,6 +67,14 @@ class ArrayUtilTest {
         int[] originalArray = {3, 1, 4, 5, 6};
         test.reverseArray(originalArray);
         check(Arrays.equals(expectedArray, originalArray), "reverseArrayTest");
+    }
+
+    public void bubbleSortTest(){
+        ArrayUtil test = new ArrayUtil();
+        int[] expectedArray = {1, 2, 3, 4, 5};
+        int[] originalArray = {5, 4, 3, 2, 1};
+        test.bubbleSort(originalArray);
+        check(Arrays.equals(expectedArray, originalArray), "bubbleSortTest");
     }
 
     public void check(int expectedResult, int actualResult, String testName){
