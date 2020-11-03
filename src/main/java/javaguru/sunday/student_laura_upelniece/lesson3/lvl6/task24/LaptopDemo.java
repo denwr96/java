@@ -1,5 +1,6 @@
 //package main.java.javaguru.sunday.student_laura_upelniece.lesson3.lvl6.task24;
-//
+//@CodeReview(approved = false)
+//@CodeReviewComment(comment = "? Почему закомментировано?")
 //public class LaptopDemo {
 //    public static void main(String[] args) {
 //

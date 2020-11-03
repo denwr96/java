@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_5.level_5.task_31_32_33_34;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson_5.level_2.task_11;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class YourArray {
     public static void main(String[] args) {
         int[] number = new int[3];

@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_6.task_25;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Circle {
     private double radius;
 

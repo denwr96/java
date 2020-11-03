@@ -1,6 +1,14 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_4.level_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно было написать чуть проще:" +
+        "if (firstNumber > secondNumber) {" +
+        "")
 public class Task_5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

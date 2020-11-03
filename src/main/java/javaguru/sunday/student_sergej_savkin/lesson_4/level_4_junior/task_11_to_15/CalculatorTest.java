@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_4.level_4_junior.task_11_to_15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // task12
 // task14
 // task15
-
+@CodeReview(approved = true)
 class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();

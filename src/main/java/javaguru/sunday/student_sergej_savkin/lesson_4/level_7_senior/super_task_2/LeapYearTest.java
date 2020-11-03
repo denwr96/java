@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_4.level_7_senior.super_task_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class LeapYearTest {
     public static void main(String[] args) {
         LeapYearTest leapYearTest = new LeapYearTest();

@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson3.level_5.task_18;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class DogDemo {
 
     public static void main(String[] args) {
@@ -14,7 +17,7 @@ public class DogDemo {
         myDog.happyBirthday();
         System.out.println(myDog.getAge()); // proverka
         myDog.happyBirthday();
-        System.out.println(myDog.getAge()); // proverka //Task_20 . Vopros : kak sdelatj tozhe smaoje bez "set" a vvodja peremennuju ?
+        System.out.println(myDog.getAge()); // proverka //Task_20 . Vopros : kak sdelatj tozhe smaoje bez "set" a vvodja peremennuju ? - Но вы же тут не делаете set? не совсем понял, что вы хотели спросить. Лучше спрашивать в телеге
 
         Dog myThirdDog = new Dog(7, "brown");
         myThirdDog.thirdVoice(); // Task_21

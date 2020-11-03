@@ -1,5 +1,11 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_4.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Операцию price = updatedPrice можно было вынести за все условия и делать" +
+        "её без условно. Ведь нам все равно что там? макс или мин, мы должны цену поменять в любом случае")
 class Stock {
     String name;
     double price;

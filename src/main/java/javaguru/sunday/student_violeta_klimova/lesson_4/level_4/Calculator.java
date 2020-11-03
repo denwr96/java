@@ -1,9 +1,12 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_4.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task 11
 //Task 13
 //Task 14
 //Task 15
+@CodeReview(approved = true)
 public class Calculator {
 
     public int sum(int firstNumber, int secondNumber) {

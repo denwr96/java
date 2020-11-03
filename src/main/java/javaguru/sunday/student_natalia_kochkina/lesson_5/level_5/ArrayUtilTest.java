@@ -1,10 +1,12 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_5.level_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_32
 //Task_34
 //Task_37
 //Task_39
-
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

@@ -1,9 +1,12 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_4.level_4_junior.task_11_to_15;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // task 11
 // task 13
 // task 14
 // task 15
-
+@CodeReview(approved = true)
 class Calculator {
 
     public int sum(int firstNumber, int secondNumber) {
