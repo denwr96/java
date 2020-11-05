@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.lesson_1;
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_1;
 
 public class FizzBuzzTest {
     public static void main(String[] args) {
