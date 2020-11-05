@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_4.task25;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class ArrayExample {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

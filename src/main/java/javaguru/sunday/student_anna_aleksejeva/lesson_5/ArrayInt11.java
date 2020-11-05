@@ -1,6 +1,10 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_5;
 
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
+@CodeReview(approved = true)
 public class ArrayInt11 {
     public static void main(String[] args) {
         Scanner mysc = new Scanner(System.in);

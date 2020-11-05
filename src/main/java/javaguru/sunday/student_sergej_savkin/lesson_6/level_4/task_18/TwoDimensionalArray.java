@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_4.task_18;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class TwoDimensionalArray {
 
     public int[][] createArray(int arrayLength) {

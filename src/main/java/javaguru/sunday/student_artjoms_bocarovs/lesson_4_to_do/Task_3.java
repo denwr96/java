@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_4_to_do;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Для этой цели, лучше бы подошел switch")
 public class Task_3 {
 
     public static void main(String[] args) {

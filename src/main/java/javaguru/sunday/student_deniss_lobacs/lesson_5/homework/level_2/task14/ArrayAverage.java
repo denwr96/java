@@ -1,7 +1,13 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_2.task14;
 
-import java.util.Random;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Random;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Про сложность алгоритмов я вам еще не рассказывал, но если чисто логически подумать" +
+        "У вас есть операвция сложения и деления. Можно было посчитать сумму - (n) операций и поделить (1 операция)" +
+        "Вы сделали n + n операций, чтобы сделать расчет.")
 public class ArrayAverage  {
     public static void main(String[] args) {
         Random random = new Random();

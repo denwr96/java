@@ -5,8 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Формат совсем пошел в пляс. Поправить все. Посмотрите, как я пишу if else в lessoncode")
+@CodeReview(approved = true)
 public class EvenOrOdd {
     public static void main(String[]args){
         System.out.println(" Enter number ");

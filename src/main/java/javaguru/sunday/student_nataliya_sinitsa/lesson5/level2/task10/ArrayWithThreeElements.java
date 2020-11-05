@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson5.level2.task10;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayWithThreeElements {
 
     public static void main(String[] args) {

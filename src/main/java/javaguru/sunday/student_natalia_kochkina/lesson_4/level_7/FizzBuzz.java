@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_4.level_7;
 
-//Super_task_1
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+//Super_task_1
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Нужно сделать через if else и оптимизировать условия")
 public class FizzBuzz {
 
     public String detect(int number) {

@@ -1,8 +1,13 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_5_and_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "А почему решили сделать static?")
 public class ArrayUtil {
 
     public static int[] createArray(int arrayLength) {

@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.teacher.lesson_4.lessoncode.testexample;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class QuickMathTest {
 
     public static void main(String[] args) {

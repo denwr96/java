@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_5.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class Task_25 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

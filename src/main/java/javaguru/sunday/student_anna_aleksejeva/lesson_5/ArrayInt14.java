@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_5;
 
 import com.sun.source.util.SourcePositions;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArrayInt14 {
     public static void main(String[] args) {
         int[] array = new int[3];

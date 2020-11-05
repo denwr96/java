@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_5;
 
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_2.task15.Array;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArrayInt15 {
     public static void main(String[] args) {
         int[] array = new int[3];

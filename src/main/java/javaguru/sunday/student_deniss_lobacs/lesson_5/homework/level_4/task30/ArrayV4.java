@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_4.task30;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArrayV4 {
     public static void main(String[] args) {
         Random random = new Random();

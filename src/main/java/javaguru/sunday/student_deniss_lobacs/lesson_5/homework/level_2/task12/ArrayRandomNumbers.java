@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_2.task12;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArrayRandomNumbers {
     public static void main(String[] args) {
         Random random = new Random();

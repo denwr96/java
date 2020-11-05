@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_2.task_14;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
 
+@CodeReview(approved = true)
 class Task_14 {
     public static void main(String[] args) {
         Random random = new Random();

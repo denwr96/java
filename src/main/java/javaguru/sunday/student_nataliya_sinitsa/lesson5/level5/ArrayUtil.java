@@ -2,8 +2,11 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson5.level5;
 
 //Task 31 - Task 41
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

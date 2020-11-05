@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_4.level_7;
 
-//Super_task_1
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Super_task_1
+@CodeReview(approved = true)
 public class FizzBuzzTest {
 
     public static void main(String[] args) {

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_5.level_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class Task_14 {
     public static void main(String[] args) {
         int[] arrayOfNumbers = new int[3];
