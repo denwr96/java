@@ -8,7 +8,7 @@ import java.util.Random;
 class TwoDimensionalArray {
 
     public int[][] createArray(int arrayLength) {
-        int[] [] array = new int[arrayLength] [arrayLength];
+        int[][] array = new int[arrayLength] [arrayLength];
         return array;
     }
 

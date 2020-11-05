@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_3.level_7_senior.solutions.super_task_1;
 
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson2.LoginService;
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 import main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User;
@@ -7,6 +8,8 @@ import main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.soluti
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Вас не смущают такие странные названия классов? =) Вы подключили не те классы. Посмотрите на путь. Вы подключили классы из моей папки )))")
+
+
 public class UserLoginServiceTest {
 
 	public static void main(String[] args) {
@@ -19,16 +22,16 @@ public class UserLoginServiceTest {
 	}
 
 	public void shouldSuccessfullyLogin() {
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService service = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService();
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User user = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User("javaguru", "abcd");
+		UserLoginService service = new UserLoginService();
+		User user = new User("Javaguru", "abcd");
 		boolean loginSuccessfully = service.login(user, "abcd");
 		checkResults(loginSuccessfully, "shouldSuccessfullyLogin");
 		checkResults(!user.isBlocked(), "shouldSuccessfullyLogin");
 	}
 
 	public void shouldLoginFail_attempts_2() {
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService service = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService();
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User user = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User("javaguru", "abcd");
+		UserLoginService service = new UserLoginService();
+		User user = new User("Javaguru", "abcd");
 		boolean loginSuccessfully = service.login(user, "incorrect password");
 		checkResults(!loginSuccessfully, "shouldLoginFail_attempts_2");
 		checkResults(user.getAttemptsLeft() == 2, "shouldLoginFail_attempts_2");
@@ -36,8 +39,8 @@ public class UserLoginServiceTest {
 	}
 
 	public void shouldLoginFail_attempts_1() {
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService service = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService();
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User user = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User("javaguru", "abcd");
+		UserLoginService service = new UserLoginService();
+		User user = new User("Javaguru", "abcd");
 		service.login(user, "incorrect password");
 		boolean loginSuccessfully = service.login(user, "incorrect password");
 		checkResults(!loginSuccessfully, "shouldLoginFail_attempts_1");
@@ -46,8 +49,8 @@ public class UserLoginServiceTest {
 	}
 
 	public void shouldLoginFail_attempts_0() {
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService service = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService();
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User user = new main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User("javaguru", "abcd");
+		UserLoginService service = new UserLoginService();
+		User user = new User("Javaguru", "abcd");
 		service.login(user, "incorrect password");
 		service.login(user, "incorrect password");
 		boolean loginSuccessfully = service.login(user, "incorrect password");
@@ -57,8 +60,8 @@ public class UserLoginServiceTest {
 	}
 
 	public void shouldSetAttemptsLeftTo3AfterSuccessfulLogin() {
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService service = new UserLoginService();
-		main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User user = new User("javaguru", "abcd");
+		UserLoginService service = new UserLoginService();
+		User user = new User("Javaguru", "abcd");
 		service.login(user, "incorrect password");
 		service.login(user, "incorrect password");
 		checkResults(user.getAttemptsLeft() == 1, "shouldSetAttemptsLeftTo3AfterSuccessfulLogin");
