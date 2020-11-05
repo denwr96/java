@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_5.level_3;
 
-//Task_21
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_21
+@CodeReview(approved = true)
 class ForLoopDefinition5v2 {
 
     public static void main(String[] args) {

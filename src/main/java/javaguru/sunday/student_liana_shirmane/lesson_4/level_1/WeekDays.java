@@ -1,6 +1,12 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_4.level_1;
 //task3
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "switch тут больше бы подошел")
 public class WeekDays {
     public static void main(String[] args) {
         System.out.println("Please, enter number from 1 to 7:");

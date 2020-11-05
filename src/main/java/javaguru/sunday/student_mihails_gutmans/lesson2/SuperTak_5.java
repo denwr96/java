@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class SuperTak_5 {
     public static void main(String[] args) {
         // komentarij pishem v odnoj stroke

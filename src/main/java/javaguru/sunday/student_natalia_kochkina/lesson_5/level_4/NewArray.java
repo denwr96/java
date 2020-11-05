@@ -2,8 +2,11 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_5.level_4;
 
 //Task_25
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class NewArray {
 
     public static void main(String[] args) {

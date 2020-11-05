@@ -1,10 +1,12 @@
 package main.java.javaguru.sunday.student_violeta_klimova.lesson_4.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task 12
 //Task 13
 //Task 14
 //Task 15
-
+@CodeReview(approved = true)
 public class CalculatorTest {
     public static void main(String[] args) {
         CalculatorTest calculatorTest = new CalculatorTest();

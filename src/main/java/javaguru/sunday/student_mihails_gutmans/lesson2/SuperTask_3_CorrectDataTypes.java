@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class SuperTask_3_CorrectDataTypes {
     public static void main(String[] args) {
 

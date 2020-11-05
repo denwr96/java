@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_5.level_4;
 
 //Task_29
 
-import java.util.Random;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class NewRandomArray4 {
 
     public static void main(String[] args) {

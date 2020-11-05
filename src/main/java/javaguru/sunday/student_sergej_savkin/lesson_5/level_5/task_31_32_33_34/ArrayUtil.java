@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_5.level_5.task_31_32_33_34;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ArrayUtil {
     public int[] createArray(int arrayLength) {
         int[] array = new int[arrayLength];

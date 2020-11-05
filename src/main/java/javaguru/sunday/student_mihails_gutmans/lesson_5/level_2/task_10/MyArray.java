@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson_5.level_2.task_10;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 public class MyArray {
 
     public static void main(String[] args) {

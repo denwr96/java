@@ -3,8 +3,12 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_4.level_3;
 //task9
 //task10
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class CompareThreeNumbers {
     public static void main(String[] args) {
         System.out.println("Please, enter first number:");

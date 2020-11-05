@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson4.level3.task9;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ThreeNumbersSequence {
 
     public static void main(String[] args) {

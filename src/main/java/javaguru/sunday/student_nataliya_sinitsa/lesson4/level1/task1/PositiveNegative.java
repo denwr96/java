@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson4.level1.task1;
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class PositiveNegative {
 
     public static void main(String[] args) {

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson_5.level_2.task_15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class RandomArrayPlus2 {
 
     public static void main(String[] args) {

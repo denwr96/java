@@ -1,5 +1,12 @@
 package main.java.javaguru.sunday.student_mihails_gutmans.lesson3.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Давайте договоримся, что вы просто будете в самом верху класса писать задания" +
+        "которые он в себя включает. Я сам пойму, где что, а то из за этого у вас страдает формат." +
+        "Переменные должны находиться сверху")
 public class Robot {
 
     public void sayHello( ) {

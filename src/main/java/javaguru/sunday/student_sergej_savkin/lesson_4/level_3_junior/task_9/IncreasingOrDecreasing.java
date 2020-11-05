@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_4.level_3_junior.task_9;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class IncreasingOrDecreasing {
     public static void main(String[] args) {
         int firstNumber;
