@@ -1,4 +1,7 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_5.task_19_20_21_22_23_24_25_26_27;
+package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_5.task_19_27;
+
+//level_6
+//task25
 
 class Move {
 
