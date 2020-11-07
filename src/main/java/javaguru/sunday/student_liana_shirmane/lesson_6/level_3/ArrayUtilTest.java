@@ -23,39 +23,41 @@ class ArrayUtilTest {
     }
 
 
-    public void shouldFindNumber() {
+    void shouldFindNumber() {
         int[] array = {5, 7, 9, 10, -7};
         ArrayUtil arrayUtil = new ArrayUtil();
         boolean result = arrayUtil.findNumber(array, 9);
         check(result, "Number found");
     }
 
-    public void shouldNotFindNumber() {
+    void shouldNotFindNumber() {
         int[] array = {5, 7, 9, 10, -7};
         ArrayUtil arrayUtil = new ArrayUtil();
         boolean result = arrayUtil.findNumber(array, 12);
         check(!result, "Number not found");
     }
 
-    public void howManyNumbersFind() {
+    void howManyNumbersFind() {
         int[] array = {8, 8, 9, 0, 7, 5, 4, 8};
         ArrayUtil arrayUtil = new ArrayUtil();
         int expectedResult = 3;
         int actualResult = arrayUtil.howManyNumbers(array, 8);
         check(expectedResult, actualResult, "Count numbers in array");
     }
+
     void replaceNumber() {
         int[] array = {8, 8, 9, 0, 7, 5, 9, 8};
         ArrayUtil arrayUtil = new ArrayUtil();
         int[] expectedResult = {8, 8, 3, 0, 7, 5, 9, 8};
-        arrayUtil.replaceNumber(array,9, 3);
+        arrayUtil.replaceNumber(array, 9, 3);
         check(Arrays.equals(expectedResult, array), "Replace numbers");
     }
+
     void replaceAllNumbers() {
         int[] array = {8, 8, 9, 0, 7, 5, 9, 8};
         ArrayUtil arrayUtil = new ArrayUtil();
         int[] expectedResult = {8, 8, 3, 0, 7, 5, 3, 8};
-        arrayUtil.replaceAllNumbers(array,9, 3);
+        arrayUtil.replaceAllNumbers(array, 9, 3);
         check(Arrays.equals(expectedResult, array), "Replace all numbers");
     }
 
@@ -66,6 +68,7 @@ class ArrayUtilTest {
         arrayUtil.rotateNumbers(array);
         check(Arrays.equals(expectedResult, array), "Rotate numbers in array");
     }
+
     void sortNumbers() {
         int[] array = {5, 1, 3};
         ArrayUtil arrayUtil = new ArrayUtil();

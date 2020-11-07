@@ -6,7 +6,7 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_5.level_5_6;
 //task39
 class ArrayUtilTest {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         ArrayUtilTest test = new ArrayUtilTest();
         test.shouldCreateArray();
         test.shouldFillArray();
@@ -14,7 +14,7 @@ class ArrayUtilTest {
         test.shouldFindMin();
     }
 
-    public void shouldCreateArray() {
+    void shouldCreateArray() {
         ArrayUtil arrayUtil = new ArrayUtil();
         int arrayLength = 8;
         int[] result = arrayUtil.createArray(arrayLength);
@@ -24,7 +24,7 @@ class ArrayUtilTest {
 
     }
 
-    public void shouldFillArray() {
+    void shouldFillArray() {
         int[] arrayFull = new int[5];
         ArrayUtil arrayUtil = new ArrayUtil();
         arrayUtil.fillArrayWithRandomNumbers(arrayFull);
@@ -41,7 +41,8 @@ class ArrayUtilTest {
         }
     }
 
-    public void shouldFindMax(){
+
+    void shouldFindMax() {
         int[] arrayPrint = new int[5];
         ArrayUtil arrayUtil = new ArrayUtil();
         arrayUtil.fillArrayWithRandomNumbers(arrayPrint);
@@ -49,7 +50,7 @@ class ArrayUtilTest {
         arrayUtil.findMaxNumber(arrayPrint);
     }
 
-    public void shouldFindMin(){
+    void shouldFindMin() {
         int[] arrayPrint = new int[5];
         ArrayUtil arrayUtil = new ArrayUtil();
         arrayUtil.fillArrayWithRandomNumbers(arrayPrint);

@@ -1,5 +1,5 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_4;
-//task16
+//task17
 class WhileInfLoopStop {
     public static void main(String args[]) {
         int i = 1;
