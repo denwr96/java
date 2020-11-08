@@ -1,7 +1,7 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson6.level3.task9;
 
 //Task 31 - Task 41 (Lesson 5)
-//Task 9 - Task 13 (Lesson 6)
+//Task 9 - Task 14 (Lesson 6)
 
 import java.util.Random;
 
@@ -86,6 +86,19 @@ class ArrayUtil {
             int b = array[array.length - i - 1];
             array[i] = b;
             array[array.length - i - 1] = a;
+        }
+    }
+
+    public void sortArray(int[] array) {
+        int temporaryStorage;
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 1; j < array.length - i; j++) {
+                if (array[j - 1] > array[j]) {
+                    temporaryStorage = array[j - 1];
+                    array[j - 1] = array[j];
+                    array[j] = temporaryStorage;
+                }
+            }
         }
     }
 

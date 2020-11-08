@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson6.level3.task9;
 
 //Task 31 - Task 41 (Lesson 5)
-//Task 9 - Task 13 (Lesson 6)
+//Task 9 - Task 14 (Lesson 6)
+
+import java.util.Arrays;
 
 class ArrayUtilTest {
 
@@ -22,6 +24,7 @@ class ArrayUtilTest {
         test.shouldReplaceNumbers2();
         test.shouldReverseArray1();
         test.shouldReverseArray2();
+        test.shouldSortArray();
     }
 
     public void shouldCreateArray1() {
@@ -158,6 +161,14 @@ class ArrayUtilTest {
         victim.reverseArray(testArray);
         boolean arrayIsReversed = testArray[0] == 4 && testArray[1] == 3 && testArray[2] == 2 && testArray[3] == 1;
         check(arrayIsReversed, "shouldReverseArray2");
+    }
+
+    public void shouldSortArray() {
+        ArrayUtil victim = new ArrayUtil();
+        int[] testArray = {6, 2, 3, 4, 8, 7, 1, 5};
+        int[] expectedSortedArray = {1, 2, 3, 4, 5, 6, 7, 8};
+        victim.sortArray(testArray);
+        check(Arrays.equals(testArray, expectedSortedArray), "shouldSortArray");
     }
 
     public void check(int expectedResult, int actualResult, String testName) {

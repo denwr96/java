@@ -15,11 +15,11 @@ public class FizzBuzz {
             return "Fizz";
         }
         // - если переданное число делится на пять возвращайте "Buzz"
-        if (((number % 5) == 0) && ((number % 3) != 0)) {
+        else if (((number % 5) == 0) && ((number % 3) != 0)) {
             return "Buzz";
         }
         // - если переданное число делится на три и на пять возвращайте "FizzBuzz"
-        if (((number % 5) == 0) && ((number % 3) == 0)) {
+        else if (((number % 5) == 0) && ((number % 3) == 0)) {
             return "FizzBuzz";
         } else {
             return "" + number;
