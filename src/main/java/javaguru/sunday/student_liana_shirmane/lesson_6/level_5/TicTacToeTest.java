@@ -3,12 +3,16 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_5;
 //task19
 //task20
 //task21
+//task22
+
 public class TicTacToeTest {
     public static void main(String[] args) {
         TicTacToeTest test = new TicTacToeTest();
         test.winFirstPlayerFirstHorizontalLine();
         test.winFirstPlayerFirstVerticalRow();
         test.winFirstPlayerDiagonals();
+        test.winFirstPlayerPosition();
+        test.isDraw();
     }
 
     void winFirstPlayerFirstHorizontalLine() {
@@ -32,6 +36,19 @@ public class TicTacToeTest {
         check(actualResult, "First player win diagonals");
     }
 
+    void winFirstPlayerPosition(){
+        int[][] array = {{-1, 0, -1}, {-1, 0, 0}, {0, 0, -1}};
+        TicTacToe test = new TicTacToe();
+        boolean actualResult = test.isWinPosition(array, 0);
+        check(actualResult, "First player win");
+    }
+
+    void isDraw(){
+        int[][] array = {{1, 0, 1}, {1, 0, 0}, {0, 1, 1}};
+        TicTacToe test = new TicTacToe();
+        boolean actualResult = test.isDrawPosition(array);
+        check(actualResult, "Nobody win");
+    }
 
     public void check(String expectedResult, String actualResult, String testName) {
         if (expectedResult.equals(actualResult)) {
