@@ -27,7 +27,11 @@ class ArrayUtilTest {
         arrayUtil.fillArrayWithRandomNumbers(array);
         boolean passedTest = true;
         for (int value : array) {
-            passedTest = value != 0;
+            if (value != 0) {
+                passedTest = true;
+            } else {
+                passedTest = false;
+            }
         }
         if (passedTest) {
             System.out.println("Random numbers test passed");
@@ -41,9 +45,9 @@ class ArrayUtilTest {
         int[] array = arrayUtil.createArray(5);
         arrayUtil.fillArrayWithRandomNumbers(array);
         int maxNumber = arrayUtil.findMaxNumber(array);
-        int temp = 0;
+        int temp;
         for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
+            for (int j = i; j < array.length; j++) {
                 if (array[i] > array[j]) {
                     temp = array[i];
                     array[i] = array[j];
@@ -52,7 +56,7 @@ class ArrayUtilTest {
             }
             System.out.println(array[i]);
         }
-        if (maxNumber == temp) {
+        if (maxNumber == (array[array.length - 1])) {
             System.out.println("ShouldFindMaxNumber test passed, maximal number is " + maxNumber);
         } else {
             System.out.println("ShouldFindMaxNumber test passed failed");
@@ -64,9 +68,9 @@ class ArrayUtilTest {
         int[] array = arrayUtil.createArray(5);
         arrayUtil.fillArrayWithRandomNumbers(array);
         int minNumber = arrayUtil.findMinNumber(array);
-        int temp = 0;
+        int temp;
         for (int i = 0; i < array.length; i++) {
-            for (int j = i + 1; j < array.length; j++) {
+            for (int j = i; j < array.length; j++) {
                 if (array[i] < array[j]) {
                     temp = array[i];
                     array[i] = array[j];
@@ -75,7 +79,7 @@ class ArrayUtilTest {
             }
             System.out.println(array[i]);
         }
-        if (minNumber == temp) {
+        if (minNumber == (array[array.length - 1])) {
             System.out.println("ShouldFindMinNumber test passed, minimal number is " + minNumber);
         } else {
             System.out.println("ShouldFindMinNumber test passed failed");
