@@ -5,8 +5,19 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_5;
 //task21
 //task22
 //task23
+//task24
+//task25
+//task27
+
+import java.util.Arrays;
+import java.util.Scanner;
 
 public class TicTacToe {
+
+    public static void main(String[] args) {
+        TicTacToe game = new TicTacToe();
+        game.play();
+    }
 
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
         for (int i = 0; i < field.length; i++) {
@@ -54,5 +65,57 @@ public class TicTacToe {
             return true;
         }
         return false;
+    }
+
+
+    public int[][] createField() {
+        return new int[][]{{-1, -1, -1}, {-1, -1, -1}, {-1, -1, -1}};
+    }
+
+    public Move getNextMove() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter X coordinate");
+        int x = scanner.nextInt();
+        System.out.println("Please enter X coordinate");
+        int y = scanner.nextInt();
+        Move move = new Move(x, y);
+        return move;
+    }
+
+    public void printFieldToConsole(int[][] field) {
+        for (int[] row : field) {
+            System.out.println(Arrays.toString(row));
+        }
+    }
+
+    public void play() {
+        int[][] field = createField();
+        while (true) {
+            printFieldToConsole(field);
+            Move move0 = getNextMove();
+            field[move0.getX()][move0.getY()] = 0;
+            printFieldToConsole(field);
+            if (isWinPosition(field, 0)) {
+                System.out.println("Player 0 WIN!");
+                break;
+            }
+            if (isDrawPosition(field)) {
+                System.out.println("DRAW!");
+                break;
+            }
+
+            printFieldToConsole(field);
+            Move move1 = getNextMove();
+            field[move1.getX()][move1.getY()] = 1;
+            printFieldToConsole(field);
+            if (isWinPosition(field, 1)) {
+                System.out.println("Player 1 WIN!");
+                break;
+            }
+            if (isDrawPosition(field)) {
+                System.out.println("DRAW!");
+                break;
+            }
+        }
     }
 }
