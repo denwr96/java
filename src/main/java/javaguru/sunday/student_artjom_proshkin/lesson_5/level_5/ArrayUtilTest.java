@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_5_level_6;
+package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_5;
 
 //Task_32
 //Task_34 RandomTHINK

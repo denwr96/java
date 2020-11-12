@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_5_level_6;
+package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_5;
 
 //Task_31
 //Task_33
@@ -24,6 +24,7 @@ class ArrayUtil {
     }
 
     void printArrayToConsole(int[] myArray) {
+
         System.out.println("Array = " + Arrays.toString(myArray));
     }
 
