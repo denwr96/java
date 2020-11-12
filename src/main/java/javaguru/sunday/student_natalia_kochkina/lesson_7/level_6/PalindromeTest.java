@@ -13,7 +13,7 @@ public class PalindromeTest {
     public void palindromeTest1() {
         Palindrome palindrome = new Palindrome();
         boolean isPalindrome = palindrome.isPalindrome("what?");
-        if (isPalindrome == false) {
+        if (!isPalindrome) {
             System.out.println("Palindrome test1 OK");
         } else {
             System.out.println("Palindrome test1 FAILED");
@@ -23,7 +23,7 @@ public class PalindromeTest {
     public void palindromeTest2() {
         Palindrome palindrome = new Palindrome();
         boolean isPalindrome = palindrome.isPalindrome("А роза упала на лапу Азора");
-        if (isPalindrome == true) {
+        if (isPalindrome) {
             System.out.println("Palindrome test2 OK");
         } else {
             System.out.println("Palindrome test2 FAILED");
