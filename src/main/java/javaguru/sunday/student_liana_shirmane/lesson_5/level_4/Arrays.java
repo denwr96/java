@@ -6,9 +6,14 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_5.level_4;
 //task29
 //task30
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Разделите на понятные и логические методы")
 public class Arrays {
 
     public static void main(String[] args) {

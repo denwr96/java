@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_6.homework.level_4.task18;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class TwoDimensionalArray {
 
     public static void fillArrayWithRandomNumbers(int[][] array) {

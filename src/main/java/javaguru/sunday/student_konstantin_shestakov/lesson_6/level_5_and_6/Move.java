@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_5_and_6;
 
-// Task 25
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 25
+@CodeReview(approved = true)
 class Move {
     private int x;
     private int y;

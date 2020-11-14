@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_6.level_2;
 
-//Task_8
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_8
+@CodeReview(approved = true)
 class WhileDefinition5 {
 
     public static void main(String[] args) {

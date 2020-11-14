@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_5.task_19_27;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
 //level_5
@@ -15,7 +17,7 @@ import java.util.Scanner;
 //task26
 //task27
 
-
+@CodeReview(approved = true)
 class TicTacToe {
 
     public static void main(String[] args) {

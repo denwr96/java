@@ -7,9 +7,13 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_3;
 // Task 13
 // Task 14 (level 4)
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Методы createArray, findInputNumber не делают той задачи, которую должны Методы createArray должен просто создать массив. ")
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

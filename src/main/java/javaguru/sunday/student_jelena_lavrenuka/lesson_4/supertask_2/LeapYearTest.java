@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_4.supertask_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class LeapYearTest {
     public static void main(String[] args) {
         LeapYearTest test = new LeapYearTest();

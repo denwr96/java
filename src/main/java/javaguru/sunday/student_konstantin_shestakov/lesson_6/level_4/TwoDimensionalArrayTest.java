@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_4;
 
 // Task 18
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class TwoDimensionalArrayTest {
 
     public static void main(String[] args) {

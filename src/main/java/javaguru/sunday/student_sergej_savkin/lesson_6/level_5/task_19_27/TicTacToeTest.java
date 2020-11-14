@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_5.task_19_27;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
 //level_5
@@ -11,7 +13,7 @@ import java.util.Arrays;
 
 //level_6
 //task24
-
+@CodeReview(approved = true)
 class TicTacToeTest {
 
     public static void main(String[] args) {

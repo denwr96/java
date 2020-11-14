@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_4.level_7;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class FizzBuzz {
     public String detect(int number) {
         if (div3(number)&& div5(number)) {

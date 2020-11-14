@@ -1,9 +1,12 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_6.level_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task_9
 //task_10
 //task_11
 //task_12
+@CodeReview(approved = true)
 public class ArrayUtilTest {
 
     public static void main(String[] args) {

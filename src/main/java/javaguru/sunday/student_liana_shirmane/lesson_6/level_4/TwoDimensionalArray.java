@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_4;
 //task18
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class TwoDimensionalArray {
 
     void fillInTwoDimensionalArray(int[][] array) {

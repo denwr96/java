@@ -2,9 +2,12 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson6.level5.task19
 
 // Task 19 - Task 27
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class TicTacToe {
 
     public static void main(String[] args) {

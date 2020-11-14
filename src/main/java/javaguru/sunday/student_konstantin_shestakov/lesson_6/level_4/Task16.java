@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно было просто написать while(true)")
 class Task16 {
 
     public static void main(String[] args) {

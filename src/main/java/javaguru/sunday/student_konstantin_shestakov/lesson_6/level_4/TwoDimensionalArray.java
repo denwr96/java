@@ -2,8 +2,11 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_4;
 
 // Task 18
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class TwoDimensionalArray {
 
     Random random = new Random();
@@ -18,7 +21,7 @@ class TwoDimensionalArray {
         return arrayOne;
     }
 
-    int arraySum (int[][] arrayOne) {
+    int arraySum(int[][] arrayOne) {
         int sum = 0;
         for (int i = 0; i < arrayOne.length; i++) {
             for (int j = 0; j < arrayOne[i].length; j++) {

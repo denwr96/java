@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_6.homework.level_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 public class ArrayUtilTest {
 
     public static void main(String[] args) {

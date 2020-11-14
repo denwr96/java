@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_6.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class TwoDimensionlaArray {
 
     public void myArray(int array[][]) {

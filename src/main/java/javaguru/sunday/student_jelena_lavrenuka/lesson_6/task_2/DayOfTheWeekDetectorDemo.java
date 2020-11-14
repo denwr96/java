@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorDemo {
     public static void main(String[] args) {
         Scanner myInput = new Scanner(System.in);

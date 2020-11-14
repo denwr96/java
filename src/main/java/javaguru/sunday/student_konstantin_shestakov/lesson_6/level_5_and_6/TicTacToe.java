@@ -10,13 +10,17 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_5_
 // Task 26
 // Task 27
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class TicTacToe {
 
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
 
-        if     (field[0][0] == playerToCheck && field[0][1] == playerToCheck && field[0][2] == playerToCheck ||
+        if (field[0][0] == playerToCheck && field[0][1] == playerToCheck && field[0][2] == playerToCheck ||
                 field[1][0] == playerToCheck && field[1][1] == playerToCheck && field[1][2] == playerToCheck ||
                 field[2][0] == playerToCheck && field[2][1] == playerToCheck && field[2][2] == playerToCheck) {
             return true;
@@ -27,7 +31,7 @@ class TicTacToe {
 
     public boolean isWinPositionForVerticals(int[][] field, int playerToCheck) {
 
-        if     (field[0][0] == playerToCheck && field[1][0] == playerToCheck && field[2][0] == playerToCheck ||
+        if (field[0][0] == playerToCheck && field[1][0] == playerToCheck && field[2][0] == playerToCheck ||
                 field[0][1] == playerToCheck && field[1][1] == playerToCheck && field[2][1] == playerToCheck ||
                 field[0][2] == playerToCheck && field[1][2] == playerToCheck && field[2][2] == playerToCheck) {
             return true;
@@ -35,9 +39,10 @@ class TicTacToe {
             return false;
         }
     }
+
     public boolean isWinPositionForDiagonals(int[][] field, int playerToCheck) {
 
-        if     (field[0][0] == playerToCheck && field[1][1] == playerToCheck && field[2][2] == playerToCheck ||
+        if (field[0][0] == playerToCheck && field[1][1] == playerToCheck && field[2][2] == playerToCheck ||
                 field[0][2] == playerToCheck && field[1][1] == playerToCheck && field[2][0] == playerToCheck) {
             return true;
         } else {
@@ -68,7 +73,8 @@ class TicTacToe {
                     draw = false;
                 }
             }
-        } return draw;
+        }
+        return draw;
     }
 
     public int[][] createField(int arrayLength1, int arrayLength2) {
@@ -108,7 +114,7 @@ class TicTacToe {
 
     public void play() {
         int[][] field = createField(3, 3);
-        while(true) {
+        while (true) {
             printFieldToConsole(field);
             Move move0 = getNextMove();
             field[move0.getX()][move0.getY()] = 0;

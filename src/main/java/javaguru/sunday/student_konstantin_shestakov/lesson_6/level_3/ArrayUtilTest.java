@@ -7,8 +7,10 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_3;
 // Task 13
 // Task 14 (level 4)
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

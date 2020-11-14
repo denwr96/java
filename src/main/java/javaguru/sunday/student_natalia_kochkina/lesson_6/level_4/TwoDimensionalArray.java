@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_6.level_4;
 
 //Task_18
 
-import java.util.Random;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class TwoDimensionalArray {
 
     public int[][] createArrayWithRandomNumbers(){

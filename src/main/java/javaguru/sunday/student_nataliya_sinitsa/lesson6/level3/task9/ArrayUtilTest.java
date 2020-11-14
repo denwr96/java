@@ -3,8 +3,10 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson6.level3.task9;
 //Task 31 - Task 41 (Lesson 5)
 //Task 9 - Task 14 (Lesson 6)
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {
