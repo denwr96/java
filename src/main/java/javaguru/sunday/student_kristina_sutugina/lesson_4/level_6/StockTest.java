@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_4.level_6;
 
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class StockTest {
     public static void main(String[] args) {
         StockTest stockTest = new StockTest();

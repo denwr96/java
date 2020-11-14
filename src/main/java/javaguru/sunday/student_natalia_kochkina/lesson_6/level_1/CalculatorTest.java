@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_6.level_1;
 
-//Task_1
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_1
+@CodeReview(approved = true)
 public class CalculatorTest {
 
     public static void main(String[] args) {

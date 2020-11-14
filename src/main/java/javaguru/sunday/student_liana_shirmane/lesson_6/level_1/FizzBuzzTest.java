@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class FizzBuzzTest {
     public static void main(String[] args) {
         FizzBuzzTest fizzBuzzTest = new FizzBuzzTest();

@@ -4,8 +4,10 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_7.level_1;
 //Task_2
 //Task_3
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 public class WordServiceTest {
 
     public static void main(String[] args) {

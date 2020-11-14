@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_7.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_1
 //Task_2
 //Task_3
-
+@CodeReview(approved = true)
 public class WordService {
 
     //пишем метод для преобразования текста в массив слов

@@ -1,7 +1,14 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_5.level_2;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 //Task_13
 //Task_14
 //Task_15
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Разделяй и властвуй - не надо пытаться запихать всю логику в один цикл, метод, класс. Нужно пытаться сохранять атомарность отдельно заполнили массив, отдельно показали на консоль" +
+        "и отдельно посчитали сумму и среднее")
 class Task_13 {
     public static void main(String[] args) {
         int[] randomNumbers = new int[3];

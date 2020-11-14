@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_4.task_29;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class Task_29 {
     public static void main(String[] args) {
         int[] arrayLength = new int[9];

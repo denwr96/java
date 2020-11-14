@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "continue в самом конце цикла можно не писать. Они ничего не делают.")
 class Task17 {
 
     public static void main(String[] args) {

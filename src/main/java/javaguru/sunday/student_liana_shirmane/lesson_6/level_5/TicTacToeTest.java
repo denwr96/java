@@ -1,9 +1,12 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task19
 //task20
 //task21
 //task22
+@CodeReview(approved = true)
 //task23
 //task24
 

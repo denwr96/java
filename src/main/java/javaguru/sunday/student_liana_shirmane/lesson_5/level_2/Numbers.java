@@ -6,9 +6,13 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_5.level_2;
 //task14
 //task15
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 import java.util.Scanner;
-
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Читать код не реально. Все в кучу. Разбейте на логические методы.")
 class Numbers {
 
     public static void main(String[] args) {

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_4.task_25;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class Task_25 {
     public static void main(String[] args) {
         System.out.println("Please enter your array length");

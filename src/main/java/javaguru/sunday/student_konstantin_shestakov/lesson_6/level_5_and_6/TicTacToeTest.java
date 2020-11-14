@@ -7,8 +7,10 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_6.level_5_
 // Task 23
 // Task 24
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class TicTacToeTest {
 
     public static void main(String[] args) {

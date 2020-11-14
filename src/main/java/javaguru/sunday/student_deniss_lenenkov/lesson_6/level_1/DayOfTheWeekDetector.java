@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_6.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class DayOfTheWeekDetector {
 
     String detectDayName(int numberOfDay){

@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_4.task_28;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = true)
 class ArrayWithMin {
     public static void main(String[] args) {
 

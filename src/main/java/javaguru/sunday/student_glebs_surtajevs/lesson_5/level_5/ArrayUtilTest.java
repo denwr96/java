@@ -4,7 +4,9 @@ package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_5;
 //Task_33
 //Task_34
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class ArrayUtilTest {
 
     public static void main(String[] args) {

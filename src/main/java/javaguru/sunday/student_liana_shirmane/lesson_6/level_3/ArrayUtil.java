@@ -8,8 +8,11 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_3;
 //task14
 
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class ArrayUtil {
 
     boolean findNumber(int[] array, int number) {

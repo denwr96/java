@@ -5,7 +5,6 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //Task_16
 @CodeReview(approved = true)
-@CodeReviewComment(comment = "У вас условие продублировано, скорее всего, что не включили")
 class LightColorDetector {
     public String detect(int wavelength) {
         if (wavelength >= 380 && wavelength <= 449) {

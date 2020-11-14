@@ -4,8 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //Super_task_1
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Нужно сделать через if else и оптимизировать условия")
+@CodeReview(approved = true)
 public class FizzBuzz {
 
     public String detect(int number) {
@@ -19,7 +18,7 @@ public class FizzBuzz {
             return "Buzz";
         }
         // - если переданное число делится на три и на пять возвращайте "FizzBuzz"
-        else if (((number % 5) == 0) && ((number % 3) == 0)) {
+        else if (number % 5 == 0) {
             return "FizzBuzz";
         } else {
             return "" + number;
