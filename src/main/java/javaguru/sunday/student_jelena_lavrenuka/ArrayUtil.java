@@ -37,7 +37,7 @@ class ArrayUtil {
 
     public void printArrayToConsole(int[] myArray) {
         for (int i = 0; i < myArray.length; i++) {
-                System.out.println(myArray[i]);
+            System.out.println(myArray[i]);
         }
     }
 
@@ -47,7 +47,8 @@ class ArrayUtil {
             if (myArray[i] > max) {
                 max = myArray[i];
             }
-        }return max;
+        }
+        return max;
     }
 
     public int findMinNumber(int[] myArray) {
@@ -56,58 +57,64 @@ class ArrayUtil {
             if (myArray[i] < min) {
                 min = myArray[i];
             }
-        }return min;
+        }
+        return min;
     }
 
-    public boolean findNumberInArray (int[] myArray, int number){
+    public boolean findNumberInArray(int[] myArray, int number) {
         for (int i = 0; i < myArray.length; i++) {
-            if (myArray[i] == number){
+            if (myArray[i] == number) {
                 return true;
             }
         }
         return false;
     }
 
-    public int howManyEqualNumbersInArray(int [] myArray, int number){
+    public int howManyEqualNumbersInArray(int[] myArray, int number) {
         int counter = 0;
         for (int i = 0; i < myArray.length; i++) {
-            if (myArray[i] == number){
-                counter ++;
+            if (myArray[i] == number) {
+                counter++;
             }
-        } return counter;
+        }
+        return counter;
     }
 
-    public void replace(int[] myArray, int numberToReplace, int newNumber){
+    public void replace(int[] myArray, int numberToReplace, int newNumber) {
         for (int i = 0; i < myArray.length; i++) {
-            if(myArray[i] == numberToReplace){
+            if (myArray[i] == numberToReplace) {
                 myArray[i] = newNumber;
                 break;
             }
         }
     }
 
-    public void replaceAll(int[] myArray, int numberToReplace, int newNumber){
+    public void replaceAll(int[] myArray, int numberToReplace, int newNumber) {
         for (int i = 0; i < myArray.length; i++) {
-            if(myArray[i] == numberToReplace){
+            if (myArray[i] == numberToReplace) {
                 myArray[i] = newNumber;
             }
         }
     }
 
-    public void reverse (int[] myArray){
+    public void reverse(int[] myArray) {
         int temporary;
-        for (int i = 0; i < myArray.length/2; i++) {
+        for (int i = 0; i < myArray.length / 2; i++) {
             temporary = myArray[myArray.length - 1 - i];
             myArray[myArray.length - 1 - i] = myArray[i];
             myArray[i] = temporary;
         }
     }
 
-    public void sortArray (int [] myArray) {
-        for (int i = 0; i < myArray.length; i++) {
+    public void sortArray(int[] myArray) {
+        for (int i = myArray.length - 1; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                if (myArray[j] > myArray[j + 1]) {
+                    int temporary = myArray[j];
+                    myArray[j] = myArray[j + 1];
+                    myArray[j + 1] = temporary;
+                }
+            }
         }
-        Arrays.sort(myArray);
     }
 }
-
-

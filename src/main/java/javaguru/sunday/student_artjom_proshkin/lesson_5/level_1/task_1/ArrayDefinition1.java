@@ -3,7 +3,7 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_1.task_
 class ArrayDefinition1 {
 
     public static void main(String[] args) {
-        int [] numbers = new int[30];
+        int[] numbers = new int[30];
     }
 
 }
