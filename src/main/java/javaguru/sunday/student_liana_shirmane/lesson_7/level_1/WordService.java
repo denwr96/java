@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_7;
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_7.level_1;
 
 import java.util.Arrays;
 
