@@ -6,12 +6,8 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 //task20
 //task21
 //task22
+
 @CodeReview(approved = true)
-//task23
-//task24
-
-import java.util.Arrays;
-
 public class TicTacToeTest {
     public static void main(String[] args) {
         TicTacToeTest test = new TicTacToeTest();
@@ -20,7 +16,6 @@ public class TicTacToeTest {
         test.winFirstPlayerDiagonals();
         test.winFirstPlayerPosition();
         test.isDraw();
-        test.shouldCreateField();
     }
 
     void winFirstPlayerFirstHorizontalLine() {
@@ -56,14 +51,6 @@ public class TicTacToeTest {
         TicTacToe test = new TicTacToe();
         boolean actualResult = test.isDrawPosition(array);
         check(actualResult, "Nobody win");
-    }
-
-    void shouldCreateField() {
-        TicTacToe test = new TicTacToe();
-        int[][] result = test.createField();
-        int[][] expectedArray = {{-1, -1, -1}, {-1, -1, -1}, {-1, -1, -1}};
-        check(Arrays.deepEquals(expectedArray, result), "create field");
-
     }
 
     public void check(String expectedResult, String actualResult, String testName) {
