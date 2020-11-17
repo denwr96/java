@@ -1,11 +1,14 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_5;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import java.util.Arrays;
 
 //task19
 //task20
 //task21
 //task22
+//task23
+//task24
 
 @CodeReview(approved = true)
 public class TicTacToeTest {
@@ -16,6 +19,7 @@ public class TicTacToeTest {
         test.winFirstPlayerDiagonals();
         test.winFirstPlayerPosition();
         test.isDraw();
+        test.shouldCreateField();
     }
 
     void winFirstPlayerFirstHorizontalLine() {
@@ -51,6 +55,14 @@ public class TicTacToeTest {
         TicTacToe test = new TicTacToe();
         boolean actualResult = test.isDrawPosition(array);
         check(actualResult, "Nobody win");
+    }
+
+    void shouldCreateField() {
+        TicTacToe test = new TicTacToe();
+        int[][] result = test.createField();
+        int[][] expectedArray = {{-1, -1, -1}, {-1, -1, -1}, {-1, -1, -1}};
+        check(Arrays.deepEquals(expectedArray, result), "create field");
+
     }
 
     public void check(String expectedResult, String actualResult, String testName) {
