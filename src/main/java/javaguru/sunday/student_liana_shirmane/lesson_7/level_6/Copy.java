@@ -12,17 +12,15 @@ public class Copy {
            if (in[i] >= numberFrom && in[i] <= numberTo ) {
                j++;
            }
-            System.out.println(j);
         }
-        int[] array = new int[j-1];
+        int[] array = new int[j];
+        j=0;
         for (int i = 0; i < in.length; i++){
-            j=0;
             if  (in[i] >= numberFrom && in[i] <= numberTo ){
                 array[j] = in[i];
                 j++;
             }
         }
-        System.out.println(Arrays.toString(array));
         return array;
     }
 }

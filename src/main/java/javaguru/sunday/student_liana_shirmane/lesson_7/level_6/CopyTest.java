@@ -11,8 +11,8 @@ public class CopyTest {
     public void shouldSelectNumbers () {
         Copy test = new Copy();
         int[] in = {4, 5, 6, 8, 2, 87, 10, 20};
-        int[] actualResult = test.copyInRange(in, 1, 10);
-        int[] expectedResult = {4, 5, 6, 8, 2};
+        int[] actualResult = test.copyInRange(in, 1, 5);
+        int[] expectedResult = {4, 5, 2};
         check(Arrays.equals(expectedResult, actualResult), "Select numbers from array");
     }
 
