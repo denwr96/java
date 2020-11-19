@@ -24,25 +24,24 @@ class ArrayUtilTest {
     }
 
     ArrayUtil arrayUtil = new ArrayUtil();
-    int[] arrayOne = arrayUtil.createArray(5);
 
     public void shouldFindInputNumber() {
+        int[] arrayOne = {1, 2, 3, 4, 5};
         System.out.println(Arrays.toString(arrayOne));
-        System.out.println("Input number = " + arrayUtil.findInputNumber(arrayOne, 5));
-        for (int i = 0; i < arrayOne.length; i++) {
-            checkResults(arrayUtil.findInputNumber(arrayOne, 5) == arrayOne[i], "Input number test, element " + (i + 1));
-        }
-
+        checkResults(arrayUtil.findInputNumber(arrayOne, 5), "Find input number test");
     }
 
     public void checkRepeatCountOfNumberTest() {
+        int[] arrayOne = arrayUtil.createArray(5);
+        arrayOne = arrayUtil.fillArrayWithRandomNumbers(arrayOne);
         System.out.println(Arrays.toString(arrayOne));
-        System.out.println("Input number = " + arrayUtil.findInputNumber(arrayOne, 5));
         System.out.println("Number of repeats of an input number = " + arrayUtil.checkRepeatCountOfNumber(arrayOne, 5));
         checkResults(arrayUtil.checkRepeatCountOfNumber(arrayOne, 5) == arrayUtil.checkRepeatCountOfNumber(arrayOne, 5), "Check for repeats of an input number TEST" );
     }
 
     public void replaceArrayElementTest() {
+        int[] arrayOne = arrayUtil.createArray(5);
+        arrayOne = arrayUtil.fillArrayWithRandomNumbers(arrayOne);
         int[] arrayOriginal = Arrays.copyOf(arrayOne, arrayOne.length);
         System.out.println("\nArray before number replacement (only first apperance): ");
         System.out.println(Arrays.toString(arrayOriginal));
@@ -56,6 +55,8 @@ class ArrayUtilTest {
     }
 
     public void replaceArrayAllSameElementsTest() {
+        int[] arrayOne = arrayUtil.createArray(5);
+        arrayOne = arrayUtil.fillArrayWithRandomNumbers(arrayOne);
         int[] arrayOriginal = Arrays.copyOf(arrayOne, arrayOne.length);
         System.out.println("\nArray before number(s) replacement: ");
         System.out.println(Arrays.toString(arrayOriginal));
@@ -69,6 +70,8 @@ class ArrayUtilTest {
     }
 
     public void invertArrayTest() {
+        int[] arrayOne = arrayUtil.createArray(5);
+        arrayOne = arrayUtil.fillArrayWithRandomNumbers(arrayOne);
         int[] arrayOriginal = Arrays.copyOf(arrayOne, arrayOne.length);
         System.out.println("\nArray before inversion: ");
         System.out.println(Arrays.toString(arrayOriginal));
@@ -82,6 +85,8 @@ class ArrayUtilTest {
     }
 
     public void sortArrayTest() {
+        int[] arrayOne = arrayUtil.createArray(5);
+        arrayOne = arrayUtil.fillArrayWithRandomNumbers(arrayOne);
         System.out.println("\nArray before sort: ");
         System.out.println(Arrays.toString(arrayOne));
         Arrays.sort(arrayOne);
