@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_7.level_6_middle;
+package main.java.javaguru.sunday.student_deniss_lobacs.lesson_7.level_6_middle.task10;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
