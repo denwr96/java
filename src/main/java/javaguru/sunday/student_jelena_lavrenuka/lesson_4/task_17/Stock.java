@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_4.task_17;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Stock {
     private String companyName;
     private int currentPrice;

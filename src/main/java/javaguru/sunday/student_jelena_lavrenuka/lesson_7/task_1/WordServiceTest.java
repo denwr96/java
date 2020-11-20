@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_7.task_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class WordServiceTest {
     public static void main(String[] args) {
         WordServiceTest test = new WordServiceTest();
