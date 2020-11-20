@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_6.level_5;
 
-//Task_25
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_25
+@CodeReview(approved = true)
 class Move {
 
     private int x;

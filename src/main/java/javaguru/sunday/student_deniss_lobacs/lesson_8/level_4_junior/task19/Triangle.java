@@ -1,5 +1,5 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task19;
-
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
 import static java.lang.Math.sqrt;
 
 public class Triangle extends Shape {
@@ -12,12 +12,12 @@ public class Triangle extends Shape {
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         return (sqrt(3)/4) * (side * side);
     }
 
     @Override
-    double calculatePerimeter() {
+    public double calculatePerimeter() {
         return side * 3;
     }
 }

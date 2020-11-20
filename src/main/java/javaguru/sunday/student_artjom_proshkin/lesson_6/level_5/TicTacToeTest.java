@@ -3,8 +3,10 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_6.level_5;
 //Task_19,Task_20,Task_21,Task_22,Task_23,
 //Task_24,Task_26,
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class TicTacToeTest {
 
     public static void main(String[] args) {
