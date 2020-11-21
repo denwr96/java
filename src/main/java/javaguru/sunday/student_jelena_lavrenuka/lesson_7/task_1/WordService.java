@@ -1,9 +1,14 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_7.task_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "попробуйте разбить метод findMostFrequentWord на два метода.")
 class WordService {
-    public String getText(){
+    public String getText() {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Please enter your text");
         String textFromUser = myScanner.nextLine();
@@ -30,10 +35,11 @@ class WordService {
                 wordMaxTimes = text[i];
                 counterGeneral = counter;
             }
-        } if(wordMaxTimes == text[0] && counterGeneral == 1){
+        }
+        if (wordMaxTimes == text[0] && counterGeneral == 1) {
             System.out.println("The text is unique (there are no repeat words in the text)");
         } else {
-        System.out.println("Word " + '"' + wordMaxTimes + '"' + " occurs in the text most times " + '(' + counterGeneral + " times" + ')');
+            System.out.println("Word " + '"' + wordMaxTimes + '"' + " occurs in the text most times " + '(' + counterGeneral + " times" + ')');
         }
         return wordMaxTimes;
     }

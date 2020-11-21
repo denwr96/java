@@ -1,4 +1,5 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task18;
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
 
 import static java.lang.Math.sqrt;
 
@@ -15,13 +16,13 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         double semiPerimeter = (calculatePerimeter()/2);
         return sqrt(semiPerimeter * (semiPerimeter - sideOne) * (semiPerimeter - sideTwo) * (semiPerimeter - sideThree));
     }
 
     @Override
-    double calculatePerimeter() {
+    public double calculatePerimeter() {
         return sideOne + sideTwo + sideThree;
     }
 }

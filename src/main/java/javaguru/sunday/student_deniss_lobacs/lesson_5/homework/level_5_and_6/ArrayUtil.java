@@ -6,7 +6,6 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 import java.util.Arrays;
 import java.util.Random;
 
-@CodeReview(approved = true)
 @CodeReviewComment(comment = "А почему решили сделать static?")
 public class ArrayUtil {
 
@@ -16,6 +15,8 @@ public class ArrayUtil {
     }
 
     public static void fillArrayWithRandomNumbers(int[] array) { // Task33
+
+
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10);

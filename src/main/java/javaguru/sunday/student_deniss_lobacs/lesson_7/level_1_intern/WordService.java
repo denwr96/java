@@ -1,7 +1,18 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_7.level_1_intern;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+import java.nio.MappedByteBuffer;
 import java.util.Arrays;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Все хорошо, но есть проблема" +
+        "PS: если вы не можете придумать как разбить эту задачу на подзадачи,\n" +
+        "пожалуйста попросите помощи! Умение попросить помощи, когда это нужно\n" +
+        "навес золота в ИТ." +
+        "" +
+        "Задачу надо было разбить на методы =) Тут есть три подзадачи, на которые можно разделить код.")
 public class WordService {
 
     public String findMostFrequentWord (String text){
