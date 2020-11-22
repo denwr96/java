@@ -3,8 +3,15 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_6.level_5;
 //Task_19,Task_20,Task_21,Task_22,Task_23
 //Task_24,Task_25,Task_26,Task_27
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошо. Что-то можно было упростить." +
+        "К примеру, некоторые циклы могут быть заменены на расширенный for " +
+        "Метод isDrawPosition может быть упрощен до return БУЛЕВО_ВЫРАЖЕНИЕ")
 class TicTacToe {
 
     boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {

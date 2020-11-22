@@ -11,7 +11,9 @@ class PowerCalculatorTest {
 
     void exponentiationTest() {
         PowerCalculator powerCalculator = new PowerCalculator();
-        checkResults(powerCalculator.exponentiation(5,5) == Math.pow(5, 5), "Exponentiation test");
+        checkResults(powerCalculator.exponentiation(5,-5) == Math.pow(5, -5), "Exponentiation test 1");
+        checkResults(powerCalculator.exponentiation(5,0) == Math.pow(5, 0), "Exponentiation test 2");
+        checkResults(powerCalculator.exponentiation(5,5) == Math.pow(5, 5), "Exponentiation test 3");
     }
 
     public boolean checkResults(boolean condition, String testName) {

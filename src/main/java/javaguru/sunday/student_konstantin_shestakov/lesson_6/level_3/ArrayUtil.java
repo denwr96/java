@@ -18,6 +18,10 @@ class ArrayUtil {
 
     public int[] createArray(int arrayLength) {
         int[] arrayOne = new int[arrayLength];
+        return arrayOne;
+    }
+
+    public int[] fillArrayWithRandomNumbers(int[] arrayOne) {
         Random random = new Random();
         for (int i = 0; i < arrayOne.length; i++) {
             arrayOne[i] = random.nextInt(10);
@@ -25,13 +29,14 @@ class ArrayUtil {
         return arrayOne;
     }
 
-    public int findInputNumber(int[] arrayOne, int inputNumber) {
-//        for (int i : arrayOne) {
-//            if (i == inputNumber) {
-//            } else {
-//            }
-//        }
-        return inputNumber;
+    public boolean findInputNumber(int[] arrayOne, int inputNumber) {
+        for (int i = 0; i < arrayOne.length; i++) {
+            if (arrayOne[i] == inputNumber) {
+                System.out.println("Input number = " + inputNumber + ", array element = " + (i + 1));
+                return true;
+            }
+        }
+        return false;
     }
 
     public int checkRepeatCountOfNumber(int[] arrayOne, int inputNumber) {

@@ -1,6 +1,6 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task17;
-
-class Square extends Shape {
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
+public class Square extends Shape {
 
     private double side;
 
@@ -10,12 +10,12 @@ class Square extends Shape {
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         return side * side;
     }
 
     @Override
-    double calculatePerimeter() {
+    public double calculatePerimeter() {
         return side * 4;
     }
 

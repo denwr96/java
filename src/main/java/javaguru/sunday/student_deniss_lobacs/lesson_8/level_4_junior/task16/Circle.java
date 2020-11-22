@@ -1,6 +1,8 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task16;
 
-class Circle extends Shape {
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
+
+public class Circle extends Shape {
 
     private double radius;
 
@@ -10,12 +12,12 @@ class Circle extends Shape {
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         return 3.14 * (radius * radius);
     }
 
     @Override
-    double calculatePerimeter() {
+    public double calculatePerimeter() {
         return 2 * 3.14 * radius;
     }
 
