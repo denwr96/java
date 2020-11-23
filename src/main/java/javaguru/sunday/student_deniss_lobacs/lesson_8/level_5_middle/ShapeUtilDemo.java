@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_5_middle;
 
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // task27
+@CodeReview(approved = true)
 public class ShapeUtilDemo {
     public static void main(String[] args) {
 

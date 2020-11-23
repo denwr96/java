@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson7.level1.task1;
 
 // Task 1 --> Task 3
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class WordServiceTest {
 
     public static void main(String[] args) {

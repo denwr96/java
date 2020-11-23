@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_1;
 
-// Task 1 - 2
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 1 - 2
+@CodeReview(approved = true)
 class DefaultConstructorDemo {
 
     DefaultConstructorDemo() {

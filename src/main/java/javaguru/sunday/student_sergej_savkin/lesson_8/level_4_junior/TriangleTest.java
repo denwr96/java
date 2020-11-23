@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_8.level_4_junior;
 
-//task_19
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task_19
+@CodeReview(approved = true)
 class TriangleTest {
     public static void main(String[] args) {
         TriangleTest triangleTest = new TriangleTest();

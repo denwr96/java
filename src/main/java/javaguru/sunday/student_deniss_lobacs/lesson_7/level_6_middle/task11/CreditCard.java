@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_7.level_6_middle.task11;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class CreditCard {
 
     private int cardNumber;

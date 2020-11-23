@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
 //Task_19
@@ -8,6 +10,7 @@ import java.util.Arrays;
 //Task_22
 //Task_23
 //Task_24
+@CodeReview(approved = true)
 class TicTacToeTest {
     public static void main(String[] args) {
         TicTacToeTest victim = new TicTacToeTest();

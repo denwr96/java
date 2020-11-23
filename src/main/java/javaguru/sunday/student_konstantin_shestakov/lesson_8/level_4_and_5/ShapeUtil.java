@@ -2,8 +2,13 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_4_
 
 // Task 20 - 27 (level 5)
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "В качестве цикла можно было использовать расширенный for")
 class ShapeUtil {
 
     Random random = new Random();
