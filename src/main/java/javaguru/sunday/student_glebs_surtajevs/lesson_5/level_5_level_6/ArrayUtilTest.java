@@ -1,8 +1,12 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_5;
+package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_5_level_6;
 
 //Task_32
 //Task_33
 //Task_34
+//Task_37
+//Task_39
+
+
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
@@ -13,6 +17,8 @@ class ArrayUtilTest {
         ArrayUtilTest test = new ArrayUtilTest();
         test.shouldCreateArray();
         test.shouldFillArrayWithRandomNumbers();
+        test.shouldFindMaxNumber();
+        test.shouldFindMinNumber();
     }
 
     public void shouldCreateArray() {
@@ -34,5 +40,19 @@ class ArrayUtilTest {
         } else {
             System.out.println("Fail");
         }
+    }
+    public void shouldFindMaxNumber() {
+        int [] array = new int[8];
+        ArrayUtil arrayUtil = new ArrayUtil();
+        arrayUtil.fillArrayWithRandomNumbers(array);
+        arrayUtil.printArrayToConsole(array);
+        arrayUtil.findMaxNumber(array);
+    }
+    public void shouldFindMinNumber() {
+        int [] array = new int[8];
+        ArrayUtil arrayUtil = new ArrayUtil();
+        arrayUtil.fillArrayWithRandomNumbers(array);
+        arrayUtil.printArrayToConsole(array);
+        arrayUtil.findMinNumber(array);
     }
 }
