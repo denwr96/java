@@ -6,7 +6,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Метод не правильно называется.")
 class PowerCalculator {
-    public double PowerCalculator(double number, double degree) {
+    public double powerCalculator(double number, double degree) {
         if (degree == 0) {
             return 1;
         } else if(number == 0){
