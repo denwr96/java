@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_4_and_5;
 
-// Task 28
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 28
+@CodeReview(approved = true)
 class ShapeUtilTest {
 
     public static void main(String[] args) {

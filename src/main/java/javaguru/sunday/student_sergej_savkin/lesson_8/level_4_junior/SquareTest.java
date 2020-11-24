@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_8.level_4_junior;
 
-//task_17
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task_17
+@CodeReview(approved = true)
 class SquareTest {
     public static void main(String[] args) {
         SquareTest squareTest = new SquareTest();

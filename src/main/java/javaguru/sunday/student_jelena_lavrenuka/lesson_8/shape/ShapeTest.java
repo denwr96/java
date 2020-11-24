@@ -1,11 +1,13 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_8.shape;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // lesson_8 task_15
 // lesson_8 task_16
 // lesson_8 task_17
 // lesson_8 task_18
 // lesson_8 task_19
-
+@CodeReview(approved = true)
 public class ShapeTest {
     public static void main(String[] args) {
         ShapeTest test = new ShapeTest();

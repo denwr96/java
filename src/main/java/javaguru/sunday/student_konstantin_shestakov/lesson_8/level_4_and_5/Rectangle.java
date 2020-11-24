@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_4_and_5;
 
-// Task 18 (level4)
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 18 (level4)
+@CodeReview(approved = true)
 public class Rectangle extends Shape {
 
     private double width;

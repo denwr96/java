@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson7.level6.task13;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Copy {
 
     public int[] copyInRange(int[] in, int numberFrom, int numberTo) {

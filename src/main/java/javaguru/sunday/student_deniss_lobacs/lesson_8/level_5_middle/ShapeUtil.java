@@ -5,10 +5,11 @@ import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.t
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task17.Square;
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task18.Rectangle;
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task19.Triangle;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 // task20, task21, task22, task23, task24, task25, task26, task27
-
+@CodeReview(approved = true)
 public class ShapeUtil {
 
     public Circle createRandomCircle() {

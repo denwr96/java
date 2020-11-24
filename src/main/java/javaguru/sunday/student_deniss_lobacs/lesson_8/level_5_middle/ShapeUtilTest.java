@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_5_middle;
 
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
-// task28;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// task28;
+@CodeReview(approved = true)
 public class ShapeUtilTest {
     private ShapeUtil shapeUtil = new ShapeUtil();
 

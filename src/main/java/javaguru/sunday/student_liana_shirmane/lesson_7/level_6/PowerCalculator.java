@@ -1,6 +1,11 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_7.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 //task10
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Ох как сложно =) Хорошо, что есть тесты.")
 public class PowerCalculator {
     public double power(int base, int exponent) {
         double result = 1.00;

@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_8.level_4_junior;
 
-//task_27
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task_27
+@CodeReview(approved = true)
 class ShapeUtilDemo {
 
     public static void main(String[] args) {
