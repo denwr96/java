@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_4_and_5;
 
-// Task 17
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 17
+@CodeReview(approved = true)
 public class Square extends Shape {
 
     private double width;

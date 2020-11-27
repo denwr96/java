@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_8.level_4_junior;
 
-//task_18
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task_18
+@CodeReview(approved = true)
 class Rectangle extends Shape {
 
     private double sideOne;

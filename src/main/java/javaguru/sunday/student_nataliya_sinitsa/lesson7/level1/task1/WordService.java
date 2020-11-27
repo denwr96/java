@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson7.level1.task1;
 
-// Task 1 --> Task 8
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+// Task 1 --> Task 8
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошо, только метод words плохо назван. Он должен называться в соответствии с тем" +
+        "что он делает.")
 class WordService {
 
     public String findMostFrequentWord(String text) {

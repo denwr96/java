@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task19;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class TriangleTest {
     public static void main(String[] args) {
         TriangleTest triangleTest = new TriangleTest();

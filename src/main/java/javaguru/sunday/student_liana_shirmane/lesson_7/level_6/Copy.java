@@ -2,8 +2,13 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_7.level_6;
 //task13
 
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Хорошо, только читать чуть-чуть сложно." +
+        "Можно было дать понятные названия. j = resultArraySize")
 public class Copy {
 
     int[] copyInRange(int[] in, int numberFrom, int numberTo){

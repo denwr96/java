@@ -5,7 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 import java.util.Random;
-
+@CodeReview(approved = true)
 @CodeReviewComment(comment = "А почему решили сделать static?")
 public class ArrayUtil {
 

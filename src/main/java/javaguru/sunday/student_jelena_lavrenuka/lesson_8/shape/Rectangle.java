@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_8.shape;
 
-// lesson_8 task_18
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// lesson_8 task_18
+@CodeReview(approved = true)
 class Rectangle extends Shape{
     private double rectangleLength;
     private double rectangleHeigth;

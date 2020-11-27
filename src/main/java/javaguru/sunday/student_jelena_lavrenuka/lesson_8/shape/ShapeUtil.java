@@ -9,8 +9,12 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_8.shape;
 // lesson_8 task_26
 // lesson_8 task_27
 
-import java.util.Random;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Random;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Отлично. Вы хорошо поняли концепцию. Можно было применить расширенный for")
 class ShapeUtil {
     Random myRandom = new Random();
 

@@ -9,8 +9,10 @@ package main.java.javaguru.sunday.student_sergej_savkin.lesson_8.level_4_junior;
 //task_26
 //task_27
 
-import java.util.Random;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 class ShapeUtil {
 
     Random random = new Random();
