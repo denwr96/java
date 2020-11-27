@@ -7,9 +7,4 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Как именно, ваш конструктор должен инициализировать значение адреса?")
 public class Address {
 
-    public String address;
-
-    Address() {
-        this.address = address;
-    }
 }
