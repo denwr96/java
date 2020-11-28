@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level2.task7;
 
-//вызов конструктора родительского класса через "super"
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//вызов конструктора родительского класса через "super"
+@CodeReview(approved = true)
 class Child extends Father {
 
     String schoolName;

@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_8.level_4_junior;
 
-//Task_19
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_19
+@CodeReview(approved = true)
 class Triangle extends Shape {
 
     private double edgeLength;

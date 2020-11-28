@@ -1,5 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_8.level_4;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_28
+@CodeReview(approved = true)
 class ShapeUtilTest {
     public static void main(String[] args) {
         ShapeUtil shapeUtil = new ShapeUtil();

@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level34task15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Circle extends Shape {
 
     private double radius;

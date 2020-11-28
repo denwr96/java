@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level34task15;
 
-// NB! Только для равносторонних треугольников
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// NB! Только для равносторонних треугольников
+@CodeReview(approved = true)
 class TriangleTest {
 
     public static void main(String[] args) {
