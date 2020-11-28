@@ -10,7 +10,7 @@ public class Triangle extends Shape {
 
     private double side;
 
-    Triangle(String title, double side) {
+    public Triangle(String title, double side) {
         super(title);
         this.side = side;
     }

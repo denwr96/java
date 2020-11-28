@@ -1,0 +1,8 @@
+Приватным можно сделать только внутренний класс
+
+class Rocket {
+
+    private class RocketEngine {
+
+    }
+}
