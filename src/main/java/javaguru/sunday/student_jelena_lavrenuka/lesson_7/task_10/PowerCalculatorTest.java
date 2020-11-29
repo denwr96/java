@@ -6,34 +6,34 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 class PowerCalculatorTest {
     public static void main(String[] args) {
         PowerCalculatorTest test = new PowerCalculatorTest();
-        test.PowerCalculatorTest1();
-        test.PowerCalculatorTest2();
-        test.PowerCalculatorTest3();
-        test.PowerCalculatorTest4();
+        test.powerCalculatorTest1();
+        test.powerCalculatorTest2();
+        test.powerCalculatorTest3();
+        test.powerCalculatorTest4();
 
     }
-    public void PowerCalculatorTest1(){
+    public void powerCalculatorTest1(){
         PowerCalculator victim = new PowerCalculator();
         double actualResult = victim.powerCalculator(2,4);
         double expectedResult = 16;
         testResult(actualResult, expectedResult, "PowerCalculatorTest1");
     }
 
-    public void PowerCalculatorTest2(){
+    public void powerCalculatorTest2(){
         PowerCalculator victim = new PowerCalculator();
         double actualResult = victim.powerCalculator(2,0);
         double expectedResult = 1;
         testResult(actualResult, expectedResult, "PowerCalculatorTest2");
     }
 
-    public void PowerCalculatorTest3(){
+    public void powerCalculatorTest3(){
         PowerCalculator victim = new PowerCalculator();
         double actualResult = victim.powerCalculator(2,-3);
         double expectedResult = 0.125;
         testResult(actualResult, expectedResult, "PowerCalculatorTest3");
     }
 
-    public void PowerCalculatorTest4(){
+    public void powerCalculatorTest4(){
         PowerCalculator victim = new PowerCalculator();
         double actualResult = victim.powerCalculator(0,-3);
         double expectedResult = 0;

@@ -6,6 +6,7 @@ class TwoDimensionalArray {
     public int[][] twoDimensionalArrayCreate (int arrayLengthOne, int arrayLengthTwo){
         int [][] myArray = new int [arrayLengthOne][arrayLengthTwo];
         return myArray;
+
     }
 
     public void fillTwoDimensionalArrayWithRandomNumbers (int[][] myArray){
