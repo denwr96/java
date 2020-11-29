@@ -12,8 +12,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 import java.util.Random;
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Методы createArray, findInputNumber не делают той задачи, которую должны Методы createArray должен просто создать массив. ")
+@CodeReview(approved = true)
 class ArrayUtil {
 
     public int[] createArray(int arrayLength) {

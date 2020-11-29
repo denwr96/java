@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
 //Task_13
+@CodeReview(approved = true)
 class CopyTest {
     public static void main(String[] args) {
         CopyTest copyTest = new CopyTest();

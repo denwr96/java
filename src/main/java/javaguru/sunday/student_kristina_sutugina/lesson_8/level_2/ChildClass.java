@@ -1,5 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_8.level_2;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_7
+@CodeReview(approved = true)
 class ChildClass extends ParentClass{
     String childName;
     public ChildClass(String motherName, String fatherName, String childName) {

@@ -14,6 +14,7 @@ public class CalculatorTest {
         calculatorTest.isEvenTest2();
     }
 
+
     public void sumTest() {
         int firstNumber = 35;
         int secondNumber = 40;

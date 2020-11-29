@@ -13,6 +13,7 @@ public class FizzBuzzTest {
         fizzBuzzTest.test5();
     }
 
+
     public void test1() {
         FizzBuzz victim = new FizzBuzz();
 

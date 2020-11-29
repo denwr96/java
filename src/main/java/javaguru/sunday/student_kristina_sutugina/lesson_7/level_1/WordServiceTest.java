@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_1;
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class WordServiceTest {
 
     public static void main(String[] args) {

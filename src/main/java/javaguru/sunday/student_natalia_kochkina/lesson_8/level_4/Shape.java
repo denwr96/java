@@ -1,15 +1,17 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_4;
 
-//Task_15
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
-abstract class Shape {
+//Task_15
+@CodeReview(approved = true)
+public abstract class Shape {
 
     private String title;
 
-    Shape(String title) {
+    public Shape(String title) {
         this.title = title;
     }
 
-    abstract double calculateArea();
-    abstract double calculatePerimeter();
+    public abstract double calculateArea();
+    public abstract double calculatePerimeter();
 }

@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_1;
-//Task_1
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//Task_1
+@CodeReview(approved = true)
 class WordService {
     public static void main(String...strings) {
         String text = "Paris Paris that my in the the spring.Not that is related.Why are you laughing? Are   my my regular expressions THAT bad??";

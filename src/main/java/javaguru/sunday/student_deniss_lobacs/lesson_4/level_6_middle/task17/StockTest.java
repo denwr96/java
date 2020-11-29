@@ -17,6 +17,7 @@ public class  StockTest {
         System.out.println("Изменение цены акции: " + stepOne + " = Максимальная цена за указанный переуд: " + priceMax);
     }
 
+
     public void secondTest() {
         int stepOne = stock.getCurrentPrice();
         stock.updatePrice(1);

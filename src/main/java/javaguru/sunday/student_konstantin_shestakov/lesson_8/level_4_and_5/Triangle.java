@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_4_and_5;
 
-// Task 19
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 19
+@CodeReview(approved = true)
 public class Triangle extends Shape {
 
     private double side; // треугольник равносторонний

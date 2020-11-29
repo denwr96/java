@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_8.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 //Task_20
 //Task_21
@@ -9,7 +11,7 @@ import java.util.Random;
 //Task_25
 //Task_26
 //Task_27
-
+@CodeReview(approved = true)
 class ShapeUtil {
 
     Circle createRandomCircle() {

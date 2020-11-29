@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_6;
-//Task_11
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//Task_11
+@CodeReview(approved = true)
 class CreditCardTest {
     public static void main(String[] args) {
         CreditCardTest creditCardTest = new CreditCardTest();

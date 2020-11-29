@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_7.task_13;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно было использовать расширенный for")
 public class Copy {
     int[] copyInRange(int[] in, int numberFrom, int numberTo) {
         int j = 0;

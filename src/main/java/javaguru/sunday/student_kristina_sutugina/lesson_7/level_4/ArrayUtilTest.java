@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно было бы хотябы по тесту на метод сделать...")
 class ArrayUtilTest {
     public static void main(String[] args) {
         ArrayUtilTest arrayUtilTest = new ArrayUtilTest();

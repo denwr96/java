@@ -1,5 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_7.level_6;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task10
+@CodeReview(approved = true)
 public class PowerCalculatorTest {
     public static void main(String[] args) {
         PowerCalculatorTest test = new PowerCalculatorTest();

@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_6.task_10;
 
-// Task 10
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 10
+@CodeReview(approved = true)
 class PowerCalculatorTest {
 
     public static void main(String[] args) {

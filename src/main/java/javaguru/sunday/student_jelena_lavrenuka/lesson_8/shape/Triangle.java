@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_8.shape;
 
-// lesson_8 task_19
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// lesson_8 task_19
+@CodeReview(approved = true)
 class Triangle extends Shape{
     private double sideLength;
 

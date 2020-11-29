@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_5_and_6;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Тестовый метод shouldFillArrayWithRandomNumbers ничего не тестирует." +
+        "Внимательно посмотрите, как вы делаете проверку. Это не expression, а присвоение в вашем случае.")
 public class ArrayUtilTest {
 
     public static void main(String[] args) {

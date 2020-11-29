@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_7.level_6;
-//task12
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task12
+@CodeReview(approved = true)
 public class Palindrome {
 
     boolean isPalindrome(String text) {
