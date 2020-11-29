@@ -18,13 +18,13 @@ public class RandomArray {
         System.out.println("Enter lenght of your array");
 
         Scanner enterArrayLength = new Scanner(System.in);
-        int arrayLength = enterArrayLength.nextInt();
+        int i = enterArrayLength.nextInt();
 
-        int [] myArray = new int [arrayLength];
+        int [] myArray = new int [i];
 
-        for (arrayLength =0 ; arrayLength < myArray.length ; arrayLength++){
+        for (i =0 ; i < myArray.length ; i++){
             Random random = new Random();
-            myArray[arrayLength] = random.nextInt(200);
+            myArray[i] = random.nextInt(200);
         }
         System.out.println(Arrays.toString(myArray));
     }
