@@ -14,6 +14,7 @@ public class LeapYearTest {
         quickMathTest.test6();
     }
 
+
     public void test1() {
         int numberOne = 2;
         boolean expectedResult = false;

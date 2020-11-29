@@ -14,7 +14,7 @@ public class Task11 {
 
         // First part
 
-        int numberOne = 74 , numberTwo=36;
+        int numberOne = 74, numberTwo = 36;
         int result = numberOne + numberTwo;
 
         System.out.println("Test Data: 74+36");
@@ -25,12 +25,13 @@ public class Task11 {
 
         // Second part
 
-        int d=50,e=3;
-        int f=d/e;
+        numberOne = 50;
+        numberTwo = 3;
+        result = numberOne / numberTwo;
 
         System.out.println("Test Data: 50/3");
         System.out.print("Expected Output: ");
-        System.out.print(f);
+        System.out.print(result);
 
     }
 }
