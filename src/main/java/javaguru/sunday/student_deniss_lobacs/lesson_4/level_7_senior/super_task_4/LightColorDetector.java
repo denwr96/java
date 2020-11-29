@@ -18,6 +18,7 @@ public class LightColorDetector {
 		} else {
 			return "Invisible Light";
 		}
+
 	}
 
 }
