@@ -19,6 +19,7 @@ public class Stock {
         return info;
     }
 
+
     public void updatePrice(int currentPrice) {
         if (currentPrice > this.maxPrice) {
             this.maxPrice = currentPrice;

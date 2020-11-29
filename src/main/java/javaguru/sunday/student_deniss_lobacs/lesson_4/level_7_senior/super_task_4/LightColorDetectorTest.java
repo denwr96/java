@@ -19,6 +19,7 @@ public class LightColorDetectorTest {
         String result = lightColorDetector.detect(wavelength);
         check(result.equals("Violet") , "Test1");
     }
+
     public void testBlue(int wavelength) {
 
         String result = lightColorDetector.detect(wavelength);

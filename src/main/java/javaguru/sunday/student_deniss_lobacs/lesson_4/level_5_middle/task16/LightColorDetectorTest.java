@@ -16,6 +16,7 @@ public class LightColorDetectorTest {
         lightColorDetectorTest.test8();
     }
 
+
     public void test1() {
         int wavelength = 381;
         String expectedResult = "Violet";
