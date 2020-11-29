@@ -1,5 +1,9 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_6;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_12
+@CodeReview(approved = true)
 class PalindromeTest {
     public static void main(String[] args) {
         PalindromeTest palindromeTest = new PalindromeTest();

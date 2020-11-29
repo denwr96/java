@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ArrayUtilDemo {
     public static void main(String[] args) {
         ArrayUtil arrayUtil = new ArrayUtil();

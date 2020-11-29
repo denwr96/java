@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level1.task2;
 
-// для демонстрация работы кода без созданного вручную дефолтного конструктора CatDefault() {} в классе CatDefaultDemo
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// для демонстрация работы кода без созданного вручную дефолтного конструктора CatDefault() {} в классе CatDefaultDemo
+@CodeReview(approved = true)
 class CatDefault {
 
     String catName;

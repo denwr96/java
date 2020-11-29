@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_7.task_10;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class PowerCalculator {
         public double power (int number, int degree){
             double result = 1.00;

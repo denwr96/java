@@ -1,8 +1,13 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
 //level 5 task 13, 14, 15. Переделка кода, за который стоит false
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Там где был false, должен быть мой комментарий =)")
 class ArrayUtil {
 
     public int[] createArray() {

@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
 //Task_12
+@CodeReview(approved = true)
 class Palindrome {
     boolean isPalindrome(String text) {
         char[] array = text.toCharArray();

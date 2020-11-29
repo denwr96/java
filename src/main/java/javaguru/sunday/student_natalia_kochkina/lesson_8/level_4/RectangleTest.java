@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_4;
 
-//Task_18
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_18
+@CodeReview(approved = true)
 public class RectangleTest {
 
     public static void main(String[] args) {

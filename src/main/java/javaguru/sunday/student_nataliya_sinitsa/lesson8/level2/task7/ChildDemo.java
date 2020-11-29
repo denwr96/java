@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level2.task7;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Переменные названы с большой буквы. Такого быть не должно =)")
 class ChildDemo {
 
     public static void main(String[] args) {

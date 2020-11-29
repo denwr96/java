@@ -1,5 +1,11 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_6;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 //Task_11
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Какой-то очень сложный алгоритм...может если будет время, упростить его?")
 class CreditCard {
 
     private int cardNumber;

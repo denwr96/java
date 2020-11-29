@@ -2,8 +2,11 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_8.level_4_junio
 
 //Task_20, Task_21, Task_22, Task_23, Task_24, Task_25, Task_26
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class ShapeUtil {
 
     Random random = new Random();

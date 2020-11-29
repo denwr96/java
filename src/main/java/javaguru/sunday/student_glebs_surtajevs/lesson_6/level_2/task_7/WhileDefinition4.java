@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_6.level_2.task_7;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class WhileDefinition4 {
 
     public static void main(String[] args) {
