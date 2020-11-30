@@ -27,23 +27,19 @@ class CreditCard {
 
     public void withdraw(int pinCode, int sumOfMoney) {
         if (PinCodeApproval(pinCode)) {
-            if (balance == 0 && sumOfMoney > creditLimit) {
-                System.out.println("Refusal");
-            } else if (debtOnCredit == creditLimit) {
-                System.out.println("Refusal");
-            } else if (sumOfMoney > balance + creditLimit) {
-                System.out.println("Refusal");
-            } else if (sumOfMoney < balance) {
+            if (sumOfMoney < balance) {
                 balance = balance - sumOfMoney;
             } else if (sumOfMoney > balance && creditLimit > 0) {
                 debtOnCredit = sumOfMoney - balance;
                 creditLimit = creditLimit - debtOnCredit;
                 balance = 0;
+            } else {
+                System.out.println("Refusal");
             }
         } else {
-            System.out.println("Refusal");
-        }
+        System.out.println("Refusal");
     }
+}
 
     public void deposit(int pinCode, int sumOfMoney) {
         if (PinCodeApproval(pinCode)) {
