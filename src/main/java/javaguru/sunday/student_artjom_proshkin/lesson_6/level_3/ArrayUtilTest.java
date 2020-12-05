@@ -24,7 +24,6 @@ class ArrayUtilTest {
 
     }
 
-
     void hasNumberPassTest(int number) {
         ArrayUtil victim = new ArrayUtil();
         int[] myArray = {11, -9, 15};

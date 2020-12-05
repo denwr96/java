@@ -9,11 +9,10 @@ class ExitInfiniteWhileLoop {
         while (true) {
             System.out.println("Guess number ( 0 to 5 ) to exit:");
             int input = scanner.nextInt();
-            if (input == 0){
+            if (input == 0) {
                 System.out.println("Good Bye");
                 break;
             }
-
         }
     }
 }
