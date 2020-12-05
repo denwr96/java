@@ -11,9 +11,6 @@ class ArrayOfThreeRandomNumbers {
         for (int i = 0; i < arrayThree.length; i++) {
             arrayThree[i] = random.nextInt(15);
         }
-//        arrayThree[0] = random.nextInt(30);
-//        arrayThree[1] = random.nextInt(30);
-//        arrayThree[2] = random.nextInt(30);
         for (int i = 0; i < arrayThree.length; i++) {
             System.out.println("i = " + i + "; Number = " + arrayThree[i]);
         }

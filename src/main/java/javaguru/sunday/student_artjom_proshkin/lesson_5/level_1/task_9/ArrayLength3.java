@@ -6,5 +6,4 @@ class ArrayLength3 {
         int[] numbers = new int[2];
         System.out.println(numbers.length);
     }
-
 }

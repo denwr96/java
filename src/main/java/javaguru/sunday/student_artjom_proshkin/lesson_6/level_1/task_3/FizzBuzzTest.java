@@ -1,6 +1,7 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_6.level_1.task_3;
 
 class FizzBuzzTest {
+
     public static void main(String[] args) {
         FizzBuzzTest victim = new FizzBuzzTest();
         victim.fizzBuzzTest();
@@ -41,5 +42,4 @@ class FizzBuzzTest {
             System.out.println(testName + " FAILED!");
         }
     }
-
 }

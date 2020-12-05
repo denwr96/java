@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_6_middle.task_12;
 
+
 class Palindrome {
 
     boolean isPalindrome(String text) {

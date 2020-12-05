@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_6_middle.task_10;
 
+
 class PowerCalculator {
 
     double calculatePowerNumber(double base, double power) {
