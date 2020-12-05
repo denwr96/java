@@ -8,8 +8,8 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Нннет, закомментировать проблемную строку, это не исправить ошибку =D")
 public class SuperClassConstructorInvoker {
     public SuperClassConstructorInvoker() {
+        super();
         System.out.println(1);
-//        super();
         System.out.println(2);
     }
 }

@@ -16,7 +16,6 @@ class FraudRule1 extends FraudRule {
         Trader trader = transaction.getTrader();
 
         if (trader.getFullName() == "Pokemon") {
-//            System.out.println("Sorry, your transaction is blocked (code 1)");
             return true;
         } else {
             return false;

@@ -9,7 +9,6 @@ class Copy {
         int[] outRange = createOutRange(in, numberFrom, numberTo);
         fillOutRange(in, numberFrom, numberTo, outRange);
         return outRange;
-
     }
 
     int calculateOutRangeLength(int[] in, int numberFrom, int numberTo) {
@@ -36,5 +35,4 @@ class Copy {
             }
         }
     }
-
 }

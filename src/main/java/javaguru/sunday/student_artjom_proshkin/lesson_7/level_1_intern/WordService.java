@@ -14,7 +14,6 @@ class WordService {
         return wordArray[maxRepeatWordPosition];
     }
 
-
     String[] splitTextToWords(String text) {
         return text.split("[.,!? /+:=;0\n123456\\s7\"8|9*#$%^&()_<>-]");
 
@@ -45,7 +44,4 @@ class WordService {
         }
         return maxRepeatWordPosition;
     }
-
-
 }
-

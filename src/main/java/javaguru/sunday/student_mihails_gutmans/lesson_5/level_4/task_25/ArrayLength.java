@@ -17,14 +17,14 @@ public class ArrayLength {
         System.out.println("Enter lenght of your array");
 
         Scanner enterArrayLength = new Scanner(System.in);
-        int arrayLength = enterArrayLength.nextInt();
+        int i = enterArrayLength.nextInt();
 
-        int [] myArray = new int [arrayLength];
+        int [] myArray = new int [i];
 
-        for (arrayLength =0 ; arrayLength < myArray.length ; arrayLength++){
+        for (i=0 ; i < myArray.length ; i++){
             Scanner enterNumber = new Scanner(System.in);
             int yourNumber = enterNumber.nextInt();
-            myArray [arrayLength] = yourNumber;
+            myArray [i] = yourNumber;
         }
         System.out.println(Arrays.toString(myArray));
     }

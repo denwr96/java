@@ -3,6 +3,7 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_6_middl
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
+
 class CreditCard {
 
     private String cardNumber;

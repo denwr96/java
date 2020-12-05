@@ -16,7 +16,6 @@ class FraudRule5 extends FraudRule {
         Trader trader = transaction.getTrader();
 
         if (trader.getCountry() == "Germany" && transaction.getAmount() > 1000) {
-//            System.out.println("Sorry, your transaction is blocked (code 5)");
             return true;
         } else {
             return false;

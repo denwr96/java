@@ -30,5 +30,4 @@ class PalindromeTest {
             System.out.println(testName + " FAILED !");
         }
     }
-
 }

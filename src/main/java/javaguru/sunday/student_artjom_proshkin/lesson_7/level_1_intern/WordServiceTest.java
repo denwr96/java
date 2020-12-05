@@ -23,7 +23,6 @@ class WordServiceTest {
         String[] expected = {"I", "am", "Groot"};
         String[] actual = victim.splitTextToWords(text);
         checkResult(expected, actual, "splitTextToWordsTest");
-
     }
 
     void countWordFrequencyTest() {
@@ -39,7 +38,6 @@ class WordServiceTest {
         int expected = 1;   // "am"
         int actual = victim.findMaxRepeatWordPosition(wordCountArray);
         checkResult(expected, actual, "findMaxRepeatWordPositionTest");
-
     }
 
     void findMostFrequentWordTest() {

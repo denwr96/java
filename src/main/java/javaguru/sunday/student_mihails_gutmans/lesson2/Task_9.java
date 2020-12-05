@@ -14,8 +14,9 @@ public class Task_9 {
         int myNumber = theNumber.nextInt();
         int x = 1;
 
-        while (x < 11) {System.out.println( + myNumber + " * " + x + " = " + (myNumber*x) );
-        x = x+1;
+        while (x < 11) {
+            System.out.println( + myNumber + " * " + x + " = " + (myNumber*x) );
+            x = x+1;
         }
     }
 }

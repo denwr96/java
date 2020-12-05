@@ -13,7 +13,6 @@ class FraudRule4 extends FraudRule {
         Trader trader = transaction.getTrader();
 
         if (trader.getCountry() == "Jamaica") {
-//            System.out.println("Sorry, your transaction is blocked (code 4)");
             return true;
         } else {
             return false;
