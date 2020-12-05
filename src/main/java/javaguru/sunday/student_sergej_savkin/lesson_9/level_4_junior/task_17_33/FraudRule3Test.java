@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_9.level_4_junior.task_17_33;
 
-//task26
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task26
+@CodeReview(approved = true)
 public class FraudRule3Test {
     public static void main(String[] args) {
         FraudRule3Test fraudRule3Test = new FraudRule3Test();

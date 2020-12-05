@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_6_middle.task_11;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class CreditCardTest {
     public static void main(String[] args) {
         CreditCardTest test = new CreditCardTest();

@@ -1,7 +1,13 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_4;
 
-// Task 17 - 21
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+// Task 17 - 21
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Сравнивать строки необходимо через метод .equals." +
+        "Этот класс должен пропустить транзакцию через все проверки, но сделать это надо внутри. Подали транзакцию, " +
+        "она прошла через все проверки внутри FraudDetector и тот вернул вам результат проверки. ")
 class FraudDetector {
 
     boolean isFraud(Transaction transaction) {

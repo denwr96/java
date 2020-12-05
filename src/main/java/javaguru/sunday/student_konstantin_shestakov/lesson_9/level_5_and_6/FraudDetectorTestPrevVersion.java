@@ -1,7 +1,7 @@
 //package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_5.v2;
 //
 //// Task 29 (level 5)
-//
+//Зачем этот код?
 //class FraudDetectorTestPrevVersion {
 //
 //    public static void main(String[] args) {

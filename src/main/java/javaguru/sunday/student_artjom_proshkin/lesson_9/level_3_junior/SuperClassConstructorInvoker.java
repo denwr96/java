@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_9.level_3_junior;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class SuperClassConstructorInvoker {
 
     public SuperClassConstructorInvoker() {

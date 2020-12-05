@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_9.level_3;
 
-//Task_16
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_16
+@CodeReview(approved = true)
 public class SuperClassConstructorInvoker {
     public SuperClassConstructorInvoker() {
         super();

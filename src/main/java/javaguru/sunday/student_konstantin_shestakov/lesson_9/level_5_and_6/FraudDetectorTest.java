@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_5_and_6;
 
-// Task 33 (level 6)
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+// Task 33 (level 6)
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Зачем checkResults возвращает значение?")
 class FraudDetectorTest {
 
     public static void main(String[] args) {

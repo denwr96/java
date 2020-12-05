@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_2.task_12;
 
-// Task 12
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 12
+@CodeReview(approved = true)
 class A {
     public A() {
         System.out.println("Class A Constructor");

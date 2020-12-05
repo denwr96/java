@@ -1,9 +1,14 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Objects;
 
 //Task_20
 //Task_27
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Посмотрите, как теперь выглядит метод isFraud.")
 class FraudRule4 extends FraudRule {
 
     public FraudRule4(String ruleName) {
@@ -21,11 +26,7 @@ class FraudRule4 extends FraudRule {
     }
 
     public boolean isFraud(Transaction t) {
-        if (Objects.equals(isJamaica(t.getTrader().getCity()), true)) {
-            return true;
-        }
-
-        return false;
+        return isJamaica(t.getTrader().getCity());
     }
 
 }

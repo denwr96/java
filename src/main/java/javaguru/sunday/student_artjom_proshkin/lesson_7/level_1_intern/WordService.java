@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_1_intern;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно было regex взять по проще =) Только буквы выбрать")
 class WordService {
 
     String findMostFrequentWord(String text) {

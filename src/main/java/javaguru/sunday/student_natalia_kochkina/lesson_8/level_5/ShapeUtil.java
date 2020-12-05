@@ -3,9 +3,11 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_5;
 //Task_20, 21, 22, 23, 24, 25, 26, 27
 
 import main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_4.*;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ShapeUtil {
 
     public Circle createRandomCircle() {
