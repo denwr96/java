@@ -3,6 +3,9 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_1;
 
 public interface JavaStarLoginService {
 
-    public boolean canLogin(String login, String password);
+    boolean canLogin(String login, String password);
 
+    private boolean notNull(String text) {
+        return text != null;
+    }
 }
