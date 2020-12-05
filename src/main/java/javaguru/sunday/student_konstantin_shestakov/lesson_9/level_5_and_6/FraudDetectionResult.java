@@ -7,11 +7,6 @@ class FraudDetectionResult {
     private boolean fraud;
     private String ruleName;
 
-//    FraudDetectionResult(boolean fraud, String ruleName) {
-//        this.fraud = fraud;
-//        this.ruleName = ruleName;
-//    }
-
     FraudDetectionResult() {
         this.fraud = fraud;
         this.ruleName = ruleName;

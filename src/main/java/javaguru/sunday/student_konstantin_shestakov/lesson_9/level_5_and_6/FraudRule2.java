@@ -10,7 +10,6 @@ class FraudRule2 extends FraudRule {
 
     public boolean isFraud(Transaction transaction) {
         if (transaction.getAmount() > 1000000) {
-//            System.out.println("Sorry, your transaction is blocked (code 2)");
             return true;
         } else {
             return false;

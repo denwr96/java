@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_6.task_12;
 
+
 class PalindromeTest {
 
     public static void main(String[] args) {

@@ -7,10 +7,6 @@ class FraudDetector {
 
     FraudRule[] fraudRule;
 
-//    FraudDetector(FraudRule[] fraudRule) {
-//        this.fraudRule = fraudRule;
-//    }
-
     FraudDetector() {
         this.fraudRule = fraudRule;
     }
