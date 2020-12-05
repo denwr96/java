@@ -3,6 +3,7 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_
 import java.util.Random;
 
 class ArrayPlusTwo {
+
     public static void main(String[] args) {
         int[] arrayPlusTwo = new int[3];
         Random random = new Random();
@@ -16,7 +17,5 @@ class ArrayPlusTwo {
             arrayPlusTwo[i] = arrayPlusTwo[i] + 2;
             System.out.println("i + 2 = " + i + "; " + arrayPlusTwo[i]);
         }
-
     }
-
 }

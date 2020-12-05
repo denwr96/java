@@ -9,7 +9,6 @@ class ExitInfiniteForLoop {
                 System.out.println("Bye");
                 break;
             }
-
         }
     }
 }

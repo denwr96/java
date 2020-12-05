@@ -1,6 +1,7 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_6_middle.task_11;
 
 class CreditCardTest {
+
     public static void main(String[] args) {
         CreditCardTest test = new CreditCardTest();
         test.checkPinCodePassTest();
