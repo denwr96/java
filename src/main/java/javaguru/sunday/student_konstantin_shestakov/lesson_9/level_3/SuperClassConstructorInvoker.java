@@ -4,8 +4,8 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_3;
 
 public class SuperClassConstructorInvoker {
     public SuperClassConstructorInvoker() {
+        super();
         System.out.println(1);
-//        super();
         System.out.println(2);
     }
 }

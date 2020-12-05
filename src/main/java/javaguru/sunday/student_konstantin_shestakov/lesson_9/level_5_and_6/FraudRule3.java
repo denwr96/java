@@ -12,7 +12,6 @@ class FraudRule3 extends FraudRule {
         Trader trader = transaction.getTrader();
 
         if (trader.getCity() == "Sydney") {
-//            System.out.println("Sorry, your transaction is blocked (code 3)");
             return true;
         } else {
             return false;
