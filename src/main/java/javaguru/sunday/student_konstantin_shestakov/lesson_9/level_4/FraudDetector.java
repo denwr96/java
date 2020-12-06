@@ -13,49 +13,22 @@ class FraudDetector {
     boolean isFraud(Transaction transaction) {
         Trader trader = transaction.getTrader();
 
-        if (trader.getFullName() == "Pokemon") {
+        if (trader.getFullName().equals("Pokemon")) {
+            return true;
+        }
+        else if (transaction.getAmount() > 1000000) {
+            return true;
+        }
+        else if (trader.getCity().equals("Sydney")) {
+            return true;
+        }
+        else if (trader.getCountry().equals("Jamaica")) {
+            return true;
+        }
+        else if (trader.getCountry().equals("Germany") && transaction.getAmount() > 1000) {
             return true;
         } else {
             return false;
         }
     }
-
-    boolean isFraudIfMoreThanMillion(Transaction transaction) {
-        if (transaction.getAmount() > 1000000) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    boolean isFraudIfFromSydneyCity(Transaction transaction) {
-        Trader trader = transaction.getTrader();
-
-        if (trader.getCity() == "Sydney") {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    boolean isFraudIfFromJamaicaCountry(Transaction transaction) {
-        Trader trader = transaction.getTrader();
-
-        if (trader.getCountry() == "Jamaica") {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
-    boolean isFraudIfFromGermanyCountryAndMoreThanThousand(Transaction transaction) {
-        Trader trader = transaction.getTrader();
-
-        if (trader.getCountry() == "Germany" && transaction.getAmount() > 1000) {
-            return true;
-        } else {
-            return false;
-        }
-    }
-
 }

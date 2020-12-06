@@ -12,12 +12,6 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
         "")
 class FraudDetector {
 
-    FraudRule[] fraudRule;
-
-    FraudDetector() {
-        this.fraudRule = fraudRule;
-    }
-
     FraudRule[] fraudRuleArray() {
         FraudRule[] fraudRule = new FraudRule[5];
         fraudRule[0] = new FraudRule1("Rule 1, 'Pokemon'");
@@ -43,5 +37,4 @@ class FraudDetector {
         }
         return fraudDetectionResult;
     }
-
 }

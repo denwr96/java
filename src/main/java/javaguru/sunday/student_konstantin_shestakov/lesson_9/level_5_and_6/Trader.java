@@ -8,12 +8,9 @@ class Trader {
     private String city;
     private String country;
 
-    Trader(String fullName, String city) {
+    Trader(String fullName, String city, String country) {
         this.fullName = fullName;
         this.city = city;
-    }
-
-    Trader(String country) {
         this.country = country;
     }
 

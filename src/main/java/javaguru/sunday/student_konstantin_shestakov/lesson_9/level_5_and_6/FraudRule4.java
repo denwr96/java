@@ -12,7 +12,7 @@ class FraudRule4 extends FraudRule {
     public boolean isFraud(Transaction transaction) {
         Trader trader = transaction.getTrader();
 
-        if (trader.getCountry() == "Jamaica") {
+        if (trader.getCountry().equals("Jamaica")) {
             return true;
         } else {
             return false;
