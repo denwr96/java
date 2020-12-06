@@ -13,7 +13,7 @@ class FraudRule3 extends FraudRule {
     public boolean isFraud(Transaction transaction) {
         Trader trader = transaction.getTrader();
 
-        if (trader.getCity() == "Sydney") {
+        if (trader.getCity().equals("Sydney")) {
             return true;
         } else {
             return false;

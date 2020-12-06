@@ -3,6 +3,7 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_5_
 // Task 23 (level 5)
 // Task 31 (level 6)
 
+
 abstract class FraudRule {
 
     private String ruleName;
