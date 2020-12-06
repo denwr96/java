@@ -15,7 +15,7 @@ class FraudRule5 extends FraudRule {
     public boolean isFraud(Transaction transaction) {
         Trader trader = transaction.getTrader();
 
-        if (trader.getCountry() == "Germany" && transaction.getAmount() > 1000) {
+        if (trader.getCountry().equals("Germany") && transaction.getAmount() > 1000) {
             return true;
         } else {
             return false;

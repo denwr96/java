@@ -14,11 +14,6 @@ class FraudDetectionResult {
     private boolean fraud;
     private String ruleName;
 
-    FraudDetectionResult() {
-        this.fraud = fraud;
-        this.ruleName = ruleName;
-    }
-
     public boolean isFraud() {
         return fraud;
     }

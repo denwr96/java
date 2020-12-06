@@ -2,6 +2,7 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_4;
 
 // Task 17
 
+
 class Transaction {
 
     private Trader trader;
