@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_1;
 
-// Task 5
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 5
+@CodeReview(approved = true)
 class SafeV2 {
 
     private int pin = 1234;

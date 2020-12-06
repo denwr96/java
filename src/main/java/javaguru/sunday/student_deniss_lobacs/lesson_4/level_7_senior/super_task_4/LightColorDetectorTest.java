@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_7_senior.super_task_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class LightColorDetectorTest {
 
     private LightColorDetector lightColorDetector = new LightColorDetector();

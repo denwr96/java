@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_4_junior.task14;
 
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_1_intern.task1.QuickMath;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Выполнить рефакторинг. Перенести повторяющуюся логику в отдельный метод и переиспользовать его в каждом тесте.")
 public class CalculatorTest {
 
     public static void main(String[] args) {

@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_1;
 
+
 // Task 2-3
 
 import java.util.Arrays;

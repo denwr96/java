@@ -1,9 +1,13 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level4task15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Random;
 
 // Task 20 - > Task 28
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Если создали глобальную переменную random, то могли не создавать еще один объект в createRandomShape()")
 class ShapeUtil {
 
     Random random = new Random();

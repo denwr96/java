@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_9.level_4_junior.task_17_33;
 
-//task25
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task25
+@CodeReview(approved = true)
 class FraudRule2Test {
 
     public static void main(String[] args) {

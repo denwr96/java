@@ -3,11 +3,7 @@ package main.java.javaguru.sunday.student_deniss_lobacs.lesson1;
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Перменные необходимо называть правильно." +
-        "Необходимо ставить знаки пробела между математическими операциями." +
-        "" +
-        "Вторую часть задания исправить забыли =)")
+@CodeReview(approved = true)
 public class Task11 {
 
     public static void main(String[] args) {

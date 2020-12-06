@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_5_and_6;
 
-// Task 26 (level 5)
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 26 (level 5)
+@CodeReview(approved = true)
 class FraudRule3 extends FraudRule {
 
     public FraudRule3(String ruleName) {
@@ -12,7 +14,6 @@ class FraudRule3 extends FraudRule {
         Trader trader = transaction.getTrader();
 
         if (trader.getCity() == "Sydney") {
-//            System.out.println("Sorry, your transaction is blocked (code 3)");
             return true;
         } else {
             return false;

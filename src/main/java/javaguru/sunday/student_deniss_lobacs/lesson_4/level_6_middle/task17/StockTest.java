@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_6_middle.task17;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class  StockTest {
     private Stock stock = new Stock("Google" , 999);
     public static void main(String[] args) {

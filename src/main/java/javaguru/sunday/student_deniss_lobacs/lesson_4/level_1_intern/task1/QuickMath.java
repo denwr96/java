@@ -64,17 +64,11 @@ public class QuickMath {
     public String Compare(int numberOne , int numberTwo , int numberThree ) {
 
         if (numberOne == numberTwo && numberOne == numberThree) {
-
             return "All numbers are equal";
-
         } else if (numberOne != numberTwo && numberOne != numberThree && numberTwo != numberThree) {
-
             return "All numbers are different";
-
         } else {
-
             return "Neither all are equal or different";
-
         }
 
     }
@@ -82,17 +76,11 @@ public class QuickMath {
     public String compareV2(int numberOne , int numberTwo , int numberThree ) {
 
         if (numberOne > numberTwo && numberOne > numberThree && numberTwo > numberThree) {
-
             return "decreasing";
-
         } else if (numberOne < numberTwo && numberOne < numberThree && numberTwo < numberThree ) {
-
             return "increasing";
-
         } else {
-
             return "Neither increasing or decreasing order";
-
         }
     }
 
