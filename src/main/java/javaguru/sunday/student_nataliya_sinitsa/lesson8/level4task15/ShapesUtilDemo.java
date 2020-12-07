@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level4task15;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ShapesUtilDemo {
 
     public static void main(String[] args) {

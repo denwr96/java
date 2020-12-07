@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_9.level_1_intern.task_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Не совсем понятно, зачем вы что-то возвращаете из методов, если никак не используете эти значения?")
 class StongboxV2 {
 
     private int pincode;

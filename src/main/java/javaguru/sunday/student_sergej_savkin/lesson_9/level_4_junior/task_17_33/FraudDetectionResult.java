@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_9.level_4_junior.task_17_33;
 
-//task30
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task30
+@CodeReview(approved = true)
 class FraudDetectionResult {
 
     private boolean fraud;

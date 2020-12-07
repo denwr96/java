@@ -1,19 +1,19 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_4;
 
-// Task 17
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+// Task 17
+@CodeReview(approved = true)
 class Trader {
 
     private String fullName;
     private String city;
     private String country;
 
-    Trader(String fullName, String city) {
+    Trader(String fullName, String city, String country) {
         this.fullName = fullName;
         this.city = city;
-    }
-
-    Trader(String country) {
         this.country = country;
     }
 

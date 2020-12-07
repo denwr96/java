@@ -3,7 +3,9 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_5;
 //Task_28
 
 import main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_4.Shape;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class ShapeUtilTest {
 
     public static void main(String[] args) {

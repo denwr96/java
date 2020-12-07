@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_9.level_4_junior.task_17_33;
 
-//task33
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//task33
+@CodeReview(approved = true)
 class Transaction {
 
     private Trader trader;

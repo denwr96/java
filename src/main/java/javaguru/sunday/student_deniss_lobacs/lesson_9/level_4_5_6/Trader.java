@@ -1,8 +1,13 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
 // task17, task18, task19, task20, task21, task22, task23, task24, task25, task26, task27, task28 , task29, task30, task31, task32, task33;
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Разбить на раздельные классы. Не нужно тут писать классы второго уровня.")
 class Trader {
 
     private String fullName;
