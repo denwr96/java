@@ -7,9 +7,9 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 class CatDefaultDemo {
 
     public static void main(String[] args) {
-        CatDefault Smoky = new CatDefault();
-        Smoky.giveNameToCat("Smoky");
-        Smoky.giveFoodToCat();
+        CatDefault smoky = new CatDefault();
+        smoky.giveNameToCat("Smoky");
+        smoky.giveFoodToCat();
     }
 
 }

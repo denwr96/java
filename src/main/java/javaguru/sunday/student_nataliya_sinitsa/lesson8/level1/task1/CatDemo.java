@@ -6,7 +6,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 class CatDemo {
 
     public static void main(String[] args) {
-        Cat Smoky = new Cat();
+        Cat smoky = new Cat();
     }
 
 }
