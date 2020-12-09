@@ -9,6 +9,8 @@ class WordServiceTest {
         WordServiceTest wordServiceTest = new WordServiceTest();
         wordServiceTest.convertStringToWordArrayTest();
         wordServiceTest.findMostCommonWordTest();
+        wordServiceTest.wordsRepeatTimesTest();
+        wordServiceTest.findMostFrequentWordTest();
 
     }
 
@@ -21,12 +23,32 @@ class WordServiceTest {
     public void findMostCommonWordTest(){
         WordService test = new WordService();
         String expectedResult = "name";
-        check(expectedResult, test.findMostCommonWord(test.convertStringToWordArray("Hello! My name name is Sergej")), "findMostCommonWordTest");
+        check(expectedResult, test.findMostCommonWord(test.convertStringToWordArray("Hello! My name name is Sergej"), test.findWordsRepeatTimes(test.convertStringToWordArray("Hello! My name name is Sergej"))), "findMostCommonWordTest");
+    }
+
+    public void wordsRepeatTimesTest(){
+        WordService test = new WordService();
+        int[] expectedResult = {2, 2, 1, 1};
+        check(expectedResult, test.findWordsRepeatTimes(test.convertStringToWordArray("hello hello my name")), "wordsRepeatTimesTest");
+    }
+
+    public void findMostFrequentWordTest(){
+        WordService test = new WordService();
+        String expectedResult = "name";
+        check(expectedResult, test.findMostFrequentWord("Hello! My name name is Sergej"), "findMostFrequentWordTest");
     }
 
     public void check(String expectedResult, String actualResult, String testName){
         if (expectedResult.equals(actualResult)) {
             System.out.println(testName + " OK!");
+        } else {
+            System.out.println(testName + " failed!");
+        }
+    }
+
+    public void check(int[] expectedResult, int[] actualResult, String testName) {
+        if(Arrays.equals(expectedResult, actualResult)) {
+            System.out.println(testName + " OK");
         } else {
             System.out.println(testName + " failed!");
         }
