@@ -2,9 +2,10 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
 //task8
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 class InMemoryDatabase implements Database {
-    ArrayList<Product> productList = new ArrayList;
+    ArrayList<Product> productList = new ArrayList();
 
     @Override
     public void save(Product product) {
@@ -13,7 +14,11 @@ class InMemoryDatabase implements Database {
 
     @Override
     public Product findByTitle(String productTitle) {
-        for (productTitle:productList; {
+        for (int i = 0; i < productList.size(); i++) {
+            if (productList.get(i).getTitle() == productTitle) {
+                System.out.println("Product " + productTitle + " is in the list");
+                return productList.get(i);
+            }
 
         }
         return null;
