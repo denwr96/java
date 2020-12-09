@@ -9,13 +9,14 @@ class ChildDemo {
 
     public static void main(String[] args) {
 
-        Father Vyacheslav = new Father("Petrov", "hazel", "brown");
-        Vyacheslav.name = "Vyacheslav";
-        Vyacheslav.occupation = "dentist";
-        Vyacheslav.age = 48;
-        Vyacheslav.getInfoAboutPerson();
+        Father vyacheslav = new Father("Petrov", "hazel", "brown");
+        vyacheslav.name = "Vyacheslav";
+        vyacheslav.occupation = "dentist";
+        vyacheslav.age = 48;
+        vyacheslav.getInfoAboutPerson();
 
-        Child Alexey = new Child("Alexey", "Petrov", "Riga Secondary School No. 60", "hazel", "brown", 10);
-        Alexey.getInfoAboutPerson();
+        Child alexey = new Child("Alexey", "Petrov", "Riga Secondary School No. 60",
+                "hazel", "brown", 10);
+        alexey.getInfoAboutPerson();
     }
 }
