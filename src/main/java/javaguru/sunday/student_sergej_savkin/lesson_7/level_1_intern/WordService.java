@@ -9,14 +9,14 @@ import java.util.Arrays;
 class WordService {
 
     public String findMostFrequentWord(String text) {
-        return findMostCommonWord(convertStringToWordArray(text));
+        return findMostCommonWord(convertStringToWordArray(text), findWordsRepeatTimes(convertStringToWordArray(text)));
     }
 
     public String[] convertStringToWordArray(String text) {
         return text.split("[.,?! ]");
     }
 
-    public String findMostCommonWord(String[] arrayOfWords){
+    public int[] findWordsRepeatTimes(String[] arrayOfWords) {
         int[] wordRepeatTimes = new int[arrayOfWords.length];
         for (int i = 0; i < arrayOfWords.length; i++) {
             for (String arrayOfWord : arrayOfWords) {
@@ -25,6 +25,10 @@ class WordService {
                 }
             }
         }
+        return wordRepeatTimes;
+    }
+
+    public String findMostCommonWord(String[] arrayOfWords, int[] wordRepeatTimes){
         int maxRepeatTime = 0;
         for (int i = 0; i < wordRepeatTimes.length; i++) {
             if (wordRepeatTimes[maxRepeatTime] < wordRepeatTimes[i]) {
