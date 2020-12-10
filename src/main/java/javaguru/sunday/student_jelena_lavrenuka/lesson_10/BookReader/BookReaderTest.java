@@ -109,9 +109,9 @@ class BookReaderTest {
         victim.addBookToLibrary(book2);
         victim.addBookToLibrary(book3);
         victim.addBookToLibrary(book4);
-        ArrayList<Book> testList = victim.findBookByNotFullTitle("Adventures");
+        ArrayList<Book> testList = victim.findBookByNotFullTitle("The");
         System.out.println("");
-        System.out.println("findBookByNotFullTitleNameTest");
+        System.out.println("findBookByNotFullTitleTest");
         for (Book print:testList) {
             System.out.println(print);
         }

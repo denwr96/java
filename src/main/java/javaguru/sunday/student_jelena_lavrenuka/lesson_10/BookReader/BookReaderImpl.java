@@ -78,8 +78,7 @@ class BookReaderImpl implements BookReader {
     public ArrayList<Book> findBookByNotFullTitle(String tryingToFindBook) {
         ArrayList<Book> bookReaderToReturn = new ArrayList<>();
         for (Book findBookByTitle : bookReader) {
-            if (findBookByTitle.getBookTitle().contains(tryingToFindBook)
-                    | findBookByTitle.getBookTitle().equals(tryingToFindBook)) {
+            if (findBookByTitle.getBookTitle().startsWith(tryingToFindBook)) {
                 bookReaderToReturn.add(findBookByTitle);
             }
         }
