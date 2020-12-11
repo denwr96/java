@@ -46,6 +46,7 @@ class TicTacToeTest {
         boolean expectedResult = true;
         boolean actualResult = victim.isWinPositionForHorizontals(field, 1);
         testResult(actualResult, expectedResult, "isWinPositionForHorizontalsTest1");
+
     }
 
     public void isWinPositionForHorizontalsTest2() {

@@ -3,6 +3,7 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_6;
 // lesson_6 task_25
 
 class Move {
+
     private int x;
     private int y;
 

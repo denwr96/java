@@ -5,6 +5,7 @@ class TwoDimensionalArrayTest {
         TwoDimensionalArrayTest test = new TwoDimensionalArrayTest();
         test.fillTwoDimensionalArrayWithRandomNumbersTest();
         test.sumTwoDimensionalArrayTest();
+
     }
 
     public void fillTwoDimensionalArrayWithRandomNumbersTest() {
