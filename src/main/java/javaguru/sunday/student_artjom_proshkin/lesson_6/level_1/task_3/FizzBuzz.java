@@ -12,5 +12,4 @@ class FizzBuzz {
         }
         else return Integer.toString(number);
     }
-
 }

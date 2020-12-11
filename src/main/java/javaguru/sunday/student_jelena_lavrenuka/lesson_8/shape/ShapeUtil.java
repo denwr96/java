@@ -55,8 +55,8 @@ class ShapeUtil {
     double calculateArea(Shape[] shapes){
         double sum;
         double totalSum = 0;
-        for (int i = 0; i < shapes.length; i++) {
-            sum = shapes[i].calculateArea();
+        for (Shape shape : shapes) {
+            sum = shape.calculateArea();
             totalSum = totalSum + sum;
         }
         return totalSum;

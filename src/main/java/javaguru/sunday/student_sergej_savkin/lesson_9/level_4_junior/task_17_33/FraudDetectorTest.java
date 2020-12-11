@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_9.level_4_junior.task_17_33;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task17
 //task18
 //task19
@@ -10,7 +12,7 @@ package main.java.javaguru.sunday.student_sergej_savkin.lesson_9.level_4_junior.
 //task31
 //task32
 //task33
-
+@CodeReview(approved = true)
 class FraudDetectorTest {
 
     public static void main(String[] args) {

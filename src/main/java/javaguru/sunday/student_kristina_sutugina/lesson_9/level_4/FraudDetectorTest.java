@@ -1,7 +1,12 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Objects;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Этот тест ничего не тестирует. У вас не правильная логика в классе FraudDetector, а тест это не может показать.")
 class FraudDetectorTest {
     public static void main(String[] args) {
         FraudDetectorTest fraudDetectorTest = new FraudDetectorTest();

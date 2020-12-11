@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_6.task_17;
 
+
 class StockTest {
 
     public static void main(String[] args) {

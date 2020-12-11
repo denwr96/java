@@ -19,18 +19,15 @@ class Stock {
         this.maxPrice = maxPrice;
     }
 
-    double updatePrice(double currentPrice){
+    void updatePrice(double currentPrice){
         this.currentPrice = currentPrice;
 
         if (currentPrice < minPrice){
             minPrice = currentPrice;
-            return minPrice;
         }
         if (currentPrice > maxPrice){
             maxPrice = currentPrice;
-            return maxPrice;
         }
-        return currentPrice;
     }
 
     public String getPriceInformation(){

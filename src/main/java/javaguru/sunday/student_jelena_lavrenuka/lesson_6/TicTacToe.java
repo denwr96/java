@@ -29,6 +29,7 @@ class TicTacToe {
                 return true;
             }
         }
+
         return false;
     }
 

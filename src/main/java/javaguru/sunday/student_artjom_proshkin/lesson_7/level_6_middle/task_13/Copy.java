@@ -1,12 +1,14 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_6_middle.task_13;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Copy {
 
     int[] copyInRange(int[] in, int numberFrom, int numberTo) {
         int[] outRange = createOutRange(in, numberFrom, numberTo);
         fillOutRange(in, numberFrom, numberTo, outRange);
         return outRange;
-
     }
 
     int calculateOutRangeLength(int[] in, int numberFrom, int numberTo) {
@@ -33,5 +35,4 @@ class Copy {
             }
         }
     }
-
 }

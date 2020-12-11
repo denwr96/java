@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_1_intern;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class WordServiceTest {
 
     public static void main(String[] args) {
@@ -20,7 +23,6 @@ class WordServiceTest {
         String[] expected = {"I", "am", "Groot"};
         String[] actual = victim.splitTextToWords(text);
         checkResult(expected, actual, "splitTextToWordsTest");
-
     }
 
     void countWordFrequencyTest() {
@@ -36,7 +38,6 @@ class WordServiceTest {
         int expected = 1;   // "am"
         int actual = victim.findMaxRepeatWordPosition(wordCountArray);
         checkResult(expected, actual, "findMaxRepeatWordPositionTest");
-
     }
 
     void findMostFrequentWordTest() {

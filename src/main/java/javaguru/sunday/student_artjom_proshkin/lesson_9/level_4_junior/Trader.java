@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_artjom_proshkin.lesson_9.level_4_junior;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Trader {
 
     private String fullName;

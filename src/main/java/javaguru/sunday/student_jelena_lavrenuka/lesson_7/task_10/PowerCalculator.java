@@ -6,10 +6,25 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Метод не правильно называется.")
 class PowerCalculator {
-    public int PowerCalculator (int number, int degree){
-        int result = 1;
-        for (int i = 0; i < degree; i++) {
-            result = result * number;
-        } return result;
+
+    public double powerCalculator(double number, double degree) {
+        if (degree == 0) {
+            return 1;
+        } else if(number == 0){
+            return 0;
+        } else if (degree < 0) {
+            double result = 1;
+            for (double i = 0; i < degree * -1; i++) {
+                result = result * number;
+            }
+            return 1 / result;
+        } else {
+            double result = 1;
+            for (double i = 0; i < degree; i++) {
+                result = result * number;
+            }
+            return result;
+        }
     }
 }
+
