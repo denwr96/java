@@ -15,7 +15,6 @@ class Book {
     private boolean isInList;
 
 
-
     Book(String author, String title) {
         this.author = author;
         this.title = title;

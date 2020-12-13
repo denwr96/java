@@ -23,6 +23,7 @@ class IntegerListDemo {
         for (int integer : integerList) {
             System.out.println(integer);
         }
+
     }
 
 }

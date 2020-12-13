@@ -13,7 +13,7 @@ public class BookListContainsDemo {
         Book newBook1 = new Book("A.S.P.", "R. & L.");
         Book newBook2 = new Book("M. B.", "M. & M.");
 
-        demo.addToList(newBook1);
+        demo.addToList(newBook2);
 
         System.out.println(newBook1.isInList());
         System.out.println(newBook2.isInList());

@@ -3,8 +3,7 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task2
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-// ? Что может хранить java.util.List: примитивные типы данных или ссылки на объекты,
-//или то и другое?
+// ? Что может хранить java.util.List: примитивные типы данных или ссылки на объекты, или то и другое?
 
 // ! и то и другое
 

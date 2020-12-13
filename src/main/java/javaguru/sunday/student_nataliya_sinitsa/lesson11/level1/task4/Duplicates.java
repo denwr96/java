@@ -32,7 +32,6 @@ class Duplicates {
             System.out.println(product);
         }
 
-
     }
 
 }
