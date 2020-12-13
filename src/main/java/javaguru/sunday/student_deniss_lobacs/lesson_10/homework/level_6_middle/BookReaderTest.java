@@ -1,63 +1,67 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_6_middle;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 // task14, task15, task16, task17, task18, task19, task20, task21, task22, task23, task24, task25;
 
 public class BookReaderTest {
-    private BookReaderImpl victim = new BookReaderImpl();
 
     public static void main(String[] args) {
         BookReaderTest bookReaderTest = new BookReaderTest();
-//        bookReaderTest.bookAddTest();
-//        bookReaderTest.bookAddV2Test();
-//        bookReaderTest.deleteBookTest();
-//        bookReaderTest.showBooksTest();
-//        bookReaderTest.searchByAuthorTest();
-//        bookReaderTest.searchByAuthorBeginningTest();
-//        bookReaderTest.isReadBookTest();
-//        bookReaderTest.isNotReadBookTest();
-//        bookReaderTest.searchByTitleTest();
-//        bookReaderTest.searchByTitleBeginningTest();
-//        bookReaderTest.isReadBookTest();
-//        bookReaderTest.isNotReadBookTest();
-//        bookReaderTest.getRedBookList();
-//        bookReaderTest.getNotRedBookList();
+        bookReaderTest.bookAddTest();
+        bookReaderTest.bookAddV2Test();
+        bookReaderTest.deleteBookTest();
+        bookReaderTest.showBooksTest();
+        bookReaderTest.searchByAuthorTest();
+        bookReaderTest.searchByAuthorBeginningTest();
+        bookReaderTest.isReadBookTest();
+        bookReaderTest.isNotReadBookTest();
+        bookReaderTest.searchByTitleTest();
+        bookReaderTest.searchByTitleBeginningTest();
+        bookReaderTest.isReadBookTest();
+        bookReaderTest.isNotReadBookTest();
+        bookReaderTest.getRedBookList();
+        bookReaderTest.getNotRedBookList();
     }
 
     public void bookAddTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book bookOne = new Book("Principles", "Alex Pushkin");
         Book bookTwo = new Book("Principles", "Lev Tolstoy");
         Book bookThree = new Book("War and Peace", "Alex Pushkin");
         Book bookFour = new Book("Principles", "Alex Pushkin");
-        checkResults(victim.addBook(bookOne) == true, "bookAddTestMustBeOK");
-        checkResults(victim.addBook(bookOne) == true, "bookAddTestMustBeFAIL");
-        checkResults(victim.addBook(bookTwo) == true, "bookAddTestMustBeOK");
-        checkResults(victim.addBook(bookTwo) == true, "bookAddTestMustBeFAIL");
-        checkResults(victim.addBook(bookThree) == true, "bookAddTestMustBeOK");
-        checkResults(victim.addBook(bookThree) == true, "bookAddTestMustBeFAIL");
-        checkResults(victim.addBook(bookFour) == true, "bookAddTestMustBeFAIL");
+        checkResults(victim.addBook(bookOne), "bookAddTestMustBeOK");
+        checkResults(victim.addBook(bookOne), "bookAddTestMustBeFAIL");
+        checkResults(victim.addBook(bookTwo), "bookAddTestMustBeOK");
+        checkResults(victim.addBook(bookTwo), "bookAddTestMustBeFAIL");
+        checkResults(victim.addBook(bookThree), "bookAddTestMustBeOK");
+        checkResults(victim.addBook(bookThree), "bookAddTestMustBeFAIL");
+        checkResults(victim.addBook(bookFour), "bookAddTestMustBeFAIL");
     }
 
     public void bookAddV2Test() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book bookOne = new Book("Eugene Onegin", "Alex Pushkin");
         Book bookTwo = new Book("Eugene Onegin", "");
         Book bookThree = new Book("", "Alex Pushkin");
         Book bookFour = new Book("", "");
-        checkResults(victim.addBookV2(bookOne) == true, "bookAddV2TestMustBeOK");
-        checkResults(victim.addBookV2(bookTwo) == true, "bookAddV2TestMustBeFAIL");
-        checkResults(victim.addBookV2(bookThree) == true, "bookAddV2TestMustBeFAIL");
-        checkResults(victim.addBookV2(bookFour) == true, "bookAddV2TestMustBeFAIL");
+        checkResults(victim.addBookV2(bookOne), "bookAddV2TestMustBeOK");
+        checkResults(victim.addBookV2(bookTwo), "bookAddV2TestMustBeFAIL");
+        checkResults(victim.addBookV2(bookThree), "bookAddV2TestMustBeFAIL");
+        checkResults(victim.addBookV2(bookFour), "bookAddV2TestMustBeFAIL");
     }
 
     public void deleteBookTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book bookOne = new Book("Eugene Onegin", "Alex Pushkin");
         victim.addBook(bookOne);
-        checkResults(victim.deleteBook(bookOne) == true, "bookAddV2TestMustBeOK");
-        checkResults(victim.deleteBook(bookOne) == true, "bookAddV2TestMustBeFAIL");
+        checkResults(victim.deleteBook(bookOne), "bookAddV2TestMustBeOK");
+        checkResults(victim.deleteBook(bookOne), "bookAddV2TestMustBeFAIL");
     }
 
     public void showBooksTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBook(new Book("Eugene Onegin", "Alex Pushkin"));
         victim.addBook(new Book("Dubrovsky", "Alex Pushkin"));
         String[] expectedArray = {"Eugene Onegin [Alex Pushkin]", "Dubrovsky [Alex Pushkin]"};
@@ -66,6 +70,7 @@ public class BookReaderTest {
     }
 
     public void searchByAuthorTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBook(new Book("Eugene Onegin", "Alex Pushkin"));
         victim.addBook(new Book("Dubrovsky", "Alex Pushkin"));
         var result = victim.searchByAuthor("Alex Pushkin");
@@ -74,6 +79,7 @@ public class BookReaderTest {
     }
 
     public void searchByAuthorBeginningTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBook(new Book("Eugene Onegin", "Alex Pushkin"));
         victim.addBook(new Book("Dubrovsky", "Alex Pushkin"));
         victim.addBook(new Book("The Queen of Spades", "Alex Pushkin"));
@@ -83,6 +89,7 @@ public class BookReaderTest {
     }
 
     public void searchByTitleTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBook(new Book("The Captain’s Daughter", "Alex Pushkin"));
         victim.addBook(new Book("The Belkin Tales", "Alex Pushkin"));
         var result = victim.searchByTitle("The Captain’s Daughter");
@@ -91,6 +98,7 @@ public class BookReaderTest {
     }
 
     public void searchByTitleBeginningTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBook(new Book("The Captain’s Daughter", "Alex Pushkin"));
         victim.addBook(new Book("The Belkin Tales", "Alex Pushkin"));
         var result = victim.searchByTitleBeginning("The");
@@ -99,22 +107,25 @@ public class BookReaderTest {
     }
 
     public void isReadBookTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book bookOne = new Book("Eugene Onegin", "Alex Pushkin");
         Book bookTwo = new Book("Principles", "Lev Tolstoy");
         victim.addBook(bookOne);
-        checkResults(victim.setBookAsRed(bookOne) == true, "isReadBookTestMustBeOk");
-        checkResults(victim.setBookAsRed(bookTwo) == true, "isReadBookTestMustBeFail");
+        checkResults(victim.setBookAsRed(bookOne), "isReadBookTestMustBeOk");
+        checkResults(victim.setBookAsRed(bookTwo), "isReadBookTestMustBeFail");
     }
 
     public void isNotReadBookTest() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book bookOne = new Book("Eugene Onegin", "Alex Pushkin");
         Book bookTwo = new Book("Principles", "Lev Tolstoy");
         victim.addBook(bookOne);
-        checkResults(victim.setBookAsNotRed(bookOne) == true, "isNotReadBookTestMustBeOk");
-        checkResults(victim.setBookAsNotRed(bookTwo) == false, "isNotReadBookTestMustBeOk");
+        checkResults(victim.setBookAsNotRed(bookOne), "isNotReadBookTestMustBeOk");
+        checkResults(!victim.setBookAsNotRed(bookTwo), "isNotReadBookTestMustBeOk");
     }
 
     public void getRedBookList() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book bookOne = new Book("Eugene Onegin", "Alex Pushkin");
         Book bookTwo = new Book("Principles", "Lev Tolstoy");
         victim.addBook(bookOne);
@@ -127,6 +138,7 @@ public class BookReaderTest {
     }
 
     public void getNotRedBookList() {
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book bookOne = new Book("Eugene Onegin", "Alex Pushkin");
         Book bookTwo = new Book("Principles", "Lev Tolstoy");
         victim.addBook(bookOne);
