@@ -3,6 +3,7 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level6.task1
 //Task 14 -> 25
 
 import java.util.ArrayList;
+import java.util.List;
 
 interface BookReader {
 
@@ -15,20 +16,20 @@ interface BookReader {
 
     String[] availableBooks();
 
-    ArrayList<Book> bookListByAuthor(String requestedAuthor);
+    List<Book> bookListByAuthor(String requestedAuthor);
 
-    ArrayList<Book> bookListByPartOfAuthorName(String partOfRequestedAuthorName);
+    List<Book> bookListByPartOfAuthorName(String partOfRequestedAuthorName);
 
-    ArrayList<Book> bookListByTitle(String requestedTitle);
+    List<Book> bookListByTitle(String requestedTitle);
 
-    ArrayList<Book> bookListByPartOfTitle(String partOfRequestedTitle);
+    List<Book> bookListByPartOfTitle(String partOfRequestedTitle);
 
     boolean markAsRead(Book bookToMark);
 
     boolean markAsUnread(Book bookToMark);
 
-    ArrayList<Book> listOfReadBooks();
+    List<Book> listOfReadBooks();
 
-    ArrayList<Book> listOfUnreadBooks();
+    List<Book> listOfUnreadBooks();
 
 }

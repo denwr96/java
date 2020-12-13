@@ -6,7 +6,7 @@ import java.util.List;
 //Task 8
 class InMemoryDatabase implements Database {
 
-    private ArrayList<Product> productList = new ArrayList<>();
+    private List<Product> productList = new ArrayList<>();
 
     @Override
     public void save(Product product) {

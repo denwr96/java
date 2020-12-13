@@ -7,12 +7,13 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task4
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 class Duplicates {
 
     public static void main(String[] args) {
 
-        ArrayList<String> cities = new ArrayList<>() {{
+        List<String> cities = new ArrayList<>() {{
             add("New York");
             add("Rio");
             add("New York");
@@ -22,7 +23,7 @@ class Duplicates {
             System.out.println(city);
         }
 
-        LinkedList<String> products = new LinkedList<>() {{
+        List<String> products = new LinkedList<>() {{
             add("apple");
             add("banana");
             add("apple");

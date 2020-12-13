@@ -2,16 +2,17 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task1
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 class ListExample {
 
-    ArrayList<String> cities = new ArrayList<>() {{
+    List<String> cities = new ArrayList<>() {{
         add("New York");
         add("Rio");
         add("Tokyo");
     }};
 
-    LinkedList<String> products = new LinkedList<>() {{
+    List<String> products = new LinkedList<>() {{
         add("apple");
         add("banana");
         add("coconut");

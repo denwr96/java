@@ -1,10 +1,11 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task5;
 
 import java.util.LinkedList;
+import java.util.List;
 
 public class BookListContainsDemo {
 
-    LinkedList<Book> bookList = new LinkedList<>();
+   List<Book> bookList = new LinkedList<>();
 
     public static void main(String[] args) {
 
