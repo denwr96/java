@@ -1,6 +1,9 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6;
-// task22, task23, task24, task25, task26, task27, task28;
-public class FraudDetectorAbstractClassTest {
+package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.tests;
+
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.*;
+
+// task17, task18, task19, task20, task21;
+public class FraudDetectorTest {
     public static void main(String[] args) {
         FraudDetectorTest fraudDetectorTest = new FraudDetectorTest();
         fraudDetectorTest.testFraudDetectorByNameShouldReturnTrue();
@@ -18,125 +21,119 @@ public class FraudDetectorAbstractClassTest {
     }
 
     public void testFraudDetectorByNameShouldReturnTrue() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setFullName("Pokemon");
-        FraudRule1 fraudRule1 = new FraudRule1("1st Rule");
+        Trader testTrader = new Trader("Pokemon" , "Riga" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = true;
-        boolean actualResult = fraudRule1.isFraud(transaction);
-        check(expectedResult , actualResult , "testFraudDetectorByNameShouldReturnTrue");
+        boolean actualResult = victim.isFraud1(transaction);
+        check(expectedResult , actualResult , "testFraudDetectorByNameShouldReturnFalse");
     }
 
     public void testFraudDetectorByNameShouldReturnFalse() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setFullName("Pikachu");
-        FraudRule1 fraudRule1 = new FraudRule1("1st Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = false;
-        boolean actualResult = fraudRule1.isFraud(transaction);
+        boolean actualResult = victim.isFraud1(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByNameShouldReturnFalse");
     }
 
     public void testFraudDetectorByAmountShouldReturnTrue() {
-        Transaction transaction = new Transaction();
-        transaction.setAmount(1100000);
-        FraudRule2 fraudRule2 = new FraudRule2("2nd Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,100000000);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = true;
-        boolean actualResult = fraudRule2.isFraud(transaction);
+        boolean actualResult = victim.isFraud2(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByAmountShouldReturnTrue");
     }
 
     public void testFraudDetectorByAmountShouldReturnFalse() {
-        Transaction transaction = new Transaction();
-        transaction.setAmount(100000);
-        FraudRule2 fraudRule2 = new FraudRule2("2nd Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = false;
-        boolean actualResult = fraudRule2.isFraud(transaction);
+        boolean actualResult = victim.isFraud2(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByAmountShouldReturnFalse");
     }
 
     public void testFraudDetectorByCityShouldReturnTrue() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCity("Sydney");
-        FraudRule3 fraudRule3 = new FraudRule3("3th Rule");
+        Trader testTrader = new Trader("Alex" , "Sydney" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = true;
-        boolean actualResult = fraudRule3.isFraud(transaction);
+        boolean actualResult = victim.isFraud3(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCityShouldReturnTrue");
     }
 
     public void testFraudDetectorByCityShouldReturnFalse() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCity("Riga");
-        FraudRule3 fraudRule3 = new FraudRule3("3th Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = false;
-        boolean actualResult = fraudRule3.isFraud(transaction);
+        boolean actualResult = victim.isFraud3(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCityShouldReturnFalse");
     }
 
     public void testFraudDetectorByCountryShouldReturnTrue() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCountry("Jamaica");
-        FraudRule4 fraudRule4 = new FraudRule4("4th Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Jamaica");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = true;
-        boolean actualResult = fraudRule4.isFraud(transaction);
+        boolean actualResult = victim.isFraud4(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCountryShouldReturnTrue");
     }
 
     public void testFraudDetectorByCountryShouldReturnFalse() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCountry("Germany");
-        FraudRule4 fraudRule4 = new FraudRule4("4th Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Germany");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = false;
-        boolean actualResult = fraudRule4.isFraud(transaction);
+        boolean actualResult = victim.isFraud4(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCountryShouldReturnFalse");
     }
 
     public void testFraudDetectorByCountryAndAmountShouldReturnTrue() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCountry("Germany");
-        transaction.setAmount(100000);
-        FraudRule5 fraudRule5 = new FraudRule5("5th Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Germany");
+        Transaction transaction = new Transaction(testTrader,1000000000);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = true;
-        boolean actualResult = fraudRule5.isFraud(transaction);
+        boolean actualResult = victim.isFraud5(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCountryShouldReturnTrue");
     }
 
     public void testFraudDetectorByCountryAndAmountShouldReturnFalse1() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCountry("Germany");
-        transaction.setAmount(50);
-        FraudRule5 fraudRule5 = new FraudRule5("5th Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Germany");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = false;
-        boolean actualResult = fraudRule5.isFraud(transaction);
+        boolean actualResult = victim.isFraud5(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCountryShouldReturnFalse1");
     }
 
     public void testFraudDetectorByCountryAndAmountShouldReturnFalse2() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCountry("Russia");
-        transaction.setAmount(1000000);
-        FraudRule5 fraudRule5 = new FraudRule5("5th Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,1000000000);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = false;
-        boolean actualResult = fraudRule5.isFraud(transaction);
+        boolean actualResult = victim.isFraud5(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCountryShouldReturnFalse2");
     }
 
     public void testFraudDetectorByCountryAndAmountShouldReturnFalse3() {
-        Transaction transaction = new Transaction();
-        Trader trader = transaction.getTrader();
-        trader.setCountry("Latvia");
-        transaction.setAmount(100);
-        FraudRule5 fraudRule5 = new FraudRule5("5th Rule");
+        Trader testTrader = new Trader("Alex" , "Riga" , "Latvia");
+        Transaction transaction = new Transaction(testTrader,100);
+        FraudDetector victim = new FraudDetector();
         boolean expectedResult = false;
-        boolean actualResult = fraudRule5.isFraud(transaction);
+        boolean actualResult = victim.isFraud5(transaction);
         check(expectedResult , actualResult , "testFraudDetectorByCountryShouldReturnFalse3");
+    }
+
+    public void fillArray(FraudRule[] fraudRules) {
+        fraudRules[0] = new FraudRule1("Rule1");
+        fraudRules[1] = new FraudRule2("Rule2");
+        fraudRules[2] = new FraudRule3("Rule3");
+        fraudRules[3] = new FraudRule4("Rule4");
+        fraudRules[4] = new FraudRule5("Rule5");
     }
 
     public void check(boolean actualResult,boolean expectedResult, String testName) {
