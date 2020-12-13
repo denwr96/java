@@ -10,7 +10,7 @@ public class BookReaderImpl implements BookReader {
     private List<Book> booksStorage;
 
     public BookReaderImpl(List<Book> booksStorage) {
-        this.booksStorage = new ArrayList<>();
+        this.booksStorage = booksStorage;
     }
 
     @Override
