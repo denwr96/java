@@ -2,7 +2,7 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleRespon
 
 abstract class FraudRule {
 
-    private String ruleName;
+    protected String ruleName;
 
     public FraudRule(String ruleName) {
         this.ruleName = ruleName;

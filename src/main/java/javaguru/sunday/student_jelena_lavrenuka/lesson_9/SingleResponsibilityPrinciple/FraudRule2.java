@@ -13,6 +13,6 @@ class FraudRule2 extends FraudRule {
 
     @Override
     public String getRuleName() {
-        return getRuleName();
+        return ruleName;
     }
 }

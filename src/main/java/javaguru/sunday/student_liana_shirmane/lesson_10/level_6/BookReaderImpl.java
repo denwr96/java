@@ -13,10 +13,15 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_6;
 //task25
 
 import java.util.ArrayList;
+import java.util.List;
 
 class BookReaderImpl implements BookReader {
 
-    ArrayList<Book> bookList = new ArrayList();
+    List<Book> bookList;
+
+    public BookReaderImpl(List<Book> bookList) {
+        this.bookList = bookList;
+    }
 
     @Override
     public boolean checkIfBookExistInList(Book book) {
@@ -54,9 +59,7 @@ class BookReaderImpl implements BookReader {
             }
 
         }
-        bookList.add(book);
-        return true;
-
+        return bookList.add(book);
     }
 
     @Override

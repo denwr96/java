@@ -14,7 +14,7 @@ class FraudRule5 extends FraudRule {
 
     @Override
     public String getRuleName() {
-        return getRuleName();
+        return ruleName;
     }
 }
 

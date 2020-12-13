@@ -16,7 +16,11 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleRespon
 // lesson_9 task_30
 // lesson_9 task_31
 
+import java.util.ArrayList;
+import java.util.List;
+
 class FraudDetector {
+
     FraudRule[] fraudRules = new FraudRule[5];
 
     public FraudDetector() {
@@ -26,18 +30,18 @@ class FraudDetector {
         fraudRules[3] = new FraudRule4("Fraud Rule 4");
         fraudRules[4] = new FraudRule5("Fraud Rule 5");
     }
-}
 
-//    FraudDetectionResult isFraud(Transaction t) {
-//        for (FraudRule fraudRule : fraudRules) {
-//            if (fraudRule.isFraud(t)) {
-//                 String ruleName = fraudRule.getRuleName();
-//                 return ruleName;
-//            }
-//        }
-//        return false;
-//    }
-//}
+
+    List<FraudDetectionResult> isFraud(Transaction t) {
+        List<FraudDetectionResult> result = new ArrayList<>();
+        for (FraudRule fraudRule : fraudRules) {
+            if (fraudRule.isFraud(t)) {
+                result.add(new FraudDetectionResult(true, fraudRule.getRuleName()));
+            }
+        }
+        return result;
+    }
+}
 
 //    boolean isFraud(Transaction t) {
 //        String name = t.getTrader().getFullName();

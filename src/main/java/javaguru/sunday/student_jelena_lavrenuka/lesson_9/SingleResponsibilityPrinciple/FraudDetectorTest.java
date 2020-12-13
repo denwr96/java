@@ -14,7 +14,7 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleRespon
 // lesson_9 task_28
 // lesson_9 task_29
 
-//class FraudDetectorTest {
+class FraudDetectorTest {
 //    public static void main(String[] args) {
 //        FraudDetectorTest test = new FraudDetectorTest();
 //        test.isFraudTest1();
@@ -30,71 +30,71 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleRespon
 //        Trader myTrader = new Trader("Pokemon", "Latvia", "Riga");
 //        Transaction myTransaction = new Transaction(myTrader, 100);
 //        FraudDetector victim = new FraudDetector();
-//        boolean result = victim.isFraud(myTransaction);
-//        testResult(result, "isFraudTest1");
+//        FraudDetectionResult result = victim.isFraud(myTransaction);
+//        testResult(result.isFraud(), "isFraudTest1");
 //    }
 //
 //    public void isFraudTest2 (){
 //        Trader myTrader = new Trader("John", "Latvia", "Riga");
 //        Transaction myTransaction = new Transaction(myTrader, 1000000);
 //        FraudDetector victim = new FraudDetector();
-//        boolean result = victim.isFraud(myTransaction);
-//        testResult(result, "isFraudTest2");
+//        FraudDetectionResult result = victim.isFraud(myTransaction);
+//        testResult(result.isFraud(), "isFraudTest2");
 //    }
 //
 //    public void isFraudTest3 (){
 //        Trader myTrader = new Trader("John", "Australia", "Sydney");
 //        Transaction myTransaction = new Transaction(myTrader, 1000);
 //        FraudDetector victim = new FraudDetector();
-//        boolean result = victim.isFraud(myTransaction);
-//        testResult(result, "isFraudTest3");
+//        FraudDetectionResult result = victim.isFraud(myTransaction);
+//        testResult(result.isFraud(), "isFraudTest3");
 //    }
 //
 //    public void isFraudTest4 (){
 //        Trader myTrader = new Trader("John", "Jamaica", "Kingston");
 //        Transaction myTransaction = new Transaction(myTrader, 1000);
 //        FraudDetector victim = new FraudDetector();
-//        boolean result = victim.isFraud(myTransaction);
-//        testResult(result, "isFraudTest4");
+//        FraudDetectionResult result = victim.isFraud(myTransaction);
+//        testResult(result.isFraud(), "isFraudTest4");
 //    }
 //
 //    public void isFraudTest5 (){
 //        Trader myTrader = new Trader("John", "Germany", "Bremen");
 //        Transaction myTransaction = new Transaction(myTrader, 1000);
 //        FraudDetector victim = new FraudDetector();
-//        boolean result = victim.isFraud(myTransaction);
-//        testResultV2(result, "isFraudTest5");
+//        FraudDetectionResult result = victim.isFraud(myTransaction);
+//        testResultV2(result.isFraud(), "isFraudTest5");
 //    }
 //
 //    public void isFraudTest6 (){
 //        Trader myTrader = new Trader("John", "Germany", "Berlin");
 //        Transaction myTransaction = new Transaction(myTrader, 1001);
 //        FraudDetector victim = new FraudDetector();
-//        boolean result = victim.isFraud(myTransaction);
-//        testResult(result, "isFraudTest6");
+//        FraudDetectionResult result = victim.isFraud(myTransaction);
+//        testResult(result.isFraud(), "isFraudTest6");
 //    }
 //
 //    public void isFraudTest7 (){
 //        Trader myTrader = new Trader("John", "Sweden", "Stockholm");
 //        Transaction myTransaction = new Transaction(myTrader, 3000);
 //        FraudDetector victim = new FraudDetector();
-//        boolean result = victim.isFraud(myTransaction);
-//        testResultV2(result, "isFraudTest7");
+//        FraudDetectionResult result = victim.isFraud(myTransaction);
+//        testResultV2(result.isFraud(), "isFraudTest7");
 //    }
-//
-//    public void testResult(boolean result, String testName) {
-//        if (result) {
-//            System.out.println(testName + " is OK");
-//        } else {
-//            System.out.println(testName + " is failed");
-//        }
-//    }
-//
-//    public void testResultV2(boolean result, String testName) {
-//        if (!result) {
-//            System.out.println(testName + " is OK");
-//        } else {
-//            System.out.println(testName + " is failed");
-//        }
-//    }
-//}
+
+    public void testResult(boolean result, String testName) {
+        if (result) {
+            System.out.println(testName + " is OK");
+        } else {
+            System.out.println(testName + " is failed");
+        }
+    }
+
+    public void testResultV2(boolean result, String testName) {
+        if (!result) {
+            System.out.println(testName + " is OK");
+        } else {
+            System.out.println(testName + " is failed");
+        }
+    }
+}
