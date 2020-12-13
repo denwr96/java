@@ -7,14 +7,14 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "А почему переменную создаете после метода? Переменные надо объявлять в самом верху")
 class PowerCalculatorTest {
 
+    PowerCalculator victim = new PowerCalculator();
+
     public static void main(String[] args) {
         PowerCalculatorTest test = new PowerCalculatorTest();
         test.calculatePowerNumberTest();
         test.calculateNegativePowerNumberTest();
 
     }
-
-    PowerCalculator victim = new PowerCalculator();
 
     void calculatePowerNumberTest() {
         checkResult(16, victim.calculatePowerNumber(2,4),"CalculatePowerNumberTest");
