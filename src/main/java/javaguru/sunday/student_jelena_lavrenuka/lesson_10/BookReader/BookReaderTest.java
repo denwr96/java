@@ -36,7 +36,6 @@ class BookReaderTest {
     Book book3 = new Book("Sherlock Holmes", "Arthur Conan Doyle", false);
     Book book4 = new Book("The Adventures of Huckleberry Finn", "Mark Twain", false);
 
-
     public void addBookToLibraryTest() {
         BookReader victim = new BookReaderImpl();
         boolean result = victim.addBookToLibrary(book1);
@@ -59,11 +58,9 @@ class BookReaderTest {
         victim.addBookToLibrary(book3);
         victim.addBookToLibrary(book4);
         ArrayList<Book> testList = victim.findBookByAuthor("Mark Twain");
-        System.out.println("");
-        System.out.println("findBookByAuthorTest");
-        for (Book print:testList) {
-            System.out.println(print);
-        }
+        int expectedResult = 2;
+        int actualResult = testList.size();
+        testResult(actualResult, expectedResult, "findBookByAuthorTest");
     }
 
     public void findBookAuthorByNotFullNameTest(){
@@ -73,11 +70,9 @@ class BookReaderTest {
         victim.addBookToLibrary(book3);
         victim.addBookToLibrary(book4);
         ArrayList<Book> testList = victim.findBookByNotFullAuthorsName("Mark");
-        System.out.println("");
-        System.out.println("findBookAuthorByNotFullNameTest");
-        for (Book print:testList) {
-            System.out.println(print);
-        }
+        int expectedResult = 2;
+        int actualResult = testList.size();
+        testResult(actualResult, expectedResult, "findBookAuthorByNotFullNameTest");
     }
 
     public void findBookByTitleTest(){
@@ -88,11 +83,9 @@ class BookReaderTest {
         victim.addBookToLibrary(book3);
         victim.addBookToLibrary(testBook);
         ArrayList<Book> testList = victim.findBookByTitle("The Adventures of Tom Sawyer");
-        System.out.println("");
-        System.out.println("findBookByTitleTest");
-        for (Book print:testList) {
-            System.out.println(print);
-        }
+        int expectedResult = 2;
+        int actualResult = testList.size();
+        testResult(actualResult, expectedResult, "findBookByTitleTest");
     }
 
     public void findBookByNotFullTitleTest(){
@@ -102,18 +95,15 @@ class BookReaderTest {
         victim.addBookToLibrary(book3);
         victim.addBookToLibrary(book4);
         ArrayList<Book> testList = victim.findBookByNotFullTitle("The");
-        System.out.println("");
-        System.out.println("findBookByNotFullTitleTest");
-        for (Book print:testList) {
-            System.out.println(print);
-        }
+        int expectedResult = 2;
+        int actualResult = testList.size();
+        testResult(actualResult, expectedResult, "findBookByNotFullTitleTest");
     }
 
     public void markBookAsReadTest(){
         BookReader victim = new BookReaderImpl();
         victim.addBookToLibrary(book1);
         boolean result = victim.markBookAsRead(book1);
-        System.out.println("");
         testResult(result, "markBookAsReadTest");
     }
 
@@ -121,7 +111,6 @@ class BookReaderTest {
         BookReader victim = new BookReaderImpl();
         victim.addBookToLibrary(book1);
         boolean result = victim.markBookAsUnRead(book1);
-        System.out.println("");
         testResult(result, "markBookAsUnReadTest");
     }
 
@@ -134,11 +123,9 @@ class BookReaderTest {
         victim.markBookAsRead(book1);
         victim.markBookAsRead(book2);
         ArrayList<Book> testList = victim.readBooksList();
-        System.out.println("");
-        System.out.println("readBooksListTest");
-        for (Book print:testList) {
-            System.out.println(print);
-        }
+        int expectedResult = 2;
+        int actualResult = testList.size();
+        testResult(actualResult, expectedResult, "readBooksListTest");
     }
 
     public void unReadBooksListTest(){
@@ -150,12 +137,11 @@ class BookReaderTest {
         victim.markBookAsRead(book1);
         victim.markBookAsRead(book2);
         ArrayList<Book> testList = victim.unReadBooksList();
-        System.out.println("");
-        System.out.println("unReadBooksListTest");
-        for (Book print:testList) {
-            System.out.println(print);
-        }
+        int expectedResult = 2;
+        int actualResult = testList.size();
+        testResult(actualResult, expectedResult, "readBooksListTest");
     }
+
     public void testResult(boolean result, String testName) {
         if (result) {
             System.out.println(testName + " is OK");
@@ -164,4 +150,11 @@ class BookReaderTest {
         }
     }
 
+    public void testResult(int actualResult, int expectedResult, String testName) {
+        if (expectedResult == actualResult) {
+            System.out.println(testName + " is OK");
+        } else {
+            System.out.println(testName + " is failed");
+        }
+    }
 }
