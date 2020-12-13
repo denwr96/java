@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_5;
 //task24
 
 class FraudRule2Test {
@@ -8,7 +8,7 @@ class FraudRule2Test {
     }
 
     public void FraudRule2() {
-        Trader test = new Trader("John Nordmann", "Riga", "Latvia");
+      Trader test = new Trader("John Nordmann", "Riga", "Latvia");
         Transaction t = new Transaction(test, 1000001);
         FraudRule2 victim = new FraudRule2("ruleAmount");
         boolean actualResult = victim.isFraud(t);
