@@ -1,16 +1,18 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6;
+package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.tests;
 
 // task33 tests;
 
-public class FraudDetectorTestV3 {
+import main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.*;
+
+public class FraudDetectorTestSecondVersion {
     public static void main(String[] args) {
-        FraudDetectorTestV3 fraudDetectorTestV3 = new FraudDetectorTestV3();
-        fraudDetectorTestV3.testFraudDetectorShouldDetectRuleOne();
-        fraudDetectorTestV3.testFraudDetectorShouldDetectRuleTwo();
-        fraudDetectorTestV3.testFraudDetectorShouldDetectRuleThree();
-        fraudDetectorTestV3.testFraudDetectorShouldDetectRuleFour();
-        fraudDetectorTestV3.testFraudDetectorShouldDetectRuleFive();
-        fraudDetectorTestV3.testFraudDetectorShouldNotDetectRules();
+        FraudDetectorTestSecondVersion fraudDetectorTestSecondVersion = new FraudDetectorTestSecondVersion();
+        fraudDetectorTestSecondVersion.testFraudDetectorShouldDetectRuleOne();
+        fraudDetectorTestSecondVersion.testFraudDetectorShouldDetectRuleTwo();
+        fraudDetectorTestSecondVersion.testFraudDetectorShouldDetectRuleThree();
+        fraudDetectorTestSecondVersion.testFraudDetectorShouldDetectRuleFour();
+        fraudDetectorTestSecondVersion.testFraudDetectorShouldDetectRuleFive();
+        fraudDetectorTestSecondVersion.testFraudDetectorShouldNotDetectRules();
     }
 
     public void testFraudDetectorShouldDetectRuleOne() {
