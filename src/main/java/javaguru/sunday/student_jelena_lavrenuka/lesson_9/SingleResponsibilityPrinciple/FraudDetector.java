@@ -15,12 +15,10 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleRespon
 // lesson_9 task_29
 // lesson_9 task_30
 // lesson_9 task_31
-
-import java.util.ArrayList;
-import java.util.List;
+// lesson_9 task_32
+// lesson_9 task_33
 
 class FraudDetector {
-
     FraudRule[] fraudRules = new FraudRule[5];
 
     public FraudDetector() {
@@ -31,15 +29,15 @@ class FraudDetector {
         fraudRules[4] = new FraudRule5("Fraud Rule 5");
     }
 
-
-    List<FraudDetectionResult> isFraud(Transaction t) {
-        List<FraudDetectionResult> result = new ArrayList<>();
+    FraudDetectionResult isFraud(Transaction t) {
         for (FraudRule fraudRule : fraudRules) {
             if (fraudRule.isFraud(t)) {
-                result.add(new FraudDetectionResult(true, fraudRule.getRuleName()));
+                System.out.println("Transaction is fraud. " + fraudRule.getRuleName());
+                System.out.println(t.toString());
+                  return new FraudDetectionResult(true, fraudRule.getRuleName());
             }
         }
-        return result;
+        return new FraudDetectionResult(false, "");
     }
 }
 
