@@ -1,5 +1,6 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
-//task23
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_6;
+//task31
+
 
 abstract class FraudRule {
 
@@ -10,5 +11,9 @@ abstract class FraudRule {
     }
 
     public abstract boolean isFraud(Transaction t);
+
+    String getRuleName() {
+        return ruleName;
+    }
 
 }

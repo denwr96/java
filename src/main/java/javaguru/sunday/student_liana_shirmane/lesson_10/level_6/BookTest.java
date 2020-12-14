@@ -27,13 +27,13 @@ public class BookTest {
         bookTest.printBookList();
         bookTest.shouldFindBookByAuthor();
         bookTest.shouldFindBookByTitle();
-//        bookTest.shouldFindBookByAuthorsPartName();
-//        bookTest.shouldMarkAsRead();
-//        bookTest.shouldNotMarkAsRead();
-//        bookTest.shouldMarkAsUnread();
-//        bookTest.shouldNotMarkAsUnread();
-//        bookTest.shouldFindReadBooks();
-//        bookTest.shouldFindUnreadBooks();
+        bookTest.shouldFindBookByAuthorsPartName();
+        bookTest.shouldMarkAsRead();
+        bookTest.shouldNotMarkAsRead();
+        bookTest.shouldMarkAsUnread();
+        bookTest.shouldNotMarkAsUnread();
+        bookTest.shouldFindReadBooks();
+        bookTest.shouldFindUnreadBooks();
 
     }
 
@@ -102,63 +102,90 @@ public class BookTest {
 
     void shouldFindBookByTitle(){
         BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
-        //TODO: Fix Tests
+        victim.add(book1);
         victim.add(book5);
-        ArrayList<Book> testList = victim.findBookByTitle("War and Peace");
+
+        List<Book> testList = victim.findBookByTitle("War and Peace");
         System.out.println("Find book by title");
         for (Book foundBook:testList){
             System.out.println(foundBook);
         }
     }
 
-//    void shouldFindBookByAuthorsPartName(){
-//        ArrayList<Book> testList = victim.findBookByAuthorPart("Aleksandr");
-//        System.out.println("Find book by author's part name");
-//        for (Book foundBook:testList){
-//            System.out.println(foundBook);
-//        }
-//    }
-//
-//    void shouldMarkAsRead(){
-//        boolean actualResult = victim.markBookIsRead(book1);
-//        check(true, actualResult, "Mark book as read in the list");
-//    }
-//
-//    void shouldNotMarkAsRead(){
-//        boolean actualResult = victim.markBookIsRead(book3);
-//        check(false, actualResult, "Not mark book that not in the list");
-//    }
-//
-//    void shouldMarkAsUnread(){
-//        boolean actualResult = victim.markBookIsNotRead(book4);
-//        check(true, actualResult, "Mark book as unread in the list");
-//    }
-//
-//    void shouldNotMarkAsUnread(){
-//        boolean actualResult = victim.markBookIsNotRead(book3);
-//        check(false, actualResult, "Not mark book unread that not in the list");
-//    }
-//
-//    void shouldFindReadBooks(){
-//        victim.markBookIsRead(book4);
-//        victim.markBookIsRead(book1);
-//        victim.markBookIsRead(book2);
-//        ArrayList<Book> testList = victim.readBookList();
-//        System.out.println("All read books");
-//        for (Book foundBook:testList){
-//            System.out.println(foundBook);
-//        }
-//    }
-//
-//    void shouldFindUnreadBooks(){
-//        victim.markBookIsNotRead(book4);
-//        victim.markBookIsNotRead(book1);
-//        ArrayList<Book> testList = victim.unreadBookList();
-//        System.out.println("All unread books");
-//        for (Book foundBook:testList){
-//            System.out.println(foundBook);
-//        }
-//    }
+    void shouldFindBookByAuthorsPartName(){
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+        victim.add(book1);
+        victim.add(book2);
+        victim.add(book4);
+        victim.add(book5);
+
+        List<Book> testList = victim.findBookByAuthorPart("Aleksandr");
+        System.out.println("Find book by author's part name");
+        for (Book foundBook:testList){
+            System.out.println(foundBook);
+        }
+    }
+
+    void shouldMarkAsRead(){
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+        victim.add(book1);
+
+        boolean actualResult = victim.markBookIsRead(book1);
+        check(true, actualResult, "Mark book as read in the list");
+    }
+
+    void shouldNotMarkAsRead(){
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+
+        boolean actualResult = victim.markBookIsRead(book3);
+        check(false, actualResult, "Not mark book that not in the list");
+    }
+
+    void shouldMarkAsUnread(){
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+        victim.add(book4);
+
+        boolean actualResult = victim.markBookIsNotRead(book4);
+        check(true, actualResult, "Mark book as unread in the list");
+    }
+
+    void shouldNotMarkAsUnread(){
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+
+        boolean actualResult = victim.markBookIsNotRead(book3);
+        check(false, actualResult, "Not mark book unread that not in the list");
+    }
+
+    void shouldFindReadBooks(){
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+        victim.add(book1);
+        victim.add(book2);
+        victim.add(book4);
+        victim.markBookIsRead(book4);
+        victim.markBookIsRead(book1);
+        victim.markBookIsRead(book2);
+
+        List<Book> testList = victim.readBookList();
+        System.out.println("All read books");
+        for (Book foundBook:testList){
+            System.out.println(foundBook);
+        }
+    }
+
+    void shouldFindUnreadBooks(){
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+        victim.add(book1);
+        victim.add(book2);
+        victim.add(book4);
+        victim.markBookIsNotRead(book4);
+        victim.markBookIsNotRead(book1);
+
+        List<Book> testList = victim.unreadBookList();
+        System.out.println("All unread books");
+        for (Book foundBook:testList){
+            System.out.println(foundBook);
+        }
+    }
 
     public void check(boolean expectedResult, boolean actualResult, String testName) {
         if (expectedResult == actualResult) {

@@ -1,5 +1,5 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
-//task24
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_6;
+
 
 class FraudRule1 extends FraudRule {
 
@@ -8,7 +8,7 @@ class FraudRule1 extends FraudRule {
     }
 
     public boolean isFraud(Transaction t) {
-        Trader trader = t.getTrader();
+       Trader trader = t.getTrader();
         if (trader.getFullName().equals("Pokemon")) {
             return true;
         }

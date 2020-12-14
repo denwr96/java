@@ -1,9 +1,5 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
-//task17
-//task18
-//task19
-//task20
-//task21
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_5;
+//task29
 
 public class FraudDetectorTest {
 
@@ -16,10 +12,20 @@ public class FraudDetectorTest {
         test.FraudRule5();
     }
 
+    public FraudRule[] fillFraudRules() {
+        FraudRule[] fraudRules = new FraudRule[5];
+        fraudRules[0] = new FraudRule1("ruleName");
+        fraudRules[1] = new FraudRule2("ruleAmount");
+        fraudRules[2] = new FraudRule3("ruleCity");
+        fraudRules[3] = new FraudRule4("ruleCountry");
+        fraudRules[4] = new FraudRule5("ruleAmountAndCountry");
+        return fraudRules;
+    }
+
     public void FraudRule1() {
         Trader test = new Trader("Pokemon", "Riga", "Latvia");
         Transaction t = new Transaction(test, 100);
-        FraudDetector victim = new FraudDetector();
+        FraudDetector victim = new FraudDetector(fillFraudRules());
         boolean actualResult = victim.isFraud(t);
         check(actualResult, "Fraud for Rule1");
     }
@@ -28,7 +34,7 @@ public class FraudDetectorTest {
     public void FraudRule2() {
         Trader test = new Trader("Ben Lee", "Riga", "Latvia");
         Transaction t = new Transaction(test, 1000001);
-        FraudDetector victim = new FraudDetector();
+        FraudDetector victim = new FraudDetector(fillFraudRules());
         boolean actualResult = victim.isFraud(t);
         check(actualResult, "Fraud for Rule2");
     }
@@ -36,7 +42,7 @@ public class FraudDetectorTest {
     public void FraudRule3() {
         Trader test = new Trader("Ben Lee", "Sidney", "Australia");
         Transaction t = new Transaction(test, 100);
-        FraudDetector victim = new FraudDetector();
+        FraudDetector victim = new FraudDetector(fillFraudRules());
         boolean actualResult = victim.isFraud(t);
         check(actualResult, "Fraud for Rule3");
     }
@@ -44,7 +50,7 @@ public class FraudDetectorTest {
     public void FraudRule4() {
         Trader test = new Trader("Ben Lee", "Kingston","Jamaica");
         Transaction t = new Transaction(test, 1000000);
-        FraudDetector victim = new FraudDetector();
+        FraudDetector victim = new FraudDetector(fillFraudRules());
         boolean actualResult = victim.isFraud(t);
         check(actualResult, "Fraud for Rule4");
     }
@@ -52,7 +58,7 @@ public class FraudDetectorTest {
     public void FraudRule5() {
         Trader test = new Trader("Ben Lee", "Berlin","Germany");
         Transaction t = new Transaction(test, 1001);
-        FraudDetector victim = new FraudDetector();
+        FraudDetector victim = new FraudDetector(fillFraudRules());
         boolean actualResult = victim.isFraud(t);
         check(actualResult, "Fraud for Rule5");
     }

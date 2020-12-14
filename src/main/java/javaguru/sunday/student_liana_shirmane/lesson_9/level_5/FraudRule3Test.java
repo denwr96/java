@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_5;
 //task26
 
 class FraudRule3Test {

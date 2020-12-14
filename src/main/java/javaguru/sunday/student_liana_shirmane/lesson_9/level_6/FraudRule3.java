@@ -1,5 +1,5 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
-//task26
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_6;
+
 
 class FraudRule3 extends FraudRule {
 
