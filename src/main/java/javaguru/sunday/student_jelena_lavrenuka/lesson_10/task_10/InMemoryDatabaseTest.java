@@ -14,7 +14,7 @@ class InMemoryDatabaseTest {
         victim.save(product);
         victim.save(product1);
         victim.save(product2);
-        if (victim.findByTitle("Fanta").equals(product1)) {
+        if (victim.findByTitle("Fanta").get().equals(product1)) {
             System.out.println("inMemoryDatabaseTest is OK");
         }else{
             System.out.println("inMemoryDatabaseTest is failed");

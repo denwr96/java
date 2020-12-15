@@ -5,6 +5,7 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_10.task_10;
 // lesson_10 task_10
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 class InMemoryDatabase implements Database {
     ArrayList<Product> productDatabase = new ArrayList<>();
@@ -15,12 +16,12 @@ class InMemoryDatabase implements Database {
     }
 
     @Override
-    public Product findByTitle(String productTitle) {
+    public Optional<Product>findByTitle(String productTitle) {
         for (Product product : productDatabase) {
             if (product.getTitle().equals(productTitle)) {
-                return product;
+                return Optional.of(product);
             }
         }
-        return null;
+        return Optional.empty();
     }
 }
