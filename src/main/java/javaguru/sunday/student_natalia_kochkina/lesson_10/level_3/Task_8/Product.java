@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_3.Task_8;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
 //Task_8
-
+@CodeReview(approved = true)
 class Product {
 
     private String title;

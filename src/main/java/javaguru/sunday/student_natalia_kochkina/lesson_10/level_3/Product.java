@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_3;
 
-//Task_7
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_7
+@CodeReview(approved = true)
 class Product {
 
     private String title;

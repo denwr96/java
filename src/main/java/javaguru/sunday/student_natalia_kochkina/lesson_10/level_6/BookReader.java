@@ -13,8 +13,10 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 //Task_24
 //Task_25
 
-import java.util.ArrayList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.ArrayList;
+@CodeReviewComment(comment = "Public можно не писать в интерфейсах")
 public interface BookReader {
 
     public boolean addBook(Book book);
