@@ -13,8 +13,36 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 //Task_24
 //Task_25
 
-import java.util.ArrayList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.ArrayList;
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Такс, добавление книги:" +
+        "Переменная myBook - книга не ваша =) Плохой нейминг." +
+        "Можно обойтись без лишних переменных checkTheSame, authorCheck," +
+        "а проверять сразу в условии if(checkTheSameBook(newBook) && checkAuthor(newBook.getAuthor()) - так будет лучше." +
+        "Task_15 - почему нет проверки на название книги? Подсказка, лучше сделать метод validateBook, и там проверить сразу оба атрибута книги через &&" +
+        "Удаление книги. Почему проверяете на SameBook? Это путает читателя кода" +
+        "просто сделайте метод findBook и используйте его для поиска книги по коллекции." +
+        "listOfTheBooks - Очень намудрили. В результирующую коллекцию можно просто добавлять книги без индекса." +
+        "    @Override\n" +
+        "    public ArrayList<String> listOfTheBooks() {\n" +
+        "        ArrayList<String> myBooks = new ArrayList<>();\n" +
+        "        for (Book myBook: library) {\n" +
+        "            String authorAndTitle = myBook.getTitle(myBook) + \" [\" + myBook.getAuthor(myBook) + \"]\";\n" +
+        "            myBooks.add(authorAndTitle);\n" +
+        "        }\n" +
+        "        return myBooks;\n" +
+        "    }" +
+        "" +
+        "findBookByFirstLettersOfAuthor - ой ой. Вас не туда завернуло. У String" +
+        "должен быть метод, .startsWith(), попробуйте его применить" +
+        "" +
+        "findBookByFirstLettersOfTitle - то же самое" +
+        "" +
+        "Задания 24 и 25 вас ловят на переиспользовании кода. Неужели нельзя" +
+        "переиспользовать этот огромный метод, если все, что изменяется в нем - это условие?")
 public class BookReaderImpl implements BookReader {
 
     ArrayList<Book> library = new ArrayList<>();
@@ -59,11 +87,8 @@ public class BookReaderImpl implements BookReader {
     public ArrayList<String> listOfTheBooks() {
         ArrayList<String> myBooks = new ArrayList<>();
         for (Book myBook: library) {
-            String author = myBook.getAuthor(myBook);
-            String title = myBook.getTitle(myBook);
-            String authorAndTitle = title + " [" + author + "]";
-            int i = library.indexOf(myBook);
-            myBooks.add(i, authorAndTitle);
+            String authorAndTitle = myBook.getTitle(myBook) + " [" + myBook.getAuthor(myBook) + "]";
+            myBooks.add(authorAndTitle);
         }
         return myBooks;
     }

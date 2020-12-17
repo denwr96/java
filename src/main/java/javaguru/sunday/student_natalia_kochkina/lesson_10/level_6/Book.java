@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Objects;
 
 //Task_14
@@ -14,7 +17,20 @@ import java.util.Objects;
 //Task_23
 //Task_24
 //Task_25
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Методы bookWasReadBecomeTrue и bookWasReadBecomeFalse" +
+        "должны просто переключать состояние объекта. Они не должны ничего возвращать." +
+        "Можно просто обойтись одним методом -" +
+        "    public void switchReadState() {\n" +
+        "        bookWasRead = !bookWasRead;\n" +
+        "    }" +
+        "" +
+        "Геттер для boolean переменной должен выглядеть вот так:" +
+        "" +
+        "    public boolean isBookWasRead() {\n" +
+        "        return bookWasRead;\n" +
+        "    }" +
+        "")
 public class Book {
     private String title;
     private String author;

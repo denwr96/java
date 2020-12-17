@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_10.task_7_8;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно было бы еще null вариант проверить.")
 class InMemoryDatabaseTest {
     public static void main(String[] args) {
         InMemoryDatabaseTest test = new InMemoryDatabaseTest();
