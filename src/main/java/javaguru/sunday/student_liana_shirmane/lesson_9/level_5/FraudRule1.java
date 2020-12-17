@@ -1,6 +1,12 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_5;
-//task24
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+//task24
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно упростить выражение до одной строки: return trader.getFullName().equals(\"Pokemon\");" +
+        "т.к. результатом этого выражения является true или false, его можно сразу вернуть.")
 class FraudRule1 extends FraudRule {
 
     public FraudRule1(String ruleName) {

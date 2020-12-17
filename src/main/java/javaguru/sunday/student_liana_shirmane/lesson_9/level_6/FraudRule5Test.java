@@ -1,6 +1,8 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class FraudRule5Test {
     public static void main(String[] args) {
         FraudRule5Test test = new FraudRule5Test();

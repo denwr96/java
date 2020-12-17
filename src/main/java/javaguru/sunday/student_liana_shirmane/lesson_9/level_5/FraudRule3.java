@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_5;
-//task26
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task26
+@CodeReview(approved = true)
 class FraudRule3 extends FraudRule {
 
     public FraudRule3(String ruleName) {

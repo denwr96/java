@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_6;
-//task33
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task33
+@CodeReview(approved = true)
 class Trader {
 
     private String fullName;

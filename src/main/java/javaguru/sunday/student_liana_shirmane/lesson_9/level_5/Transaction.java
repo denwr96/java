@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_5;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task17
 //task18
-
+@CodeReview(approved = true)
 class Transaction {
 
     private Trader trader;
