@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
-//task8
+//task10
+
+import java.util.Optional;
 
 public class ProductTest2 {
     public static void main(String[] args) {
@@ -8,33 +10,26 @@ public class ProductTest2 {
         productTest.shouldNotFindProduct();
     }
     void shouldFindProduct() {
-        Database database = new InMemoryDatabase();
+        Database2 victim = new InMemoryDatabase2();
         Product product1 = new Product("Apple");
         Product product2 = new Product("Banana");
-        database.save(product1);
-        database.save(product2);
-        Product actualResult = database.findByTitle("Apple");
-        check(product1, actualResult, "Find product in the list");
+        victim.save(product1);
+        victim.save(product2);
+        if (victim.findByTitle("Apple").get().equals(product1)) {
+            System.out.println("Find product in the list has passed!");
+        } else System.out.println("Find product in the list has failed!");
+
     }
 
     void shouldNotFindProduct() {
-        Database database = new InMemoryDatabase();
+        Database2 victim = new InMemoryDatabase2();
         Product product1 = new Product("Apple");
         Product product2 = new Product("Banana");
-        database.save(product1);
-        database.save(product2);
-        Product actualResult = database.findByTitle("Carrot");
-        if (actualResult == null) {
+        victim.save(product1);
+        victim.save(product2);
+        if (victim.findByTitle("Carrot").isEmpty()) {
             System.out.println("Do not find product in the list has passed!");
         } else System.out.println("Do not find product in the list has failed!");
-    }
-    public void check(Product expectedResult, Product actualResult, String testName) {
-        if (expectedResult.equals(actualResult)) {
-            System.out.println(testName + " has passed!");
-        } else {
-            System.out.println(testName + " failed!");
-            System.out.println("Expected: " + expectedResult + " but Actual: " + actualResult);
-        }
     }
 
 }
