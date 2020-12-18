@@ -1,6 +1,11 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_5;
-//task29
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+//task29
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно использовать расширенный for")
 class FraudDetector {
 
     FraudRule[] fraudRules;

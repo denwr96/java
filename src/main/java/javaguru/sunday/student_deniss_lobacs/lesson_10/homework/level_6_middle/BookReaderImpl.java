@@ -1,10 +1,15 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_6_middle;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.List;
 
 // task14, task15, task16, task17, task18, task19, task20, task21, task22, task23, task24, task25;
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Все хорошо, только вот так можно не писать: if (book.isRead() == true)" +
+        "а сразу писать if(book.isRead())")
 public class BookReaderImpl implements BookReader {
 
     private List<Book> booksStorage;

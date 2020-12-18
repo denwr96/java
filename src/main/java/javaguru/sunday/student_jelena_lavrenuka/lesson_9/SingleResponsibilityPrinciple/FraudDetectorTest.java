@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleResponsibilityPrinciple;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 // lesson_9 task_17
 // lesson_9 task_18
 // lesson_9 task_19
@@ -17,7 +19,7 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleRespon
 // lesson_9 task_31
 // lesson_9 task_32
 // lesson_9 task_33
-
+@CodeReview(approved = true)
 class FraudDetectorTest {
     public static void main(String[] args) {
         FraudDetectorTest test = new FraudDetectorTest();
