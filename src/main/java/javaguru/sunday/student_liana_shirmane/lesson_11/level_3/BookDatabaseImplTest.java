@@ -1,13 +1,5 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_2;
-//task6
-//task7
-//task8
-//task9
-//task10
-//task11
-//task12
-//task13
-//task14
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_3;
+//task22
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,15 +18,16 @@ public class BookDatabaseImplTest {
         bookDatabaseImplTest.shouldCountAllBooks();
         bookDatabaseImplTest.shouldRemoveByAuthor();
         bookDatabaseImplTest.shouldRemoveByTitle();
+        bookDatabaseImplTest.shouldFindByCriteria();
 
     }
 
-    Book book1 = new Book("Leo Tolstoy", "War and Peace");
-    Book book2 = new Book("Aleksandr Pushkin", "Evgeniy Onegin" );
-    Book book3 = new Book("Author", "Some title");
-    Book book4 = new Book("Aleksandr Pushkin", "Pikovaya dama");
-    Book book5 = new Book("Some Author", "War and Peace" );
-    Book book6 = new Book("Some Author","Title");
+    Book book1 = new Book("Leo Tolstoy", "War and Peace", "1867");
+    Book book2 = new Book("Aleksandr Pushkin", "Evgeniy Onegin", "1833" );
+    Book book3 = new Book("Author", "Some title", "2020");
+    Book book4 = new Book("Aleksandr Pushkin", "Pikovaya dama", "1834");
+    Book book5 = new Book("Some Author", "War and Peace", "2019" );
+    Book book6 = new Book("Some Author","Title", "2020");
 
     void shouldSaveBook() {
         BookDatabaseImpl victim = new BookDatabaseImpl(new ArrayList<>());
@@ -145,6 +138,24 @@ public class BookDatabaseImplTest {
         expectedList.add(book4);
         boolean actualResult = checkCollectionEquals(victim.bookDatabase, expectedList);
         check(true, actualResult, "Remove book by title");
+    }
+
+    void shouldFindByCriteria(){
+        BookDatabaseImpl victim = new BookDatabaseImpl(new ArrayList<>());
+        victim.save(book2);
+        victim.save(book4);
+        victim.save(book1);
+        victim.save(book5);
+        victim.save(book3);
+        victim.save(book6);
+        SearchCriteria searchCriteria = new YearOfIssueSearchCriteria("2020");
+        victim.find(searchCriteria);
+
+        List<Book> expectedList = new ArrayList<>();
+        expectedList.add(book3);
+        expectedList.add(book6);
+        boolean actualResult = checkCollectionEquals(victim.bookDatabase, expectedList);
+        check(true, actualResult, "Find book by criteria");
     }
 
     public void check(boolean expectedResult, boolean actualResult, String testName) {

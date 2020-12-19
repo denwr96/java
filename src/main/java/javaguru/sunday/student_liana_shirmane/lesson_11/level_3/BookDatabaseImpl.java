@@ -1,13 +1,5 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_2;
-//task6
-//task7
-//task8
-//task9
-//task10
-//task11
-//task12
-//task13
-//task14
+package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_3;
+//task22
 
 import java.util.ArrayList;
 import java.util.List;
@@ -100,6 +92,18 @@ class BookDatabaseImpl implements BookDatabase {
     @Override
    public void deleteByTitle(String title){
         bookDatabase.removeIf(findByTitle -> findByTitle.getTitle().equals(title));
+    }
+
+    @Override
+    public List<Book> find(SearchCriteria searchCriteria) {
+        ArrayList<Book> selectedBooks = new ArrayList<>();
+        for (Book book : bookDatabase) {
+            if (searchCriteria.match(book)) {
+                selectedBooks.add(book);
+            }
+
+        }
+        return selectedBooks;
     }
 
     public void printBookList() {
