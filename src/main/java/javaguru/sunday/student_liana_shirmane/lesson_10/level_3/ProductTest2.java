@@ -1,7 +1,6 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
 //task10
 
-import java.util.Optional;
 
 public class ProductTest2 {
     public static void main(String[] args) {

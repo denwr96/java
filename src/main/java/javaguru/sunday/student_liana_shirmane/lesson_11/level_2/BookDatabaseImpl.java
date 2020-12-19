@@ -1,7 +1,15 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_2;
 //task6
+//task7
+//task8
+//task9
+//task10
+//task11
+//task12
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 class BookDatabaseImpl implements BookDatabase {
 
@@ -12,6 +20,8 @@ class BookDatabaseImpl implements BookDatabase {
     }
 
     long counter = 1;
+
+    long countBooks = 0;
 
     @Override
     public Long save(Book book) {
@@ -24,13 +34,63 @@ class BookDatabaseImpl implements BookDatabase {
     @Override
     public boolean delete(Long bookId) {
         for (int i = 0; i < bookDatabase.size(); i++) {
-            if (bookDatabase.equals(bookId)) {
-                bookDatabase.remove(bookId);
+            if (bookDatabase.get(i).getId().equals(bookId)) {
+                bookDatabase.remove(bookDatabase.get(i));
                 return true;
             }
 
-        } return false;
+        }
+        return false;
     }
+
+    @Override
+    public boolean delete(Book book) {
+        for (int i = 0; i < bookDatabase.size(); i++)
+            if (bookDatabase.get(i).equals(book)) {
+                bookDatabase.remove(book);
+                return true;
+            }
+        return false;
+    }
+
+    @Override
+    public Optional<Book> findById(Long bookId) {
+        for (Book book : bookDatabase) {
+            if (book.getId().equals(bookId)) return Optional.of(book);
+        }
+        return Optional.empty();
+    }
+
+    @Override
+    public List<Book> findByAuthor(String author) {
+        ArrayList<Book> selectedBooks = new ArrayList<>();
+        for (Book findByAuthor : bookDatabase) {
+            if (findByAuthor.getAuthor().equals(author)) {
+                selectedBooks.add(findByAuthor);
+            }
+
+        }
+        return selectedBooks;
+    }
+
+    @Override
+    public List<Book> findByTitle(String title) {
+        ArrayList<Book> selectedBooks = new ArrayList<>();
+        for (Book findBookByTitle : bookDatabase) {
+            if (findBookByTitle.getTitle().contains(title)) {
+                selectedBooks.add(findBookByTitle);
+            }
+
+        }
+        return selectedBooks;
+    }
+
+    @Override
+    public int countAllBooks() {
+        //int bookAmount = bookDatabase.size();
+        return bookDatabase.size();
+    }
+
 
     public void printBookList() {
         for (Book book : bookDatabase) {

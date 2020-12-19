@@ -1,5 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_2;
 //task6
+//task7
+//task8
+//task9
+//task10
 
 import java.util.Objects;
 
