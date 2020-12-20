@@ -156,10 +156,7 @@ class BookDatabaseImpl implements BookDatabase {
     @Override
     public Map<String, List<Book>> getAuthorToBooksMap() {
         Map<String, List<Book>> authorToBooksMap = new HashMap<>();
-        Set<String> authorList = new LinkedHashSet<>();
-        for (Book book : books) {
-            authorList.add(book.getAuthor());
-        }
+        Set<String> authorList = findUniqueAuthors();
         for (String author : authorList) {
             authorToBooksMap.put(author, findByAuthor(author));
         }
@@ -179,10 +176,7 @@ class BookDatabaseImpl implements BookDatabase {
     @Override
     public Map<String, Integer> getEachAuthorBookCount() {
         Map<String, Integer> eachAuthorBookCount = new HashMap<>();
-        Set<String> authorList = new LinkedHashSet<>();
-        for (Book book : books) {
-            authorList.add(book.getAuthor());
-        }
+        Set<String> authorList = findUniqueAuthors();
         for (String author : authorList) {
             eachAuthorBookCount.put(author, getAuthorUniqueBookCount(author));
         }
