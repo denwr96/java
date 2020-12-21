@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_6;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task32
 //task33
-
+@CodeReview(approved = true)
 class FraudDetector {
 
     FraudRule[] fraudRules;

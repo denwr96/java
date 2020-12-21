@@ -3,8 +3,7 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_7.level_6_middl
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "А почему переменную создаете после метода? Переменные надо объявлять в самом верху")
+@CodeReview(approved = true)
 class PowerCalculatorTest {
 
     PowerCalculator victim = new PowerCalculator();

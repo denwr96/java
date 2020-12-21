@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleResponsibilityPrinciple;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class FraudDetectionResult {
     private boolean fraud;
     private String ruleName;
