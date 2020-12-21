@@ -24,6 +24,7 @@ public class BookTest {
         bookTest.shouldAddNewBook();
         bookTest.shouldNotAddExistingBook();
         bookTest.shouldNotAddBookWithoutAuthor();
+        bookTest.shouldNotAddBookWithoutName();
         bookTest.shouldRemoveBook();
         bookTest.shouldNotRemoveBook();
         bookTest.printBookList();
@@ -44,6 +45,7 @@ public class BookTest {
     Book book3 = new Book("Some title", "", false);
     Book book4 = new Book("Pikovaya dama", "Aleksandr Pushkin", false);
     Book book5 = new Book("War and Peace", "Some Author", false);
+    Book book6 = new Book("", "Some Author", false);
 
 
     void shouldAddNewBook() {
@@ -65,7 +67,14 @@ public class BookTest {
         BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
 
         boolean actualResult = victim.add(book3);
-        check(false, actualResult, "Add book without author");
+        check(true, actualResult, "Add book without author");
+    }
+
+    void shouldNotAddBookWithoutName() {
+        BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+
+        boolean actualResult = victim.add(book6);
+        check(true, actualResult, "Add book without name");
     }
 
     void shouldRemoveBook() {
@@ -94,24 +103,30 @@ public class BookTest {
         BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
         victim.add(book2);
         victim.add(book4);
+        victim.add(book1);
 
         List<Book> testList = victim.findBookByAuthor("Aleksandr Pushkin");
-        System.out.println("Find book by author");
-        for (Book foundBook:testList){
-            System.out.println(foundBook);
-        }
+
+        List<Book> expectedList = new ArrayList<>();
+        expectedList.add(book4);
+        expectedList.add(book2);
+        boolean actualResult = checkCollectionEquals(testList, expectedList);
+        check(true, actualResult, "Find book by author");
     }
 
     void shouldFindBookByTitle(){
         BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
         victim.add(book1);
         victim.add(book5);
+        victim.add(book2);
 
         List<Book> testList = victim.findBookByTitle("War and Peace");
-        System.out.println("Find book by title");
-        for (Book foundBook:testList){
-            System.out.println(foundBook);
-        }
+
+        List<Book> expectedList = new ArrayList<>();
+        expectedList.add(book5);
+        expectedList.add(book1);
+        boolean actualResult = checkCollectionEquals(testList, expectedList);
+        check(true, actualResult, "Find book by title");
     }
 
     void shouldFindBookByAuthorsPartName(){
@@ -122,10 +137,13 @@ public class BookTest {
         victim.add(book5);
 
         List<Book> testList = victim.findBookByAuthorPart("Aleksandr");
-        System.out.println("Find book by author's part name");
-        for (Book foundBook:testList){
-            System.out.println(foundBook);
-        }
+
+
+        List<Book> expectedList = new ArrayList<>();
+        expectedList.add(book4);
+        expectedList.add(book2);
+        boolean actualResult = checkCollectionEquals(testList, expectedList);
+        check(true, actualResult, "Find book by author's part name");
     }
 
     void shouldMarkAsRead(){
@@ -138,8 +156,9 @@ public class BookTest {
 
     void shouldNotMarkAsRead(){
         BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
+        victim.add(book1);
 
-        boolean actualResult = victim.markBookIsRead(book3);
+        boolean actualResult = victim.markBookIsRead(book2);
         check(false, actualResult, "Not mark book that not in the list");
     }
 
@@ -154,8 +173,8 @@ public class BookTest {
     void shouldNotMarkAsUnread(){
         BookReaderImpl victim = new BookReaderImpl(new ArrayList<>());
 
-        boolean actualResult = victim.markBookIsNotRead(book3);
-        check(false, actualResult, "Not mark book unread that not in the list");
+        boolean actualResult = victim.markBookIsNotRead(book4);
+        check(true, actualResult, "Not mark book unread that not in the list");
     }
 
     void shouldFindReadBooks(){
@@ -168,10 +187,13 @@ public class BookTest {
         victim.markBookIsRead(book2);
 
         List<Book> testList = victim.readBookList();
-        System.out.println("All read books");
-        for (Book foundBook:testList){
-            System.out.println(foundBook);
-        }
+
+        List<Book> expectedList = new ArrayList<>();
+        expectedList.add(book4);
+        expectedList.add(book1);
+        expectedList.add(book2);
+        boolean actualResult = checkCollectionEquals(testList, expectedList);
+        check(true, actualResult, "All read books");
     }
 
     void shouldFindUnreadBooks(){
@@ -183,10 +205,12 @@ public class BookTest {
         victim.markBookIsNotRead(book1);
 
         List<Book> testList = victim.unreadBookList();
-        System.out.println("All unread books");
-        for (Book foundBook:testList){
-            System.out.println(foundBook);
-        }
+
+        List<Book> expectedList = new ArrayList<>();
+        expectedList.add(book4);
+        expectedList.add(book1);
+        boolean actualResult = checkCollectionEquals(testList, expectedList);
+        check(true, actualResult, "All unread books");
     }
 
     public void check(boolean expectedResult, boolean actualResult, String testName) {
@@ -196,5 +220,9 @@ public class BookTest {
             System.out.println(testName + " failed!");
             System.out.println("Expected: " + expectedResult + " but Actual: " + actualResult);
         }
+    }
+
+    public boolean checkCollectionEquals(List colOne, List colTwo) {
+        return colOne.containsAll(colTwo);
     }
 }

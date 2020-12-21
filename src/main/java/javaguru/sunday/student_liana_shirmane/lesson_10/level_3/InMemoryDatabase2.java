@@ -1,5 +1,5 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
-//task10 in progress
+//task10
 
 import java.util.ArrayList;
 import java.util.Optional;
@@ -13,17 +13,15 @@ class InMemoryDatabase2 implements Database2 {
     }
 
     @Override
-    public Product findByTitle(String productTitle) {
-//        Optional<Product> product = Optional.of(<productTitle>);
-//    }
-        for (int i = 0; i < productList.size(); i++) {
-            if (productList.get(i).getTitle() == productTitle) {
+    public Optional<Product>findByTitle(String productTitle) {
+        for (Product product : productList) {
+            if (product.getTitle().equals(productTitle)) {
                 System.out.println("Product " + productTitle + " is in the list");
-                return productList.get(i);
+                return Optional.of(product);
             }
 
         }
-        return null;
+        return Optional.empty();
     }
 
     }

@@ -1,26 +1,26 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
-//task8
+package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_10.task_7_8;
 
 import java.util.ArrayList;
-
+import java.util.List;
 
 class InMemoryDatabase implements Database {
-    ArrayList<Product> productList = new ArrayList();
+
+   private List<Product> prodDatabase = new ArrayList<>();
 
     @Override
     public void save(Product product) {
-        productList.add(product);
+        prodDatabase.add(product);
     }
 
     @Override
     public Product findByTitle(String productTitle) {
-        for (Product product : productList) {
+        for (Product product : prodDatabase) {
             if (product.getTitle().equals(productTitle)) {
-                System.out.println("Product " + productTitle + " is in the list");
                 return product;
             }
-
         }
         return null;
     }
+
+
 }
