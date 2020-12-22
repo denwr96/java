@@ -1,5 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_3;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task21
+@CodeReview(approved = true)
 public class SearchCriteriaDemo {
 
         SearchCriteria authorSearchCriteria = new AuthorSearchCriteria("Kuper");

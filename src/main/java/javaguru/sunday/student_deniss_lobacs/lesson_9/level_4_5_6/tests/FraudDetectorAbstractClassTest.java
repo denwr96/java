@@ -1,8 +1,12 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.tests;
 
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.*;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // task22, task23, task24, task25, task26, task27, task28;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "А почему это Abstract класс?")
 public class FraudDetectorAbstractClassTest {
     public static void main(String[] args) {
         FraudDetectorTest fraudDetectorTest = new FraudDetectorTest();

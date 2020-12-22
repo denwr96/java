@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class Task_13 {
 
     public static void main(String[] args) {

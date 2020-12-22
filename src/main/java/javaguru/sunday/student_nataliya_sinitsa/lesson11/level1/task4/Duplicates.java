@@ -5,10 +5,12 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task4
 // ! могут
 
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class Duplicates {
 
     public static void main(String[] args) {

@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.tests;
 
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.*;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 // task17, task18, task19, task20, task21;
+@CodeReview(approved = true)
 public class FraudDetectorTest {
     public static void main(String[] args) {
         FraudDetectorTest fraudDetectorTest = new FraudDetectorTest();

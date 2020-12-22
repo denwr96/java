@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_10.task_12;
-/* не понимаю, почему не работает FahrenheitTest */
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+/* не понимаю, почему не работает FahrenheitTest */
+@CodeReview(approved = true)
 class KFTest {
 
     public static void main(String[] args) {

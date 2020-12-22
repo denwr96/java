@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6;
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Arrays;
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "А почему столько лишних методов в классе? Методы для тестов это очень плохая идея. Надо переделать.")
 public class FraudDetector {
 
     private FraudRule[] fraudRules;

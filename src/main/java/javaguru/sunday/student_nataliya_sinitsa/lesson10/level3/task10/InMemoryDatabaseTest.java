@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task10;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class InMemoryDatabaseTest {
 
     public static void main(String[] args) {

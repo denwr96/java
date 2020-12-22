@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level6.task1
 
 //Task 14 -> 25
 
-import java.util.Objects;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 public class Book {
 
     String bookAuthor;

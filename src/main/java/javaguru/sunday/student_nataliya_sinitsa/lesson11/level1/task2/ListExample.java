@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task2;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -7,7 +9,7 @@ import java.util.List;
 // ? Что может хранить java.util.List: примитивные типы данных или ссылки на объекты, или то и другое?
 
 // ! и то и другое
-
+@CodeReview(approved = true)
 class ListExample {
 
     List<String> cities = new ArrayList<>() {{
