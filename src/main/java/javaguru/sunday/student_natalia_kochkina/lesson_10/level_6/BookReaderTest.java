@@ -14,39 +14,40 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 //Task_25
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class BookReaderTest {
     public static void main(String[] args) {
         BookReaderTest bookReaderTest = new BookReaderTest();
-        bookReaderTest.addBookTest1();
-        bookReaderTest.addBookTest2();
-        bookReaderTest.bookWithoutAuthorTest();
-        bookReaderTest.deleteTest();
-        bookReaderTest.deleteTest2();
-        bookReaderTest.listOfBooksTest();
-        bookReaderTest.booksOfOneAuthor();
-        bookReaderTest.bookWithFirstLettersOfAuthor();
-        bookReaderTest.booksWithThisTitle();
-        bookReaderTest.bookWithFirstLettersOfTitle();
-        bookReaderTest.iReadThisBookTest();
-        bookReaderTest.iReadThisBookTest2();
-        bookReaderTest.iDoNotReadThisBookTest();
-        bookReaderTest.booksIWasReadTest();
-        bookReaderTest.booksIWasNotReadTest();
+        bookReaderTest.shouldAddBookTest1();
+        bookReaderTest.shouldAddBookTest2();
+        bookReaderTest.shouldAddBookWithoutAuthorTest();
+        bookReaderTest.shouldDeleteBookTest();
+        bookReaderTest.shouldDeleteBookTest2();
+        bookReaderTest.shouldCreateListOfBooksTest();
+        bookReaderTest.shouldCreateListOfBooksOfOneAuthorTest();
+        bookReaderTest.shouldCreateListOfBooksByPartOfAuthor();
+        bookReaderTest.shouldCreateListOfBooksWithSameTitle();
+        bookReaderTest.shouldCreateListOfBooksByPartOfTitle();
+        bookReaderTest.shouldMakeBookFinishedTest();
+        bookReaderTest.shouldMakeBookFinishedTest2();
+        bookReaderTest.shouldMakeBookUnreadTest();
+        bookReaderTest.shouldCreateListOfFinishedBooksTest();
+        bookReaderTest.shouldCreateListOfUnreadBooksTest();
     }
 
-    public void addBookTest1() {
+    public void shouldAddBookTest1() {
         BookReader bookReader = new BookReaderImpl();
         Book book = new Book("Чапаев и Пустота", "Пелевин");
         boolean bookIsAdd = bookReader.addBook(book);
         if (bookIsAdd) {
-            System.out.println("addBookTest Ok");
+            System.out.println("Add Book Test Ok");
         } else {
-            System.out.println("AddBookTest Failed");
+            System.out.println("Add Book Test Failed");
         }
     }
 
-    public void addBookTest2() {
+    public void shouldAddBookTest2() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
@@ -55,37 +56,37 @@ public class BookReaderTest {
         bookReader.addBook(book2);
         boolean bookIsAdd = bookReader.addBook(book3);
         if (bookIsAdd) {
-            System.out.println("addBookTest2 Failed");
+            System.out.println("Add Book Test2 Failed");
         } else {
-            System.out.println("addBookTest2 Ok");
+            System.out.println("Add Book Test2 OK");
         }
     }
 
-    public void bookWithoutAuthorTest() {
+    public void shouldAddBookWithoutAuthorTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book = new Book("Конституция РФ", "");
         boolean bookIsAdd = bookReader.addBook(book);
         if (bookIsAdd) {
-            System.out.println("BookWithoutAuthorTest Failed");
+            System.out.println("Book Without Author Test Failed");
         } else {
-            System.out.println("BookWithoutAuthorTest OK");
+            System.out.println("Book Without Author Test OK");
         }
     }
 
-    public void deleteTest() {
+    public void shouldDeleteBookTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         bookReader.addBook(book1);
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
         boolean bookIsDelete = bookReader.deleteBook(book2);
         if (!bookIsDelete) {
-            System.out.println("DeleteTest OK");
+            System.out.println("Delete Book Test OK");
         } else {
-            System.out.println("DeleteTest Failed");
+            System.out.println("Delete Book Test Failed");
         }
     }
 
-    public void deleteTest2() {
+    public void shouldDeleteBookTest2() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         bookReader.addBook(book1);
@@ -93,31 +94,31 @@ public class BookReaderTest {
         bookReader.addBook(book2);
         boolean bookIsDelete = bookReader.deleteBook(book1);
         if (bookIsDelete) {
-            System.out.println("DeleteTest OK");
+            System.out.println("Delete Book Test OK");
         } else {
-            System.out.println("DeleteTest Failed");
+            System.out.println("Delete Book Test Failed");
         }
     }
 
-    public void listOfBooksTest() {
+    public void shouldCreateListOfBooksTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
         bookReader.addBook(book1);
         bookReader.addBook(book2);
-        ArrayList<String> myBooks = bookReader.listOfTheBooks();
-        String titleAndAuthor1 = myBooks.get(0);
-        String titleAndAuthor2 = myBooks.get(1);
+        List<String> allBooks = bookReader.booksAuthorAndTitle();
+        String titleAndAuthor1 = allBooks.get(0);
+        String titleAndAuthor2 = allBooks.get(1);
         String expectedResult2 = "Поваренная книга анархиста [Уильям Пауэлл]";
         String expectedResult1 = "Чапаев и Пустота [Пелевин]";
         if ((titleAndAuthor1.equals(expectedResult1)) && (titleAndAuthor2.equals(expectedResult2))) {
-            System.out.println("listOfBooksTest OK");
+            System.out.println("List Of BooksTest OK");
         } else {
-            System.out.println("listOfBooksTest Failed");
+            System.out.println("List Of Books Test Failed");
         }
     }
 
-    public void booksOfOneAuthor() {
+    public void shouldCreateListOfBooksOfOneAuthorTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
@@ -125,17 +126,17 @@ public class BookReaderTest {
         bookReader.addBook(book1);
         bookReader.addBook(book2);
         bookReader.addBook(book3);
-        ArrayList<Book> booksOfOneAuthor = bookReader.findBookByAuthor("Пелевин");
+        List<Book> booksOfOneAuthor = bookReader.searchByAuthor("Пелевин");
         Book bookOne = booksOfOneAuthor.get(0);
         Book bookTwo = booksOfOneAuthor.get(1);
         if (bookOne.equals(book1) && bookTwo.equals(book3)) {
-            System.out.println("booksOfOneAuthorTest OK");
+            System.out.println("List Of Books Of One Author Test OK");
         } else {
-            System.out.println("booksOfOneAuthorTest Failed");
+            System.out.println("List Of Books Of One Author Test Failed");
         }
     }
 
-    public void bookWithFirstLettersOfAuthor() {
+    public void shouldCreateListOfBooksByPartOfAuthor() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
@@ -143,17 +144,17 @@ public class BookReaderTest {
         bookReader.addBook(book1);
         bookReader.addBook(book2);
         bookReader.addBook(book3);
-        ArrayList<Book> booksOfOneAuthor = bookReader.findBookByFirstLettersOfAuthor("Пелевин");
+        List<Book> booksOfOneAuthor = bookReader.searchByPartOfAuthor("Пелев");
         Book bookOne = booksOfOneAuthor.get(0);
         Book bookTwo = booksOfOneAuthor.get(1);
         if (bookOne.equals(book1) && bookTwo.equals(book3)) {
-            System.out.println("booksWithFirstLettersOfAuthorTest OK");
+            System.out.println("List Of Books By Part Of Author Test OK");
         } else {
-            System.out.println("booksWithFirstLettersOfAuthorTest Failed");
+            System.out.println("List Of Books By Part Of Author Test Failed");
         }
     }
 
-    public void booksWithThisTitle() {
+    public void shouldCreateListOfBooksWithSameTitle() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
@@ -161,17 +162,17 @@ public class BookReaderTest {
         bookReader.addBook(book1);
         bookReader.addBook(book2);
         bookReader.addBook(book3);
-        ArrayList<Book> booksOfOneAuthor = bookReader.findBookByTitle("Чапаев и Пустота");
+        List<Book> booksOfOneAuthor = bookReader.searchBookByTitle("Чапаев и Пустота");
         Book bookOne = booksOfOneAuthor.get(0);
         Book bookTwo = booksOfOneAuthor.get(1);
         if (bookOne.equals(book1) && bookTwo.equals(book3)) {
-            System.out.println("booksWithOneTitleTest OK");
+            System.out.println("List Of Books With Same Title Test OK");
         } else {
-            System.out.println("booksWithOneTitleTest Failed");
+            System.out.println("List Of Books With Same Title Test Failed");
         }
     }
 
-    public void bookWithFirstLettersOfTitle() {
+    public void shouldCreateListOfBooksByPartOfTitle() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
@@ -179,57 +180,58 @@ public class BookReaderTest {
         bookReader.addBook(book1);
         bookReader.addBook(book2);
         bookReader.addBook(book3);
-        ArrayList<Book> booksWithSameTitle = bookReader.findBookByFirstLettersOfTitle("Чапаев");
+        List<Book> booksWithSameTitle = bookReader.searchByPartOfTitle("Чапаев");
         Book bookOne = booksWithSameTitle.get(0);
         Book bookTwo = booksWithSameTitle.get(1);
         if (bookOne.equals(book1) && bookTwo.equals(book3)) {
-            System.out.println("booksByFirstLettersOfTitleTest OK");
+            System.out.println("List Of Books With Same Part Of Title Test OK");
         } else {
-            System.out.println("booksByFirstLettersOfTitleTest Failed");
+            System.out.println("List Of Books With Same Part Of Title Test Failed");
         }
     }
 
-    public void iReadThisBookTest() {
+    public void shouldMakeBookFinishedTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         bookReader.addBook(book1);
-        boolean returningValue = bookReader.bookWasRead(book1);
-        boolean wasRead = book1.getWasBookRead();
-        if (wasRead && returningValue) {
-            System.out.println("WasReadTest Ok");
+        bookReader.bookWasRead(book1);
+        boolean wasRead = book1.isBookWasRead();
+        if (wasRead) {
+            System.out.println("Book Was Finished Test OK");
         } else {
-            System.out.println("WasReadTest Failed");
+            System.out.println("Book Was Finished Test Failed");
         }
     }
 
-    public void iReadThisBookTest2() {
+    public void shouldMakeBookFinishedTest2() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         bookReader.addBook(book1);
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
-        boolean returningValue = bookReader.bookWasRead(book2);
-        boolean wasRead = book2.getWasBookRead();
-        if (!wasRead && !returningValue) {
-            System.out.println("WasReadTest2 Ok");
+        bookReader.bookWasRead(book2);
+        boolean wasRead = book2.isBookWasRead();
+        if (!wasRead) {
+            System.out.println("Book Was Finished Test 2 OK");
         } else {
-            System.out.println("WasReadTest2 Failed");
+            System.out.println("Book Was Finished Test 2 Failed");
         }
     }
 
-    public void iDoNotReadThisBookTest() {
+    public void shouldMakeBookUnreadTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         bookReader.addBook(book1);
-        boolean returningValue = bookReader.bookWasNotRead(book1);
-        boolean wasRead = book1.getWasBookRead();
-        if (!wasRead && returningValue) {
-            System.out.println("Wasn'tReadTest Ok");
+        bookReader.bookWasRead(book1);
+        bookReader.bookWasNotRead(book1);
+        boolean wasRead = book1.isBookWasRead();
+        if (!wasRead) {
+            System.out.println("Unread Book Test OK");
         } else {
-            System.out.println("Wasn'tReadTest Failed");
+            System.out.println("Unread Book Test Failed");
         }
     }
 
-    public void booksIWasReadTest() {
+    public void shouldCreateListOfFinishedBooksTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
@@ -237,19 +239,19 @@ public class BookReaderTest {
         bookReader.addBook(book1);
         bookReader.addBook(book2);
         bookReader.addBook(book3);
-        book1.bookWasReadBecomeTrue();
-        book3.bookWasReadBecomeTrue();
-        ArrayList<String> bookWasRead = bookReader.booksIWasRead();
-        String bookOne = bookWasRead.get(0);
-        String bookTwo = bookWasRead.get(1);
+        bookReader.bookWasRead(book1);
+        bookReader.bookWasRead(book3);
+        List<String> finishedBooks = bookReader.booksWasReadList();
+        String bookOne = finishedBooks.get(0);
+        String bookTwo = finishedBooks.get(1);
         if ((bookOne.equals("Чапаев и Пустота [Пелевин]")) && (bookTwo.equals("Generation „П“ [Пелевин]"))) {
-            System.out.println("booksIWasReadTest OK");
+            System.out.println("Finished Books List Test OK");
         } else {
-            System.out.println("booksIWasReadTest Failed");
+            System.out.println("Finished Books List Test Failed");
         }
     }
 
-    public void booksIWasNotReadTest() {
+    public void shouldCreateListOfUnreadBooksTest() {
         BookReader bookReader = new BookReaderImpl();
         Book book1 = new Book("Чапаев и Пустота", "Пелевин");
         Book book2 = new Book("Поваренная книга анархиста", "Уильям Пауэлл");
@@ -257,14 +259,14 @@ public class BookReaderTest {
         bookReader.addBook(book1);
         bookReader.addBook(book2);
         bookReader.addBook(book3);
-        book1.bookWasReadBecomeTrue();
-        ArrayList<String> bookWasNotRead = bookReader.booksIWasNotRead();
-        String bookOne = bookWasNotRead.get(0);
-        String bookTwo = bookWasNotRead.get(1);
+        bookReader.bookWasRead(book1);
+        List<String> unreadBooks = bookReader.unreadBooksList();
+        String bookOne = unreadBooks.get(0);
+        String bookTwo = unreadBooks.get(1);
         if ((bookOne.equals("Поваренная книга анархиста [Уильям Пауэлл]")) && (bookTwo.equals("Generation „П“ [Пелевин]"))) {
-            System.out.println("booksIWasNotReadTest OK");
+            System.out.println("List Of Unread Books Test OK");
         } else {
-            System.out.println("booksIWasNotReadTest Failed");
+            System.out.println("List Of Unread Books Test Failed");
         }
     }
 }

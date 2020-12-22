@@ -59,17 +59,16 @@ public class Book {
         return author;
     }
 
-    public boolean bookWasReadBecomeTrue() {
-        bookWasRead = true;
-        return bookWasRead;
+    public void switchReadState() {
+        bookWasRead = !bookWasRead;
     }
 
-    public boolean bookWasReadBecomeFalse() {
-        bookWasRead = false;
-        return bookWasRead;
+    @Override
+    public String toString() {
+        return title + " [" + author + "]";
     }
 
-    public boolean getWasBookRead() {
+    public boolean isBookWasRead() {
         return bookWasRead;
     }
 }

@@ -4,6 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 //Task_8
@@ -25,7 +26,7 @@ import java.util.Objects;
         "    }")
 public class InMemoryDatabase implements Database {
 
-    ArrayList<Product> products = new ArrayList<>();
+    List<Product> products = new ArrayList<>();
 
     @Override
     public void save(Product product) {
