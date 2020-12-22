@@ -17,6 +17,8 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
+import java.util.List;
+
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Такс, добавление книги:" +
         "Переменная myBook - книга не ваша =) Плохой нейминг." +
@@ -45,18 +47,13 @@ import java.util.ArrayList;
         "переиспользовать этот огромный метод, если все, что изменяется в нем - это условие?")
 public class BookReaderImpl implements BookReader {
 
-    ArrayList<Book> library = new ArrayList<>();
+    List<Book> library = new ArrayList<>();
 
-    @Override
-    public boolean checkAuthor(Book book) {
-        String author = book.getAuthor(book);
-        return !author.equals("");
-    }
 
     @Override
     public boolean checkTheSameBook(Book book) {
-        for (Book myBook: library) {
-            if (book.equals(myBook)) {
+        for (Book bookInLibrary: library) {
+            if (book.equals(bookInLibrary)) {
                 return false;
             }
         }
@@ -64,97 +61,103 @@ public class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public boolean addBook(Book book) {
-        boolean checkTheSame = checkTheSameBook(book);
-        boolean authorCheck = checkAuthor(book);
-        if (checkTheSame && authorCheck) {
-            library.add(book);
+    public boolean validateBook(Book book) {
+        String author = book.getAuthor(book);
+        String title = book.getTitle(book);
+        return (!author.equals("") && !title.equals(""));
+    }
+
+    @Override
+    public boolean addBook(Book newBook) {
+        if(checkTheSameBook(newBook) && validateBook(newBook)) {
+            library.add(newBook);
             return true;
         }
         return false;
+    }
+
+    @Override
+    public Book findBook(Book usersBook) {
+        for (Book bookInLibrary: library) {
+            if (bookInLibrary.equals(usersBook)) {
+                return bookInLibrary;
+            }
+        }
+        return null;
     }
 
     @Override
     public boolean deleteBook(Book book) {
-        if (!checkTheSameBook(book)) {
-            library.remove(book);
+        Book removingBook = findBook(book);
+        if (removingBook != null) {
+            library.remove(removingBook);
             return true;
         }
         return false;
     }
 
     @Override
-    public ArrayList<String> listOfTheBooks() {
-        ArrayList<String> myBooks = new ArrayList<>();
-        for (Book myBook: library) {
-            String authorAndTitle = myBook.getTitle(myBook) + " [" + myBook.getAuthor(myBook) + "]";
-            myBooks.add(authorAndTitle);
+    public List<String> booksAuthorAndTitle() {
+        List<String> booksAuthorAndTitle = new ArrayList<>();
+        for (Book book: library) {
+            String authorAndTitle = book.toString();
+            booksAuthorAndTitle.add(authorAndTitle);
         }
-        return myBooks;
+        return booksAuthorAndTitle;
     }
 
     @Override
-    public ArrayList<Book> findBookByAuthor(String author){
-        ArrayList<Book> booksOfThisAuthor = new ArrayList<>();
-        for (Book myBook: library) {
-            String thisAuthor = myBook.getAuthor(myBook);
+    public List<Book> searchByAuthor(String author){
+        List<Book> booksOfThisAuthor = new ArrayList<>();
+        for (Book bookInLibrary: library) {
+            String thisAuthor = bookInLibrary.getAuthor(bookInLibrary);
             if (thisAuthor.equals(author)) {
-                booksOfThisAuthor.add(myBook);
+                booksOfThisAuthor.add(bookInLibrary);
             }
         }
-        return  booksOfThisAuthor;
+        return booksOfThisAuthor;
     }
 
     @Override
-    public ArrayList<Book> findBookByFirstLettersOfAuthor(String author) {
-        ArrayList<Book> booksOfThisAuthor = new ArrayList<>();
-        char[] usersAuthorByLetters = author.toCharArray();
-        for (Book myBook: library) {
-            String thisAuthor = myBook.getAuthor(myBook);
-            char[] thisAuthorByLetters = thisAuthor.toCharArray();
-            if ((usersAuthorByLetters[0] == thisAuthorByLetters[0]) &&
-                    (usersAuthorByLetters[1] == thisAuthorByLetters[1]) &&
-                    (usersAuthorByLetters[2] == thisAuthorByLetters[2]) &&
-                    (usersAuthorByLetters[3] == thisAuthorByLetters[3])) {
-                booksOfThisAuthor.add(myBook);
+    public List<Book> searchByPartOfAuthor(String usersAuthor) {
+        List<Book> booksOfThisAuthor = new ArrayList<>();
+        for (Book bookInLibrary: library) {
+            String thisAuthor = bookInLibrary.getAuthor(bookInLibrary);
+            if (thisAuthor.startsWith(usersAuthor)) {
+                booksOfThisAuthor.add(bookInLibrary);
             }
         }
-        return  booksOfThisAuthor;
+        return booksOfThisAuthor;
     }
 
-    public ArrayList<Book> findBookByTitle(String title) {
-        ArrayList<Book> booksWithThisTitle = new ArrayList<>();
-        for (Book myBook: library) {
-            String thisTitle = myBook.getTitle(myBook);
+    public List<Book> searchBookByTitle(String title) {
+        List<Book> booksWithThisTitle = new ArrayList<>();
+        for (Book bookInLibrary: library) {
+            String thisTitle = bookInLibrary.getTitle(bookInLibrary);
             if (thisTitle.equals(title)) {
-                booksWithThisTitle.add(myBook);
+                booksWithThisTitle.add(bookInLibrary);
             }
         }
         return  booksWithThisTitle;
     }
 
     @Override
-    public  ArrayList<Book> findBookByFirstLettersOfTitle(String title) {
-        ArrayList<Book> booksWithSameTitle = new ArrayList<>();
-        char[] usersTitleByLetters = title.toCharArray();
-        for (Book myBook: library) {
-            String thisTitle = myBook.getTitle(myBook);
-            char[] thisTitleByLetters = thisTitle.toCharArray();
-            if ((usersTitleByLetters[0] == thisTitleByLetters[0]) &&
-                    (usersTitleByLetters[1] == thisTitleByLetters[1]) &&
-                    (usersTitleByLetters[2] == thisTitleByLetters[2]) &&
-                    (usersTitleByLetters[3] == thisTitleByLetters[3])) {
-                booksWithSameTitle.add(myBook);
+    public  List<Book> searchByPartOfTitle(String usersTitle) {
+        List<Book> booksWithThisTitle = new ArrayList<>();
+        for (Book bookInLibrary: library) {
+            String thisTitle = bookInLibrary.getTitle(bookInLibrary);
+            if (thisTitle.startsWith(usersTitle)) {
+                booksWithThisTitle.add(bookInLibrary);
             }
         }
-        return  booksWithSameTitle;
+        return booksWithThisTitle;
     }
 
     @Override
     public boolean bookWasRead(Book book){
-        for (Book myBook: library) {
-            if (book.equals(myBook)) {
-                myBook.bookWasReadBecomeTrue();
+        for (Book bookInLibrary: library) {
+            if ((book.equals(bookInLibrary)) && (!book.isBookWasRead())) {
+                bookInLibrary.switchReadState();
                 return true;
             }
         }
@@ -163,9 +166,9 @@ public class BookReaderImpl implements BookReader {
 
     @Override
     public boolean bookWasNotRead(Book book){
-        for (Book myBook: library) {
-            if (book.equals(myBook)) {
-                myBook.bookWasReadBecomeFalse();
+        for (Book bookInLibrary: library) {
+            if ((book.equals(bookInLibrary)) && (book.isBookWasRead())) {
+                bookInLibrary.switchReadState();
                 return true;
             }
         }
@@ -173,32 +176,27 @@ public class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public ArrayList<String> booksIWasRead() {
-        ArrayList<String> booksWasRead = new ArrayList<>();
-        for (Book myBook: library) {
-            boolean wasRead = myBook.getWasBookRead();
-            if (wasRead) {
-                String author = myBook.getAuthor(myBook);
-                String title = myBook.getTitle(myBook);
-                String myStringBook = title + " [" + author + "]";
-                booksWasRead.add(myStringBook);
+    public List<String> booksWasReadList() {
+        List<String> finishedBooks = new ArrayList<>();
+        for (Book book: library) {
+            if (book.isBookWasRead()) {
+                String finishedBook = book.toString();
+                finishedBooks.add(finishedBook);
             }
         }
-        return booksWasRead;
+        return finishedBooks;
     }
 
     @Override
-    public ArrayList<String> booksIWasNotRead(){
-        ArrayList<String> booksWasNotRead = new ArrayList<>();
-        for (Book myBook: library) {
-            boolean wasRead = myBook.getWasBookRead();
-            if (!wasRead) {
-                String author = myBook.getAuthor(myBook);
-                String title = myBook.getTitle(myBook);
-                String myStringBook = title + " [" + author + "]";
-                booksWasNotRead.add(myStringBook);
+    public List<String> unreadBooksList(){
+        List<String> unreadBooks = new ArrayList<>();
+        for (Book book: library) {
+            if (!book.isBookWasRead()) {
+                String unreadBook = book.toString();
+                unreadBooks.add(unreadBook);
             }
         }
-        return booksWasNotRead;
+        return unreadBooks;
     }
 }
+

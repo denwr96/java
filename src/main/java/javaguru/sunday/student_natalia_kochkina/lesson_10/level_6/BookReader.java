@@ -16,33 +16,37 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
+import java.util.List;
+
 @CodeReviewComment(comment = "Public можно не писать в интерфейсах")
 public interface BookReader {
 
-    public boolean addBook(Book book);
+    boolean checkTheSameBook(Book book);
 
-    public boolean checkAuthor(Book book);
+    boolean validateBook(Book book);
 
-    public boolean checkTheSameBook(Book book);
+    boolean addBook(Book newBook);
 
-    public boolean deleteBook(Book book);
+    Book findBook(Book usersBook);
 
-    public ArrayList<String> listOfTheBooks();
+    boolean deleteBook(Book book);
 
-    public ArrayList<Book> findBookByAuthor(String author);
+    List<String> booksAuthorAndTitle();
 
-    public ArrayList<Book> findBookByFirstLettersOfAuthor(String author);
+    List<Book> searchByAuthor(String author);
 
-    public ArrayList<Book> findBookByTitle(String title);
+    List<Book> searchByPartOfAuthor(String author);
 
-    public  ArrayList<Book> findBookByFirstLettersOfTitle(String title);
+    List<Book> searchBookByTitle(String title);
 
-    public boolean bookWasRead(Book book);
+    List<Book> searchByPartOfTitle(String title);
 
-    public boolean bookWasNotRead(Book book);
+    boolean bookWasRead(Book book);
 
-    public ArrayList<String> booksIWasRead();
+    boolean bookWasNotRead(Book book);
 
-    public ArrayList<String> booksIWasNotRead();
+    List<String> booksWasReadList();
+
+    List<String> unreadBooksList();
 
 }
