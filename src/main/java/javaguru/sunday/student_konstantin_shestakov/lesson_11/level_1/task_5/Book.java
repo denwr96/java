@@ -1,49 +1,22 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6;
+package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_1.task_5;
 
 import java.util.Objects;
 
-// Task 14 - 25
-
-class Book {
-
+public class Book {
     private String title;
     private String author;
-    private boolean bookIsRead;
 
-    Book(String title, String author) {
-        this.title = title;
+    Book(String author, String title) {
         this.author = author;
-    }
-
-    Book(String title) {
         this.title = title;
-    }
-
-    Book() {
     }
 
     public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
+        return this.title;
     }
 
     public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public boolean getBookIsRead() {
-        return bookIsRead;
-    }
-
-    public void setBookIsRead(boolean bookIsRead) {
-        this.bookIsRead = bookIsRead;
+        return this.author;
     }
 
     @Override
@@ -56,11 +29,15 @@ class Book {
     }
 
     @Override
+    public int hashCode() {
+        return Objects.hash(title, author);
+    }
+
+    @Override
     public String toString() {
         return "Book{" +
                 "title='" + title + '\'' +
                 ", author='" + author + '\'' +
-                ", bookIsRead='" + bookIsRead + '\'' +
                 '}';
     }
 }
