@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_5;
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class Task_11 {
 
     public static void main(String[] args) {

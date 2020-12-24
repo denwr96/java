@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_3;
-//task20
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task20
+@CodeReview(approved = true)
 class OrSearchCriteria implements SearchCriteria {
 
     private SearchCriteria leftCondition;

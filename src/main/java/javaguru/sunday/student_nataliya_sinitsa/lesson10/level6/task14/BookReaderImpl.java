@@ -2,9 +2,14 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level6.task1
 
 //Task 14 -> 25
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Вы используете ArrayList<> при возвращении значения из методов. Зачем? Нужно использовать интерфейс. Не переходить на имплементацию." +
+        "Зачем используете массивы? Заменить на коллекции")
 class BookReaderImpl implements BookReader {
 
     List<Book> bookList = new ArrayList<>();

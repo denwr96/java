@@ -1,6 +1,11 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_10.task_7_8;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 // не могу разобраться, в чем именно проблема...
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "А почему проблема-то? Все вроде работает. Не правильно check работает у второго теста")
 class InMemoryDatabaseTest {
 
     public static void main(String[] args) {

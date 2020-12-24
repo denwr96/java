@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_3;
 //task18
 
-import java.util.Objects;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Book {
     private Long id;
     private String title;

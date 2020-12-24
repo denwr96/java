@@ -5,8 +5,12 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task1
 // Multiple non-overriding abstract methods found in interface
 // main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task7.Database
 
-import java.util.Optional;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Optional;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Optional должен быть параметризирован. Какой именно тип вы хотите обернуть в Optional? Optional<Product>?")
 interface Database {
 
     void save(Product product);

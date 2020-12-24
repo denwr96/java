@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
 //task10
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Если вы используете Optional, то перед .get() вы должен проверить, что значение там есть при помощи проверки .isPresent()")
 public class ProductTest2 {
     public static void main(String[] args) {
         ProductTest2 productTest = new ProductTest2();

@@ -2,9 +2,11 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level6.task1
 
 //Task 14 -> 25
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 interface BookReader {
 
 

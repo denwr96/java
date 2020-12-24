@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_3;
-//task17
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task17
+@CodeReview(approved = true)
 class TitleSearchCriteria implements SearchCriteria {
 
     private String titleToSearch;

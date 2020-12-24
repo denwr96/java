@@ -3,7 +3,9 @@ package main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.tes
 // task33 tests;
 
 import main.java.javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6.*;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class FraudDetectorTestSecondVersion {
     public static void main(String[] args) {
         FraudDetectorTestSecondVersion fraudDetectorTestSecondVersion = new FraudDetectorTestSecondVersion();

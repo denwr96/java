@@ -5,7 +5,7 @@ import java.util.Optional;
 
 class DatabaseImpl implements Database {
 
-    ArrayList<Product> productList = new ArrayList<Product>();
+    ArrayList<Product> productList = new ArrayList<>();
 
     @Override
     public void save(Product product) {
@@ -15,7 +15,7 @@ class DatabaseImpl implements Database {
     @Override
     public Optional findByTitle(String productTitle) {
         for (int i = 0; i < productList.size(); i++) {
-            if (productList.get(i).getTitle() == productTitle) {
+            if (productList.get(i).getTitle().equals(productTitle)) {
                 System.out.println("Found: " + productList.get(i).getTitle() + ", element = " + (i + 1));
                 return Optional.of(productList.get(i));
             }

@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_3;
-//task16
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task16
+@CodeReview(approved = true)
 class AuthorSearchCriteria implements SearchCriteria {
 
     private String authorToSearch;

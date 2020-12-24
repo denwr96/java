@@ -5,6 +5,7 @@ class ProductTest {
     public static void main(String[] args) {
         ProductTest productTest = new ProductTest();
         productTest.findByTitleNullPointExceptionTest();
+        productTest.findByTitleTest();
     }
 
     Database database = new DatabaseImpl();
@@ -16,5 +17,19 @@ class ProductTest {
         database.save(product2);
         System.out.println("Null point exception test (for product not included in database) = OK");
         database.findByTitle("Entry not included in database");
+    }
+
+    void findByTitleTest() {
+        database.save(product1);
+        database.save(product2);
+        checkResults(database.findByTitle("Book 1").get().equals(product1), "Find by title test");
+    }
+
+    void checkResults(boolean condition, String testName) {
+        if (condition) {
+            System.out.println(testName + " = OK");
+        } else {
+            System.out.println(testName + " = FAIL");
+        }
     }
 }

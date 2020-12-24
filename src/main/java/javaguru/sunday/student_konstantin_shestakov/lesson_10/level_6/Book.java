@@ -13,19 +13,13 @@ class Book {
     Book(String title, String author) {
         this.title = title;
         this.author = author;
-        this.bookIsRead = bookIsRead;
     }
 
     Book(String title) {
         this.title = title;
-        this.author = author;
-        this.bookIsRead = bookIsRead;
     }
 
     Book() {
-        this.title = title;
-        this.author = author;
-        this.bookIsRead = bookIsRead;
     }
 
     public String getTitle() {

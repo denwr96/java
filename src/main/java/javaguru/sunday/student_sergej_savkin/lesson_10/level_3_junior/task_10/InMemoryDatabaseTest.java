@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_10.level_3_junior.task_10;
 
-import java.util.Optional;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Optional;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Если используете Optional, то перед .get() надо сделать проверку на то, что там есть значение .isPresent() и только после него делать .get()")
 class InMemoryDatabaseTest {
 
     public static void main(String[] args) {
