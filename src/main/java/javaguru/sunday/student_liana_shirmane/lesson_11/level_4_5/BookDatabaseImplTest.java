@@ -28,7 +28,7 @@ public class BookDatabaseImplTest {
         bookDatabaseImplTest.shouldFindUniqueBooks();
         bookDatabaseImplTest.shouldContainBook();
         bookDatabaseImplTest.shouldReturnSetOfAuthors();
-//        bookDatabaseImplTest.shouldCountAuthors();
+        bookDatabaseImplTest.shouldCountAuthors();
     }
 
     Book book1 = new Book("Leo Tolstoy", "War and Peace", "1867");
@@ -246,28 +246,28 @@ public class BookDatabaseImplTest {
         check(true, testResult, "Test for sets of authors");
     }
 
-//    void shouldCountAuthors(){
-//        BookDatabaseImpl victim = new BookDatabaseImpl(new ArrayList<>());
-//        victim.save(book2);
-//        victim.save(book4);
-//        victim.save(book5);
-//        victim.save(book6);
-//
-//        Map<String, Integer> actualResult;
-//        actualResult = victim.getEachAuthorBookCount();
-//        Map<String, Integer> expectedResult = new HashMap<>();
-//        List<Book> aleksandrPushkinList = new LinkedList<>();
-//        //List<Book> someAuthorList = new LinkedList<>();
-//        aleksandrPushkinList.add(book2);
-//        aleksandrPushkinList.add(book4);
-//       // someAuthorList.add(book5);
-//        //someAuthorList.add(book6);
-//        expectedResult.put("Aleksandr Pushkin", 2);
-//        //expectedResult.put("Some Author", someAuthorList.size());
-//        boolean testResult = expectedResult.equals(actualResult);
-//        check(true, testResult, "Test for authors count");
-//
-//    }
+    void shouldCountAuthors(){
+        BookDatabaseImpl victim = new BookDatabaseImpl(new ArrayList<>());
+        victim.save(book2);
+        victim.save(book4);
+        victim.save(book5);
+        victim.save(book6);
+
+        Map<String, Integer> actualResult;
+        actualResult = victim.getEachAuthorBookCount();
+        Map<String, Integer> expectedResult = new HashMap<>();
+        List<Book> aleksandrPushkinList = new LinkedList<>();
+        List<Book> someAuthorList = new LinkedList<>();
+        aleksandrPushkinList.add(book2);
+        aleksandrPushkinList.add(book4);
+        someAuthorList.add(book5);
+        someAuthorList.add(book6);
+        expectedResult.put("Aleksandr Pushkin", aleksandrPushkinList.size());
+        expectedResult.put("Some Author", someAuthorList.size());
+        boolean testResult = expectedResult.equals(actualResult);
+        check(true, testResult, "Test for authors count");
+
+    }
 
     public void check(boolean expectedResult, boolean actualResult, String testName) {
         if (expectedResult == actualResult) {

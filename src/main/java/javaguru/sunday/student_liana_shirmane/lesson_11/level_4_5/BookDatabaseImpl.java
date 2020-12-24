@@ -150,8 +150,12 @@ class BookDatabaseImpl implements BookDatabase {
 
     @Override
     public Map<String, Integer> getEachAuthorBookCount() {
-
-        return null;
+        Map<String, Integer> authorBookCount = new HashMap<>();
+        Set<String> findUniqueAuthors = findUniqueAuthors();
+        for (String author : findUniqueAuthors){
+            authorBookCount.put(author, findByAuthor(author).size());
+        }
+        return authorBookCount;
     }
 
 
