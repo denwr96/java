@@ -22,7 +22,9 @@ class InMemoryDatabaseTest {
         inMemoryDatabase.save(new Product("Coffee"));
         inMemoryDatabase.save(new Product("Bread"));
 
-        check(inMemoryDatabase.findByTitle("Milk").get().getTitle(), "Milk", "findByTitleTest");
+        if(inMemoryDatabase.findByTitle("Milk").isPresent()) {
+            check(inMemoryDatabase.findByTitle("Milk").get().getTitle(), "Milk", "findByTitleTest");
+        }
     }
 
     public void check(String actualResult, String expectedResult, String testName) {
