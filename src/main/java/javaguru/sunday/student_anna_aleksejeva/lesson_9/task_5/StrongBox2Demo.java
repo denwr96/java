@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_9.task_5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = false)
 public class StrongBox2Demo {
 
     public static void main(String[] args) {

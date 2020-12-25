@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_3_junior;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.Objects;
-
+@CodeReview(approved = true)
 public class Product {
 
     private String title;

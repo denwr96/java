@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_1;
-//task5
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task5
+@CodeReview(approved = true)
 public class Book {
     private String title;
     private String author;

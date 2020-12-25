@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_3_junior;
 
-import java.util.ArrayList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 public class InMemoryDatabase implements Database {
 
     private ArrayList<Product> products;

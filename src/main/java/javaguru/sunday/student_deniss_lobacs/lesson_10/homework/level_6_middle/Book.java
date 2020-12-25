@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_6_middle;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
 // task14, task15, task16, task17, task18, task19, task20, task21, task22, task23, task24, task25;
-
+@CodeReview(approved = true)
 public class Book {
 
     private String title;

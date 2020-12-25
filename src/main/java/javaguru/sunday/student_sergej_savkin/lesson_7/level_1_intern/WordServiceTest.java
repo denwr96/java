@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_7.level_1_intern;
 
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class WordServiceTest {
 
     public static void main(String[] args) {
