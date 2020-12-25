@@ -8,14 +8,17 @@ class BookReaderImpl implements BookReader {
 
     Book[] bookArray = new Book[6];
 
+    @Override
     public boolean checkBookAuthor(Book book) {
         return book.getAuthor() != null;
     }
 
+    @Override
     public boolean checkBookTitle(Book book) {
         return book.getTitle() != null;
     }
 
+    @Override
     public boolean checkForSameBook(Book book) {
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i] == null) {
@@ -28,6 +31,7 @@ class BookReaderImpl implements BookReader {
         return false;
     }
 
+    @Override
     public boolean addBook(Book book) {
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i] == null && !checkForSameBook(book) && checkBookTitle(book) && checkBookAuthor(book)) {
@@ -40,6 +44,7 @@ class BookReaderImpl implements BookReader {
         return false;
     }
 
+    @Override
     public Book findBook(Book book) {
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i].equals(book)) {
@@ -51,6 +56,7 @@ class BookReaderImpl implements BookReader {
         return null;
     }
 
+    @Override
     public boolean removeBook(Book book) {
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i].equals(book)) {
@@ -63,6 +69,7 @@ class BookReaderImpl implements BookReader {
         return false;
     }
 
+    @Override
     public void printBookList() {
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i] == null) {
@@ -72,6 +79,7 @@ class BookReaderImpl implements BookReader {
         }
     }
 
+    @Override
     public Book[] findBookByAuthor(String author) {
         Book[] booksFound = new Book[bookArray.length];
 
@@ -84,10 +92,10 @@ class BookReaderImpl implements BookReader {
                 System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " is element " + (i + 1));
             }
         }
-//        System.out.println(Arrays.deepToString(booksFound));
         return booksFound;
     }
 
+    @Override
     public Book[] findBookByAuthorPartialWordSearch(String author) {
         Book[] booksFound = new Book[bookArray.length];
 
@@ -99,7 +107,6 @@ class BookReaderImpl implements BookReader {
 
             for (int j = 0; j < findAuthorArray.length; j++) {
                 if (findAuthorArray[j].equals(author)) {
-                    System.out.println(bookArray[i].toString() + " is element " + (i + 1));
                     booksFound[i] = bookArray[i];
                     System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]");
                 }
@@ -108,6 +115,7 @@ class BookReaderImpl implements BookReader {
         return booksFound;
     }
 
+    @Override
     public Book[] findBookByTitle(String title) {
         Book[] booksFound = new Book[bookArray.length];
 
@@ -123,6 +131,7 @@ class BookReaderImpl implements BookReader {
         return booksFound;
     }
 
+    @Override
     public Book[] findBookByTitlePartialSearch(String title) {
         Book[] booksFound = new Book[bookArray.length];
 
@@ -143,6 +152,7 @@ class BookReaderImpl implements BookReader {
         return booksFound;
     }
 
+    @Override
     public boolean bookIsAlreadyRead(Book book) {
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i] == null) {
@@ -158,6 +168,7 @@ class BookReaderImpl implements BookReader {
         return false;
     }
 
+    @Override
     public boolean bookIsUnread(Book book) {
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i] == null) {
@@ -173,6 +184,7 @@ class BookReaderImpl implements BookReader {
         return false;
     }
 
+    @Override
     public void printReadBookList() {
         System.out.println("Read books list: ");
         for (int i = 0; i < bookArray.length; i++) {
@@ -183,10 +195,10 @@ class BookReaderImpl implements BookReader {
                 System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]");
             }
         }
-
     }
 
-    public void printUnreadReadBookList() {
+    @Override
+    public void printUnreadBookList() {
         System.out.println("Unread books list: ");
         for (int i = 0; i < bookArray.length; i++) {
             if (bookArray[i] == null) {

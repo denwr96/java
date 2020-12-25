@@ -77,6 +77,7 @@ class BookTest {
     void findBookByAuthorPartialWordSearchTest() {
         System.out.println("\n---- Find book by author test (partial words search) ----");
         System.out.println("Current list of books: ");
+        bookReader.printBookList();
         Book[] expectedResultArray = new Book[6];
         expectedResultArray[0] = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
 
@@ -122,16 +123,14 @@ class BookTest {
         System.out.println("\n---- Print unread books list test ----");
         System.out.println("All books list: ");
         bookReader.printBookList();
-        bookReader.printUnreadReadBookList();
+        bookReader.printUnreadBookList();
     }
 
-    public boolean checkResults(boolean condition, String testName) {
+    void checkResults(boolean condition, String testName) {
         if (condition) {
             System.out.println(testName + " = OK");
-            return condition;
         } else {
             System.out.println(testName + " = FAIL");
-            return !condition;
         }
     }
 

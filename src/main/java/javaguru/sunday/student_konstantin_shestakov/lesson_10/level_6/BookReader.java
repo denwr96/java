@@ -10,30 +10,30 @@ interface BookReader {
 
     boolean checkForSameBook(Book book);
 
-    public boolean checkBookAuthor(Book book);
+    boolean checkBookAuthor(Book book);
 
-    public boolean checkBookTitle(Book book);
+    boolean checkBookTitle(Book book);
 
-    public Book findBook(Book book);
+    Book findBook(Book book);
 
-    public boolean removeBook(Book book);
+    boolean removeBook(Book book);
 
     void printBookList();
 
-    public Book[] findBookByAuthor(String author);
+    Book[] findBookByAuthor(String author);
 
-    public Book[] findBookByAuthorPartialWordSearch(String author);
+    Book[] findBookByAuthorPartialWordSearch(String author);
 
-    public Book[] findBookByTitle(String title);
+    Book[] findBookByTitle(String title);
 
-    public Book[] findBookByTitlePartialSearch(String title);
+    Book[] findBookByTitlePartialSearch(String title);
 
-    public boolean bookIsAlreadyRead(Book book);
+    boolean bookIsAlreadyRead(Book book);
 
-    public boolean bookIsUnread(Book book);
+    boolean bookIsUnread(Book book);
 
     void printReadBookList();
 
-    void printUnreadReadBookList();
+    void printUnreadBookList();
 }
 
