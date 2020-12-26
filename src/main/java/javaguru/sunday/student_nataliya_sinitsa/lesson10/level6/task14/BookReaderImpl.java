@@ -42,17 +42,17 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public String[] availableBooks() {
-        String[] listOfAvailableBooks = new String[bookList.size()];
-        for (int i = 0; i < bookList.size(); i++) {
-            listOfAvailableBooks[i] = bookList.get(i).getBookTitle() + " [" + bookList.get(i).getBookAuthor() + "]";
+    public List<String> availableBooks() {
+        List<String> listOfAvailableBooks = new ArrayList<>();
+        for (Book bookInList : bookList) {
+            listOfAvailableBooks.add(bookInList.getBookTitle() + " [" + bookInList.getBookAuthor() + "]");
         }
         return listOfAvailableBooks;
     }
 
     @Override
-    public ArrayList<Book> bookListByAuthor(String requestedAuthor)  {
-        ArrayList<Book> bookListByAuthor = new ArrayList<>();
+    public List<Book> bookListByAuthor(String requestedAuthor)  {
+        List<Book> bookListByAuthor = new ArrayList<>();
         for (Book bookInList : bookList) {
             if (bookInList.getBookAuthor().equals(requestedAuthor)) {
                 bookListByAuthor.add(bookInList);
@@ -62,8 +62,8 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public ArrayList<Book> bookListByPartOfAuthorName(String partOfRequestedAuthorName) {
-        ArrayList<Book> bookListByPartOfAuthorName = new ArrayList<>();
+    public List<Book> bookListByPartOfAuthorName(String partOfRequestedAuthorName) {
+        List<Book> bookListByPartOfAuthorName = new ArrayList<>();
         for (Book bookInList : bookList) {
             if (bookInList.getBookAuthor().contains(partOfRequestedAuthorName)) {
                 bookListByPartOfAuthorName.add(bookInList);
@@ -73,8 +73,8 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public ArrayList<Book> bookListByTitle(String requestedTitle) {
-        ArrayList<Book> bookListByTitle = new ArrayList<>();
+    public List<Book> bookListByTitle(String requestedTitle) {
+        List<Book> bookListByTitle = new ArrayList<>();
         for (Book bookInList : bookList) {
             if (bookInList.getBookTitle().equals(requestedTitle)) {
                 bookListByTitle.add(bookInList);
@@ -84,8 +84,8 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public ArrayList<Book> bookListByPartOfTitle(String partOfRequestedTitle) {
-        ArrayList<Book> bookListByPartOfTitle = new ArrayList<>();
+    public List<Book> bookListByPartOfTitle(String partOfRequestedTitle) {
+        List<Book> bookListByPartOfTitle = new ArrayList<>();
         for (Book bookInList : bookList) {
             if (bookInList.getBookTitle().contains(partOfRequestedTitle)) {
                 bookListByPartOfTitle.add(bookInList);
@@ -117,8 +117,8 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public ArrayList<Book> listOfReadBooks() {
-        ArrayList<Book> listOfReadBooks = new ArrayList<>();
+    public List<Book> listOfReadBooks() {
+        List<Book> listOfReadBooks = new ArrayList<>();
         for (Book bookInList : bookList) {
             if (bookInList.isRead) {
                 listOfReadBooks.add(bookInList);
@@ -128,8 +128,8 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public ArrayList<Book> listOfUnreadBooks() {
-        ArrayList<Book> listOfUnreadBooks = new ArrayList<>();
+    public List<Book> listOfUnreadBooks() {
+        List<Book> listOfUnreadBooks = new ArrayList<>();
         for (Book bookInList : bookList) {
             if (!bookInList.isRead) {
                 listOfUnreadBooks.add(bookInList);

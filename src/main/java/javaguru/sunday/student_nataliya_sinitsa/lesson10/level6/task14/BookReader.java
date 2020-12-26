@@ -16,7 +16,7 @@ interface BookReader {
 
     boolean removeBook(Book bookToRemove);
 
-    String[] availableBooks();
+    List<String> availableBooks();
 
     List<Book> bookListByAuthor(String requestedAuthor);
 
