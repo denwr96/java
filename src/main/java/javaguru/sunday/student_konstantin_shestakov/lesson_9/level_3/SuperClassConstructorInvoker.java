@@ -5,8 +5,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 
 // Task 16
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Нннет, закомментировать проблемную строку, это не исправить ошибку =D")
+@CodeReview(approved = true)
 public class SuperClassConstructorInvoker {
     public SuperClassConstructorInvoker() {
         super();

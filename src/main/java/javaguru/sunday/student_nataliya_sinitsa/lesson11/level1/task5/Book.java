@@ -1,5 +1,10 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task5;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "А чего вы так разбили переменные по разным местам? Не хорошо так делать. Трудно читать. Должен бить порядок: Переменные, Коснтрукторы, Методы")
 class Book {
     private String title;
     private String author;

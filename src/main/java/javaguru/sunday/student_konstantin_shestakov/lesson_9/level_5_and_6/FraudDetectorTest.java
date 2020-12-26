@@ -4,8 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // Task 33 (level 6)
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Зачем checkResults возвращает значение?")
+@CodeReview(approved = true)
 class FraudDetectorTest {
 
     public static void main(String[] args) {

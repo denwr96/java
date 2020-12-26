@@ -4,11 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // Task 30, 32 (level 6)
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Зачем вы добавляете закомментированный код? Когда вы пишите конструктор таким образом" +
-        "вы совершаете не нужное действия, приравнивание значение переменной fraud в неё саму." +
-        "Просто удалите эти конструкторы, если вам не надо создавать объекты сразу с каким-то параметрами." +
-        "")
+@CodeReview(approved = true)
 class FraudDetectionResult {
 
     private boolean fraud;

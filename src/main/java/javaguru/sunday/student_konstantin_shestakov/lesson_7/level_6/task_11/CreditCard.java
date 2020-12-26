@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_6.task_11;
 
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class CreditCard {
     public String customerName;
     private long creditCardNumber;

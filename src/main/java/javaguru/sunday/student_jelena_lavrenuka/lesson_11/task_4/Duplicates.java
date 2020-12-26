@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_11.task_4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 // позволяет хранить дубликаты
 class Duplicates {
     public static void main(String[] args) {
