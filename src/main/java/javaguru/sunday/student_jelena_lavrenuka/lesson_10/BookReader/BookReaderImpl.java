@@ -16,10 +16,16 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_10.BookReader;
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @CodeReview(approved = true)
 class BookReaderImpl implements BookReader {
-    ArrayList<Book> bookReader = new ArrayList<>();
+
+    List<Book> bookReader;
+
+    public BookReaderImpl(List<Book> bookReader) {
+        this.bookReader = bookReader;
+    }
 
     @Override
     public boolean addBookToLibrary(Book book) {

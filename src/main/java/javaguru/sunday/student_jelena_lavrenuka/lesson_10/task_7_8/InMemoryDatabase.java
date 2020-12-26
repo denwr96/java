@@ -8,11 +8,12 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Используйте интерфейс List<>. Не стоит привязываться к конкретной имплементации")
 class InMemoryDatabase implements Database {
-    ArrayList<Product> productDatabase = new ArrayList<>();
+    List<Product> productDatabase = new ArrayList<>();
 
     @Override
     public void save(Product product) {

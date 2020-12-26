@@ -40,13 +40,13 @@ class BookReaderTest {
     Book book4 = new Book("The Adventures of Huckleberry Finn", "Mark Twain", false);
 
     public void addBookToLibraryTest() {
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         boolean result = victim.addBookToLibrary(book1);
         testResult(result, "addBookToLibraryTest");
     }
 
     public void deleteBookFromLibraryTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         victim.addBookToLibrary(book2);
         victim.addBookToLibrary(book3);
@@ -55,7 +55,7 @@ class BookReaderTest {
     }
 
     public void findBookByAuthorTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         victim.addBookToLibrary(book2);
         victim.addBookToLibrary(book3);
@@ -67,7 +67,7 @@ class BookReaderTest {
     }
 
     public void findBookAuthorByNotFullNameTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         victim.addBookToLibrary(book2);
         victim.addBookToLibrary(book3);
@@ -79,7 +79,7 @@ class BookReaderTest {
     }
 
     public void findBookByTitleTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         Book testBook = new Book("The Adventures of Tom Sawyer", "Lewis Carroll", false);
         victim.addBookToLibrary(book1);
         victim.addBookToLibrary(book2);
@@ -92,7 +92,7 @@ class BookReaderTest {
     }
 
     public void findBookByNotFullTitleTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         victim.addBookToLibrary(book2);
         victim.addBookToLibrary(book3);
@@ -104,21 +104,21 @@ class BookReaderTest {
     }
 
     public void markBookAsReadTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         boolean result = victim.markBookAsRead(book1);
         testResult(result, "markBookAsReadTest");
     }
 
     public void markBookAsUnReadTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         boolean result = victim.markBookAsUnRead(book1);
         testResult(result, "markBookAsUnReadTest");
     }
 
     public void readBooksListTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         victim.addBookToLibrary(book2);
         victim.addBookToLibrary(book3);
@@ -132,7 +132,7 @@ class BookReaderTest {
     }
 
     public void unReadBooksListTest(){
-        BookReader victim = new BookReaderImpl();
+        BookReader victim = new BookReaderImpl(new ArrayList<>());
         victim.addBookToLibrary(book1);
         victim.addBookToLibrary(book2);
         victim.addBookToLibrary(book3);

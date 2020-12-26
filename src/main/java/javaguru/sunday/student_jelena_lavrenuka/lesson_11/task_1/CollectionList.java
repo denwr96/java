@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_11.task1;
+package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_11.task_1;
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
