@@ -6,19 +6,10 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "А чего вы так разбили переменные по разным местам? Не хорошо так делать. Трудно читать. Должен бить порядок: Переменные, Коснтрукторы, Методы")
 class Book {
+
     private String title;
     private String author;
-
-    public boolean isInList() {
-        return isInList;
-    }
-
-    public void setInList(boolean inList) {
-        isInList = inList;
-    }
-
     private boolean isInList;
-
 
     Book(String author, String title) {
         this.author = author;
@@ -26,12 +17,20 @@ class Book {
         this.isInList = false;
     }
 
+    public String getAuthor() {
+        return this.author;
+    }
+
     public String getTitle() {
         return this.title;
     }
 
-    public String getAuthor() {
-        return this.author;
+    public boolean isInList() {
+        return isInList;
+    }
+
+    public void setInList(boolean inList) {
+        isInList = inList;
     }
 
 }

@@ -19,19 +19,13 @@ class FraudDetectorV2 {
     }
 
     FraudDetectionResult isFraud(Transaction t) {
-        boolean isFraudTransaction = false;
-        String fraudRuleName = "Transaction has passed";
         for (FraudRule fraudRule : fraudRules) {
-            isFraudTransaction = fraudRule.isFraud(t);
-            if (isFraudTransaction) {
-                fraudRuleName = fraudRule.getRuleName();
-                System.out.println(t.toString());
-                break;
+            if (fraudRule.isFraud(t)) {
+                System.out.println("Fraud transaction detected: " + t.toString());
+                return new FraudDetectionResult(true, fraudRule.getRuleName());
             }
         }
-        System.out.println(fraudRuleName);
-        return new FraudDetectionResult(isFraudTransaction, fraudRuleName);
-
+        return new FraudDetectionResult(false, null);
     }
 
 }
