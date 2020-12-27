@@ -16,7 +16,6 @@ public class ArrayUtil {
 
     public static void fillArrayWithRandomNumbers(int[] array) { // Task33
 
-
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10);
