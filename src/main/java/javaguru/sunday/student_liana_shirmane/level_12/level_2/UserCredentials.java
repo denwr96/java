@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_liana_shirmane.level_12.level_2;
 //task8
+//task15
+//task16
 
 import java.util.List;
 
@@ -14,4 +16,10 @@ class UserCredentials {
     public List<Role> getRoles() {
         return roles;
     }
+
+    public boolean hasRole(Role role) {
+        return roles.contains(role);
+    }
+
 }
+
