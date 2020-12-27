@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_1
 
 // Task 3
 
-import java.util.ArrayList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 class MyListImpl implements MyList {
 
     public static void main(String[] args) {

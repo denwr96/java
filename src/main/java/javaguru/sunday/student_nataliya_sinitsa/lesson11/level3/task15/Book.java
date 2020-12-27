@@ -4,13 +4,13 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task1
 
 import java.util.Objects;
 
-class Book {
+public class Book {
     private Long id;
     private String title;
     private String author;
     private String yearOfIssue;
 
-    Book(String author, String title, String yearOfIssue) {
+    public Book(String author, String title, String yearOfIssue) {
         this.author = author;
         this.title = title;
         this.yearOfIssue = yearOfIssue;
@@ -47,5 +47,15 @@ class Book {
     @Override
     public int hashCode() {
         return Objects.hash(title, author, yearOfIssue);
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", yearOfIssue='" + yearOfIssue + '\'' +
+                '}';
     }
 }

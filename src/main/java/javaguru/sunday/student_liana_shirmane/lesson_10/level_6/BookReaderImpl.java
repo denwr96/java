@@ -12,9 +12,11 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_6;
 //task24
 //task25
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class BookReaderImpl implements BookReader {
 
     List<Book> bookList;

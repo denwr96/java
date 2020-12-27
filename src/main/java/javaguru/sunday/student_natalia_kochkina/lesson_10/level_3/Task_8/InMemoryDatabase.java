@@ -8,22 +8,7 @@ import java.util.List;
 import java.util.Objects;
 
 //Task_8
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Используйте интерфейс коллекции List." +
-        "Метод findByTitle можно было сделать проще." +
-        "Просто добавить выражение productOneTitle.equals(productTitle)" +
-        "в скобки if (), при этом поменять productTitle на productTitle.getTitle()" +
-        "" +
-        "" +
-        "    @Override\n" +
-        "    public Product findByTitle(String productTitle) {\n" +
-        "        for (Product product : products) {\n" +
-        "            if (product.getTitle().equals(productTitle)) {\n" +
-        "                return product;\n" +
-        "            }\n" +
-        "        }\n" +
-        "        return null;\n" +
-        "    }")
+@CodeReview(approved = true)
 public class InMemoryDatabase implements Database {
 
     List<Product> products = new ArrayList<>();

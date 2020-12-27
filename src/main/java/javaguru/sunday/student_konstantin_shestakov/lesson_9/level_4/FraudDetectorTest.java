@@ -4,8 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // Task 17 - 21
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Зачем checkResults возвращает значение, которое вы не используете?")
+@CodeReview(approved = true)
 public class FraudDetectorTest {
 
     public static void main(String[] args) {

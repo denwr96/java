@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level2.task4
 
 //Task5
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorDemo {
 
     private DayOfTheWeekDetector dayOfTheWeekDetector;

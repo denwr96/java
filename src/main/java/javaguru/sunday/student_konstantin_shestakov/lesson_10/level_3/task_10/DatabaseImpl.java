@@ -1,8 +1,12 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_3.task_10;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.Optional;
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Optional, должен быть параметризирован каким-то типом. К примеру, Optional<Product> или Optional<String>")
 class DatabaseImpl implements Database {
 
     ArrayList<Product> productList = new ArrayList<>();

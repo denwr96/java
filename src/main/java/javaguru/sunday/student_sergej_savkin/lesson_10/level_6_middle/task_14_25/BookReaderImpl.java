@@ -2,8 +2,13 @@ package main.java.javaguru.sunday.student_sergej_savkin.lesson_10.level_6_middle
 
 //task14to25
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Почему сделали используя массивы? Переделайте не коллекции.")
 class BookReaderImpl implements BookReader {
 
     Book[] bookArray = new Book[10];

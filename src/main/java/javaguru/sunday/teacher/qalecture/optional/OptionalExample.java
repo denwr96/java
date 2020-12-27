@@ -17,8 +17,6 @@ public class OptionalExample {
 
         userOpt.ifPresent(user -> printUserInfo(user));
 
-
-
     }
 
     private static void printUserInfo(User user) {

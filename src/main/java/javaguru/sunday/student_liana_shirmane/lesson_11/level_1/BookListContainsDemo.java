@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_1;
 //task5
 
-import java.util.ArrayList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 public class BookListContainsDemo {
     public static void main(String[] args) {
         BookListContainsDemo bookListContainsDemo = new BookListContainsDemo();

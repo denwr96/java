@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson9.level1.task4;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Safe {
 
     public int pinCode;
@@ -14,7 +17,7 @@ class Safe {
         return moneyAmount;
     }
 
-    Safe (int pinCode, double moneyAmount) {
+    Safe(int pinCode, double moneyAmount) {
         this.pinCode = pinCode;
         this.moneyAmount = moneyAmount;
     }

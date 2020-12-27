@@ -4,10 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // Task 10
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "А почему вы не передаете параметр, который приходит в первый конструктор," +
-        "а прописываете магическую переменную Name? " +
-        "Зачем комменты?")
+@CodeReview(approved = true)
 class ConstructorChaining {
 
     private String constructorName;

@@ -1,7 +1,10 @@
 package main.java.javaguru.sunday.student_sergej_savkin.lesson_10.level_6_middle.task_14_25;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Book {
 
     String bookName;

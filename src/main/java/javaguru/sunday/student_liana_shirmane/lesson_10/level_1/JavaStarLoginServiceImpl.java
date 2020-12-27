@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_1;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class JavaStarLoginServiceImpl implements JavaStarLoginService {
 
     @Override
