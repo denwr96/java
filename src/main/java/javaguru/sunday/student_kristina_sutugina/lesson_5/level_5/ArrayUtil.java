@@ -4,7 +4,7 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_5.level_5;
 //Task_35
 //Task_36
 //Task_38
-
+//нет codeReview
 import java.util.Random;
 
 class ArrayUtil {

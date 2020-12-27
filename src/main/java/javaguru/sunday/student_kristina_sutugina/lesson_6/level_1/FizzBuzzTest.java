@@ -1,5 +1,5 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_1;
-
+//нет codeReview
 class FizzBuzzTest {
     public static void main(String[] args) {
         FizzBuzzTest victim = new FizzBuzzTest();

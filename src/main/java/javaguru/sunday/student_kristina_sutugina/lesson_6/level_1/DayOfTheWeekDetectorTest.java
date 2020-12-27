@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_1;
 //Task_2
+//нет codeReview
 class DayOfTheWeekDetectorTest {
     public static void main(String[] args) {
         DayOfTheWeekDetectorTest victim = new DayOfTheWeekDetectorTest();

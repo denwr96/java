@@ -4,6 +4,7 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_5.level_5;
 //Task_34
 //Task_37
 //Task_39
+//нет codeReview
 class ArrayUtilTest {
 
     public static void main(String[] args) {

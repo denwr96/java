@@ -5,7 +5,7 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_3;
 //Task_12
 //Task_13
 //Task_14
-
+//нет codeReview
 import java.util.Arrays;
 
 class ArrayUtil {

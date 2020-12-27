@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_2;
 //Task_7
+//нет codeReview
 class WhileDefinition4 {
 
     public static void main(String[] args) {

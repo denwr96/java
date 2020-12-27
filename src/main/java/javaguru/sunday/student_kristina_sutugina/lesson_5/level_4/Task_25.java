@@ -1,5 +1,5 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_5.level_4;
-
+//нет codeReview
 import java.util.Arrays;
 import java.util.Scanner;
 

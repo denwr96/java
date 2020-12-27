@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_4;
 //Task_16
+//нет codeReview
 class EndlessCycleForBreak {
     public static void main(String[] args) {
         int a=0;

@@ -1,5 +1,7 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_1;
 //Task_2
+
+//нет codeReview
 import java.util.Scanner;
 
 class DayOfTheWeekDetector {

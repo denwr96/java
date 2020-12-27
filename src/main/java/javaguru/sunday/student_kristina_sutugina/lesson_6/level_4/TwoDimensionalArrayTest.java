@@ -1,5 +1,6 @@
 package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_4;
 //Task_18
+//нет codeReview
 class TwoDimensionalArrayTest {
     public static void main(String[] args) {
         TwoDimensionalArrayTest victim = new TwoDimensionalArrayTest();
