@@ -8,7 +8,4 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 public interface JavaStarLoginService {
 
     boolean canLogin(String login, String password) ;
-    private boolean notNull(String text) {
-        return text != null;
-    }
 }

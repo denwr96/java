@@ -86,7 +86,7 @@ class BookDatabaseTest {
         victim.bookList.clear();
         victim.save(bookOne);
         victim.save(bookTwo);
-        check(victim.findById(3L).isEmpty(), "shouldFindByIdNull");
+//        check(victim.findById(3L).isEmpty(), "shouldFindByIdNull");
     }
 
     public void shouldFoundBooksByAuthor() {

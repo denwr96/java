@@ -10,15 +10,18 @@ public class BookDatabaseImpl implements BookDatabase {
 
     private List<Book> booksStorage;
 
+    public BookDatabaseImpl(List<Book> booksStorage) {
+        this.booksStorage = booksStorage;
+    }
+
     public BookDatabaseImpl() {
-        this.booksStorage = new ArrayList<>();
     }
 
     @Override
     public Long save(Book book) {
         long id = 1;
         if (booksStorage.size() != 0) {
-            var lastBook = booksStorage.get(booksStorage.size() - 1); //
+            Book lastBook = booksStorage.get(booksStorage.size() - 1);//
             id = lastBook.getId() + 1;
         }
         book.setId(id);

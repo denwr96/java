@@ -6,7 +6,4 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 public interface JavaStarLoginService {
     boolean canLogin(String login, String password);
 
-    private boolean notNull(String text) {
-        return text != null;
-    }
 }

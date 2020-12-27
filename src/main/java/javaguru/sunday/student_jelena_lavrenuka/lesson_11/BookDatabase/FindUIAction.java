@@ -24,85 +24,85 @@ class FindUIAction implements UIAction {
         System.out.println("Please choose search criteria and enter number of your criteria");
         int number = scanner.nextInt();
         switch (number) {
-            case 1 -> {
-                System.out.println("Please enter author");
-                String author = scanner.nextLine();
-                System.out.println("Please enter title");
-                String title = scanner.nextLine();
-                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
-                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
-                SearchCriteria searchCriteria = new AndSearchCriteria(authorSearchCriteria, titleSearchCriteria);
-                List<Book> resultList = bookDatabase.find(searchCriteria);
-                for (Book book : resultList) {
-                    System.out.println(book.toString());
-                }
-            }
-            case 2 -> {
-                System.out.println("Please enter year of the issue");
-                String yearOfTheIssue = scanner.nextLine();
-                System.out.println("Please enter title");
-                String title = scanner.nextLine();
-                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
-                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
-                SearchCriteria searchCriteria = new AndSearchCriteria(yearOfTheIssueSearchCriteria, titleSearchCriteria);
-                List<Book> resultList = bookDatabase.find(searchCriteria);
-                for (Book book : resultList) {
-                    System.out.println(book.toString());
-                }
-            }
-            case 3 -> {
-                System.out.println("Please enter author");
-                String author = scanner.nextLine();
-                System.out.println("Please enter year of the issue");
-                String yearOfTheIssue = scanner.nextLine();
-                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
-                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
-                SearchCriteria searchCriteria = new AndSearchCriteria(yearOfTheIssueSearchCriteria, authorSearchCriteria);
-                List<Book> resultList = bookDatabase.find(searchCriteria);
-                for (Book book : resultList) {
-                    System.out.println(book.toString());
-                }
-            }
-            case 4 -> {
-                System.out.println("Please enter author");
-                String author = scanner.nextLine();
-                System.out.println("Please enter year of the issue");
-                String yearOfTheIssue = scanner.nextLine();
-                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
-                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
-                SearchCriteria searchCriteria = new OrSearchCriteria(yearOfTheIssueSearchCriteria, authorSearchCriteria);
-                List<Book> resultList = bookDatabase.find(searchCriteria);
-                for (Book book : resultList) {
-                    System.out.println(book.toString());
-                }
-            }
-            case 5 -> {
-                System.out.println("Please enter author");
-                String author = scanner.nextLine();
-                System.out.println("Please enter title");
-                String title = scanner.nextLine();
-                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
-                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
-                SearchCriteria searchCriteria = new OrSearchCriteria(authorSearchCriteria, titleSearchCriteria);
-                List<Book> resultList = bookDatabase.find(searchCriteria);
-                for (Book book : resultList) {
-                    System.out.println(book.toString());
-                }
-            }
-            case 6 -> {
-                System.out.println("Please enter year of the issue");
-                String yearOfTheIssue = scanner.nextLine();
-                System.out.println("Please enter title");
-                String title = scanner.nextLine();
-                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
-                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
-                SearchCriteria searchCriteria = new OrSearchCriteria(yearOfTheIssueSearchCriteria, titleSearchCriteria);
-                List<Book> resultList = bookDatabase.find(searchCriteria);
-                for (Book book : resultList) {
-                    System.out.println(book.toString());
-                }
-            }
-            default -> System.out.println("Please choose search criteria and enter number of your criteria");
+//            case 1 -> {
+//                System.out.println("Please enter author");
+//                String author = scanner.nextLine();
+//                System.out.println("Please enter title");
+//                String title = scanner.nextLine();
+//                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
+//                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
+//                SearchCriteria searchCriteria = new AndSearchCriteria(authorSearchCriteria, titleSearchCriteria);
+//                List<Book> resultList = bookDatabase.find(searchCriteria);
+//                for (Book book : resultList) {
+//                    System.out.println(book.toString());
+//                }
+//            }
+//            case 2 -> {
+//                System.out.println("Please enter year of the issue");
+//                String yearOfTheIssue = scanner.nextLine();
+//                System.out.println("Please enter title");
+//                String title = scanner.nextLine();
+//                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
+//                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
+//                SearchCriteria searchCriteria = new AndSearchCriteria(yearOfTheIssueSearchCriteria, titleSearchCriteria);
+//                List<Book> resultList = bookDatabase.find(searchCriteria);
+//                for (Book book : resultList) {
+//                    System.out.println(book.toString());
+//                }
+//            }
+//            case 3 -> {
+//                System.out.println("Please enter author");
+//                String author = scanner.nextLine();
+//                System.out.println("Please enter year of the issue");
+//                String yearOfTheIssue = scanner.nextLine();
+//                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
+//                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
+//                SearchCriteria searchCriteria = new AndSearchCriteria(yearOfTheIssueSearchCriteria, authorSearchCriteria);
+//                List<Book> resultList = bookDatabase.find(searchCriteria);
+//                for (Book book : resultList) {
+//                    System.out.println(book.toString());
+//                }
+//            }
+//            case 4 -> {
+//                System.out.println("Please enter author");
+//                String author = scanner.nextLine();
+//                System.out.println("Please enter year of the issue");
+//                String yearOfTheIssue = scanner.nextLine();
+//                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
+//                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
+//                SearchCriteria searchCriteria = new OrSearchCriteria(yearOfTheIssueSearchCriteria, authorSearchCriteria);
+//                List<Book> resultList = bookDatabase.find(searchCriteria);
+//                for (Book book : resultList) {
+//                    System.out.println(book.toString());
+//                }
+//            }
+//            case 5 -> {
+//                System.out.println("Please enter author");
+//                String author = scanner.nextLine();
+//                System.out.println("Please enter title");
+//                String title = scanner.nextLine();
+//                SearchCriteria authorSearchCriteria = new AuthorSearchCriteria(author);
+//                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
+//                SearchCriteria searchCriteria = new OrSearchCriteria(authorSearchCriteria, titleSearchCriteria);
+//                List<Book> resultList = bookDatabase.find(searchCriteria);
+//                for (Book book : resultList) {
+//                    System.out.println(book.toString());
+//                }
+//            }
+//            case 6 -> {
+//                System.out.println("Please enter year of the issue");
+//                String yearOfTheIssue = scanner.nextLine();
+//                System.out.println("Please enter title");
+//                String title = scanner.nextLine();
+//                SearchCriteria yearOfTheIssueSearchCriteria = new YearOfIssueSearchCriteria(yearOfTheIssue);
+//                SearchCriteria titleSearchCriteria = new TitleSearchCriteria(title);
+//                SearchCriteria searchCriteria = new OrSearchCriteria(yearOfTheIssueSearchCriteria, titleSearchCriteria);
+//                List<Book> resultList = bookDatabase.find(searchCriteria);
+//                for (Book book : resultList) {
+//                    System.out.println(book.toString());
+//                }
+//            }
+//            default -> System.out.println("Please choose search criteria and enter number of your criteria");
         }
 
     }
