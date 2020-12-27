@@ -1,6 +1,8 @@
 package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_9.task_13;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class ClassX {
         public ClassX(int i) {
             System.out.println(1);

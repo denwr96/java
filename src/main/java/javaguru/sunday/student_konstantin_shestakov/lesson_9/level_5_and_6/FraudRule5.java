@@ -4,8 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // Task 28 (level 5)
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Сравнивайте объекты через .equals")
+@CodeReview(approved = true)
 class FraudRule5 extends FraudRule {
 
     public FraudRule5(String ruleName) {

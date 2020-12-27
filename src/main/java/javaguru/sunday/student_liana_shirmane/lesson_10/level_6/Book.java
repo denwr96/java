@@ -1,4 +1,7 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_6;
+
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 //task14
 //task15
 //task16
@@ -11,7 +14,7 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_6;
 //task23
 //task24
 //task25
-
+@CodeReview(approved = true)
 public class Book {
 
     public boolean isRead;

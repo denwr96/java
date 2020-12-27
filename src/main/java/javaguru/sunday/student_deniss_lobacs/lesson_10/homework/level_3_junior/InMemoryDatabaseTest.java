@@ -1,5 +1,13 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_3_junior;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Можно не писать: victim.check(banana) == true" +
+        "Это избыточно. Если входным параметром у вас boolean, то подавать вы можете " +
+        "туда выражение, результатом которого является boolean." +
+        "Метод .check уже возвращает boolean, а значит, проверять еще раз на == true не надо.")
 public class InMemoryDatabaseTest {
     private InMemoryDatabase victim = new InMemoryDatabase();
 

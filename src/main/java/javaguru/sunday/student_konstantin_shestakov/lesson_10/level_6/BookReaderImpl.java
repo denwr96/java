@@ -2,8 +2,12 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6
 
 // Task 14 - 25
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.Arrays;
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Переделать на коллекции.")
 class BookReaderImpl implements BookReader {
 
     Book[] bookArray = new Book[6];

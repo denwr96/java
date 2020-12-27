@@ -12,7 +12,6 @@ class Transaction {
         this.amount = amount;
     }
 
-
     public Trader getTrader() {
         return trader;
     }

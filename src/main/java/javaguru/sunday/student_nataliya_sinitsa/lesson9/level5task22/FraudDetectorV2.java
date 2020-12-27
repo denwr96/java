@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson9.level5task22;
 
-//Task 33
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+//Task 33
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Метод ifFarud переусложнен. Надо переделать. Если встретили fraud, то надо вернуть объект, который хранит название рула и флаг true. Если не втретили, то возвращать надо объект с флагом false")
 class FraudDetectorV2 {
 
     FraudRule[] fraudRules = new FraudRule[5];
@@ -15,19 +19,13 @@ class FraudDetectorV2 {
     }
 
     FraudDetectionResult isFraud(Transaction t) {
-        boolean isFraudTransaction = false;
-        String fraudRuleName = "Transaction has passed";
         for (FraudRule fraudRule : fraudRules) {
-            isFraudTransaction = fraudRule.isFraud(t);
-            if (isFraudTransaction) {
-                fraudRuleName = fraudRule.getRuleName();
-                System.out.println(t.toString());
-                break;
+            if (fraudRule.isFraud(t)) {
+                System.out.println("Fraud transaction detected: " + t.toString());
+                return new FraudDetectionResult(true, fraudRule.getRuleName());
             }
         }
-        System.out.println(fraudRuleName);
-        return new FraudDetectionResult(isFraudTransaction, fraudRuleName);
-
+        return new FraudDetectionResult(false, null);
     }
 
 }

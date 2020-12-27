@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_2;
 
-// Task 5
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 5
+@CodeReview(approved = true)
 class DayOfTheWeekDetectorDemo {
 
     DayOfTheWeekDetector dayOfTheWeekDetector;

@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6
 
 // Task 14 - 25
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class BookTest {
 
     public static void main(String[] args) {

@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson9.level5task22;
 
-//Task 23 --> Task 29
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task 23 --> Task 29
+@CodeReview(approved = true)
 class FraudRuleTest {
 
     public static void main(String[] args) {

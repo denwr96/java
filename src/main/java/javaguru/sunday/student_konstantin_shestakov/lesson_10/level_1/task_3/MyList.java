@@ -2,8 +2,10 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_1
 
 // Task 3
 
-import java.util.ArrayList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 interface MyList {
 
     default boolean findInputString(ArrayList<Integer> arrayList, int inputNumber) {

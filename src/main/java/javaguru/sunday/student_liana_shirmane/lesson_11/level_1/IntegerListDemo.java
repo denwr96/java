@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_1;
 //task3
 
-import java.util.LinkedList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.LinkedList;
+@CodeReview(approved = true)
 class IntegerListDemo {
     public static void main(String[] args) {
         IntegerListDemo integerListDemo = new IntegerListDemo();

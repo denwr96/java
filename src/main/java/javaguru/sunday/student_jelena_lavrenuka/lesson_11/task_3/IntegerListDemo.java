@@ -1,8 +1,10 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_11.task_3;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class IntegerListDemo {
     public void integerListDemo() {
         List<Integer> myIntegerList = new ArrayList<Integer>();

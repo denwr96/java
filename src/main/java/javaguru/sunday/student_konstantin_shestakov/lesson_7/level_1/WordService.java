@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_1;
 
-// Task 1-3
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 1-3
+@CodeReview(approved = true)
 class WordService {
 
     public String findMostFrequentWord(String text) {

@@ -1,10 +1,12 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_1;
 //task1
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class Lists {
     List<String> productDataBase = new ArrayList<>();
     List<String> birthdayList = new LinkedList<>();

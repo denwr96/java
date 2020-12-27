@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_10.BookReader;
 
-import java.util.Objects;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Book {
     private String bookTitle;
     private String bookAuthor;
