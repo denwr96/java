@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_6;
+package javaguru.sunday.student_kristina_sutugina.lesson_3.level_6;
 
  class CandleDemo {
      public static void main(String[] args) {

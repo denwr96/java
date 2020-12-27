@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_3.level_3_junior.task_13;
+package javaguru.sunday.student_sergej_savkin.lesson_3.level_3_junior.task_13;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class RobotDemo {

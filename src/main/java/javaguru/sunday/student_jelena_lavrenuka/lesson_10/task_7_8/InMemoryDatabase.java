@@ -1,11 +1,11 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_10.task_7_8;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_10.task_7_8;
 
 // lesson_10 task_7
 // lesson_10 task_8
 // lesson_10 task_10
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
 import java.util.List;

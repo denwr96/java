@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_10.lessoncode.arrayUtils;
+package javaguru.sunday.teacher.lesson_10.lessoncode.arrayUtils;
 
 //Task 31
 //Task 33
@@ -6,7 +6,7 @@ package main.java.javaguru.sunday.teacher.lesson_10.lessoncode.arrayUtils;
 //Task 36
 //Task 38
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 import java.util.Random;

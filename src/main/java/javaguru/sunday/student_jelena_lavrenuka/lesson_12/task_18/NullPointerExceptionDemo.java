@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_18;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_18;
 
 //NullPointerException - это исключения, возникающие при попытке использовать ссылку,
 // которая не указывает ни на одно место в памяти (null),

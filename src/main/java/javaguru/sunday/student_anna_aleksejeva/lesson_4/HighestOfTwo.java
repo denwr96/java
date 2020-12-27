@@ -1,5 +1,5 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_4;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+package javaguru.sunday.student_anna_aleksejeva.lesson_4;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

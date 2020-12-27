@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_2.level_senior.super_task_5;
+package javaguru.sunday.student_liana_shirmane.lesson_2.level_senior.super_task_5;
 /*программа выводит на экран значения двух, ранее заданных чисел.
 Суммирует их и выводит полученное значение.*/
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class Comments {

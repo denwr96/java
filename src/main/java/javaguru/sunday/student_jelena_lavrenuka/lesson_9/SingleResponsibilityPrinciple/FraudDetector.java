@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleResponsibilityPrinciple;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleResponsibilityPrinciple;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // lesson_9 task_17
 // lesson_9 task_18

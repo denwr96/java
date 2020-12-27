@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task6;
+package javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task6;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 @FunctionalInterface

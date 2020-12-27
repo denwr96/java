@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_4.level_6;
+package javaguru.sunday.student_natalia_kochkina.lesson_4.level_6;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class StockDemo {

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_12.level_2_intern.task_7_17;
+package javaguru.sunday.student_sergej_savkin.lesson_12.level_2_intern.task_7_17;
 
 //task7
 

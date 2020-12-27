@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_5.lessoncode.stock;
+package javaguru.sunday.teacher.lesson_5.lessoncode.stock;
 
 public class StockTest {
 

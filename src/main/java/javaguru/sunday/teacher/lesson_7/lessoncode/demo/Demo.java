@@ -1,10 +1,10 @@
-package main.java.javaguru.sunday.teacher.lesson_7.lessoncode.demo;
+package javaguru.sunday.teacher.lesson_7.lessoncode.demo;
 
 
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.Flat;
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.House;
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.InsuredObject;
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums.InsuranceRisk;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.Flat;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.House;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.InsuredObject;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums.InsuranceRisk;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

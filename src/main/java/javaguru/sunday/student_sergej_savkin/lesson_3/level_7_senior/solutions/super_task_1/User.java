@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_3.level_7_senior.solutions.super_task_1;
+package javaguru.sunday.student_sergej_savkin.lesson_3.level_7_senior.solutions.super_task_1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class User {

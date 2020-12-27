@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson9.level5task22;
+package javaguru.sunday.student_nataliya_sinitsa.lesson9.level5task22;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //Task 33
 @CodeReview(approved = false)

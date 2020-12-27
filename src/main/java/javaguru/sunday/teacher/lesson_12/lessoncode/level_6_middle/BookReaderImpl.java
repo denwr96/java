@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle;
+package javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.teacher.lesson_9.testpackage;
+package javaguru.sunday.teacher.lesson_9.testpackage;
 
-import main.java.javaguru.sunday.teacher.lesson_9.lessoncode.SmartPhone;
+import javaguru.sunday.teacher.lesson_9.lessoncode.SmartPhone;
 
 public class SmartPhoneChild extends SmartPhone {
 

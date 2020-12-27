@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_12;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_12;
 
 // каждый последующий класс наследует метод своего потомка (MULTILEVEL INHERITANCE)
 

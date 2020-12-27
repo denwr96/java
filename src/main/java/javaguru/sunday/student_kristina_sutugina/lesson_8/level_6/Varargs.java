@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_8.level_6;
+package javaguru.sunday.student_kristina_sutugina.lesson_8.level_6;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 //Varargs — или Variable Arguments — это технология,
 // которая позволяет создавать методы с произвольным количеством аргументов.

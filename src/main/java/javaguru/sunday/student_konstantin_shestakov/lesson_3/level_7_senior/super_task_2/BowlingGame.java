@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_7_senior.super_task_2;
+package javaguru.sunday.student_konstantin_shestakov.lesson_3.level_7_senior.super_task_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_3;
 // Task_1
 // Task_2
 // Task_3
@@ -9,7 +9,7 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_3;
 // Task_12
 // Task_13
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Robot {

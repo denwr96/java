@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_5.task_20;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_5.task_20;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class ForLoopDefinition5 {

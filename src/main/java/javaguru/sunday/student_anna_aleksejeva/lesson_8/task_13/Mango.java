@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_8.task_13;
+package javaguru.sunday.student_anna_aleksejeva.lesson_8.task_13;
 
 public class Mango extends Fruit {
     double mangoLength;

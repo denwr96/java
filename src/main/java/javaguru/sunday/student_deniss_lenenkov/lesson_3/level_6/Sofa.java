@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_3.level_6;
+package javaguru.sunday.student_deniss_lenenkov.lesson_3.level_6;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Не надо выводить на консоль значения сразу из конструктора. Это совершенно не нужно. Конструктор служит только для инициализации состояний объекта." +

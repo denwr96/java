@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_6;
+package javaguru.sunday.student_artjoms_bocarovs.lesson_6;
 
 public class Calculator {
 

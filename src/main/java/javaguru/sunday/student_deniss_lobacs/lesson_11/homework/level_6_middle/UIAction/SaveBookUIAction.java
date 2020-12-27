@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle.UIAction;
+package javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle.UIAction;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.Book;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.BookDatabase;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.Book;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.BookDatabase;
 
 import java.util.Scanner;
 // task31

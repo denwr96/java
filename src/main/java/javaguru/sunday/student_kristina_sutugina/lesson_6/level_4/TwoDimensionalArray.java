@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_4;
+package javaguru.sunday.student_kristina_sutugina.lesson_6.level_4;
 //Task_18
 //нет codeReview
 import java.util.Random;

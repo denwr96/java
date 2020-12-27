@@ -1,10 +1,10 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_4.level_3;
+package javaguru.sunday.student_liana_shirmane.lesson_4.level_3;
 //task8
 //task9
 //task10
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 

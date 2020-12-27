@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson5.level5;
+package javaguru.sunday.student_nataliya_sinitsa.lesson5.level5;
 
 //Task 31 - Task 41
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class ArrayUtilTest {

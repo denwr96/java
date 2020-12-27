@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums;
+package javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums;
 
 public enum InsuranceRisk {
 

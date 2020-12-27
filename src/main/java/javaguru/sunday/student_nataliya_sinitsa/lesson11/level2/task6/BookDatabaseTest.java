@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level2.task6;
+package javaguru.sunday.student_nataliya_sinitsa.lesson11.level2.task6;
 
 //Task 6 --> Task 14
 

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_5.level_5_and_6;
+package javaguru.sunday.student_konstantin_shestakov.lesson_5.level_5_and_6;
 
 //Task 31
 //Task 33
@@ -6,7 +6,7 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_5.level_5_
 //Task 36
 //Task 38
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 import java.util.Random;

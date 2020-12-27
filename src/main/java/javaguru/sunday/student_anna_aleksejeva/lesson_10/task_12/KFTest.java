@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_10.task_12;
+package javaguru.sunday.student_anna_aleksejeva.lesson_10.task_12;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 /* не понимаю, почему не работает FahrenheitTest */
 @CodeReview(approved = true)

@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_2.task14;
+package javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_2.task14;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 @CodeReview(approved = true)

@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_2.homework.level_senior;
+package javaguru.sunday.student_emin_pjatnickis.lesson_2.homework.level_senior;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 

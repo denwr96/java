@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_4.level_3;
+package javaguru.sunday.student_glebs_surtajevs.lesson_4.level_3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

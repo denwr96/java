@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_4.task_18;
+package javaguru.sunday.student_sergej_savkin.lesson_6.level_4.task_18;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class TwoDimensionalArrayTest {

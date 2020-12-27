@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_valeri_rozov.lesson2.lvl3;
+package javaguru.sunday.student_valeri_rozov.lesson2.lvl3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

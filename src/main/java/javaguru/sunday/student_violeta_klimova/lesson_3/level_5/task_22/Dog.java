@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_5.task_22;
+package javaguru.sunday.student_violeta_klimova.lesson_3.level_5.task_22;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Dog {

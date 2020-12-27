@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson5.level4.task26;
+package javaguru.sunday.student_nataliya_sinitsa.lesson5.level4.task26;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 import java.util.Scanner;

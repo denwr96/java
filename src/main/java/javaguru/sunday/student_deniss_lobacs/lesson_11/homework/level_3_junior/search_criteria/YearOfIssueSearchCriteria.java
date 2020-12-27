@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria;
+package javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.Book;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.Book;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
 
 public class YearOfIssueSearchCriteria implements SearchCriteria {
 

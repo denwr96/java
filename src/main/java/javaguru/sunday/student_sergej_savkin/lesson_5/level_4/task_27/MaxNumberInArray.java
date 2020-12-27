@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_5.level_4.task_27;
+package javaguru.sunday.student_sergej_savkin.lesson_5.level_4.task_27;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 import java.util.Scanner;

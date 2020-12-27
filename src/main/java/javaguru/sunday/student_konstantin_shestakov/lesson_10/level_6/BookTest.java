@@ -1,8 +1,9 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6;
+package javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6;
 
 // Task 14 - 25
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 @CodeReview(approved = true)
@@ -29,15 +30,15 @@ class BookTest {
     Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
     Book book3 = new Book("Остров", "Олдос Хаксли");
     Book book4 = new Book("Остров сокровищ", "Роберт Льюис Стивенсон");
-    Book bookWithoutAuthor = new Book("Созерцатель тени");
-    Book bookWithoutTitleAndAuthor = new Book();
+//    Book bookWithoutAuthor = new Book("Созерцатель тени");
+//    Book bookWithoutTitleAndAuthor = new Book();
 
     void addBookTests() {
         System.out.println("---- Add book tests ----");
         checkResults(bookReader.addBook(book1), "Add book test");
         checkResults(!bookReader.addBook(book1), "Don't add same book test");
-        checkResults(!bookReader.addBook(bookWithoutAuthor), "Don't add book without author test");
-        checkResults(!bookReader.addBook(bookWithoutTitleAndAuthor), "Don't add book without author / title test");
+//        checkResults(!bookReader.addBook(bookWithoutAuthor), "Don't add book without author test");
+//        checkResults(!bookReader.addBook(bookWithoutTitleAndAuthor), "Don't add book without author / title test");
     }
 
     void removeBookTest() {

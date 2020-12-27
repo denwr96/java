@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_8.level_4;
+package javaguru.sunday.student_kristina_sutugina.lesson_8.level_4;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 //Task_19
 @CodeReview(approved = true)

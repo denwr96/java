@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_3.task_13;
+package javaguru.sunday.student_konstantin_shestakov.lesson_8.level_3.task_13;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 abstract class Animal {

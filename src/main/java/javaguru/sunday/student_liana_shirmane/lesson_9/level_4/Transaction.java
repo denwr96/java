@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
+package javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
 //task17
 //task18
 

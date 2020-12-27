@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_4.level_3.task_8;
+package javaguru.sunday.student_natalia_kochkina.lesson_4.level_3.task_8;
 
 //Task_8
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

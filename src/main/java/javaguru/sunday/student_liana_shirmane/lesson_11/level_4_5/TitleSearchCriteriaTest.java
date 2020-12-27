@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5;
+package javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5;
 
 public class TitleSearchCriteriaTest {
     public static void main(String[] args) {

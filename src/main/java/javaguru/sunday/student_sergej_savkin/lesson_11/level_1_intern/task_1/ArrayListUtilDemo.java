@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_11.level_1_intern.task_1;
+package javaguru.sunday.student_sergej_savkin.lesson_11.level_1_intern.task_1;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_13;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_13;
 
 class ClassX {
     public ClassX(int i) {

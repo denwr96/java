@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_10.level_3.task_8;
+package javaguru.sunday.student_kristina_sutugina.lesson_10.level_3.task_8;
 
 interface Database {
 

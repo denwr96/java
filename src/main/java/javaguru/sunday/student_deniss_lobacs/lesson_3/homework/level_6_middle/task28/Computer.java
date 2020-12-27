@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_3.homework.level_6_middle.task28;
+package javaguru.sunday.student_deniss_lobacs.lesson_3.homework.level_6_middle.task28;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Computer {

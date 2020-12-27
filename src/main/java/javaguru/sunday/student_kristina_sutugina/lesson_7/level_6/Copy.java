@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_7.level_6;
+package javaguru.sunday.student_kristina_sutugina.lesson_7.level_6;
 
 import java.util.Arrays;
 //нет codeReview

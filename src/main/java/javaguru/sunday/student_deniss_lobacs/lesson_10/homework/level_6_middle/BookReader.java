@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_6_middle;
+package javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_6_middle;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
 

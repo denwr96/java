@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_6.level_1.task_2;
+package javaguru.sunday.student_glebs_surtajevs.lesson_6.level_1.task_2;
 
-import main.java.javaguru.sunday.student_glebs_surtajevs.lesson_6.level_1.task_2.DayOfTheWeekDetector;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_glebs_surtajevs.lesson_6.level_1.task_2.DayOfTheWeekDetector;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class DayOfTheWeekDetectorTest {

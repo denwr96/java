@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_5;
+package javaguru.sunday.student_liana_shirmane.lesson_6.level_5;
 //task25
 public class Move {
     private int x;

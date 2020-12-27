@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_valeri_rozov.lesson1;
+package javaguru.sunday.student_valeri_rozov.lesson1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Плохие названия переменных")

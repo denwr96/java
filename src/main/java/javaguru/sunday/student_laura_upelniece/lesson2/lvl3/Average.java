@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_laura_upelniece.lesson2.lvl3;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+package javaguru.sunday.student_laura_upelniece.lesson2.lvl3;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level1.task2;
+package javaguru.sunday.student_nataliya_sinitsa.lesson10.level1.task2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 import java.util.OptionalInt;

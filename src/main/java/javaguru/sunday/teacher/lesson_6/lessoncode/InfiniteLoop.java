@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.teacher.lesson_6.lessoncode;
+package javaguru.sunday.teacher.lesson_6.lessoncode;
 
-import main.java.javaguru.sunday.teacher.lesson_3.lessoncode.Car;
+import javaguru.sunday.teacher.lesson_3.lessoncode.Car;
 
 import java.util.Scanner;
 

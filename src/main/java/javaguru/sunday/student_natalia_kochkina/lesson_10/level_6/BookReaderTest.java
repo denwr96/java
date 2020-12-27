@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
+package javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 
 //Task_14
 //Task_15

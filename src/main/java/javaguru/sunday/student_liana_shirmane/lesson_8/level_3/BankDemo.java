@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_8.level_3;
+package javaguru.sunday.student_liana_shirmane.lesson_8.level_3;
 //task13
 class BankDemo {
         public static void main(String args[]){

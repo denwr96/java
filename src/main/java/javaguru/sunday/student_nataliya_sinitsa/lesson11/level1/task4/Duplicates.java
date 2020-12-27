@@ -1,11 +1,11 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task4;
+package javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task4;
 
 // ? Могут ли реализации интерфейса java.util.List хранить одинаковые элементы (дубликаты)
 
 // ! могут
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

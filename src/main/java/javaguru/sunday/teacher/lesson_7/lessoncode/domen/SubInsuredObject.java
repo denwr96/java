@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen;
+package javaguru.sunday.teacher.lesson_7.lessoncode.domen;
 
 
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums.InsuranceRisk;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums.InsuranceRisk;
 
 import java.math.BigDecimal;
 import java.util.List;

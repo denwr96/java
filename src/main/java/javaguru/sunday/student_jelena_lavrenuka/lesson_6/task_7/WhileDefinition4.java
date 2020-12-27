@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_7;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_7;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class WhileDefinition4 {

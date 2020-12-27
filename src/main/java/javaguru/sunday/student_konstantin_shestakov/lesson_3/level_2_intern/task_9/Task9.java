@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_2_intern.task_9;
+package javaguru.sunday.student_konstantin_shestakov.lesson_3.level_2_intern.task_9;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

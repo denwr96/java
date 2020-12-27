@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson8.level1.task3;
+package javaguru.sunday.student_nataliya_sinitsa.lesson8.level1.task3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 /* ссылочные типы данных вроде объектов String и Address принимают значение null, int принимает значение 0
 пример приведен в классе PersonDemo*/

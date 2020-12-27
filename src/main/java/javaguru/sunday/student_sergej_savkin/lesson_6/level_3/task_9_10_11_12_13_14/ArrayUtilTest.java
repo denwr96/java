@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_6.level_3.task_9_10_11_12_13_14;
+package javaguru.sunday.student_sergej_savkin.lesson_6.level_3.task_9_10_11_12_13_14;
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 

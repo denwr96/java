@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
 import java.util.ArrayList;
 import java.util.HashMap;

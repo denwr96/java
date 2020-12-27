@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_1;
+package javaguru.sunday.student_liana_shirmane.lesson_11.level_1;
 //task4
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.ArrayList;
 

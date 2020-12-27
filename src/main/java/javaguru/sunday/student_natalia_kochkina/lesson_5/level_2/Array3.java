@@ -1,11 +1,11 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_5.level_2;
+package javaguru.sunday.student_natalia_kochkina.lesson_5.level_2;
 
 //Task_12
 //Task_13
 //Task_14
 //Task_15
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 @CodeReview(approved = true)

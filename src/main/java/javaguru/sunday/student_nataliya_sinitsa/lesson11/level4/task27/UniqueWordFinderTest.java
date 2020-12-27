@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level4.task27;
+package javaguru.sunday.student_nataliya_sinitsa.lesson11.level4.task27;
 
 import java.util.HashSet;
 import java.util.Set;

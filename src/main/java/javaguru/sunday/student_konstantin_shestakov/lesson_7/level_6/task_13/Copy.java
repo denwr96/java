@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_6.task_13;
+package javaguru.sunday.student_konstantin_shestakov.lesson_7.level_6.task_13;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Copy {

@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
+package javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //task6
 //A functional interface is an interface that contains only one abstract method.

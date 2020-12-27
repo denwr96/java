@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_1_intern;
+package javaguru.sunday.student_konstantin_shestakov.lesson_3.level_1_intern;
 
-import main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_1_intern.Robot;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_konstantin_shestakov.lesson_3.level_1_intern.Robot;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task 3
 // Task 4

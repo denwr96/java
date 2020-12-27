@@ -1,9 +1,9 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern;
+package javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria.AuthorSearchCriteria;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria.TitleSearchCriteria;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria.YearOfIssueSearchCriteria;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria.AuthorSearchCriteria;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria.TitleSearchCriteria;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.search_criteria.YearOfIssueSearchCriteria;
 
 import java.util.Optional;
 

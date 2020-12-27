@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_7.task_10;
+package javaguru.sunday.student_anna_aleksejeva.lesson_7.task_10;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class PowerCalculator {

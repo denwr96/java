@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_6_middle.task_26;
+package javaguru.sunday.student_artjom_proshkin.lesson_3.level_6_middle.task_26;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Product {

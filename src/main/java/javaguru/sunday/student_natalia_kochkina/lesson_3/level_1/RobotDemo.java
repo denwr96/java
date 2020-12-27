@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_1;
+package javaguru.sunday.student_natalia_kochkina.lesson_3.level_1;
 
 //Task_3
 //Task_4
@@ -6,8 +6,8 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_1;
 //Task_6
 //Task_12
 
-import main.java.javaguru.sunday.student_natalia_kochkina.lesson_3.level_1.Robot;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_natalia_kochkina.lesson_3.level_1.Robot;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class RobotDemo {

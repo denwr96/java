@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_5_middle.task16;
+package javaguru.sunday.student_deniss_lobacs.lesson_4.level_5_middle.task16;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class LightColorDetectorTest {

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_6.task_17;
+package javaguru.sunday.student_konstantin_shestakov.lesson_4.level_6.task_17;
 
 
 class StockTest {

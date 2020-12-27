@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson2.Super_task;
+package javaguru.sunday.student_deniss_lobacs.lesson2.Super_task;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Хорошо, но есть ошибки - Transacti")

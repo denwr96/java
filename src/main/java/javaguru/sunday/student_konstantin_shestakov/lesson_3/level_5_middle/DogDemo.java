@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_5_middle;
+package javaguru.sunday.student_konstantin_shestakov.lesson_3.level_5_middle;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task 18
 // Task 19

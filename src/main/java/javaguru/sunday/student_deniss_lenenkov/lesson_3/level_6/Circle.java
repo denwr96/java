@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_3.level_6;
+package javaguru.sunday.student_deniss_lenenkov.lesson_3.level_6;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Вы чуть-чуть не поняли идеяю ООП. У нас есть класс Круг. Этот класс, помогает нам создавать круги с разными значениями радиуса" +

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_6;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_6;
 
 // lesson_6 task_19
 // lesson_6 task_20

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_4.task_14;
+package javaguru.sunday.student_violeta_klimova.lesson_3.level_4.task_14;
 
 // Task 14
 

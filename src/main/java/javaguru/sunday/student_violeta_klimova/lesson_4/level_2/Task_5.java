@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_4.level_2;
+package javaguru.sunday.student_violeta_klimova.lesson_4.level_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 

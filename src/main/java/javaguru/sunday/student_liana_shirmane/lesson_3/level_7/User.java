@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_3.level_7;
+package javaguru.sunday.student_liana_shirmane.lesson_3.level_7;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 class User {

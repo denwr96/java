@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_3.homework.level_1;
+package javaguru.sunday.student_emin_pjatnickis.lesson_3.homework.level_1;
 
 // level_1
 
@@ -9,7 +9,7 @@ package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_3.homework.leve
 
 // level_3
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task_11
 @CodeReview(approved = true)

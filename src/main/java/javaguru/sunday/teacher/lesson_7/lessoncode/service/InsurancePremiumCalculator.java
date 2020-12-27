@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.teacher.lesson_7.lessoncode.service;
+package javaguru.sunday.teacher.lesson_7.lessoncode.service;
 
 
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.InsuredObject;
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.Policy;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.InsuredObject;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.Policy;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_1_intern;
+package javaguru.sunday.student_artjom_proshkin.lesson_3.level_1_intern;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task_1
 // Task_2

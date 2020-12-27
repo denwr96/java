@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern;
+package javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern;
 
 // task 6-14, task 22-26 , task 28-29
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
 
 import java.util.*;
 

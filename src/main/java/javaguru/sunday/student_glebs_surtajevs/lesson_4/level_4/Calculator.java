@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_4.level_4;
+package javaguru.sunday.student_glebs_surtajevs.lesson_4.level_4;
 
 //Task_11
 //Task_12
@@ -6,7 +6,7 @@ package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_4.level_4;
 //Task_14
 //Task_15
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Calculator {

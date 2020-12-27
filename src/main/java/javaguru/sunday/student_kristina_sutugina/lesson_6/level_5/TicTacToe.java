@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_5;
+package javaguru.sunday.student_kristina_sutugina.lesson_6.level_5;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 //Task_19

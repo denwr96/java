@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_6.task_24_part_2;
+package javaguru.sunday.student_violeta_klimova.lesson_3.level_6.task_24_part_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Cat {

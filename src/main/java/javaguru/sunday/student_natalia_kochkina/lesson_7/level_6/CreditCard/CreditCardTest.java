@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_7.level_6.CreditCard;
+package javaguru.sunday.student_natalia_kochkina.lesson_7.level_6.CreditCard;
 
 //Task_11
 

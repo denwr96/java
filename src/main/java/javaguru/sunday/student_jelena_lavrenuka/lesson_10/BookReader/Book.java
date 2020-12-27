@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_10.BookReader;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_10.BookReader;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Objects;
 @CodeReview(approved = true)

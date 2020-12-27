@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson2.Super_task;
+package javaguru.sunday.student_deniss_lobacs.lesson2.Super_task;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class SuperTask2 {

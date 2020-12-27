@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_6.level_3;
+package javaguru.sunday.student_natalia_kochkina.lesson_6.level_3;
 
 //Task_9
 //Task_10
@@ -7,7 +7,7 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_6.level_3;
 //Task_13
 //Task_14
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 @CodeReview(approved = true)

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_19;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_19;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

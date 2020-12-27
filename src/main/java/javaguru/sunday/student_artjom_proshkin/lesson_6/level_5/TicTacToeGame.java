@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_6.level_5;
+package javaguru.sunday.student_artjom_proshkin.lesson_6.level_5;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task_27
 @CodeReview(approved = true)

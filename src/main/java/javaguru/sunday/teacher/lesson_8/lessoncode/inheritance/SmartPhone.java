@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_8.lessoncode.inheritance;
+package javaguru.sunday.teacher.lesson_8.lessoncode.inheritance;
 
 public class SmartPhone extends MobilePhone {
 

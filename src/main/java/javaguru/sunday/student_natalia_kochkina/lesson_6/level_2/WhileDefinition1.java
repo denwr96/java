@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_6.level_2;
+package javaguru.sunday.student_natalia_kochkina.lesson_6.level_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 //Task_4
 @CodeReview(approved = true)

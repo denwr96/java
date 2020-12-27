@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_4;
+package javaguru.sunday.student_konstantin_shestakov.lesson_4.level_4;
 
 // Task 11
 // Task 12
@@ -6,8 +6,8 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_4;
 // Task 14
 // Task 15
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Метод maxOfThreeNumbers супер усложнен. Его надо зарефакторить (переписать)")

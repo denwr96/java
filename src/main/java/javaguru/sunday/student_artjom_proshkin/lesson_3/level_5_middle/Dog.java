@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_5_middle;
+package javaguru.sunday.student_artjom_proshkin.lesson_3.level_5_middle;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // Task_18
 // Task_19

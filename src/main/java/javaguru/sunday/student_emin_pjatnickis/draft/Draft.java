@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_emin_pjatnickis.draft;
+package javaguru.sunday.student_emin_pjatnickis.draft;
 
 public class Draft {
 

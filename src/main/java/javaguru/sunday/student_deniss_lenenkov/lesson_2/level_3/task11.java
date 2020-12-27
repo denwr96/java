@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_2.level_3;
+package javaguru.sunday.student_deniss_lenenkov.lesson_2.level_3;
 
-import main.java.javaguru.sunday.student_sergej_savkin.lesson_2.level_senior.super_task_1.SystemUnit;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_sergej_savkin.lesson_2.level_senior.super_task_1.SystemUnit;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

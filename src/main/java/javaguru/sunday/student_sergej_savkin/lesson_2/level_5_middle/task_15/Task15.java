@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_2.level_5_middle.task_15;
+package javaguru.sunday.student_sergej_savkin.lesson_2.level_5_middle.task_15;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class Task15 {

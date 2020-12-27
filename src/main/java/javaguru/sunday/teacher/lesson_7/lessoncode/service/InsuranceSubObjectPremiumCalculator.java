@@ -1,9 +1,9 @@
-package main.java.javaguru.sunday.teacher.lesson_7.lessoncode.service;
+package javaguru.sunday.teacher.lesson_7.lessoncode.service;
 
 
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.InsuredObject;
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.SubInsuredObject;
-import main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums.InsuranceRisk;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.InsuredObject;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.SubInsuredObject;
+import javaguru.sunday.teacher.lesson_7.lessoncode.domen.enums.InsuranceRisk;
 
 import java.math.BigDecimal;
 import java.util.HashSet;

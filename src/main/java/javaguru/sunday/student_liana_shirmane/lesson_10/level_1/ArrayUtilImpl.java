@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_1;
+package javaguru.sunday.student_liana_shirmane.lesson_10.level_1;
 //task2
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 import java.util.OptionalInt;

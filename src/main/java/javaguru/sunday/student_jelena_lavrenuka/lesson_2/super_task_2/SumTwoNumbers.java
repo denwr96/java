@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_2.super_task_2;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_2.super_task_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Поправил вам отступы от края. Очень много лишних")

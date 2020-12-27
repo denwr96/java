@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_2.lessoncode;
+package javaguru.sunday.teacher.lesson_2.lessoncode;
 
 
 import java.util.Scanner;

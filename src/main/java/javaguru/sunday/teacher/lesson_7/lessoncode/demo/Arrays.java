@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_7.lessoncode.demo;
+package javaguru.sunday.teacher.lesson_7.lessoncode.demo;
 
 public class Arrays {
 

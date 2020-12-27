@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_2.homework.level_5_middle.task15;
+package javaguru.sunday.student_deniss_lobacs.lesson_2.homework.level_5_middle.task15;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class Text {

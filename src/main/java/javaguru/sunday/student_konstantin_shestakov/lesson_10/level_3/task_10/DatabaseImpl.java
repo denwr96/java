@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_3.task_10;
+package javaguru.sunday.student_konstantin_shestakov.lesson_10.level_3.task_10;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
 import java.util.Optional;

@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_9.task_5;
+package javaguru.sunday.student_anna_aleksejeva.lesson_9.task_5;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 @CodeReview(approved = false)

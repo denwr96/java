@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov;
+package javaguru.sunday.student_deniss_lenenkov;
 
 public class task_11 {
     public static void main(String[] args) {

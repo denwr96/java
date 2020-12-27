@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_4.homework.level_7_senior.solutions.super_task_4;
+package javaguru.sunday.teacher.lesson_4.homework.level_7_senior.solutions.super_task_4;
 
 public class LightColorDetector {
 

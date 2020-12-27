@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_2.level_2.task_7;
+package javaguru.sunday.student_liana_shirmane.lesson_2.level_2.task_7;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class LoginService {

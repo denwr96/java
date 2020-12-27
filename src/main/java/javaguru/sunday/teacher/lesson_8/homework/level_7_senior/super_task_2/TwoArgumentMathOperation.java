@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_8.homework.level_7_senior.super_task_2;
+package javaguru.sunday.teacher.lesson_8.homework.level_7_senior.super_task_2;
 
 abstract class TwoArgumentMathOperation extends MathOperation {
 

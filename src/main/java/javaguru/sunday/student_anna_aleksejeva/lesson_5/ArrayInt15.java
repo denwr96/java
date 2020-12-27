@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_5;
+package javaguru.sunday.student_anna_aleksejeva.lesson_5;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_2.task15.Array;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_2.task15.Array;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 

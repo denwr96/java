@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_10.task_1;
+package javaguru.sunday.student_anna_aleksejeva.lesson_10.task_1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class JavaStarLoginServiceImpl {

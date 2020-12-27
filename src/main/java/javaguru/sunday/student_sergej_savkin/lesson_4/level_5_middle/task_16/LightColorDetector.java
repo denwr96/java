@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_4.level_5_middle.task_16;
+package javaguru.sunday.student_sergej_savkin.lesson_4.level_5_middle.task_16;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class LightColorDetector {

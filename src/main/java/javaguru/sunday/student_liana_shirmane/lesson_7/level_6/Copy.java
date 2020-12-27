@@ -1,9 +1,9 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_7.level_6;
+package javaguru.sunday.student_liana_shirmane.lesson_7.level_6;
 //task13
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 @CodeReview(approved = true)

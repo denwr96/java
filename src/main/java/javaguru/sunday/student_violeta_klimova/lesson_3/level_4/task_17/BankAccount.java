@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_4.task_17;
+package javaguru.sunday.student_violeta_klimova.lesson_3.level_4.task_17;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 //Task 17
 @CodeReview(approved = true)

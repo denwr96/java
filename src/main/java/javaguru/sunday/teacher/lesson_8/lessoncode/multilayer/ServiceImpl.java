@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_8.lessoncode.multilayer;
+package javaguru.sunday.teacher.lesson_8.lessoncode.multilayer;
 
 public class ServiceImpl implements Service {
 

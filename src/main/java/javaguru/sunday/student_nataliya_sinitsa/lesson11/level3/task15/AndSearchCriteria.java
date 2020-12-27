@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
+package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 class AndSearchCriteria implements SearchCriteria {
 

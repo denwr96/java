@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle;
+package javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle;
 // task37
 public class BookLibraryApplication {
 

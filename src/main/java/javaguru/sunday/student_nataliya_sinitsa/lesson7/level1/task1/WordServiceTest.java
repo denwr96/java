@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson7.level1.task1;
+package javaguru.sunday.student_nataliya_sinitsa.lesson7.level1.task1;
 
 // Task 1 --> Task 3
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 @CodeReview(approved = true)

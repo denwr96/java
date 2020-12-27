@@ -1,9 +1,9 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library;
+package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library;
 
 // Task 36, 38 (level 6);
 
-import main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.ui_action.UIAction;
-import main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.ui_action.*;
+import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.ui_action.UIAction;
+import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.ui_action.*;
 
 import java.util.HashMap;
 import java.util.Map;

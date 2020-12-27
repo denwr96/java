@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.teacher.qalecture.optional;
+package javaguru.sunday.teacher.qalecture.optional;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson2.Book;
+import javaguru.sunday.student_deniss_lobacs.lesson2.Book;
 
 import java.util.List;
 

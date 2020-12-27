@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_mihails_gutmans.lesson1;
+package javaguru.sunday.student_mihails_gutmans.lesson1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Все очень плохо с форматом в классе. Посмотрите, как у меня в классах поставлены фигурные скобки у класса, и у метода")

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern;
+package javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_3_junior.SearchCriteria;
 
 import java.util.List;
 import java.util.Map;

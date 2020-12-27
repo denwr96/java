@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka;
+package javaguru.sunday.student_jelena_lavrenuka;
 // lesson_5 task_31
 // lesson_5 task_32
 // lesson_5 task_33
@@ -14,8 +14,8 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka;
 // lesson_6 task_13
 // lesson_6 task_14
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Arrays;
 import java.util.Random;

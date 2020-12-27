@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_7.task_11;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_7.task_11;
 
 class CreditCardTest {
     public static void main(String[] args) {

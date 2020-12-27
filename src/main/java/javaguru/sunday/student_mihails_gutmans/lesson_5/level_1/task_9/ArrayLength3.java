@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_mihails_gutmans.lesson_5.level_1.task_9;
+package javaguru.sunday.student_mihails_gutmans.lesson_5.level_1.task_9;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class ArrayLength3 {

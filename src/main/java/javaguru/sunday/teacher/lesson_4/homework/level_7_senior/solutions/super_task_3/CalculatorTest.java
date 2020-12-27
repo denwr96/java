@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.teacher.lesson_4.homework.level_7_senior.solutions.super_task_3;
+package javaguru.sunday.teacher.lesson_4.homework.level_7_senior.solutions.super_task_3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class CalculatorTest {

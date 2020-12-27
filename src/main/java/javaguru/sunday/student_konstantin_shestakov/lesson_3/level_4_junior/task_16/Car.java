@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_4_junior.task_16;
+package javaguru.sunday.student_konstantin_shestakov.lesson_3.level_4_junior.task_16;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Car {

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_1_intern;
+package javaguru.sunday.student_artjom_proshkin.lesson_3.level_1_intern;
 
 // Task_3
 // Task_4
@@ -8,7 +8,7 @@ package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_1_inter
 // Task_12
 // Task_13
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class RobotDemo {

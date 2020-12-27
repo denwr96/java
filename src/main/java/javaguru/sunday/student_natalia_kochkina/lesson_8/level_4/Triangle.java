@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_4;
+package javaguru.sunday.student_natalia_kochkina.lesson_8.level_4;
 
 //Task_19
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import static java.lang.StrictMath.sqrt;
 

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
+package javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
 
 class Transaction {
 

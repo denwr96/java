@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleResponsibilityPrinciple;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_9.SingleResponsibilityPrinciple;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "А если вы подадите в такой метод транзакцию, у которой Trader будет null, то у вас будет ошибка :P")

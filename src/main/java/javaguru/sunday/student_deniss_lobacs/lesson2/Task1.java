@@ -1,5 +1,5 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson2;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+package javaguru.sunday.student_deniss_lobacs.lesson2;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

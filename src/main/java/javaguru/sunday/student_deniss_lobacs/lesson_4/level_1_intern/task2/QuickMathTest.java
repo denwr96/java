@@ -1,5 +1,5 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_1_intern.task2;
-import  main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_1_intern.task1.QuickMath;
+package javaguru.sunday.student_deniss_lobacs.lesson_4.level_1_intern.task2;
+import  javaguru.sunday.student_deniss_lobacs.lesson_4.level_1_intern.task1.QuickMath;
 
 public class QuickMathTest {
 

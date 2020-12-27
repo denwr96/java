@@ -1,12 +1,12 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_4_junior;
+package javaguru.sunday.student_artjom_proshkin.lesson_4.level_4_junior;
 
 // Task_11
 // Task_13
 // Task_14
 // Task_15
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "maxOfTwoNumbers мог бы быть на много проще )")

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.qalecture.constructorchaining;
+package javaguru.sunday.teacher.qalecture.constructorchaining;
 
 public class B extends A {
 

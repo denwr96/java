@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.level_4;
+package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.level_4;
 
 // Task 27 (level 4)
 

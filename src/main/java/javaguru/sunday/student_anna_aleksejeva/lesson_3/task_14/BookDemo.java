@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3.task_14;
+package javaguru.sunday.student_anna_aleksejeva.lesson_3.task_14;
 
 class BookDemo {
     public static void main(String[] args) {

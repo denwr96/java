@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle;
+package javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.BookDatabase;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.BookDatabaseImpl;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle.UIAction.*;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.BookDatabase;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.BookDatabaseImpl;
+import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_6_middle.UIAction.*;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_18;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_18;
 
 import java.util.Random;
 

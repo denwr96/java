@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_11.level_1_intern.task_2;
+package javaguru.sunday.student_sergej_savkin.lesson_11.level_1_intern.task_2;
 
 import java.util.LinkedList;
 import java.util.List;

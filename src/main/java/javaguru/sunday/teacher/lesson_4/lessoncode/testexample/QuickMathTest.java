@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.teacher.lesson_4.lessoncode.testexample;
+package javaguru.sunday.teacher.lesson_4.lessoncode.testexample;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class QuickMathTest {

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_10.lessoncode.library;
+package javaguru.sunday.teacher.lesson_10.lessoncode.library;
 
 public class Reader {
 

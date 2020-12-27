@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_4;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_4;
 
 class SafeDemo {
     public static void main(String[] args) {

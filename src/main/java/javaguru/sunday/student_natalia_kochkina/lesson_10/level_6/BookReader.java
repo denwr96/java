@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
+package javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 
 //Task_14
 //Task_15
@@ -13,7 +13,7 @@ package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 //Task_24
 //Task_25
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
 import java.util.List;

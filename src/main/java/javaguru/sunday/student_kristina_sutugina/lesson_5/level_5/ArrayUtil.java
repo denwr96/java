@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_5.level_5;
+package javaguru.sunday.student_kristina_sutugina.lesson_5.level_5;
 //Task_31
 //Task_33
 //Task_35

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task5;
+package javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task5;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.LinkedList;
 import java.util.List;

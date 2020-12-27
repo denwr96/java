@@ -1,11 +1,11 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_5.level_4;
+package javaguru.sunday.student_kristina_sutugina.lesson_5.level_4;
 //Task_26
 //Task_27
 //Task_28
 //Task_29
 //Task_30
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

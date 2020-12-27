@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
+package javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
 
 //Task_18
 //Task_19
@@ -6,7 +6,7 @@ package main.java.javaguru.sunday.student_kristina_sutugina.lesson_3.level_5;
 //Task_21
 //Task_22
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 /**Бизнес требования:
         - У собаки должна быть кличка.

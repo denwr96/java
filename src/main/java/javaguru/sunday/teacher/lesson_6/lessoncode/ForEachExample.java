@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_6.lessoncode;
+package javaguru.sunday.teacher.lesson_6.lessoncode;
 
 public class ForEachExample {
 

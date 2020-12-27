@@ -1,9 +1,9 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_6.level_1;
+package javaguru.sunday.student_natalia_kochkina.lesson_6.level_1;
 
 //Task_3
 
-import main.java.javaguru.sunday.student_natalia_kochkina.lesson_4.level_7.FizzBuzz;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_natalia_kochkina.lesson_4.level_7.FizzBuzz;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class FizzBuzzTest {

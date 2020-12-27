@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_4.level_6_middle.task17;
+package javaguru.sunday.student_deniss_lobacs.lesson_4.level_6_middle.task17;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class  StockTest {

@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_2.level_5_middle.task_15;
+package javaguru.sunday.student_konstantin_shestakov.lesson_2.level_5_middle.task_15;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Scanner;
 

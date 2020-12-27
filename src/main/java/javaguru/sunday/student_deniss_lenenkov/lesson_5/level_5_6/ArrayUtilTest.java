@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_5.level_5_6;
+package javaguru.sunday.student_deniss_lenenkov.lesson_5.level_5_6;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Метод shouldCreateArray ничего не тестирует. Вы создаете переменную arrayLength, а потом проверяете её на > 0 - если правда, то тест пройден =) Надо поправить")

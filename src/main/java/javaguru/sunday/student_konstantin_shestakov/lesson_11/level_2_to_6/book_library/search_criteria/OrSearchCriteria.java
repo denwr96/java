@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.search_criteria;
+package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.search_criteria;
 
 // Task 20 (level 3)
 
-import main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
+import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
 
 public class OrSearchCriteria implements SearchCriteria {
 

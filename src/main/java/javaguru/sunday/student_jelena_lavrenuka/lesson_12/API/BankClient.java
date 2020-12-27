@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_12.API;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_12.API;
 
 import java.util.Objects;
 

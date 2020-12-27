@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_5;
+package javaguru.sunday.student_artjoms_bocarovs.lesson_5;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 

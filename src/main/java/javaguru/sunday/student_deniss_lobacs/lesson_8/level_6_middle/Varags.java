@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_6_middle;
+package javaguru.sunday.student_deniss_lobacs.lesson_8.level_6_middle;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 //task30
 @CodeReview(approved = true)

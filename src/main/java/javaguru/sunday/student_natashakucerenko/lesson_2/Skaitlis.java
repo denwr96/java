@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_natashakucerenko.lesson_2;
+package javaguru.sunday.student_natashakucerenko.lesson_2;
 
 public class Skaitlis {
     public static void main(String args[]) {

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_9.level_2_intern.task_8;
+package javaguru.sunday.student_artjom_proshkin.lesson_9.level_2_intern.task_8;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 /*
 переменные, методы и конструкторы, которые объявляются как protected в суперклассе,

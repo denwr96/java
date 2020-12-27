@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson12.level1.task5;
+package javaguru.sunday.student_nataliya_sinitsa.lesson12.level1.task5;
 
 import java.util.InputMismatchException;
 

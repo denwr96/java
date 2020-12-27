@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_1;
+package javaguru.sunday.student_kristina_sutugina.lesson_6.level_1;
 //Task_2
 //нет codeReview
 class DayOfTheWeekDetectorTest {

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task18;
+package javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task18;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class RectangleTest {

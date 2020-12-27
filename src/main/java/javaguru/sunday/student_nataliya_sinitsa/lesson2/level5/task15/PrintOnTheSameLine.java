@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson2.level5.task15;
+package javaguru.sunday.student_nataliya_sinitsa.lesson2.level5.task15;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class PrintOnTheSameLine {

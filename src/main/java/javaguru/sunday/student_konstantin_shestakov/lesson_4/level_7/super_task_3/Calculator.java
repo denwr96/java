@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_4.level_7.super_task_3;
+package javaguru.sunday.student_konstantin_shestakov.lesson_4.level_7.super_task_3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Calculator {

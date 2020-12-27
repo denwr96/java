@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_10.level_3_junior.task_7;
+package javaguru.sunday.student_artjom_proshkin.lesson_10.level_3_junior.task_7;
 
 class Product {
 

@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_5;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_5;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Тут скобок не хватает в цикла. Так должно быть?")

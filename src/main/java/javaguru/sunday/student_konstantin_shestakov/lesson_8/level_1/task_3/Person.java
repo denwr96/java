@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_8.level_1.task_3;
+package javaguru.sunday.student_konstantin_shestakov.lesson_8.level_1.task_3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task 3
 @CodeReview(approved = true)

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva;
+package javaguru.sunday.student_anna_aleksejeva.lesson_2;
 import java.util.Scanner;
 
 public class Operations {

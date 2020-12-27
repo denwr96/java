@@ -1,11 +1,11 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
+package javaguru.sunday.student_liana_shirmane.lesson_10.level_3;
 //task7
 //нет, тут больше одного абстрактного метода
 
 //task10
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Optional;
 @CodeReview(approved = false)

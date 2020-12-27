@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_5_level_6;
+package javaguru.sunday.student_glebs_surtajevs.lesson_5.level_5_level_6;
 
 //Task_31
 //Task_32
@@ -10,7 +10,7 @@ package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_5.level_5_level
 
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 import java.util.Random;

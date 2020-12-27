@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_2.level_senior.super_task_2;
+package javaguru.sunday.student_artjom_proshkin.lesson_2.level_senior.super_task_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class SumTwoNumbers {

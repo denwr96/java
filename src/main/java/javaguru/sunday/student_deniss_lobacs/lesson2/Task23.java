@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson2;
+package javaguru.sunday.student_deniss_lobacs.lesson2;
 
 public class Task23 {
 

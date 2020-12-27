@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_4.level_5;
+package javaguru.sunday.student_violeta_klimova.lesson_4.level_5;
 
 class LightColorDetector {
 

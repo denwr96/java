@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.works;
+package javaguru.sunday.student_deniss_lobacs.works;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_20;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_20;
 
 // ArithmeticException extends RuntimeException -> RuntimeException extends Exception
 // нет необходимости ArithmeticException класс ловить отдельным блоком,

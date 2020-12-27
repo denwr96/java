@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_2.homework.level_senior.super_task_3;
+package javaguru.sunday.student_deniss_lobacs.lesson_2.homework.level_senior.super_task_3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class Long {

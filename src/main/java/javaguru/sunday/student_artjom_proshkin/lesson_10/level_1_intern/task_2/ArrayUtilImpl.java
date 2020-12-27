@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_10.level_1_intern.task_2;
+package javaguru.sunday.student_artjom_proshkin.lesson_10.level_1_intern.task_2;
 
 import java.util.Arrays;
 import java.util.OptionalInt;

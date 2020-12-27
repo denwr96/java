@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_1;
+package javaguru.sunday.student_artjoms_bocarovs.lesson_1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class Task_11_SumAndDivide {

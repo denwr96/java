@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_6.level_4.task_17;
+package javaguru.sunday.student_artjom_proshkin.lesson_6.level_4.task_17;
 
 class WhileLoopBreak {
 

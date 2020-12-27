@@ -1,11 +1,11 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_5_middle;
+package javaguru.sunday.student_deniss_lobacs.lesson_8.level_5_middle;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task16.Circle;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task17.Square;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task18.Rectangle;
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task19.Triangle;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
+import javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task16.Circle;
+import javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task17.Square;
+import javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task18.Rectangle;
+import javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task19.Triangle;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 // task20, task21, task22, task23, task24, task25, task26, task27

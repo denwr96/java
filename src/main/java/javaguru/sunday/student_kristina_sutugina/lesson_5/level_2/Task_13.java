@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_5.level_2;
+package javaguru.sunday.student_kristina_sutugina.lesson_5.level_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //Task_13
 //Task_14

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_laura_upelniece.lesson3.lvl6.task27;
+package javaguru.sunday.student_laura_upelniece.lesson3.lvl6.task27;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class BankAccountDemo {

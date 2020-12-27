@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_1.task_11;
+package javaguru.sunday.student_artjom_proshkin.lesson_1.task_11;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Будет лучше, если вы сразу привыкните писать понятные названия переменных")

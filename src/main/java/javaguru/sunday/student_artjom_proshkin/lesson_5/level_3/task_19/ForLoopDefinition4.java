@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_3.task_19;
+package javaguru.sunday.student_artjom_proshkin.lesson_5.level_3.task_19;
 
 class ForLoopDefinition4 {
 

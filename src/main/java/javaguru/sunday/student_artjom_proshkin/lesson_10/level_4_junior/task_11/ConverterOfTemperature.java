@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_10.level_4_junior.task_11;
+package javaguru.sunday.student_artjom_proshkin.lesson_10.level_4_junior.task_11;
 
 class ConverterOfTemperature implements TemperatureConverter{
 

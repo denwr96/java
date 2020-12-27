@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_6_middle.task_28;
+package javaguru.sunday.student_artjom_proshkin.lesson_3.level_6_middle.task_28;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 class Computer {

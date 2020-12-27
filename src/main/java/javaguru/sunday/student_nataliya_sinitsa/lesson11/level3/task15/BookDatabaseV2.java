@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
+package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 // Task 23 --> Task 26 from 24th line, Task 28 --> Task 29 from 28th line
 

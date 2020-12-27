@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_8.shape;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_8.shape;
 
 // lesson_8 task_20
 // lesson_8 task_21
@@ -9,8 +9,8 @@ package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_8.shape;
 // lesson_8 task_26
 // lesson_8 task_27
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Random;
 @CodeReview(approved = true)

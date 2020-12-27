@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_10.level_3.Task_8;
+package javaguru.sunday.student_natalia_kochkina.lesson_10.level_3.Task_8;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
 import java.util.List;

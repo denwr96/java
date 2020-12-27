@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_mihails_gutmans.lesson4.level4;
+package javaguru.sunday.student_mihails_gutmans.lesson4.level4;
 
 public class Calculator {
 

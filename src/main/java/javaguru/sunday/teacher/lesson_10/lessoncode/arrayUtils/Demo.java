@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_10.lessoncode.arrayUtils;
+package javaguru.sunday.teacher.lesson_10.lessoncode.arrayUtils;
 
 public class Demo {
 

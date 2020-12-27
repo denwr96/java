@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson2.level4;
+package javaguru.sunday.student_nataliya_sinitsa.lesson2.level4;
 
 public class TasksWithoutCode {
     /*

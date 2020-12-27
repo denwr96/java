@@ -1,10 +1,10 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.level_2;
+package javaguru.sunday.student_glebs_surtajevs.lesson_3.level_2;
 
 //Task_7
 //Task_8
 //Task_9
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

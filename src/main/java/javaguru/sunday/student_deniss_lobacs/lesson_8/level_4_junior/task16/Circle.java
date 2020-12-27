@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task16;
+package javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task16;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_deniss_lobacs.lesson_8.level_4_junior.task15.Shape;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class Circle extends Shape {

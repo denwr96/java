@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle.level2;
+package javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle.level2;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle;
+package javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_5.level_5.task_31_32_33_34;
+package javaguru.sunday.student_sergej_savkin.lesson_5.level_5.task_31_32_33_34;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class ArrayUtilTest {

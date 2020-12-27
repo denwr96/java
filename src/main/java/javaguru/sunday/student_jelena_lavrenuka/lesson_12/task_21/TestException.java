@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_21;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_21;
 
 class TestException extends Exception { }
 

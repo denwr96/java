@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_natashakucerenko.lesson_2;
+package javaguru.sunday.student_natashakucerenko.lesson_2;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

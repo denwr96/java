@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
 // lesson_11 task_6
 // lesson_11 task_7

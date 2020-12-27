@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_11.task_5;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_11.task_5;
 
 import java.util.ArrayList;
 import java.util.List;

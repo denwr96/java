@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3.task_1_13;
+package javaguru.sunday.student_anna_aleksejeva.lesson_3.task_1_13;
 /// Task_1
 /// Task_2
 /// Task_3

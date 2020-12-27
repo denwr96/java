@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3.task_18_22;
+package javaguru.sunday.student_anna_aleksejeva.lesson_3.task_18_22;
 /// Task_18
 /// Task_19
 /// Task_20
@@ -6,7 +6,7 @@ package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3.task_18_22;
 /// Task22
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class Dog {

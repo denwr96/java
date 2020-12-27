@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson6.level1.task3;
+package javaguru.sunday.student_nataliya_sinitsa.lesson6.level1.task3;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // ? нужно ли свойство класса initialNumber? Или метод detect можно реализовать без него?
 // ! Метод можно реализовать без него

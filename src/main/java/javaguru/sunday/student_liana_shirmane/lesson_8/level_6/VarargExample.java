@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_8.level_6;
+package javaguru.sunday.student_liana_shirmane.lesson_8.level_6;
 //task30
 //Varargs is a short name for variable arguments.
 // In Java, an argument of a method can accept arbitrary number of values.

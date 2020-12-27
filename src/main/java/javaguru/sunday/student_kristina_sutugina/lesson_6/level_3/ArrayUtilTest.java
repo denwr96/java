@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_6.level_3;
+package javaguru.sunday.student_kristina_sutugina.lesson_6.level_3;
 
 import java.util.Arrays;
 //Task_9

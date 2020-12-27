@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_4.level_4_junior.task_11_to_15;
+package javaguru.sunday.student_sergej_savkin.lesson_4.level_4_junior.task_11_to_15;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // task12
 // task14

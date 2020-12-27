@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_5.level_3;
+package javaguru.sunday.student_konstantin_shestakov.lesson_5.level_3;
 
 //Task 16
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class ForLoopDefinition1 {

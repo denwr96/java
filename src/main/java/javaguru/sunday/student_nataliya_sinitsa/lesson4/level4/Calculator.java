@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson4.level4;
+package javaguru.sunday.student_nataliya_sinitsa.lesson4.level4;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 // Task 11 - Task 15
 @CodeReview(approved = true)

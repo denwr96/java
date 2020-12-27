@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_6.level_3;
+package javaguru.sunday.student_artjom_proshkin.lesson_6.level_3;
 
 //Task_9
 //Task_10

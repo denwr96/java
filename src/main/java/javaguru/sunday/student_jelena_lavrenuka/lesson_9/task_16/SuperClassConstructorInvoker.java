@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_16;
+package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_16;
 
 public class SuperClassConstructorInvoker {
     public SuperClassConstructorInvoker() {

@@ -1,12 +1,12 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task10;
+package javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task10;
 
 //Task 7 -> Task 8
 // данный интерфейс не является функциональным
 // Multiple non-overriding abstract methods found in interface
-// main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task7.Database
+// javaguru.sunday.student_nataliya_sinitsa.lesson10.level3.task7.Database
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Optional;
 @CodeReview(approved = true)

@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson4.level7.supertask1;
+package javaguru.sunday.student_nataliya_sinitsa.lesson4.level7.supertask1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class FizzBuzzTest {

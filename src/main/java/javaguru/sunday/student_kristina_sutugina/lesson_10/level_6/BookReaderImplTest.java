@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_10.level_6;
+package javaguru.sunday.student_kristina_sutugina.lesson_10.level_6;
 
-import main.java.javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_1.task7.ArrayLength1;
+import javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_1.task7.ArrayLength1;
 
 import java.util.ArrayList;
 

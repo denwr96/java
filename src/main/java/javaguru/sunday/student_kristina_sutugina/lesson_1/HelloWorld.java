@@ -1,9 +1,9 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_1;
+package javaguru.sunday.student_kristina_sutugina.lesson_1;
 
 //Task_10
 //Task_11
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class HelloWorld {

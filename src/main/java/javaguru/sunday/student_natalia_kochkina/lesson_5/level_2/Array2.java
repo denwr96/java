@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_5.level_2;
+package javaguru.sunday.student_natalia_kochkina.lesson_5.level_2;
 
 //Task_11
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 @CodeReview(approved = true)

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library;
+package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library;
 
 // Task 37 (level 6);
 

@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_8.lessoncode.calculator;
+package javaguru.sunday.teacher.lesson_8.lessoncode.calculator;
 
 public class Demo {
 

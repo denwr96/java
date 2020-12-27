@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_5.lessoncode.bank;
+package javaguru.sunday.teacher.lesson_5.lessoncode.bank;
 
 public class BankDemo {
 

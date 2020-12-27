@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
+package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
-import main.java.javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15.ui_actions.*;
+import javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15.ui_actions.*;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_3.level_4_junior.task_17;
+package javaguru.sunday.student_artjom_proshkin.lesson_3.level_4_junior.task_17;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "this. не обязательно ставить в геттерах")

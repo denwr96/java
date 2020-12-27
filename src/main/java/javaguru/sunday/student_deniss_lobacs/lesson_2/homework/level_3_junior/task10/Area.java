@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lobacs.lesson_2.homework.level_3_junior.task10;
+package javaguru.sunday.student_deniss_lobacs.lesson_2.homework.level_3_junior.task10;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

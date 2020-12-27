@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_violeta_klimova.lesson_3.level_3.task_11_12_13;
+package javaguru.sunday.student_violeta_klimova.lesson_3.level_3.task_11_12_13;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 //Task 11
 //Task 12

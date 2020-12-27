@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_11.level_1_intern.task_4;
+package javaguru.sunday.student_sergej_savkin.lesson_11.level_1_intern.task_4;
 
 class Book {
     String bookName;

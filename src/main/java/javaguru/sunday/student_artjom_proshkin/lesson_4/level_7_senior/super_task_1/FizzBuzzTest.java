@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_4.level_7_senior.super_task_1;
+package javaguru.sunday.student_artjom_proshkin.lesson_4.level_7_senior.super_task_1;
 
 class FizzBuzzTest {
     public static void main(String[] args) {

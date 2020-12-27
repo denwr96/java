@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.level_12.level_2;
+package javaguru.sunday.student_liana_shirmane.level_12.level_2;
 //task12
 //task13
 //task15

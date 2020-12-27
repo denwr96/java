@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_5;
+package javaguru.sunday.student_anna_aleksejeva.lesson_5;
 
 import com.sun.source.util.SourcePositions;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Random;
 

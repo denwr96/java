@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_12;
+package javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_12;
 
 import java.util.Random;
 

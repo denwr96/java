@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_andrejs_ivanovs.lesson1;
+package javaguru.sunday.student_andrejs_ivanovs.lesson1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class HelloWorld {

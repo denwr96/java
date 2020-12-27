@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_artjom_proshkin.lesson_5.level_1.task_8;
+package javaguru.sunday.student_artjom_proshkin.lesson_5.level_1.task_8;
 
 class ArrayLength2 {
 

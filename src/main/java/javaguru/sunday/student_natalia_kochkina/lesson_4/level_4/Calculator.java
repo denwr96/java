@@ -1,11 +1,11 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_4.level_4;
+package javaguru.sunday.student_natalia_kochkina.lesson_4.level_4;
 
 //Task_11
 //Task_13
 //Task_14
 //Task_15
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class Calculator {

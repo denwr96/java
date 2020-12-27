@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_3.level_4;
+package javaguru.sunday.student_deniss_lenenkov.lesson_3.level_4;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = true)
 @CodeReviewComment(comment = "Зачем вы пишите кучу новых строк? Отступы страдают. Я вам поправил")

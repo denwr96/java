@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_10.level_4.task_11;
+package javaguru.sunday.student_kristina_sutugina.lesson_10.level_4.task_11;
 
 public class Test {
     public static void main(String[] args) {

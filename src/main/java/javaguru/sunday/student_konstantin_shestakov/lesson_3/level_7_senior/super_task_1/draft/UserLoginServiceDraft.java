@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_3.level_7_senior.super_task_1.draft;
+package javaguru.sunday.student_konstantin_shestakov.lesson_3.level_7_senior.super_task_1.draft;
 
 // Черновик
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 class UserLoginServiceDraft {

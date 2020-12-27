@@ -1,6 +1,6 @@
-package main.java.javaguru.sunday.student_deniss_lenenkov.lesson_2.level_1;
+package javaguru.sunday.student_deniss_lenenkov.lesson_2.level_1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
 

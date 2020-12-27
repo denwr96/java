@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_9.level_1;
+package javaguru.sunday.student_liana_shirmane.lesson_9.level_1;
 //task5
 
 public class Safe2Demo {

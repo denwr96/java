@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.teacher.lesson_7.lessoncode.domen;
+package javaguru.sunday.teacher.lesson_7.lessoncode.domen;
 
 
 import java.util.ArrayList;

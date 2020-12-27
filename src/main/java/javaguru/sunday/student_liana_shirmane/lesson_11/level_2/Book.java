@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_11.level_2;
+package javaguru.sunday.student_liana_shirmane.lesson_11.level_2;
 //task6
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Objects;
 @CodeReview(approved = true)

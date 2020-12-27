@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson2.level1.task1;
+package javaguru.sunday.student_nataliya_sinitsa.lesson2.level1.task1;
 
 import java.util.Scanner;
 

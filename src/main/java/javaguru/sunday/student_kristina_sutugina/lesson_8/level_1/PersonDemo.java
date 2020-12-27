@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_kristina_sutugina.lesson_8.level_1;
+package javaguru.sunday.student_kristina_sutugina.lesson_8.level_1;
 //Task_3
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 //Для создания объекта Person используется выражение new Person().
 // Оператор new выделяет память для объекта Person. И затем вызывается конструктор по умолчанию,

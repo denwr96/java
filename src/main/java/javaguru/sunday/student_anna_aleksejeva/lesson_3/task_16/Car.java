@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_3.task_16;
+package javaguru.sunday.student_anna_aleksejeva.lesson_3.task_16;
 
 class Car {
     String model;

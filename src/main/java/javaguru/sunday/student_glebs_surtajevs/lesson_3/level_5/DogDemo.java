@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_glebs_surtajevs.lesson_3.level_5;
+package javaguru.sunday.student_glebs_surtajevs.lesson_3.level_5;
 
 //Task_18
 //Task_19

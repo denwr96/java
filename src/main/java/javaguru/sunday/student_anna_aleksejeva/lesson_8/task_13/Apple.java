@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_anna_aleksejeva.lesson_8.task_13;
+package javaguru.sunday.student_anna_aleksejeva.lesson_8.task_13;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "А что с названием метода? fruitfruit? Надо назвать правильно.")

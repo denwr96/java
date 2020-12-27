@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_3;
+package javaguru.sunday.student_liana_shirmane.lesson_6.level_3;
 
 //task9
 //task10
@@ -8,7 +8,7 @@ package main.java.javaguru.sunday.student_liana_shirmane.lesson_6.level_3;
 //task14
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 

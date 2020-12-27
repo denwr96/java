@@ -1,7 +1,7 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_7.level_1_intern;
+package javaguru.sunday.student_sergej_savkin.lesson_7.level_1_intern;
 
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Arrays;
 @CodeReview(approved = true)

@@ -1,8 +1,8 @@
-package main.java.javaguru.sunday.student_sergej_savkin.lesson_3.level_7_senior.solutions.super_task_1;
+package javaguru.sunday.student_sergej_savkin.lesson_3.level_7_senior.solutions.super_task_1;
 
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
-import main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User;
-import main.java.javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService;
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.User;
+import javaguru.sunday.teacher.lesson_3.homework.level_7_senior.solutions.super_task_1.UserLoginService;
 
 @CodeReview(approved = true)
 public class UserLoginServiceTest {

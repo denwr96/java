@@ -1,4 +1,4 @@
-package main.java.javaguru.sunday.student_emin_pjatnickis.lesson_2.homework.level_3;
+package javaguru.sunday.student_emin_pjatnickis.lesson_2.homework.level_3;
 
 public class Task_10 {
 }

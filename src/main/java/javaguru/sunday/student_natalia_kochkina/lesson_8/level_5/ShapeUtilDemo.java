@@ -1,9 +1,9 @@
-package main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_5;
+package javaguru.sunday.student_natalia_kochkina.lesson_8.level_5;
 
 //Task_27
 
-import main.java.javaguru.sunday.student_natalia_kochkina.lesson_8.level_4.Shape;
-import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.student_natalia_kochkina.lesson_8.level_4.Shape;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 @CodeReview(approved = true)
 public class ShapeUtilDemo {
