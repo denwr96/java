@@ -5,21 +5,23 @@ package javaguru.sunday.student_sergej_savkin.lesson_10.level_6_middle.task_14_2
 import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Почему сделали используя массивы? Переделайте не коллекции.")
 class BookReaderImpl implements BookReader {
 
-    Book[] bookArray = new Book[10];
+    List<Book> bookArray = new ArrayList<>();
 
     @Override
     public boolean checkIfBookAlreadyAdded(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
+        for (Book value : bookArray) {
+            if (value == null) {
                 continue;
             }
-            if (bookArray[i].equals(book)) {
+            if (value.equals(book)) {
                 return false;
             }
         }
@@ -29,32 +31,25 @@ class BookReaderImpl implements BookReader {
     @Override
     public boolean addBook(Book book) {
         if(checkIfBookAlreadyAdded(book) && checkIfBookHasTitleAndAuthor(book)) {
-            for (int i = 0; i < bookArray.length; i++) {
-                if(bookArray[i] == null) {
-                    bookArray[i] = book;
-                    return true;
-                }
-            }
+            bookArray.add(book);
+            return true;
         }
         return false;
     }
 
     @Override
     public boolean checkIfBookHasTitleAndAuthor(Book book) {
-        if(book.getAuthor() == "" && book.getBookName() == "") {
-            return false;
-        }
-        return true;
+        return !book.getAuthor().equals("") || !book.getBookName().equals("");
     }
 
     @Override
     public boolean deleteBook(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
+        for (int i = 0; i < bookArray.size(); i++) {
+            if (bookArray.get(i) == null) {
                 continue;
             }
-            if (bookArray[i].equals(book)) {
-                bookArray[i] = null;
+            if (bookArray.get(i).equals(book)) {
+                bookArray.remove(book);
                 return true;
             }
         }
@@ -62,112 +57,53 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public String[] showBookList(Book[] book) {
-        int bookCounter = 0;
-        for (int i = 0; i < book.length; i++) {
-            if(book[i] != null) {
-                bookCounter++;
-            }
-        }
-        String[] bookList = new String[bookCounter];
-        int arrayFillCounter = 0;
-        for (int i = 0; i < book.length; i++) {
-            if(book[i] == null){
-                continue;
-            }
-            bookList[arrayFillCounter] = book[i].getBookName() + " [" + book[i].getAuthor() + "]";
-            arrayFillCounter++;
+    public List<String> showBookList(List<Book> book) {
+        List<String> bookList = new ArrayList<>();
+        for (Book value : book) {
+            bookList.add(value.getBookName() + " [" + value.getAuthor() + "]");
         }
         return bookList;
     }
 
     @Override
-    public Book[] searchByAuthor(String author) {
-        int authorCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null) {
-                continue;
-            } else if (bookArray[i].getAuthor().equals(author)) {
-                authorCounter++;
-            }
-        }
-        Book[] foundByAuthorBookArray = new Book[authorCounter];
-        int arrayFillCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null){
-                continue;
-            } else if (bookArray[i].getAuthor().equals(author)){
-                foundByAuthorBookArray[arrayFillCounter] = bookArray[i];
-                arrayFillCounter++;
+    public List<Book> searchByAuthor(String author) {
+        List<Book> foundByAuthorBookArray = new ArrayList<>();
+        for (Book book : bookArray) {
+            if (book.getAuthor().equals(author)) {
+                foundByAuthorBookArray.add(book);
             }
         }
         return foundByAuthorBookArray;
     }
 
     @Override
-    public Book[] searchByAuthorBeginning(String authorBeginning) {
-        int authorCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null) {
-                continue;
-            } else if (bookArray[i].getAuthor().contains(authorBeginning)) {
-                authorCounter++;
-            }
-        }
-        Book[] foundByAuthorBeginningBookArray = new Book[authorCounter];
-        int arrayFillCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null){
-                continue;
-            } else if(bookArray[i].getAuthor().contains(authorBeginning)) {
-                foundByAuthorBeginningBookArray[arrayFillCounter] = bookArray[i];
-                arrayFillCounter++;
+    public List<Book> searchByAuthorBeginning(String authorBeginning) {
+        List<Book> foundByAuthorBeginningBookArray = new ArrayList<>();
+        for (Book book : bookArray) {
+            if (book.getAuthor().contains(authorBeginning)) {
+                foundByAuthorBeginningBookArray.add(book);
             }
         }
         return foundByAuthorBeginningBookArray;
     }
 
     @Override
-    public Book[] searchByTitle(String title) {
-        int titleCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null) {
-                continue;
-            } else if (bookArray[i].getBookName().equals(title)) {
-                titleCounter++;
-            }
-        }
-        Book[] foundByTitleBookArray = new Book[titleCounter];
-        int arrayFillCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null){
-                continue;
-            } else if (bookArray[i].getBookName().equals(title)){
-                foundByTitleBookArray[arrayFillCounter] = bookArray[i];
-                arrayFillCounter++;
+    public List<Book> searchByTitle(String title) {
+        List<Book> foundByTitleBookArray = new ArrayList<>();
+        for (Book book : bookArray) {
+            if (book.getBookName().equals(title)) {
+                foundByTitleBookArray.add(book);
             }
         }
         return foundByTitleBookArray;
     }
 
     @Override
-    public Book[] searchByTitleBeginning(String titleBeginning) {
-        int titleCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null) {
-                continue;
-            } else if (bookArray[i].getBookName().contains(titleBeginning)) {
-                titleCounter++;
-            }
-        }
-        Book[] foundByTitleBeginningBookArray = new Book[titleCounter];
-        int arrayFillCounter = 0;
-        for (int i = 0; i < bookArray.length; i++) {
-            if(bookArray[i] == null){
-                continue;
-            } else if(bookArray[i].getBookName().contains(titleBeginning)) {
-                foundByTitleBeginningBookArray[arrayFillCounter] = bookArray[i];
-                arrayFillCounter++;
+    public List<Book> searchByTitleBeginning(String titleBeginning) {
+        List<Book> foundByTitleBeginningBookArray = new ArrayList<>();
+        for (Book book : bookArray) {
+            if (book.getBookName().contains(titleBeginning)) {
+                foundByTitleBeginningBookArray.add(book);
             }
         }
         return foundByTitleBeginningBookArray;
@@ -175,12 +111,9 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public boolean setBookAsRed(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            if(bookArray[i].equals(book)) {
-                bookArray[i].isRed = true;
+        for (Book value : bookArray) {
+            if (value.equals(book)) {
+                value.isRed = true;
                 return true;
             }
         }
@@ -189,12 +122,9 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public boolean setBookAsNotRed(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            if(bookArray[i].equals(book)) {
-                bookArray[i].isRed = false;
+        for (Book value : bookArray) {
+            if (value.equals(book)) {
+                value.isRed = false;
                 return true;
             }
         }
@@ -202,50 +132,22 @@ class BookReaderImpl implements BookReader {
     }
 
     @Override
-    public String[] getRedBookList(Book[] book) {
-        int redBookCounter = 0;
-        for (int i = 0; i < book.length; i++) {
-            if(book[i] == null) {
-                continue;
-            }
-            if(book[i].getIsRedStatus() == true){
-                redBookCounter++;
-            }
-        }
-        String[] bookList = new String[redBookCounter];
-        int arrayFillCounter = 0;
-        for (int i = 0; i < book.length; i++) {
-            if(book[i] == null){
-                continue;
-            }
-            if(book[i].getIsRedStatus() == true) {
-                bookList[arrayFillCounter] = book[i].getBookName() + " [" + book[i].getAuthor() + "]";
-                arrayFillCounter++;
+    public List<String> getRedBookList(List<Book> book) {
+        List<String> bookList = new ArrayList<>();
+        for (Book value : book) {
+            if (value.getIsRedStatus()) {
+                bookList.add(value.getBookName() + " [" + value.getAuthor() + "]");
             }
         }
         return bookList;
     }
 
     @Override
-    public String[] getNotRedBookList(Book[] book) {
-        int NotRedBookCounter = 0;
-        for (int i = 0; i < book.length; i++) {
-            if(book[i] == null) {
-                continue;
-            }
-            if(book[i].getIsRedStatus() == true){
-                NotRedBookCounter++;
-            }
-        }
-        String[] bookList = new String[NotRedBookCounter];
-        int arrayFillCounter = 0;
-        for (int i = 0; i < book.length; i++) {
-            if(book[i] == null){
-                continue;
-            }
-            if(book[i].getIsRedStatus() == false) {
-                bookList[arrayFillCounter] = book[i].getBookName() + " [" + book[i].getAuthor() + "]";
-                arrayFillCounter++;
+    public List<String> getNotRedBookList(List<Book> book) {
+        List<String> bookList = new ArrayList<>();
+        for (Book value : book) {
+            if (!value.getIsRedStatus()) {
+                bookList.add(value.getBookName() + " [" + value.getAuthor() + "]");
             }
         }
         return bookList;
@@ -254,7 +156,7 @@ class BookReaderImpl implements BookReader {
     @Override
     public String toString() {
         return "BookReaderImpl{" +
-                "bookArray=" + Arrays.toString(bookArray) +
+                "bookArray=" + bookArray +
                 '}';
     }
 }
