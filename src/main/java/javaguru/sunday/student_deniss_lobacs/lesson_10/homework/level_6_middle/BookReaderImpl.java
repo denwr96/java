@@ -119,7 +119,7 @@ public class BookReaderImpl implements BookReader {
     public ArrayList<String> getRedBookList() {
         ArrayList<String> redBookList = new ArrayList<>();
         for (Book book : booksStorage) {
-            if (book.isRead() == true) {
+            if (book.isRead()) {
                 redBookList.add(book.toString());
             }
         }
@@ -129,7 +129,7 @@ public class BookReaderImpl implements BookReader {
     public ArrayList<String> getNotRedBookList() {
         ArrayList<String> redBookList = new ArrayList<>();
         for (Book book : booksStorage) {
-            if (book.isRead() == false) {
+            if (!book.isRead()) {
                 redBookList.add(book.toString());
             }
         }
