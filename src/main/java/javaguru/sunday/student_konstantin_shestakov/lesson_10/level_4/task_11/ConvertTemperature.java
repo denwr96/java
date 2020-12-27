@@ -1,5 +1,8 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_4.task_11;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ConvertTemperature {
 
     double convertTemperatureCelsiusToFahrenheit(double temperatureCelsius) {

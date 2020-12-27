@@ -1,8 +1,11 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_6.task_12;
 
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 
+@CodeReview(approved = true)
 class Palindrome {
 
     boolean isPalindrome(String text) {

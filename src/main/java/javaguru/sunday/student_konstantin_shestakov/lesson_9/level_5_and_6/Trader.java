@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_9.level_5_and_6;
 
-// Task 33 (level 6)
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 33 (level 6)
+@CodeReview(approved = true)
 class Trader {
 
     private String fullName;

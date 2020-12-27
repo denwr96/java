@@ -4,10 +4,7 @@ import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 // Task 17 - 21
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Сравнивать строки необходимо через метод .equals." +
-        "Этот класс должен пропустить транзакцию через все проверки, но сделать это надо внутри. Подали транзакцию, " +
-        "она прошла через все проверки внутри FraudDetector и тот вернул вам результат проверки. ")
+@CodeReview(approved = true)
 class FraudDetector {
 
     boolean isFraud(Transaction transaction) {

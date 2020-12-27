@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_1.task_1;
 
-// Task 1
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 1
+@CodeReview(approved = true)
 class JavaStarLoginServiceImpl implements JavaStarLoginService {
 
     @Override

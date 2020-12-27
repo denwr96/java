@@ -1,9 +1,11 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6;
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
 // Task 14 - 25
-
+@CodeReview(approved = true)
 class Book {
 
     private String title;

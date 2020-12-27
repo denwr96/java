@@ -4,7 +4,10 @@ package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level6.task1
 
 import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 @CodeReview(approved = true)
 class BookReaderTest {
 
@@ -98,12 +101,13 @@ class BookReaderTest {
         victim.bookList.add(firstBook);
         victim.bookList.add(secondBook);
         victim.bookList.add(thirdBook);
-        String[] actualBookList = victim.availableBooks();
-        String[] expectedBookList = new String[3];
-        expectedBookList[0] = "1984 [George Orwell]";
-        expectedBookList[1] = "An Interrupted Friendship [Ethel Lilian Voynich]";
-        expectedBookList[2] = "The Gadfly [Ethel Lilian Voynich]";
-        check(Arrays.equals(actualBookList, expectedBookList), "shouldShowBookListV2");
+        List<String> actualBookList = victim.availableBooks();
+        List<String> expectedBookList = new ArrayList<>() {{
+            add("1984 [George Orwell]");
+            add("An Interrupted Friendship [Ethel Lilian Voynich]");
+            add("The Gadfly [Ethel Lilian Voynich]");
+        }};
+        check(actualBookList.equals(expectedBookList), "shouldShowBookList");
     }
 
     public void shouldReturnBookListByAuthor() {

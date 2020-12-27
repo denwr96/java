@@ -3,8 +3,10 @@ package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_7.level_1;
 
 // Task 2-3
 
-import java.util.Arrays;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 public class WordServiceTest {
 
     public static void main(String[] args) {

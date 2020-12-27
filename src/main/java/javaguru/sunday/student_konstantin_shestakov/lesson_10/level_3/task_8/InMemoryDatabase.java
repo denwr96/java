@@ -1,7 +1,11 @@
 package main.java.javaguru.sunday.student_konstantin_shestakov.lesson_10.level_3.task_8;
 
-import java.util.ArrayList;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+import main.java.javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Плохо сравнивать объекты не через .equals")
 class InMemoryDatabase implements Database {
 
     ArrayList<Product> productList = new ArrayList<>();

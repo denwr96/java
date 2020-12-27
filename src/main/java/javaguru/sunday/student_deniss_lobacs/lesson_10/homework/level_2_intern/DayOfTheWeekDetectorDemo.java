@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_deniss_lobacs.lesson_10.homework.level_2_intern;
 
-import java.util.Scanner;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorDemo {
 
     private DayOfTheWeekDetector dayOfTheWeekDetector;

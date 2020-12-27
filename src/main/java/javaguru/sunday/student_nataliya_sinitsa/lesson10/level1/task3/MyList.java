@@ -1,7 +1,9 @@
 package main.java.javaguru.sunday.student_nataliya_sinitsa.lesson10.level1.task3;
 
-import java.util.List;
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 interface MyList {
 
     void changeListSize(int newListSize);

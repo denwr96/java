@@ -1,6 +1,9 @@
 package main.java.javaguru.sunday.student_liana_shirmane.lesson_10.level_2;
-//task4
 
+import main.java.javaguru.sunday.teacher.annotations.CodeReview;
+
+//task4
+@CodeReview(approved = true)
 public class DayOfTheWeekDetectorArrayVersionTest {
     public static void main(String[] args) {
         DayOfTheWeekDetectorArrayVersionTest test = new DayOfTheWeekDetectorArrayVersionTest();
