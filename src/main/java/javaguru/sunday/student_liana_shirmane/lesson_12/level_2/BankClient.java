@@ -1,6 +1,8 @@
 package javaguru.sunday.student_liana_shirmane.lesson_12.level_2;
 //task9
 
+import java.util.Objects;
+
 class BankClient {
 
     private String uid;
@@ -19,8 +21,19 @@ class BankClient {
         return uid;
     }
 
-    // созжайте конструктор класса, в котором вы получите значения указанных свойств
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        BankClient that = (BankClient) o;
+        return uid.equals(that.uid) &&
+                fullName.equals(that.fullName);
+    }
 
-    // создайте get() методы для каждого из свойств
+    @Override
+    public int hashCode() {
+        return Objects.hash(uid, fullName);
+    }
+
 
 }
