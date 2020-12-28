@@ -1,16 +1,11 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.InternetShop;
 
+import java.util.Objects;
+
 class ValidationException extends Exception {
 
-    // название валидационного правила, которое создало эту ошибку
     private String ruleName;
-
-    // описание ошибки, которое можно показать на UI
     private String description;
-
-    // название поля при проверке которого произошла эта ошибка
-    // (Product: title, price, description),
-    // UI сможет по этому названию показать ошибку рядом с нужным полем
     private String fieldName;
 
     public ValidationException(String message, String ruleName, String description, String fieldName) {
@@ -18,6 +13,21 @@ class ValidationException extends Exception {
         this.ruleName = ruleName;
         this.description = description;
         this.fieldName = fieldName;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ValidationException exception = (ValidationException) o;
+        return ruleName.equals(exception.ruleName) &&
+                description.equals(exception.description) &&
+                fieldName.equals(exception.fieldName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(ruleName, description, fieldName);
     }
 
     public String getRuleName() {
