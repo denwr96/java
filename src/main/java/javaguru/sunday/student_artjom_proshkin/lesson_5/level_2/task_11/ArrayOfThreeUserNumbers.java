@@ -2,7 +2,6 @@ package javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_11;
 
 import java.util.Scanner;
 
-
 class ArrayOfThreeUserNumbers {
 
     public static void main(String[] args) {

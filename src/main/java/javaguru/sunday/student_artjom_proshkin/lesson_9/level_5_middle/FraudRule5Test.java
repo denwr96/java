@@ -1,6 +1,5 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_9.level_5_middle;
 
-
 //Task_28
 class FraudRule5Test {
 
