@@ -22,6 +22,7 @@ import java.util.Set;
 //task28
 //task29
 
+
 interface BookDatabase {
 
     Long save(Book book);
