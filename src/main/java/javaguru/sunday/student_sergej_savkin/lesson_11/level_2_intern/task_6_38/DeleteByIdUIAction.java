@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 //task35
 
+
 class DeleteByIdUIAction implements UIAction {
 
     private BookDatabase bookDatabase;
