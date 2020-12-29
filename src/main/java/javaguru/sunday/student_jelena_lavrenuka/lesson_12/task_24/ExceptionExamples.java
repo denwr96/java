@@ -1,7 +1,5 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_24;
 
-import java.io.IOException;
-
 class ExceptionExamples {
     // ArrayIndexOutOfBoundsException
     // Thrown to indicate that an array has been accessed with an illegal index. The

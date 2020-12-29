@@ -2,6 +2,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_18;
 
 import java.util.Random;
 
+
 class TwoDimensionalArray {
     public int[][] twoDimensionalArrayCreate (int arrayLengthOne, int arrayLengthTwo){
         int [][] myArray = new int [arrayLengthOne][arrayLengthTwo];

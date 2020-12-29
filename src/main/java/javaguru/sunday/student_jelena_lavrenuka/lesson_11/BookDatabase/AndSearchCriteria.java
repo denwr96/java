@@ -1,5 +1,6 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+
 class AndSearchCriteria implements SearchCriteria {
 
     private SearchCriteria leftCondition;

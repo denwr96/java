@@ -1,7 +1,5 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
-import javaguru.sunday.teacher.qalecture.optional.User;
-
 import java.util.Optional;
 import java.util.Scanner;
 

@@ -3,6 +3,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_5;
 import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Тут скобок не хватает в цикла. Так должно быть?")
 class WhileDefinition2 {

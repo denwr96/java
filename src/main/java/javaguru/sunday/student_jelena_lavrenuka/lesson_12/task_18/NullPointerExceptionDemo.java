@@ -12,3 +12,4 @@ class NullPointerExceptionDemo {
         System.out.println(myArray[4]);
     }
 }
+

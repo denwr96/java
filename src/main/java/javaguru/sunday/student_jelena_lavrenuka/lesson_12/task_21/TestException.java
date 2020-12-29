@@ -14,6 +14,3 @@ class Main {
     }
 }
 
-// Result
-// 1. Got the Test Exception
-//   Inside finally block

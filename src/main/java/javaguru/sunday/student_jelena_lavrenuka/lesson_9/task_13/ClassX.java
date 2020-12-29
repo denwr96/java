@@ -6,6 +6,7 @@ class ClassX {
     }
 }
 
+
 class ClassY extends ClassX {
     public ClassY() {
         super(1);
