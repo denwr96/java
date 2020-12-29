@@ -2,6 +2,7 @@ package javaguru.sunday.student_sergej_savkin.lesson_11.level_2_intern.task_6_38
 
 //task20
 
+
 class OrSearchCriteria implements SearchCriteria {
 
     private SearchCriteria leftCondition;
