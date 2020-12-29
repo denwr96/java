@@ -25,6 +25,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_12.InternetShop;
 
 import java.util.List;
 
+
 class ProductValidatorImplTest {
     ValidationException exception1 = new ValidationException("Error", "RULE-1", "Title can not be empty", "title");
     ValidationException exception2 = new ValidationException("Error", "RULE-2", "Title can not be shorter than 3 symbols", "title");
