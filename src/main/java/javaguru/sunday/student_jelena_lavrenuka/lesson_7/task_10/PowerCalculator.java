@@ -3,6 +3,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_7.task_10;
 import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Метод не правильно называется.")
 class PowerCalculator {

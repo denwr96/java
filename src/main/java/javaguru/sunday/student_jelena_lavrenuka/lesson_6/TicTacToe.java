@@ -13,6 +13,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_6;
 import java.util.Arrays;
 import java.util.Scanner;
 
+
 class TicTacToe {
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
         for (int[] ints : field) {
