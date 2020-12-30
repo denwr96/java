@@ -18,7 +18,7 @@ public class ProductTest2 {
         Product product2 = new Product("Banana");
         victim.save(product1);
         victim.save(product2);
-        if (victim.findByTitle("Apple").get().equals(product1)) {
+        if (victim.findByTitle("Apple").isPresent()) {
             System.out.println("Find product in the list has passed!");
         } else System.out.println("Find product in the list has failed!");
 
@@ -30,9 +30,9 @@ public class ProductTest2 {
         Product product2 = new Product("Banana");
         victim.save(product1);
         victim.save(product2);
-//        if (victim.findByTitle("Carrot").isEmpty()) {
-//            System.out.println("Do not find product in the list has passed!");
-//        } else System.out.println("Do not find product in the list has failed!");
+        if (victim.findByTitle("Carrot").isEmpty()) {
+           System.out.println("Do not find product in the list has passed!");
+        } else System.out.println("Do not find product in the list has failed!");
     }
 
 }

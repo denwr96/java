@@ -16,6 +16,7 @@ import java.util.Scanner;
 class Numbers {
 
     public static void main(String[] args) {
+
         int[] numbers = {13, 17, 98};
         System.out.println("First number is " + numbers[0]);
         System.out.println("Second number is " + numbers[1]);

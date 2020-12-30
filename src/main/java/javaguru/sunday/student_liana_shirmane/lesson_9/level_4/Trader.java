@@ -1,6 +1,7 @@
 package javaguru.sunday.student_liana_shirmane.lesson_9.level_4;
 //task17
 
+
 class Trader {
 
     private String fullName;

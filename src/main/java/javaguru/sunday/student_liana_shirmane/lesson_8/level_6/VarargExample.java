@@ -3,6 +3,7 @@ package javaguru.sunday.student_liana_shirmane.lesson_8.level_6;
 //Varargs is a short name for variable arguments.
 // In Java, an argument of a method can accept arbitrary number of values.
 // This argument that can accept variable number of values is called varargs.
+
 class VarargExample {
 
     public int sumNumber(int ... args){
