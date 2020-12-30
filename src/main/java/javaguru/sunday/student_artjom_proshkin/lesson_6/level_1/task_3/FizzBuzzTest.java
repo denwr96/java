@@ -1,5 +1,6 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_6.level_1.task_3;
 
+
 class FizzBuzzTest {
 
     public static void main(String[] args) {

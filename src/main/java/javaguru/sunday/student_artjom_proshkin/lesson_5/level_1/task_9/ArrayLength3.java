@@ -1,5 +1,6 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_5.level_1.task_9;
 
+
 class ArrayLength3 {
 
     public static void main(String[] args) {

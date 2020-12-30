@@ -1,6 +1,5 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_9.level_5_middle;
 
-
 //Task_26
 class FraudRule3 extends FraudRule {
 
