@@ -3,19 +3,21 @@ package javaguru.sunday.student_liana_shirmane.lesson_12.level_6;
 //task40
 
 class ProductTitleValidationRule implements FieldValidationRule {
+
     @Override
     public void validate(Product product) throws ValidationException {
-        try {
-            String Name = null; //null value
-        } catch(NullPointerException e) {
-            System.out.println("NullPointerException..");
+        if (product.getTitle() == null) {
+            throw new ValidationException("RULE-1", "Title can not be empty", "title");
+        } else if (product.getTitle().equals("")) {
+            throw new ValidationException("RULE-1", "Title can not be empty", "title");
+        } else if (product.getTitle().length() < 3) {
+            throw new ValidationException("RULE-2", "Title of the product should be at least 3 symbols", "title");
+        } else if (product.getTitle().length() > 100) {
+            throw new ValidationException("RULE-3", "Title of the product should not be more than 100 symbols", "title");
+        } else if (!product.getTitle().matches("^[a-zA-Z0-9]+$")) {
+            throw new ValidationException("RULE-4", "Title must contain only letters or numbers", "title");
         }
-        // реализуйте все требования для валидации названия продукта:
-//        К названию продукта выдвигаются следующие требования:
-//        -RULE - 1:не должно быть пустым
-//        -RULE - 2:не должно быть короче 3 символов
-//                - RULE - 3:не должно быть длиннее 100 символов
-//                - RULE - 4:должно содержать только английские буквы и цифры, другие символы не допустимы
     }
-
 }
+
+
