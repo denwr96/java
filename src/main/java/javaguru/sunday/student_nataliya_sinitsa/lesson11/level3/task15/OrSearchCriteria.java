@@ -16,3 +16,4 @@ class OrSearchCriteria implements SearchCriteria {
     }
 
 }
+

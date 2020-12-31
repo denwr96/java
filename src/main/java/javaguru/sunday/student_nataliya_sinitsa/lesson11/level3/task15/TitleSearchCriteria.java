@@ -13,3 +13,4 @@ class TitleSearchCriteria implements SearchCriteria {
     }
 
 }
+

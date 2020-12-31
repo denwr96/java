@@ -24,3 +24,4 @@ public class DeleteByAuthorUIAction implements UIAction {
     }
 
 }
+

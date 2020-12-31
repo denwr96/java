@@ -16,3 +16,4 @@ class AndSearchCriteria implements SearchCriteria {
     }
 
 }
+
