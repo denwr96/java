@@ -4,3 +4,4 @@ enum Role {
     CAN_NOT_SEARCH_CLIENTS,
     CAN_SEARCH_CLIENTS
 }
+

@@ -1,6 +1,7 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.task_5;
 
 class Book {
+
     private String title;
     private String author;
 

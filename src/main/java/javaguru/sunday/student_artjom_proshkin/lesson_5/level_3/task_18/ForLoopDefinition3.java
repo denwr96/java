@@ -1,5 +1,6 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_5.level_3.task_18;
 
+
 class ForLoopDefinition3 {
 
     public static void main(String[] args) {

@@ -1,6 +1,7 @@
 package javaguru.sunday.student_liana_shirmane.lesson_10.level_2;
 //task4
 
+
 class DayOfTheWeekDetectorIfVersion implements DayOfTheWeekDetector {
 
     @Override

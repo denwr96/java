@@ -2,6 +2,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_12;
 
 // каждый последующий класс наследует метод своего потомка (MULTILEVEL INHERITANCE)
 
+
 class A {
     public A() {
         System.out.println("Class A Constructor");

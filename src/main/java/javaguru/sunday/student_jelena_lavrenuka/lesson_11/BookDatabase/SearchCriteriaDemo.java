@@ -1,5 +1,6 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+
 class SearchCriteriaDemo {
 
     SearchCriteria authorSearchCriteria = new AuthorSearchCriteria("Kuper");

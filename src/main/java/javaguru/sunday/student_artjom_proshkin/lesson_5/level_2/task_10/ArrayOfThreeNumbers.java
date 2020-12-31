@@ -1,6 +1,5 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_10;
 
-
 class ArrayOfThreeNumbers {
 
     public static void main(String[] args) {

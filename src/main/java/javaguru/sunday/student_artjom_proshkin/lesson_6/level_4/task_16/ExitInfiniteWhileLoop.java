@@ -1,5 +1,6 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_6.level_4.task_16;
 
+
 import java.util.Scanner;
 
 class ExitInfiniteWhileLoop {

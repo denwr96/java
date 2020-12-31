@@ -1,18 +1,7 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.InternetShop;
 
-// lesson_12 task_27
-// lesson_12 task_28
-// lesson_12 task_29
-// lesson_12 task_30
-// lesson_12 task_31
-// lesson_12 task_32
-// lesson_12 task_33
-// lesson_12 task_34
-// lesson_12 task_35
-// lesson_12 task_36
-// lesson_12 task_37
-
 import java.util.Objects;
+
 
 class Product {
 

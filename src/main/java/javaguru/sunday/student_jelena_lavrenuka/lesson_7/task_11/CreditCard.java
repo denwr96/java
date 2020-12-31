@@ -2,6 +2,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_7.task_11;
 
 import java.util.Scanner;
 
+
 class CreditCard {
     String cardNumber;
     int pinCode;

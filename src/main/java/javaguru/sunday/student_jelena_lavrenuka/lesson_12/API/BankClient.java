@@ -4,6 +4,7 @@ import java.util.Objects;
 
 class BankClient {
 
+
     private String uid;
     private String fullName;
 

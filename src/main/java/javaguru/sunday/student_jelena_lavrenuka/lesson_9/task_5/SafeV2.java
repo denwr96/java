@@ -2,6 +2,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_5;
 
 import java.util.Scanner;
 
+
 class SafeV2 {
     public int pinCode;
     public int moneyAmount;

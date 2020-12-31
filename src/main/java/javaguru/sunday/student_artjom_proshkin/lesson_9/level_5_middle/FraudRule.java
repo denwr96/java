@@ -1,5 +1,6 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_9.level_5_middle;
 
+
 //Task_23
 //Task_31
 abstract class FraudRule {

@@ -8,13 +8,13 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 @CodeReviewComment(comment = "Переменные с большой буквы.")
 public class TemperatureWebConverter {
 
-    double Kelvin(double Celsius) {
-        double result = Celsius + 273.15;
+    double Kelvin(double celsius) {
+        double result = celsius + 273.15;
         return result;
     }
 
-    double Fahrenheit(double Celsius) {
-        double result = (Celsius * 9 / 5) + 32;
+    double Fahrenheit(double celsius) {
+        double result = (celsius * 9 / 5) + 32;
         return result;
     }
 

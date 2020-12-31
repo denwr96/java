@@ -2,6 +2,7 @@ package javaguru.sunday.student_liana_shirmane.lesson_7.level_1;
 
 import java.util.Arrays;
 
+
 public class WordService {
 
     public String[] splitText(String text) {  //разделаем строку на слова и записываем их в массив
