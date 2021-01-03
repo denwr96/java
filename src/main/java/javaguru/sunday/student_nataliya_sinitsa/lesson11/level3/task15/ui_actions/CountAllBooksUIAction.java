@@ -18,3 +18,4 @@ public class CountAllBooksUIAction implements UIAction {
     }
 
 }
+

@@ -139,3 +139,4 @@ class BookReaderImpl implements BookReader {
     }
 
 }
+

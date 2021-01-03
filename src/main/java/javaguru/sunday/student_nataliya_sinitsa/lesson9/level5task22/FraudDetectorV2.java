@@ -29,3 +29,4 @@ class FraudDetectorV2 {
     }
 
 }
+

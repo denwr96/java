@@ -2,6 +2,8 @@ package javaguru.sunday.student_sergej_savkin.lesson_10.level_6_middle.task_14_2
 
 import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.List;
+
 //task14to25
 @CodeReview(approved = true)
 interface BookReader {
@@ -14,22 +16,22 @@ interface BookReader {
 
     boolean deleteBook(Book book);
 
-    String[] showBookList(Book[] book);
+    List<String> showBookList(List<Book> books);
 
-    Book[] searchByAuthor(String author);
+    List<Book> searchByAuthor(String author);
 
-    Book[] searchByAuthorBeginning(String authorBeginning);
+    List<Book> searchByAuthorBeginning(String authorBeginning);
 
-    Book[] searchByTitle(String title);
+    List<Book> searchByTitle(String title);
 
-    Book[] searchByTitleBeginning(String titleBeginning);
+    List<Book> searchByTitleBeginning(String titleBeginning);
 
     boolean setBookAsRed(Book book);
 
     boolean setBookAsNotRed(Book book);
 
-    String[] getRedBookList(Book[] book);
+    List<String> getRedBookList(List<Book> book);
 
-    String[] getNotRedBookList(Book[] book);
+    List<String> getNotRedBookList(List<Book> book);
 
 }

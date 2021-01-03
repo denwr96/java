@@ -1,6 +1,5 @@
 package javaguru.sunday.student_sergej_savkin.lesson_7.level_6_middle.task_13;
 
-
 import java.util.Arrays;
 
 class Copy {

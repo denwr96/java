@@ -4,7 +4,10 @@ package javaguru.sunday.student_sergej_savkin.lesson_10.level_6_middle.task_14_2
 
 import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+
 @CodeReview(approved = true)
 class BookReaderImplTest {
 
@@ -24,71 +27,91 @@ class BookReaderImplTest {
         bookReaderImplTest.getNotRedBookListTest();
     }
 
-    BookReaderImpl bookReader = new BookReaderImpl();
+
 
     public void addBookTest() {
+        BookReaderImpl bookReader = new BookReaderImpl();
         check(bookReader.addBook(new Book("Harry Potter", "Johan Rolling")), "addBookTest");
         check(!bookReader.addBook(new Book("Harry Potter", "Johan Rolling")), "addBookTestTwo");
     }
 
     public void checkIfBookHasTitleAndAuthorTest() {
+        BookReaderImpl bookReader = new BookReaderImpl();
         check(bookReader.addBook(new Book("War and Peace", "Tolstoj")),"checkIfBookHasTitleAndAuthorTest");
         check(!bookReader.addBook(new Book("", "")), "checkIfBookHasTitleAndAuthorFailTest");
     }
 
     public void deleteBookTest() {
+        BookReaderImpl bookReader = new BookReaderImpl();
+        bookReader.addBook(new Book("War and Peace", "Tolstoj"));
         check(bookReader.deleteBook(new Book("War and Peace", "Tolstoj")), "deleteBookTest");
         check(!bookReader.deleteBook(new Book("War and Peace", "Tolstoj")), "deleteBookFailTest");
     }
 
     public void showBookListTest() {
-        String[] expectedArray = {"Harry Potter [Johan Rolling]"};
+        BookReaderImpl bookReader = new BookReaderImpl();
+        bookReader.addBook(new Book("Harry Potter", "Johan Rolling"));
+        List<String> expectedArray = new ArrayList<>();
+        expectedArray.add("Harry Potter [Johan Rolling]");
         check(expectedArray, bookReader.showBookList(bookReader.bookArray), "showBookListTest");
     }
 
     public void findByAuthorTest(){
-        for (int i = 0; i < bookReader.searchByAuthor("Johan Rolling").length; i++) {
-            System.out.println("Found by author Johan Rolling: " + bookReader.searchByAuthor("Johan Rolling")[i].toString());
+        BookReaderImpl bookReader = new BookReaderImpl();
+        for (int i = 0; i < bookReader.searchByAuthor("Johan Rolling").size(); i++) {
+            System.out.println("Found by author Johan Rolling: " + bookReader.searchByAuthor("Johan Rolling").get(i).toString());
         }
     }
 
     public void findByAuthorBeginningTest(){
-        for (int i = 0; i < bookReader.searchByAuthorBeginning("Joh").length; i++) {
-            System.out.println("Found by author beginning Joh: " + bookReader.searchByAuthorBeginning("Joh")[i].toString());
+        BookReaderImpl bookReader = new BookReaderImpl();
+        for (int i = 0; i < bookReader.searchByAuthorBeginning("Joh").size(); i++) {
+            System.out.println("Found by author beginning Joh: " + bookReader.searchByAuthorBeginning("Joh").get(i).toString());
         }
     }
 
     public void findByTitleTest(){
-        for (int i = 0; i < bookReader.searchByTitle("Harry Potter").length; i++) {
-            System.out.println("Found by title Harry Potter: " + bookReader.searchByTitle("Harry Potter")[i].toString());
+        BookReaderImpl bookReader = new BookReaderImpl();
+        for (int i = 0; i < bookReader.searchByTitle("Harry Potter").size(); i++) {
+            System.out.println("Found by title Harry Potter: " + bookReader.searchByTitle("Harry Potter").get(i).toString());
         }
     }
 
     public void findByTitleBeginningTest(){
-        for (int i = 0; i < bookReader.searchByTitleBeginning("Harry").length; i++) {
-            System.out.println("Found by title beginning Harry: " + bookReader.searchByTitleBeginning("Harry")[i].toString());
+        BookReaderImpl bookReader = new BookReaderImpl();
+        for (int i = 0; i < bookReader.searchByTitleBeginning("Harry").size(); i++) {
+            System.out.println("Found by title beginning Harry: " + bookReader.searchByTitleBeginning("Harry").get(i).toString());
         }
     }
 
     public void setBookAsRedTest(){
+        BookReaderImpl bookReader = new BookReaderImpl();
+        bookReader.addBook(new Book("Harry Potter", "Johan Rolling"));
         check(bookReader.setBookAsRed(new Book("Harry Potter", "Johan Rolling")), "setBookAsRedTest");
         check(!bookReader.setBookAsRed(new Book("War and Peace", "Tolstoj")), "setBookAsRedTestTwo");
     }
 
     public void setBookAsNotRedTest(){
+        BookReaderImpl bookReader = new BookReaderImpl();
+        bookReader.addBook(new Book("Harry Potter", "Johan Rolling"));
         check(bookReader.setBookAsNotRed(new Book("Harry Potter", "Johan Rolling")), "setBookAsNotRedTest");
         check(!bookReader.setBookAsNotRed(new Book("War and Peace", "Tolstoj")), "setBookAsNotRedTestTwo");
     }
 
     public void getRedBookListTest(){
+        BookReaderImpl bookReader = new BookReaderImpl();
+        bookReader.addBook(new Book("Harry Potter", "Johan Rolling"));
         bookReader.setBookAsRed(new Book("Harry Potter", "Johan Rolling"));
-        String[] expectedArray = {"Harry Potter [Johan Rolling]"};
+        List<String> expectedArray = new ArrayList<>();
+        expectedArray.add("Harry Potter [Johan Rolling]");
         check(expectedArray, bookReader.getRedBookList(bookReader.bookArray), "getRedBookListTest");
     }
 
     public void getNotRedBookListTest(){
+        BookReaderImpl bookReader = new BookReaderImpl();
         bookReader.addBook(new Book("War and Peace", "Tolstoj"));
-        String[] expectedArray = {"War and Peace [Tolstoj]"};
+        List<String> expectedArray = new ArrayList<>();
+        expectedArray.add("War and Peace [Tolstoj]");
         check(expectedArray, bookReader.getNotRedBookList(bookReader.bookArray), "getNotRedBookListTest");
     }
 
@@ -100,8 +123,8 @@ class BookReaderImplTest {
         }
     }
 
-    public void check(String[] expectedArray, String[] actualArray, String testName) {
-        if(Arrays.deepEquals(expectedArray, actualArray)) {
+    public void check(List<String> expectedArray, List<String> actualArray, String testName) {
+        if(expectedArray.equals(actualArray)) {
             System.out.println(testName + " OK!");
         } else {
             System.out.println(testName + " failed!");

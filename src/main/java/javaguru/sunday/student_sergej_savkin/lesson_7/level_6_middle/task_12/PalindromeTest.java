@@ -2,6 +2,7 @@ package javaguru.sunday.student_sergej_savkin.lesson_7.level_6_middle.task_12;
 
 import java.util.Arrays;
 
+
 class PalindromeTest {
     public static void main(String[] args) {
         PalindromeTest palindromeTest = new PalindromeTest();

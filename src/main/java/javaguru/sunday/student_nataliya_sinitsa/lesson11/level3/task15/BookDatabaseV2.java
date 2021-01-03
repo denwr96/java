@@ -26,3 +26,4 @@ public interface BookDatabaseV2 {
     Map<String, Integer> getEachAuthorBookCount();
 
 }
+

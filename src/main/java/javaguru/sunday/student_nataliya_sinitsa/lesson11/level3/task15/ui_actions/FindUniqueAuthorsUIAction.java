@@ -15,3 +15,4 @@ public class FindUniqueAuthorsUIAction implements UIAction {
     }
 
 }
+

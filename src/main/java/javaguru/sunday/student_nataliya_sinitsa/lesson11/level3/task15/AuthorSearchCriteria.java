@@ -13,3 +13,4 @@ class AuthorSearchCriteria implements SearchCriteria {
     }
 
 }
+

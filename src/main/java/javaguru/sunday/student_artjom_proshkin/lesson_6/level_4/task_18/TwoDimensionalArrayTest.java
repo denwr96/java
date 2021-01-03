@@ -1,6 +1,5 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_6.level_4.task_18;
 
-
 class TwoDimensionalArrayTest {
 
     public static void main(String[] args) {

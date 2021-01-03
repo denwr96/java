@@ -151,3 +151,4 @@ public class BookDatabaseV2Impl implements BookDatabaseV2 {
     }
 
 }
+

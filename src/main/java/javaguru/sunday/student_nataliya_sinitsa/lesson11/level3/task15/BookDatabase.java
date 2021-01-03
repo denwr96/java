@@ -22,3 +22,4 @@ interface BookDatabase {
     List<Book> find(SearchCriteria searchCriteria);
 
 }
+

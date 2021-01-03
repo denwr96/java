@@ -2,6 +2,7 @@ package javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_15;
 
 import java.util.Random;
 
+
 class ArrayPlusTwo {
 
     public static void main(String[] args) {

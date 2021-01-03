@@ -18,3 +18,4 @@ class UserCredentials {
         return roles;
     }
 }
+

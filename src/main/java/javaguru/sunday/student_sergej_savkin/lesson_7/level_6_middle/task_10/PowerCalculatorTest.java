@@ -3,6 +3,7 @@ package javaguru.sunday.student_sergej_savkin.lesson_7.level_6_middle.task_10;
 
 class PowerCalculatorTest {
 
+
     public static void main(String[] args) {
         PowerCalculatorTest powerCalculatorTest = new PowerCalculatorTest();
         powerCalculatorTest.raiseNumberToPowerTest();

@@ -1,0 +1,7 @@
+package javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5_6;
+
+
+public interface SearchCriteria {
+
+    boolean match(Book book);
+}

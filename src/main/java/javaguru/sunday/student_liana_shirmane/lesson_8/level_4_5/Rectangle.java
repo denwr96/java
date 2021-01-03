@@ -1,6 +1,7 @@
 package javaguru.sunday.student_liana_shirmane.lesson_8.level_4_5;
 //task18
 
+
 class Rectangle extends Shape {
 
     private double sideA;

@@ -4,6 +4,7 @@ import javaguru.sunday.teacher.lesson_5.lessoncode.Human;
 //task12
 
 
+
 abstract class LoanSystem2 {
 
     abstract boolean canReceiveLoan(Human human);

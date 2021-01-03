@@ -13,3 +13,4 @@ class YearOfIssueSearchCriteria implements SearchCriteria {
     }
 
 }
+

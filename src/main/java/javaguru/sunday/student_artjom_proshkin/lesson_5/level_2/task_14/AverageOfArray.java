@@ -2,6 +2,7 @@ package javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_14;
 
 import java.util.Random;
 
+
 class AverageOfArray {
 
     public static void main(String[] args) {

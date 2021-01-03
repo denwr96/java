@@ -5,3 +5,4 @@ interface SearchCriteria {
     boolean match(Book book);
 
 }
+
