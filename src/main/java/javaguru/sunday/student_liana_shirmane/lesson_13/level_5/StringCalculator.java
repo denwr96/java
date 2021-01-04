@@ -13,10 +13,10 @@ public class StringCalculator {
     static int add(String numbers) {
         if (numbers.isEmpty())
             return 0;
-
+        String delimiter = ",|\n";
         if (numbers.startsWith("//")) {
             String[] parts = numbers.split("[\n]");
-            String delimiter = parts[0].substring(3, 4);
+            delimiter = parts[0].substring(3, 4);
             numbers = parts[1];
             int Sum = 0;
             String[] number = numbers.split(delimiter);
@@ -27,7 +27,7 @@ public class StringCalculator {
         }
         else if (numbers.contains(",") || numbers.contains("\n")) {
             int Sum = 0;
-            String[] number = numbers.split("[,\n]");
+            String[] number = numbers.split(delimiter);
             for (String s : number) {
                 Sum = Sum + Integer.parseInt(s);
             }
