@@ -2,10 +2,9 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6;
 
 // Task 14 - 25
 
-import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
 import javaguru.sunday.teacher.annotations.CodeReview;
 
-import java.util.Optional;
+import java.util.List;
 @CodeReview(approved = true)
 interface BookReader {
 
@@ -13,23 +12,19 @@ interface BookReader {
 
     boolean checkForSameBook(Book book);
 
-    boolean checkBookAuthor(Book book);
-
-    boolean checkBookTitle(Book book);
-
     Book findBook(Book book);
 
     boolean removeBook(Book book);
 
     void printBookList();
 
-    Book[] findBookByAuthor(String author);
+    List<Book> findBookByAuthor(String author);
 
-    Book[] findBookByAuthorPartialWordSearch(String author);
+    List<Book> findBookByAuthorStartsWithWordSearch(String author);
 
-    Book[] findBookByTitle(String title);
+    List<Book> findBookByTitle(String title);
 
-    Book[] findBookByTitlePartialSearch(String title);
+    List<Book> findBookByTitleStartsWithWordSearch(String title);
 
     boolean bookIsAlreadyRead(Book book);
 
