@@ -21,6 +21,8 @@ public class CreateFileExample {
             return file.createNewFile();
         } catch (IOException e) {
             System.out.println("Unable to create file: " + e.getMessage());
+        } catch (Exception ex) {
+
         }
         // execute these lines
         return false;

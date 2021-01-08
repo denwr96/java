@@ -13,11 +13,7 @@ public class BankApiTests {
     }
 
     private void test1() {
-        List<BankClient> clients = List.of(
-                new BankClient("1", "Alex"),
-                new BankClient("2", "Irina"),
-                new BankClient("3", "Victor")
-        );
+        List<BankClient> clients = getBankClients();
         BankApiImpl victim = new BankApiImpl(clients);
 
         UserCredentials invalidUserCredentials = new UserCredentials(List.of(Role.OBSERVER));
@@ -30,26 +26,26 @@ public class BankApiTests {
     }
 
     private void test2() {
-        List<BankClient> clients = List.of(
-                new BankClient("1", "Alex"),
-                new BankClient("2", "Irina"),
-                new BankClient("3", "Victor")
-        );
+        List<BankClient> clients = getBankClients();
         BankApiImpl victim = new BankApiImpl(clients);
 
         UserCredentials validUserCredentials = new UserCredentials(List.of(Role.CAN_SEARCH_CLIENTS));
         BankClient expectedResult = new BankClient("2", "Irina");
         try {
             Optional<BankClient> result = victim.findByUid(validUserCredentials, "2");
-
-//            if (result.isPresent()) {
-//                checkResults(result.get().equals(expectedResult), "Test2");
-//            }
             result.ifPresent(bankClient -> checkResults(bankClient.equals(expectedResult), "Test2"));
         } catch (AccessDeniedException e) {
             System.out.println(e.getMessage());
         }
 
+    }
+
+    private List<BankClient> getBankClients() {
+        return List.of(
+                new BankClient("1", "Alex"),
+                new BankClient("2", "Irina"),
+                new BankClient("3", "Victor")
+        );
     }
 
     public static boolean checkResults(boolean condition, String testName) {

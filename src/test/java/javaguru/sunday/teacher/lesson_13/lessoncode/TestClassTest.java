@@ -1,4 +1,4 @@
-package java.javaguru.sunday.teacher.lesson_13.lessoncode;
+package javaguru.sunday.teacher.lesson_13.lessoncode;
 
 import javaguru.sunday.teacher.lesson_13.lessoncode.TestClass;
 import org.junit.Before;
