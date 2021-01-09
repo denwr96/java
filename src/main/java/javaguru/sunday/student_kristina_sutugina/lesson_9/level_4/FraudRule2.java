@@ -8,10 +8,7 @@ class FraudRule2 extends FraudRule {
     }
 
     public boolean isFraud(Transaction t) {
-        if(t.getAmount()>1000000){
-            return true;
-        }
-        return false;
+        return (t.getAmount() > 1000000);
     }
 
 }
