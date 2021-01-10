@@ -1,10 +1,10 @@
 package javaguru.sunday.teacher.lesson_14.lessoncode;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
+import static java.util.stream.Collectors.toList;
 
 public class FruitStreamApi {
 
@@ -32,7 +32,7 @@ public class FruitStreamApi {
 		return fruits.stream()
 //				.filter(x -> 10 - x = 5)
 				.filter(fruit -> "apple".equals(fruit.getTitle()))
-				.collect(Collectors.toList());
+				.collect(toList());
 	}
 
 	public List<Fruit> findAllApplesV2() {
@@ -43,7 +43,7 @@ public class FruitStreamApi {
 						return "apple".equals(arg1.getTitle());
 					}
 				})
-				.collect(Collectors.toList());
+				.collect(toList());
 	}
 
 	public List<Fruit> findAllApplesV3() {
@@ -56,7 +56,7 @@ public class FruitStreamApi {
 
 		return fruits.stream()
 				.filter(predicate)
-				.collect(Collectors.toList());
+				.collect(toList());
 	}
 
 
@@ -71,7 +71,7 @@ public class FruitStreamApi {
 	public List<Fruit> findAllApplesV4() {
 		return fruits.stream()
 				.filter(new GetAllApplesPredicate())
-				.collect(Collectors.toList());
+				.collect(toList());
 	}
 
 
@@ -80,7 +80,7 @@ public class FruitStreamApi {
 				.filter(fruit -> "apple".equals(fruit.getTitle()))
 				.filter(fruit -> "red".equals(fruit.getColor()))
 				.filter(fruit -> fruit.getWeight() > 100)
-				.collect(Collectors.toList());
+				.collect(toList());
 	}
 
 	public Set<String> findAllFruitUniqNames() {
@@ -101,7 +101,7 @@ public class FruitStreamApi {
 				.map(Fruit::getTitle)
 				//.map(fruit -> fruit.getTitle())
 				.distinct()
-				.collect(Collectors.toList());
+				.collect(toList());
 	}
 
 	public Optional<Fruit> findAnyApple() {
@@ -133,7 +133,7 @@ public class FruitStreamApi {
 				.flatMap(Collection::stream)
 				.map(Fruit::getColor)
 				.distinct()
-				.collect(Collectors.toList());
+				.collect(toList());
 	}
 
 
