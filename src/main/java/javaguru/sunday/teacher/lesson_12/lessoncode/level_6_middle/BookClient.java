@@ -22,6 +22,8 @@ public class BookClient {
             System.out.println(e.getMessage());
         } catch (BookAlreadyExistsException e) {
             System.out.println(e.getMessage());
+        }  finally {
+
         }
 
         ArrayList<String> books = bookReader.getBooks();

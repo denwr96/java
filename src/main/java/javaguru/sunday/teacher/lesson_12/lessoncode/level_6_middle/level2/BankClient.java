@@ -33,4 +33,12 @@ class BankClient {
     public int hashCode() {
         return Objects.hash(uid, fullName);
     }
+
+    @Override
+    public String toString() {
+        return "BankClient{" +
+                "uid='" + uid + '\'' +
+                ", fullName='" + fullName + '\'' +
+                '}';
+    }
 }

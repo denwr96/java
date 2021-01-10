@@ -8,10 +8,6 @@ class FraudRule3 extends FraudRule {
     }
 
     public boolean isFraud(Transaction t) {
-        if(t.getTrader().getCity().equals("Sydney")){
-            return true;
-        }
-        return false;
+        return t.getTrader().getCity().equals("Sydney");
     }
-
 }

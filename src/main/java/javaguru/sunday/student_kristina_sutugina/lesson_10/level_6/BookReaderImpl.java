@@ -1,8 +1,9 @@
 package javaguru.sunday.student_kristina_sutugina.lesson_10.level_6;
 //task 14
 //task 15
-
-
+//task 16
+//task 17
+//task 18
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,15 +11,15 @@ import java.util.List;
 class BookReaderImpl implements BookReader {
 
 
-   List<Book> list = new ArrayList<>();
+   List<Book> bookList = new ArrayList<>();
    // private List<Book> list;
  // public BookReaderImpl(List<Book> list) {
       // this.list = list;
   // }
     @Override
     public boolean addBook(Book book) {
-        if(!list.contains(book)) {
-            list.add(book);
+        if(!bookList.contains(book)) {
+            bookList.add(book);
             return true;
         }
         return false;
@@ -26,9 +27,9 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public boolean checkIsAuthorAndName(Book book) {
-        if(!list.contains(book)){
+        if(!bookList.contains(book)){
            if((book.getBookName() != null && !book.getBookName().isEmpty()) && (book.getAuthor() != null && !book.getAuthor().isEmpty())){
-               this.list.add(book);
+               this.bookList.add(book);
                return true;
            }
         }
@@ -37,8 +38,30 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public boolean deleteBook(Book book) {
+        if(bookList.contains(book)){
+            this.bookList.remove(book);
+            return true;
+        }
         
         return false;
+    }
+
+    @Override
+    public ArrayList<String> allBooks() {
+        ArrayList<String> books = new ArrayList<>();
+        for(Book book: bookList){
+            books.add(book.toString());
+        }
+        return books;
+    }
+
+    @Override
+    public ArrayList<Book> searchByAuthor(String author) {
+        ArrayList<Book> search = new ArrayList<>();
+        for(Book book: bookList){
+           if(author.equals(book.getAuthor())) search.add(book);
+        }
+        return search;
     }
 
 
