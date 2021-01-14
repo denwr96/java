@@ -52,10 +52,8 @@ public class BookReaderImpl implements BookReader {
 
     @Override
     public boolean checkTheSameBook(Book book) {
-        for (Book bookInLibrary: library) {
-            if (book.equals(bookInLibrary)) {
-                return false;
-            }
+        if (library.contains(book)) {
+            return false;
         }
         return true;
     }
@@ -78,10 +76,8 @@ public class BookReaderImpl implements BookReader {
 
     @Override
     public Book findBook(Book usersBook) {
-        for (Book bookInLibrary: library) {
-            if (bookInLibrary.equals(usersBook)) {
-                return bookInLibrary;
-            }
+        if (library.contains(usersBook)) {
+            return usersBook;
         }
         return null;
     }
