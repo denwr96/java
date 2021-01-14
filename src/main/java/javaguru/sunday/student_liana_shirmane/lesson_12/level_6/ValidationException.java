@@ -2,8 +2,10 @@ package javaguru.sunday.student_liana_shirmane.lesson_12.level_6;
 //task30
 //task31
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class ValidationException extends Exception {
 
     private String ruleName;

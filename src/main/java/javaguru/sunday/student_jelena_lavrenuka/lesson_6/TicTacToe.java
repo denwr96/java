@@ -10,10 +10,14 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_6;
 // lesson_6 task_26
 // lesson_6 task_27
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "А точно правильно работает? вы никак не используете переменную playerToCheck в методах")
 class TicTacToe {
     public boolean isWinPositionForHorizontals(int[][] field, int playerToCheck) {
         for (int[] ints : field) {

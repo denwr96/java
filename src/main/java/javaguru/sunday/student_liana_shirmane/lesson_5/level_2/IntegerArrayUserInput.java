@@ -1,7 +1,9 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_2;
 //task11
-import java.util.Scanner;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 public class IntegerArrayUserInput {
 
     public static void main(String[] args) {

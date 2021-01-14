@@ -12,7 +12,8 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 import java.util.Random;
 import java.util.Scanner;
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Читать код не реально. Все в кучу. Разбейте на логические методы.")
+@CodeReviewComment(comment = "Читать код не реально. Все в кучу. Разбейте на логические методы." +
+        "Все еще false, потому, что ничего не поменялось")
 class Numbers {
 
     public static void main(String[] args) {

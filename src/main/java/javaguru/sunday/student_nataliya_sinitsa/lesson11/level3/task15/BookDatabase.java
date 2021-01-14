@@ -2,10 +2,12 @@ package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 //Task 6 --> Task 14
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+@CodeReview(approved = true)
 interface BookDatabase {
 
     List<Book> bookList = new ArrayList<>();

@@ -1,11 +1,12 @@
 package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 import javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15.ui_actions.*;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class BookLibrary {
 
     private Map<Integer, UIAction> menuNumberToActionMap;

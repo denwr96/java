@@ -4,8 +4,7 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Метод не правильно называется.")
+@CodeReview(approved = true)
 class PowerCalculator {
 
     public double powerCalculator(double number, double degree) {

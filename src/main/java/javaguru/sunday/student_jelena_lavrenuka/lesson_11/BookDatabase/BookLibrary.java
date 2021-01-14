@@ -1,11 +1,13 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-
+@CodeReview(approved = true)
 public class BookLibrary {
     private Map<Integer, UIAction> menuNumberToActionMap;
 

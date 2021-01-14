@@ -2,8 +2,10 @@ package javaguru.sunday.student_sergej_savkin.lesson_12.level_5_middle.task_27_4
 
 //task37
 
-import java.util.List;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 class ProductValidatorImplTest {
 
     private ProductValidator validator = new ProductValidatorImpl(new ProductTitleValidationRule(), new ProductPriceValidationRule(), new ProductDescriptionValidationRule());

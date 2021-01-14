@@ -1,6 +1,8 @@
 package javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5_6;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class AndSearchCriteriaTest {
     public static void main(String[] args) {
         AndSearchCriteriaTest andSearchCriteriaTest = new AndSearchCriteriaTest();

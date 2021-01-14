@@ -2,9 +2,12 @@ package javaguru.sunday.student_liana_shirmane.lesson_12.level_2;
 //task13
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Optional;
 
+@CodeReview(approved = true)
 public class BankApiImplTest {
     public static void main(String[] args) {
         BankApiImplTest test = new BankApiImplTest();
@@ -24,8 +27,7 @@ public class BankApiImplTest {
         UserCredentials invalidUserCredentials = new UserCredentials(List.of(Role.ADMIN));
         try {
             victim.findByUid(invalidUserCredentials, "2");
-        } catch (
-                AccessDeniedException e) {
+        } catch (AccessDeniedException e) {
             System.out.println(e.getMessage());
             System.out.println("Should not find uid test has passed!");
         }

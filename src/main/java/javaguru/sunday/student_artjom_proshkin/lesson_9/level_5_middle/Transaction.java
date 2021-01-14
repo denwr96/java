@@ -1,8 +1,11 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_9.level_5_middle;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_17
 //Task_33
+@CodeReview(approved = true)
 class Transaction {
 
     private Trader trader;

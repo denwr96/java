@@ -1,6 +1,8 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_18;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class TwoDimensionalArrayTest {
     public static void main(String[] args) {
         TwoDimensionalArrayTest test = new TwoDimensionalArrayTest();

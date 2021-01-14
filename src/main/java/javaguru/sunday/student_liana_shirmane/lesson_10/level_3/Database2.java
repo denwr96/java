@@ -8,10 +8,7 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.Optional;
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Optional должен быть параметризирован." +
-        "Когда мы создаем List<String>, мы параметризируем наш объект" +
-        "типом String. Так же и с Optional. Должно быть Optional<Product>")
+@CodeReview(approved = true)
 interface Database2 {
 
     void save(Product product);

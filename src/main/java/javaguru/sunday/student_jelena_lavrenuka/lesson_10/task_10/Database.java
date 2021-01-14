@@ -6,12 +6,11 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 import java.util.Optional;
 
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Optional, должен быть параметризирован конкретным классом. Optional<Product>")
+@CodeReview(approved = true)
 interface Database {
 
     void save(Product product);
 
-    Optional <Product> findByTitle(String productTitle);
+    Optional<Product> findByTitle(String productTitle);
 
 }

@@ -1,7 +1,10 @@
 package javaguru.sunday.student_liana_shirmane.lesson_12.level_6;
+
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 //task36
 //task40
-
+@CodeReview(approved = true)
 class ProductTitleValidationRule implements FieldValidationRule {
 
     @Override

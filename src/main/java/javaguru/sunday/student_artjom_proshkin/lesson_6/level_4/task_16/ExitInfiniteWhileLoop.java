@@ -1,8 +1,11 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_6.level_4.task_16;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ExitInfiniteWhileLoop {
 
     public static void main(String[] args) {

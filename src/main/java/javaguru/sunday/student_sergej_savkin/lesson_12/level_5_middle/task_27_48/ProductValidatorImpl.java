@@ -1,10 +1,12 @@
 package javaguru.sunday.student_sergej_savkin.lesson_12.level_5_middle.task_27_48;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
 //task34
-
+@CodeReview(approved = true)
 class ProductValidatorImpl implements ProductValidator {
 
     private List<FieldValidationRule> validationRules = new ArrayList<>();

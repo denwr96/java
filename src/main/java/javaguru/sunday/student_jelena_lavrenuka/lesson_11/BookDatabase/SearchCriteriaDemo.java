@@ -1,6 +1,10 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "МОжно было не делать этот класс. Он вроде как больше нигде не используется.")
 class SearchCriteriaDemo {
 
     SearchCriteria authorSearchCriteria = new AuthorSearchCriteria("Kuper");

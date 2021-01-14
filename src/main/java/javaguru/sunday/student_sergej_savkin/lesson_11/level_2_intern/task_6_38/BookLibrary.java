@@ -1,5 +1,7 @@
 package javaguru.sunday.student_sergej_savkin.lesson_11.level_2_intern.task_6_38;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -7,7 +9,7 @@ import java.util.Scanner;
 //task36
 //task38
 
-
+@CodeReview(approved = true)
 class BookLibrary {
 
     private Map<Integer, UIAction> menuNumberToActionMap;

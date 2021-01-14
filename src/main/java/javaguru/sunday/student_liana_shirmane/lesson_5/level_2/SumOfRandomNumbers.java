@@ -1,8 +1,10 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_2;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 //task13
-
+@CodeReview(approved = true)
 public class SumOfRandomNumbers {
     public static void main(String[] args) {
 

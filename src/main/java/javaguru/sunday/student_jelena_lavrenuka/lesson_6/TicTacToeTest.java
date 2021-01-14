@@ -9,7 +9,9 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_6;
 // lesson_6 task_25
 // lesson_6 task_26
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class TicTacToeTest {
     public static void main(String[] args) {
         TicTacToeTest test = new TicTacToeTest();

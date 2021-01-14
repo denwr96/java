@@ -2,8 +2,10 @@ package javaguru.sunday.student_liana_shirmane.lesson_7.level_1;
 
 
 
-import java.util.Arrays;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 public class WordServiceTest {
     public static void main(String[] args) {
         WordServiceTest test = new WordServiceTest();

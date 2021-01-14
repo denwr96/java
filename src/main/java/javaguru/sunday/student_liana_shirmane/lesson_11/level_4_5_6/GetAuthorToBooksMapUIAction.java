@@ -2,9 +2,11 @@ package javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5_6;
 //task38
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Map;
-
+@CodeReview(approved = true)
 class GetAuthorToBooksMapUIAction implements UIAction {
 
     private BookDatabase bookDatabase;

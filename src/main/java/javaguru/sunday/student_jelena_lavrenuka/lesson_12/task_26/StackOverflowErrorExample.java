@@ -1,6 +1,8 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_26;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class StackOverflowErrorExample {
     public static void main(String[] args) {
         StackOverflowErrorExample.recursivePrint(1);

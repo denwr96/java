@@ -1,5 +1,8 @@
 package javaguru.sunday.student_sergej_savkin.lesson_7.level_6_middle.task_12;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class Palindrome {
 
    public String putTextToLowerCase(String text) {

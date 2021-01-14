@@ -2,8 +2,11 @@ package javaguru.sunday.student_liana_shirmane.lesson_5.level_4;
 //task25
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 public class ArraysFromUser {
 
     public static void main(String[] args) {

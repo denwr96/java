@@ -1,9 +1,11 @@
 package javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5_6;
 //task33
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class FindByAuthorUIAction implements UIAction {
 
     private BookDatabase bookDatabase;

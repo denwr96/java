@@ -1,8 +1,11 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_4;
 //task30
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArraysFindOdd {
     public static void main(String[] args) {
         int[] numbersOdd = new int[9];

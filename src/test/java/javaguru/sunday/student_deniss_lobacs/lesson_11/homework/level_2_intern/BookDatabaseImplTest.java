@@ -2,6 +2,7 @@ package java.javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_in
 
 import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.Book;
 import javaguru.sunday.student_deniss_lobacs.lesson_11.homework.level_2_intern.BookDatabaseImpl;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,6 +17,7 @@ public class BookDatabaseImplTest {
 
     @Before
     public void setUp() throws Exception {
+
         victim = new BookDatabaseImpl(new ArrayList<>());
     }
 
@@ -23,7 +25,7 @@ public class BookDatabaseImplTest {
     public void testIfIdIsCorrectAfterSaveBook() {
         Book testBook1 = new Book("A", "B");
         Long returnedId = victim.save(testBook1);
-        assertEquals(Long.valueOf(1), returnedId);
+        Assert.assertEquals(Long.valueOf(1), returnedId);
     }
 
     @Test

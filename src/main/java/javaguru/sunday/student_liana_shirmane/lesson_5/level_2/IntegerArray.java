@@ -1,6 +1,9 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_2;
-//task10
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+//task10
+@CodeReview(approved = true)
 public class IntegerArray {
     public static void main(String[] args) {
 

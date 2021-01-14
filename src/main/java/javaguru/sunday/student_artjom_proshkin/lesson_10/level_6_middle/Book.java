@@ -1,7 +1,10 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_10.level_6_middle;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Book {
 
     String bookAuthor;

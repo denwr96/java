@@ -3,8 +3,7 @@ package javaguru.sunday.student_nataliya_sinitsa.lesson11.level1.task5;
 import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "А чего вы так разбили переменные по разным местам? Не хорошо так делать. Трудно читать. Должен бить порядок: Переменные, Коснтрукторы, Методы")
+@CodeReview(approved = true)
 class Book {
 
     private String title;

@@ -1,8 +1,10 @@
 package javaguru.sunday.student_sergej_savkin.lesson_11.level_1_intern.task_5;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
-
+@CodeReview(approved = true)
 class Book {
 
     private String title;

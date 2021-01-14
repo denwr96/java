@@ -1,5 +1,8 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_6.task_17;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class LoopForStop {
 
 

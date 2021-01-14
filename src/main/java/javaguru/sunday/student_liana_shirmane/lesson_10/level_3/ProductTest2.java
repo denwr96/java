@@ -5,7 +5,9 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Если вы используете Optional, то перед .get() вы должен проверить, что значение там есть при помощи проверки .isPresent()")
+@CodeReviewComment(comment = "Если вы используете Optional, то перед .get() вы должен проверить, что значение там есть при помощи проверки .isPresent()" +
+        "" +
+        "NEW: Не, вы чуть-чуть не поняли. Вы сделали isPresent(), это хорошо, но вы не знаете, какой там объект. Надо сначала сделать isPresent() а потом сделать .get() и получить реальный объект и его сравнивать.")
 public class ProductTest2 {
     public static void main(String[] args) {
         ProductTest2 productTest = new ProductTest2();

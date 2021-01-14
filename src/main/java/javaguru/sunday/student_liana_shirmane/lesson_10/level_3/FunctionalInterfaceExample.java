@@ -6,9 +6,7 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 //task6
 //A functional interface is an interface that contains only one abstract method.
 // They can have only one functionality to exhibit.
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "К чему этот код? =/")
-
+@CodeReview(approved = true)
 @FunctionalInterface
 interface FunctionalInterfaceExample {
 

@@ -1,7 +1,9 @@
 package javaguru.sunday.student_sergej_savkin.lesson_12.level_5_middle.task_27_48;
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Product {
 
     private String productName;

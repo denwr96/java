@@ -3,8 +3,11 @@ package javaguru.sunday.student_liana_shirmane.lesson_13.level_1;
 //task5
 //task8
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.math.BigDecimal;
 
+@CodeReview(approved = true)
 public class TaxCalculatorImpl implements TaxCalculator {
 
     @Override

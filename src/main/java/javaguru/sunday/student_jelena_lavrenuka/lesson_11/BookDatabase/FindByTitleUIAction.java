@@ -1,9 +1,11 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Scanner;
 
-
+@CodeReview(approved = true)
 class FindByTitleUIAction implements UIAction {
     private BookDatabase bookDatabase;
 

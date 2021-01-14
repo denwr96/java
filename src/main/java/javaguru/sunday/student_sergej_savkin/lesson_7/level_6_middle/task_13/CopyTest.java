@@ -1,8 +1,10 @@
 package javaguru.sunday.student_sergej_savkin.lesson_7.level_6_middle.task_13;
 
 
-import java.util.Arrays;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Arrays;
+@CodeReview(approved = true)
 class CopyTest {
     public static void main(String[] args) {
         CopyTest copyTest = new CopyTest();

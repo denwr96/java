@@ -2,8 +2,10 @@ package javaguru.sunday.student_sergej_savkin.lesson_12.level_5_middle.task_27_4
 
 //task33
 
-import java.util.List;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 interface ProductValidator {
 
     List<ValidationException> validate(Product product);

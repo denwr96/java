@@ -1,7 +1,10 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_11;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class ArrayOfThreeUserNumbers {
 
     public static void main(String[] args) {

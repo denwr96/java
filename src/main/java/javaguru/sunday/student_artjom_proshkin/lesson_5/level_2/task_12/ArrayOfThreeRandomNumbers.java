@@ -1,8 +1,10 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_5.level_2.task_12;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
-
+@CodeReview(approved = true)
 class ArrayOfThreeRandomNumbers {
 
     public static void main(String[] args) {
