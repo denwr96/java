@@ -6,9 +6,10 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book
 // Task 23 - 26 (level 4);
 
 import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.search_criteria.*;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.*;
-
+@CodeReview(approved = true)
 class BookDatabaseImplTest {
 
     public static void main(String[] args) {

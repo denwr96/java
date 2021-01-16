@@ -5,9 +5,14 @@ package javaguru.sunday.student_kristina_sutugina.lesson_10.level_6;
 //task 17
 //task 18
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "Необходимо использовать интерфейс List, а не конкретную имплементацию.")
 class BookReaderImpl implements BookReader {
 
 

@@ -1,7 +1,9 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_13.level_1;
 
-import java.math.BigDecimal;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.math.BigDecimal;
+@CodeReview(approved = true)
 class TaxCalculatorImpl implements TaxCalculator {
 
     @Override

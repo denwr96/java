@@ -19,7 +19,7 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 import java.util.ArrayList;
 import java.util.List;
 
-@CodeReview(approved = false)
+@CodeReview(approved = true)
 @CodeReviewComment(comment = "Такс, добавление книги:" +
         "Переменная myBook - книга не ваша =) Плохой нейминг." +
         "Можно обойтись без лишних переменных checkTheSame, authorCheck," +

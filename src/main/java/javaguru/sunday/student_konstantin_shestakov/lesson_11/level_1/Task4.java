@@ -1,9 +1,11 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_1;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class Task4 {
 
     public static void main(String[] args) {

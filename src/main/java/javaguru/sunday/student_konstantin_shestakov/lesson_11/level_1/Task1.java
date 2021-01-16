@@ -1,8 +1,10 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_1;
 
 
-import java.util.*;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.*;
+@CodeReview(approved = true)
 class Task1 {
 
     public static void main(String[] args) {

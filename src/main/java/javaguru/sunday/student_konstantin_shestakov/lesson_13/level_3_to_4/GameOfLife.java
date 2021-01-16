@@ -1,7 +1,10 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_13.level_3_to_4;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.concurrent.TimeUnit;
 
+@CodeReview(approved = true)
 class GameOfLife {
     private GameOfLifeConsoleUI ui = new GameOfLifeConsoleUI();
     private GameOfLifeRandomFieldGenerator generator = new GameOfLifeRandomFieldGenerator();

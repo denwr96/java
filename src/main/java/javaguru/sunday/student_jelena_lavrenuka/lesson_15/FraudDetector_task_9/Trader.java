@@ -1,7 +1,9 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_15.FraudDetector_task_9;
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Trader {
     String fullName;
     String city;

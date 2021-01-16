@@ -1,5 +1,7 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_13.GameOfLifeNextGenerationCalculator;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 // lesson_13 task_10
 // lesson_13 task_11
 // lesson_13 task_12
@@ -16,7 +18,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_13.GameOfLifeNextGenerat
 // lesson_13 task_23
 // lesson_13 task_24
 // lesson_13 task_25
-
+@CodeReview(approved = true)
 class GameOfLifeConsoleUI {
     public void show(boolean[][] field) {
         for (int i = 0; i < field.length; i++) {

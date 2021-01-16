@@ -1,5 +1,7 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_15.QuadraticEq;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import static jdk.nashorn.internal.runtime.regexp.joni.encoding.CharacterType.D;
 
 // lesson_15 task_4
@@ -7,7 +9,7 @@ import static jdk.nashorn.internal.runtime.regexp.joni.encoding.CharacterType.D;
 // lesson_15 task_6
 // lesson_15 task_7
 // lesson_15 task_8
-
+@CodeReview(approved = true)
 class QuadraticEq {
 
     public String calc(double a, double b, double c) {

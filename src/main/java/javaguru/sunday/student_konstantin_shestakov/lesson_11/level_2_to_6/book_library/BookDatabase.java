@@ -7,12 +7,13 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book
 // Task 28, 29 (level 5);
 
 import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.search_criteria.SearchCriteria;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
-
+@CodeReview(approved = true)
 public interface BookDatabase {
 
     Long save(Book book);

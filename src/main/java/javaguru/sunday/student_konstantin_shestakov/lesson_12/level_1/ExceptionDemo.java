@@ -1,7 +1,9 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_12.level_1;
 
-// Task 5
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 5
+@CodeReview(approved = true)
 class ExceptionDemo extends Exception {
 
         Exception exceptionOne = new Exception();

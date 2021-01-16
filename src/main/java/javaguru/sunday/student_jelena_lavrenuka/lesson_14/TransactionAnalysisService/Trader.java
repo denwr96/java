@@ -1,7 +1,9 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_14.TransactionAnalysisService;
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Trader {
     private String name;
     private String city;

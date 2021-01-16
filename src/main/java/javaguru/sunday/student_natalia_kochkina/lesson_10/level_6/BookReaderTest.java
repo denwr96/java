@@ -13,10 +13,12 @@ package javaguru.sunday.student_natalia_kochkina.lesson_10.level_6;
 //Task_24
 //Task_25
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
-
+@CodeReview(approved = true)
 public class BookReaderTest {
     public static void main(String[] args) {
         BookReaderTest bookReaderTest = new BookReaderTest();

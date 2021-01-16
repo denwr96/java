@@ -4,11 +4,12 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_15.QuadraticEq;
 // lesson_15 task_6
 // lesson_15 task_7
 // lesson_15 task_8
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class QuadraticEqTest {
     private QuadraticEq victim;
 

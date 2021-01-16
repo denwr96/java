@@ -4,7 +4,9 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book
 // Task 18 (level 3)
 
 import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class YearOfIssueSearchCriteria implements SearchCriteria {
 
     private String yearOfIssueToSearch;

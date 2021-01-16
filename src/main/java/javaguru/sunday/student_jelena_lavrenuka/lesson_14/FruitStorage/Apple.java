@@ -1,7 +1,9 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_14.FruitStorage;
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Apple {
 
     private String color;

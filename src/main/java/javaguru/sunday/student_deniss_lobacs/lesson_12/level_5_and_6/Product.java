@@ -1,7 +1,10 @@
 package javaguru.sunday.student_deniss_lobacs.lesson_12.level_5_and_6;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 public class Product {
     private String title;
     private Integer price;

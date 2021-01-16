@@ -21,6 +21,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_14.TransactionAnalysisSe
 //lesson_14 task_37
 //lesson_14 task_38
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -31,7 +32,7 @@ import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-
+@CodeReview(approved = true)
 public class TransactionAnalysisServiceTest {
     private TransactionAnalysisService victim;
 

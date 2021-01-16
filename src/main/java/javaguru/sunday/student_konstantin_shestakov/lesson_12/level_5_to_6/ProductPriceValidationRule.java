@@ -1,7 +1,9 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_12.level_5_to_6;
 
-// Task 36, 42
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 36, 42
+@CodeReview(approved = true)
 class ProductPriceValidationRule implements FieldValidationRule {
 
     public void validate(Product product) throws ValidationException {

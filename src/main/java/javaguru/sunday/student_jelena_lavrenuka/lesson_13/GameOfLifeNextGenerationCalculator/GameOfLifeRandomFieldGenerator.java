@@ -17,8 +17,11 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_13.GameOfLifeNextGenerat
 // lesson_13 task_24
 // lesson_13 task_25
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 class GameOfLifeRandomFieldGenerator {
     public boolean[][] generate(int fieldWidth, int fieldHeight){
         Random random = new Random();

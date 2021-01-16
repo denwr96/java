@@ -18,9 +18,11 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_14.FruitStorage;
 // lesson_14 task_16
 // lesson_14 task_17
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class FruitStorage {
 
     public List<Apple> getAllApples() {

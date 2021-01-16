@@ -1,8 +1,14 @@
 package javaguru.sunday.student_deniss_lobacs.lesson_12.level_2_intern;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.List;
 import java.util.Optional;
 
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "credentials != null - это конечно хорошо, вот только у вас список ролей может быть null, и тогда случится nullPointer. Вам стоило поменять местами .equals," +
+        "чтобы обезопасить себя от nullPointer")
 public class BankApiImpl implements BankApi {
 
     private List<BankClient> clients;

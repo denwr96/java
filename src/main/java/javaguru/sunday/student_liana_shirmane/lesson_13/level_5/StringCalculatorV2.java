@@ -6,10 +6,12 @@ package javaguru.sunday.student_liana_shirmane.lesson_13.level_5;
 //task30
 //task31
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-
+@CodeReview(approved = true)
 public class StringCalculatorV2 {
 
     static int add(String numbers) {

@@ -6,8 +6,11 @@ package javaguru.sunday.student_liana_shirmane.lesson_13.level_5;
 //task30
 //task31
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import static java.lang.Integer.parseInt;
 
+@CodeReview(approved = true)
 public class StringCalculator {
 
     static int add(String numbers) {
@@ -24,16 +27,14 @@ public class StringCalculator {
                 Sum = Sum + Integer.parseInt(s);
             }
             return Sum;
-        }
-        else if (numbers.contains(",") || numbers.contains("\n")) {
+        } else if (numbers.contains(",") || numbers.contains("\n")) {
             int Sum = 0;
             String[] number = numbers.split(delimiter);
             for (String s : number) {
                 Sum = Sum + Integer.parseInt(s);
             }
             return Sum;
-    }
-        else {
+        } else {
             return parseInt(numbers);
         }
     }
