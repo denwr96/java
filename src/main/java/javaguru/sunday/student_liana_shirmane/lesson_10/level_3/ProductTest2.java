@@ -26,28 +26,27 @@ public class ProductTest2 {
         victim.save(product1);
         victim.save(product2);
         if ((victim.findByTitle("Apple").isPresent())) {
-            check(product1, victim.findByTitle("Apple").get(), "Find product in the list");
-        } else System.out.println("Product is not present");
+            check(victim.findByTitle("Apple").get().equals(product1), "Find product in the list");
+        }
     }
 
-        void shouldNotFindProduct () {
-            Database2 victim = new InMemoryDatabase2();
-            Product product1 = new Product("Apple");
-            Product product2 = new Product("Banana");
-            victim.save(product1);
-            victim.save(product2);
-            if (victim.findByTitle("Carrot").isEmpty()) {
-                System.out.println("Do not find product in the list has passed!");
-            } else System.out.println("Do not find product in the list has failed!");
-        }
+    void shouldNotFindProduct() {
+        Database2 victim = new InMemoryDatabase2();
+        Product product1 = new Product("Apple");
+        Product product2 = new Product("Banana");
+        victim.save(product1);
+        victim.save(product2);
+        if (victim.findByTitle("Carrot").isEmpty()) {
+            System.out.println("Do not find product in the list has passed!");
+        } else System.out.println("Do not find product in the list has failed!");
+    }
 
-    public void check(Product expectedResult, Product actualResult, String testName) {
-        if (expectedResult.equals(actualResult)) {
+    public void check(boolean actualResult, String testName) {
+        if (actualResult) {
             System.out.println(testName + " has passed!");
         } else {
             System.out.println(testName + " failed!");
-            System.out.println("Expected: " + expectedResult + " but Actual: " + actualResult);
         }
     }
 
-    }
+}
