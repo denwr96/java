@@ -5,11 +5,12 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book
 
 import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.ui_action.UIAction;
 import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.ui_action.*;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class BookLibrary {
 
     private Map<Integer, UIAction> menuNumberToActionMap;

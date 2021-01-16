@@ -1,7 +1,9 @@
 package javaguru.sunday.student_deniss_lobacs.lesson_12.level_2_intern;
 
-import java.util.List;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 public class UserCredentials {
     private List<Role> roles;
 

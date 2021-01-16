@@ -7,9 +7,10 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book
 // Task 28, 29 (level 5);
 
 import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.search_criteria.SearchCriteria;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.*;
-
+@CodeReview(approved = true)
 public class BookDatabaseImpl implements BookDatabase {
 
     List<Book> booksLibrary = new ArrayList<>();

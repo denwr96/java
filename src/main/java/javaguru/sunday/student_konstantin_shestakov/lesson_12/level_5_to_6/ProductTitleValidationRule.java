@@ -1,7 +1,9 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_12.level_5_to_6;
 
-// Tak 36, 40
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+// Tak 36, 40
+@CodeReview(approved = true)
 class ProductTitleValidationRule implements FieldValidationRule {
 
     public void validate(Product product) throws ValidationException {

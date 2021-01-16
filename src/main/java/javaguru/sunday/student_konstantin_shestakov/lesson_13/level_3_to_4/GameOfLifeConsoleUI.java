@@ -1,5 +1,8 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_13.level_3_to_4;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class GameOfLifeConsoleUI {
 
     void printField(boolean[][] field) {

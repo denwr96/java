@@ -1,5 +1,8 @@
 package javaguru.sunday.student_deniss_lobacs.lesson_12.level_5_and_6;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class ValidationException extends Exception {
     // название валидационного правила, которое создало эту ошибку
     private String ruleName;

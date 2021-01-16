@@ -17,8 +17,11 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_13.GameOfLifeNextGenerat
 // lesson_13 task_24
 // lesson_13 task_25
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.concurrent.TimeUnit;
 
+@CodeReview(approved = true)
 class GameOfLife {
     private GameOfLifeConsoleUI ui = new GameOfLifeConsoleUI();
     private GameOfLifeRandomFieldGenerator generator = new GameOfLifeRandomFieldGenerator();

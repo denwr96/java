@@ -3,12 +3,11 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book
 
 // Task 35 (level 6);
 
-import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
 import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.BookDatabase;
-import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.BookDatabaseImpl;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 public class DeleteByIdUIAction implements UIAction {
 
     private BookDatabase bookDatabase;

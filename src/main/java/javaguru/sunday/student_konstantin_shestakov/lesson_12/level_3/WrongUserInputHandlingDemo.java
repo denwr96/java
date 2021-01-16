@@ -2,8 +2,10 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_12.level_3;
 
 // Task 19
 
-import java.util.Scanner;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Scanner;
+@CodeReview(approved = true)
 class WrongUserInputHandlingDemo {
 
     public static void main(String[] args) {

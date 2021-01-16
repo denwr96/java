@@ -1,11 +1,13 @@
 package javaguru.sunday.student_kristina_sutugina.lesson_10.level_6;
 
 import javaguru.sunday.student_deniss_lobacs.lesson_5.homework.level_1.task7.ArrayLength1;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+@CodeReview(approved = true)
 class BookReaderImplTest {
     public static void main(String[] args) {
         BookReaderImplTest bookReaderImplTest = new BookReaderImplTest();

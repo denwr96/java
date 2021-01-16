@@ -1,11 +1,12 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_13.TaxCalculator;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Test;
 
 import java.math.BigDecimal;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class TaxCalculatorImplTest {
 
     private TaxCalculator taxCalculator = new TaxCalculatorImpl();

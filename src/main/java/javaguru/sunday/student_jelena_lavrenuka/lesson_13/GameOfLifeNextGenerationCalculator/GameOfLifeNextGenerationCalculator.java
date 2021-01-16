@@ -1,5 +1,8 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_13.GameOfLifeNextGenerationCalculator;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 // lesson_13 task_10
 // lesson_13 task_11
 // lesson_13 task_12
@@ -16,7 +19,8 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_13.GameOfLifeNextGenerat
 // lesson_13 task_23
 // lesson_13 task_24
 // lesson_13 task_25
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Вы молодец. Можно наверное было попробовать разбить на понятные методы...а то очень сложно читать.")
 class GameOfLifeNextGenerationCalculator {
     boolean[][] nextGeneration = new boolean[10][10];
 

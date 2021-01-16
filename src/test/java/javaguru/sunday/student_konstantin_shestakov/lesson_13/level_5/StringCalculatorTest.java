@@ -1,9 +1,10 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_13.level_5;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class StringCalculatorTest {
 
     @Test

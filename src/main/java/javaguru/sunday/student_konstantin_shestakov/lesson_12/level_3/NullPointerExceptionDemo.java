@@ -1,7 +1,9 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_12.level_3;
 
-// Task 18
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 18
+@CodeReview(approved = true)
 class NullPointerExceptionDemo {
 
     public static void main(String[] args) {

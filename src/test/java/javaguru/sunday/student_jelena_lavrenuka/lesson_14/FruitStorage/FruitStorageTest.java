@@ -18,6 +18,7 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_14.FruitStorage;
 // lesson_14 task_16
 // lesson_14 task_17
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -25,7 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class FruitStorageTest {
 
     private FruitStorage victim;

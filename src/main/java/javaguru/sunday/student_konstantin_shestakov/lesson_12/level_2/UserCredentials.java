@@ -3,8 +3,10 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_12.level_2;
 
 // Task 8, 15, 16
 
-import java.util.List;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 class UserCredentials {
 
     private List<Role> roles;

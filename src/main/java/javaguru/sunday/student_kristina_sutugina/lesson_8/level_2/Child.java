@@ -4,7 +4,6 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 //переделала
 //Task_6
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Если я правильно помню, то классы Father и Mother менять нельзя?")
+@CodeReview(approved = true)
 class Child extends Mother{
 }

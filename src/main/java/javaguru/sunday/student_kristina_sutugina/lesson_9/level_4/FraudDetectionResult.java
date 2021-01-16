@@ -1,5 +1,9 @@
 package javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
+
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 //task 30
+@CodeReview(approved = true)
 class FraudDetectionResult {
 
     private boolean fraud;

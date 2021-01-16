@@ -6,10 +6,11 @@ package javaguru.sunday.student_liana_shirmane.lesson_13.level_5;
 //task30
 //task31
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class StringCalculatorTest {
     private StringCalculator calculator = new StringCalculator();
 

@@ -1,5 +1,8 @@
 package javaguru.sunday.student_deniss_lobacs.lesson_12.level_3_junior;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 public class TestException extends Exception{
 // task21
     public static void main(String[] args) {

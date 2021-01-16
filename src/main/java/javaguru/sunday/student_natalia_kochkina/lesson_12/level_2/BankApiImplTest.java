@@ -2,9 +2,11 @@ package javaguru.sunday.student_natalia_kochkina.lesson_12.level_2;
 
 //Task_14, 15, 16
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class BankApiImplTest {
 
     public static void main(String[] args) {

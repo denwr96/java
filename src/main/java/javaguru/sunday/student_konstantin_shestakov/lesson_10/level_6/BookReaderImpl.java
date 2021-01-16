@@ -8,7 +8,7 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 import java.util.ArrayList;
 import java.util.List;
 
-@CodeReview(approved = false)
+@CodeReview(approved = true)
 @CodeReviewComment(comment = "Переделать на коллекции.")
 class BookReaderImpl implements BookReader {
 

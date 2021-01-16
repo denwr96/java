@@ -17,11 +17,12 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_13.GameOfLifeNextGenerat
 // lesson_13 task_24
 // lesson_13 task_25
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class GameOfLifeNextGenerationCalculatorTest {
     private GameOfLifeNextGenerationCalculator victim;
 

@@ -1,5 +1,6 @@
 package javaguru.sunday.student_deniss_lobacs.lesson_12.level_2_intern;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class BankApiImplTest {
 
     private BankApiImpl victim;

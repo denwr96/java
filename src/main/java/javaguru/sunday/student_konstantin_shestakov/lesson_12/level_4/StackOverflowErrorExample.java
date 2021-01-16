@@ -1,7 +1,9 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_12.level_4;
 
-// Task 25
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+// Task 25
+@CodeReview(approved = true)
 class StackOverflowErrorExample {
 
     public static void main(String[] args) {

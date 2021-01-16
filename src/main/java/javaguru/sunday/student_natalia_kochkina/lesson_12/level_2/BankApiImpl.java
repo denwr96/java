@@ -2,9 +2,11 @@ package javaguru.sunday.student_natalia_kochkina.lesson_12.level_2;
 
 //Task_12, 13
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Optional;
-
+@CodeReview(approved = true)
 class BankApiImpl implements BankApi {
 
     private List<BankClient> clients;

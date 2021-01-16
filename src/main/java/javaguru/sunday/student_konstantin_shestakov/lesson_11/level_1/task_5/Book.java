@@ -1,8 +1,11 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_1.task_5;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 public class Book {
     private String title;
     private String author;

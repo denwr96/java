@@ -7,8 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 // task14, task15, task16, task17, task18, task19, task20, task21, task22, task23, task24, task25;
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Не используйте имплементацию ArrayList, лучше использовать интерфейс List")
+@CodeReview(approved = true)
 public interface BookReader {
     boolean addBook(Book book);
 

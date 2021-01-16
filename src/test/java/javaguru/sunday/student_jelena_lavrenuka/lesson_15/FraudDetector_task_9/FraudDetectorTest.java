@@ -1,10 +1,11 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_15.FraudDetector_task_9;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
+@CodeReview(approved = true)
 public class FraudDetectorTest {
 private FraudDetector victim;
     @Before

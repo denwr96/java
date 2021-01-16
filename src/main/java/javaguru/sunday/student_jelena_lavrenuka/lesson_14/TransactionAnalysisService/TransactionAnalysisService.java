@@ -21,11 +21,13 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_14.TransactionAnalysisSe
 //lesson_14 task_37
 //lesson_14 task_38
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-
+@CodeReview(approved = true)
 class TransactionAnalysisService {
 
     public List<Transaction> findTransactionsIn2011(List<Transaction> transactions){

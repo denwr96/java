@@ -1,7 +1,9 @@
 package javaguru.sunday.student_natalia_kochkina.lesson_12.level_3;
 
-//Task_20
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+//Task_20
+@CodeReview(approved = true)
 public class MultiCatchExample {
 
     public static void main(String[] args) {

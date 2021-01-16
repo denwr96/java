@@ -1,7 +1,9 @@
 package javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle.level2;
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class BankClient {
 
     private String uid;
