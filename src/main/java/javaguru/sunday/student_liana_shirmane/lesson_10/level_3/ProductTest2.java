@@ -26,7 +26,7 @@ public class ProductTest2 {
         victim.save(product2);
         if ((victim.findByTitle("Apple").isPresent())) {
             check(product1, victim.findByTitle("Apple").get(), "Find product in the list");
-        } 
+        } else System.out.println("Product is not present");
     }
 
     public void check(Product expectedResult, Product actualResult, String testName) {
@@ -37,7 +37,6 @@ public class ProductTest2 {
             System.out.println("Expected: " + expectedResult + " but Actual: " + actualResult);
         }
     }
-
 
         void shouldNotFindProduct () {
             Database2 victim = new InMemoryDatabase2();
