@@ -4,15 +4,17 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //task13
+//corrected
 @CodeReview(approved = false)
 @CodeReviewComment(comment = "Не правильное название переменных")
 class BankDemo {
     public static void main(String args[]) {
-        Bank b;
-        b = new SEB();
-        System.out.println("Rate of Interest is: " + b.getRateOfInterest() + "%");
-        b = new SWED();
-        System.out.println("Rate of Interest is: " + b.getRateOfInterest() + "%");
+        Bank bank;
+        bank = new SEB();
+        System.out.println("Rate of Interest is: " + bank.getRateOfInterest() + "%");
+
+        bank = new SWED();
+        System.out.println("Rate of Interest is: " + bank.getRateOfInterest() + "%");
     }
 }
 
