@@ -53,22 +53,6 @@ public class FruitStore {
 	}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	// Требование 4: красные фрукты
 	public List<Fruit> findAllFruitsByColor(String fruitColor) {
 		List<Fruit> foundFruits = new ArrayList<>();
@@ -79,17 +63,6 @@ public class FruitStore {
 		}
 		return foundFruits;
 	}
-
-
-
-
-
-
-
-
-
-
-
 
 
 	// Требование 5: красные помидоры
