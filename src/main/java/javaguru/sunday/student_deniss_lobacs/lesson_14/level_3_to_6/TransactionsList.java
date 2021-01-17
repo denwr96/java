@@ -19,7 +19,8 @@ public class TransactionsList {
                 new Transaction(mario, 2012, 700),
                 new Transaction(alan, 2012, 950)
         );
-
+        
         return transactions;
+
     }
 }
