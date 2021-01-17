@@ -1,4 +1,4 @@
-package javaguru.sunday.student_deniss_lobacs.lesson_14.level_3_junior;
+package javaguru.sunday.student_deniss_lobacs.lesson_14.level_3_to_6;
 
 import org.junit.Before;
 import org.junit.Test;
