@@ -25,10 +25,11 @@ class StringCalculator {
         String delimiters = numbersArray[0].replaceAll("[\\[\\]\\/]", "");
         String[] delimitersArray = delimiters.split("");
 
-        for (String delimiter : delimitersArray) {
-            numbersArray[1] = numbersArray[1].replaceAll(delimiter, "");
+        String numbersString = numbersArray[1];
+        for (int i = 0; i < delimitersArray.length; i++) {
+            numbersString = numbersString.replace(delimitersArray[i], "|");
         }
-        String[] numbersArrayForCount = numbersArray[1].split("");
+        String[] numbersArrayForCount = numbersString.split("\\|");
         int sum = 0;
 
         for (int i = 0; i < numbersArrayForCount.length; i++) {

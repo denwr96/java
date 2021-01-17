@@ -27,6 +27,8 @@ public class ProductTest2 {
         victim.save(product2);
         if ((victim.findByTitle("Apple").isPresent())) {
             check(victim.findByTitle("Apple").get().equals(product1), "Find product in the list");
+        } else {
+            System.out.println("Find product in the list failed!");
         }
     }
 

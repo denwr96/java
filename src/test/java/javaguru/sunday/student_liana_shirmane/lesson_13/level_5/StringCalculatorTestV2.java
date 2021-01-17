@@ -43,4 +43,9 @@ public class StringCalculatorTestV2 {
     public void shouldAcceptDelimiterLine(){
         assertEquals(3, StringCalculatorV2.add("//[;]\n1;2"));
     }
+
+    @Test
+    public void shouldAcceptMultipleDelimitersLine(){
+        assertEquals(6, StringCalculatorV2.add("//[;][&]\n1;2&3"));
+    }
 }

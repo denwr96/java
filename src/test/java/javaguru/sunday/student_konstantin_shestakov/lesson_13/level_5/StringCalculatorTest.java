@@ -39,7 +39,7 @@ public class StringCalculatorTest {
     public void addV2MethodTestShouldBeInt15() {
         StringCalculator victim = new StringCalculator();
         int result = victim.addV2("//[;][&][,]\\n1;2&34,5");
-        assertEquals(15, result);
+        assertEquals(42, result);
     }
 
 }
