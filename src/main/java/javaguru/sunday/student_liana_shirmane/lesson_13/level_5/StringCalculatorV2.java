@@ -19,9 +19,11 @@ public class StringCalculatorV2 {
             return 0;
 
         String delimiter = ",|\n";
+        char[] delimiters;
         if (numbers.startsWith("//")) {
-            String[] parts = numbers.split("\n", 2);
-            delimiter = parts[0].substring(2);
+            String[] parts = numbers.split("\n");
+
+            delimiters = parts[0].substring(2).toCharArray();
             numbers = parts[1];
         }
 
