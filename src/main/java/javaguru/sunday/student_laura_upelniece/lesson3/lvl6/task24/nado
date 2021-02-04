@@ -1,0 +1,23 @@
+
+
+        if (powerOn && screenOpen) {
+                    System.out.println("laptop is on and open");
+                } else if (powerOn) {
+                    System.out.println("laptop is on, but closed");
+                } else if (screenOpen) {
+                    System.out.println("laptop is off and open");
+                } else {
+                    System.out.println("laptop is off and closed");
+                }
+
+       if (powerOn && screenOpen) {
+                   System.out.println("laptop is on and open");
+               } else if (powerOn && !screenOpen) {
+                   System.out.println("laptop is on, but closed");
+               } else if (screenOpen && !powerOn) {
+                   System.out.println("laptop is off and open");
+               } else if (!screenOpen && !powerOn ) {
+                   System.out.println("laptop is off and closed");
+               } else {
+                   System.out.println("We have a problem");
+               }
