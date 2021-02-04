@@ -1,6 +1,9 @@
 package javaguru.sunday.student_liana_shirmane.lesson_8.level_1;
-//task2
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+//task2
+@CodeReview(approved = true)
 public class DefaultConstructor2Demo {
     public static void main(String[] args) {
         DefaultConstructor2 defaultConstructor2 = new DefaultConstructor2();

@@ -4,8 +4,7 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //Task 33
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Метод ifFarud переусложнен. Надо переделать. Если встретили fraud, то надо вернуть объект, который хранит название рула и флаг true. Если не втретили, то возвращать надо объект с флагом false")
+@CodeReview(approved = true)
 class FraudDetectorV2 {
 
     FraudRule[] fraudRules = new FraudRule[5];
@@ -29,3 +28,4 @@ class FraudDetectorV2 {
     }
 
 }
+

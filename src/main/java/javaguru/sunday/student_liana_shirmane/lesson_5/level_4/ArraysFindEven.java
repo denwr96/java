@@ -1,8 +1,11 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_4;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
 //task29
+@CodeReview(approved = true)
 public class ArraysFindEven {
     public static void main(String[] args) {
         int[] numbersEven = new int[9];

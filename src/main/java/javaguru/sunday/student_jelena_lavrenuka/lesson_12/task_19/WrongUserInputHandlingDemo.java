@@ -1,8 +1,10 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_19;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 class WrongUserInputHandlingDemo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

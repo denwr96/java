@@ -1,8 +1,10 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.InternetShop;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
-
+@CodeReview(approved = true)
 class ValidationException extends Exception {
 
     private String ruleName;

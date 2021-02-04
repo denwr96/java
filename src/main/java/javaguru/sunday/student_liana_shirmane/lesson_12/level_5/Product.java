@@ -2,8 +2,10 @@ package javaguru.sunday.student_liana_shirmane.lesson_12.level_5;
 //task28
 //task29
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 class Product {
     private String name;
     private Integer price;

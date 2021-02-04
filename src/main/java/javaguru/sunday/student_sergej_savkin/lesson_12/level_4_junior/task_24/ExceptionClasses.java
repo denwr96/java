@@ -1,5 +1,8 @@
 package javaguru.sunday.student_sergej_savkin.lesson_12.level_4_junior.task_24;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ExceptionClasses {
 
     /*

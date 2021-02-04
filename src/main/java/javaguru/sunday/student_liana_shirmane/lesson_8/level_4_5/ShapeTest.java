@@ -4,7 +4,9 @@ package javaguru.sunday.student_liana_shirmane.lesson_8.level_4_5;
 //task18
 //task19
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 public class ShapeTest {
     public static void main(String[] args) {
         ShapeTest test = new ShapeTest();

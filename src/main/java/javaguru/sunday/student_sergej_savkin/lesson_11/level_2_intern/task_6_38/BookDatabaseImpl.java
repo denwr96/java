@@ -1,5 +1,8 @@
 package javaguru.sunday.student_sergej_savkin.lesson_11.level_2_intern.task_6_38;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.*;
 
 //task6
@@ -19,7 +22,8 @@ import java.util.*;
 //task28
 //task29
 
-
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "CountAllBooks надо переделать. Зачем вы делаете ппереход по всем элементам? если есть метод size?")
 class BookDatabaseImpl implements BookDatabase {
 
     List<Book> books = new ArrayList<>();

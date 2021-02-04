@@ -1,7 +1,10 @@
 package javaguru.sunday.student_liana_shirmane.lesson_12.level_6;
+
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 //task36
 //task44
-
+@CodeReview(approved = true)
 public class ProductDescriptionValidationRule implements FieldValidationRule {
     @Override
     public void validate(Product product) throws ValidationException {

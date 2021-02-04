@@ -5,8 +5,10 @@ package javaguru.sunday.student_liana_shirmane.lesson_12.level_6;
 //task42
 //task46
 
-import java.util.List;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.List;
+@CodeReview(approved = true)
 public class ProductValidatorImplTest {
 
     private ProductTitleValidationRule nameRule = new ProductTitleValidationRule();

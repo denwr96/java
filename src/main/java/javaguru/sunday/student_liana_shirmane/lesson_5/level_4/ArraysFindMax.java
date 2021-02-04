@@ -1,8 +1,11 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_4;
 //task27
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArraysFindMax {
     public static void main(String[] args) {
         int[] numbersMax = new int[5];

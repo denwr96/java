@@ -1,6 +1,9 @@
 package javaguru.sunday.student_liana_shirmane.lesson_12.level_4;
-//task26
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+//task26
+@CodeReview(approved = true)
 public class StackOverflowErrorExample {
     static int i = 0;
 

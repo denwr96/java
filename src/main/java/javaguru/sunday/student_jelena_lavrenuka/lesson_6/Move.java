@@ -2,7 +2,9 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_6;
 
 // lesson_6 task_25
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class Move {
 
     private int x;

@@ -1,7 +1,10 @@
 package javaguru.sunday.student_liana_shirmane.lesson_12.level_5;
+
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 //task30
 //task31
-
+@CodeReview(approved = true)
 class ValidationException extends Exception {
 
     // название валидационного правила, которое создало эту ошибку

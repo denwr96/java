@@ -11,8 +11,7 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Используйте интерфейс List<>. Не стоит привязываться к конкретной имплементации")
+@CodeReview(approved = true)
 class InMemoryDatabase implements Database {
     List<Product> productDatabase = new ArrayList<>();
 

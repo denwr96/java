@@ -1,8 +1,10 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_10.level_6_middle;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class BookReaderImplTest {
 
     public static void main(String[] args) {

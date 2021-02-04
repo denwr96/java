@@ -1,10 +1,12 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_10.task_2;//package javaguru.sunday.student_jelena_lavrenuka.lesson_10.task_2;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Arrays;
 import java.util.OptionalInt;
 import java.util.Random;
 
-
+@CodeReview(approved = true)
 class ArrayUtilImpl implements ArrayUtil {
 
     @Override

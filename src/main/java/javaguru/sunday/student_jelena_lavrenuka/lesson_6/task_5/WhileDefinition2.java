@@ -5,7 +5,7 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 
 @CodeReview(approved = false)
-@CodeReviewComment(comment = "Тут скобок не хватает в цикла. Так должно быть?")
+@CodeReviewComment(comment = "Уже лучше, но вы меняете i за пределами цикла.")
 class WhileDefinition2 {
     public static void main(String[] args) {
         int i = 1;

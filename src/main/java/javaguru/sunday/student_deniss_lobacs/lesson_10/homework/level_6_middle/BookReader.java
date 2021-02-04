@@ -4,10 +4,10 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
+import java.util.List;
 
 // task14, task15, task16, task17, task18, task19, task20, task21, task22, task23, task24, task25;
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Не используйте имплементацию ArrayList, лучше использовать интерфейс List")
+@CodeReview(approved = true)
 public interface BookReader {
     boolean addBook(Book book);
 
@@ -15,21 +15,21 @@ public interface BookReader {
 
     boolean deleteBook(Book book);
 
-    ArrayList<String> getBooks();
+    List<String> getBooks();
 
-    ArrayList<Book> searchByAuthor(String author);
+    List<Book> searchByAuthor(String author);
 
-    ArrayList<Book> searchByTitle(String title);
+    List<Book> searchByTitle(String title);
 
-    ArrayList<Book> findByAuthorBeginning(String author);
+    List<Book> findByAuthorBeginning(String author);
 
-    ArrayList<Book> searchByTitleBeginning(String title);
+    List<Book> searchByTitleBeginning(String title);
 
     boolean setBookAsRed(Book book);
 
     boolean setBookAsNotRed(Book book);
 
-    public ArrayList<String> getRedBookList();
+    public List<String> getRedBookList();
 
-    public ArrayList<String> getNotRedBookList();
+    public List<String> getNotRedBookList();
 }

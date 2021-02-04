@@ -2,34 +2,23 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6;
 
 // Task 14 - 25
 
-import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
 import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-import java.util.Arrays;
-@CodeReview(approved = false)
+import java.util.ArrayList;
+import java.util.List;
+
+@CodeReview(approved = true)
 @CodeReviewComment(comment = "Переделать на коллекции.")
 class BookReaderImpl implements BookReader {
 
+    List<Book> booksLibrary = new ArrayList<>();
     Book[] bookArray = new Book[6];
 
     @Override
-    public boolean checkBookAuthor(Book book) {
-        return book.getAuthor() != null;
-    }
-
-    @Override
-    public boolean checkBookTitle(Book book) {
-        return book.getTitle() != null;
-    }
-
-    @Override
     public boolean checkForSameBook(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            if (bookArray[i].equals(book)) {
+        for (Book value : booksLibrary) {
+            if (value.equals(book)) {
                 return true;
             }
         }
@@ -38,23 +27,22 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public boolean addBook(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null && !checkForSameBook(book) && checkBookTitle(book) && checkBookAuthor(book)) {
-                bookArray[i] = book;
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " - book added");
-                return  true;
+        for (int i = 0; i < booksLibrary.size(); i++) {
+            if (checkForSameBook(book) || book.getAuthor().equals("") || book.getTitle().equals("")) {
+                System.out.println("Book is not added, please check if same book is already in library or title / author fields are empty");
+                return  false;
             }
         }
-        System.out.println("Book is not added, please check if same book is already in library or title / author fields are empty");
-        return false;
+        booksLibrary.add(book);
+        return true;
     }
 
     @Override
     public Book findBook(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i].equals(book)) {
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " - is element " + (i + 1));
-                return bookArray[i];
+        for (int i = 0; i < booksLibrary.size(); i++) {
+            if (booksLibrary.get(i).equals(book)) {
+                System.out.println(booksLibrary.get(i).getTitle() + " [" + booksLibrary.get(i).getAuthor() + "]" + " - is element " + (i + 1));
+                return booksLibrary.get(i);
             }
         }
         System.out.println("Sorry, no such book in library");
@@ -63,10 +51,10 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public boolean removeBook(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i].equals(book)) {
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " - book removed");
-                bookArray[i] = null;
+        for (int i = 0; i < booksLibrary.size(); i++) {
+            if (booksLibrary.get(i).equals(book)) {
+                System.out.println(booksLibrary.get(i).getTitle() + " [" + booksLibrary.get(i).getAuthor() + "]" + " - book removed");
+                booksLibrary.remove(book);
                 return true;
             }
         }
@@ -76,142 +64,101 @@ class BookReaderImpl implements BookReader {
 
     @Override
     public void printBookList() {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]");
+        for (Book book : booksLibrary) {
+            System.out.println(book.getTitle() + " [" + book.getAuthor() + "]");
         }
     }
 
     @Override
-    public Book[] findBookByAuthor(String author) {
-        Book[] booksFound = new Book[bookArray.length];
+    public List<Book> findBookByAuthor(String author) {
+        List<Book> booksFound = new ArrayList<>();
 
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            if (bookArray[i].getAuthor().equals(author)) {
-                booksFound[i] = bookArray[i];
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " is element " + (i + 1));
+        for (Book book : booksLibrary) {
+            if (book.getAuthor().equals(author)) {
+                booksFound.add(book);
             }
         }
         return booksFound;
     }
 
     @Override
-    public Book[] findBookByAuthorPartialWordSearch(String author) {
-        Book[] booksFound = new Book[bookArray.length];
+    public List<Book> findBookByAuthorStartsWithWordSearch(String author) {
+        List<Book> booksFound = new ArrayList<>();
 
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
+        for (Book book : booksLibrary) {
+            if (book.getAuthor().startsWith(author)) {
+                booksFound.add(book);
             }
-            String[] findAuthorArray = bookArray[i].getAuthor().split("[ ~!@#$%^&*()_+`1234567890-={}:;'|<>,./?]");
+        }
+        return booksFound;
+    }
 
-            for (int j = 0; j < findAuthorArray.length; j++) {
-                if (findAuthorArray[j].equals(author)) {
-                    booksFound[i] = bookArray[i];
-                    System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]");
-                }
+
+    @Override
+    public List<Book> findBookByTitle(String title) {
+        List<Book> booksFound = new ArrayList<>();
+
+        for (Book book : booksLibrary) {
+            if (book.getTitle().equals(title)) {
+                booksFound.add(book);
             }
         }
         return booksFound;
     }
 
     @Override
-    public Book[] findBookByTitle(String title) {
-        Book[] booksFound = new Book[bookArray.length];
+    public List<Book> findBookByTitleStartsWithWordSearch(String title) {
+        List<Book> booksFound = new ArrayList<>();
 
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
+        for (Book book : booksLibrary) {
+            if (book.getTitle().startsWith(title)) {
+                booksFound.add(book);
             }
-            if (bookArray[i].getTitle().equals(title)) {
-                booksFound[i] = bookArray[i];
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " is element " + (i + 1));
-            }
-        }
-        return booksFound;
-    }
-
-    @Override
-    public Book[] findBookByTitlePartialSearch(String title) {
-        Book[] booksFound = new Book[bookArray.length];
-
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            String[] findTitleArray = bookArray[i].getTitle().split("[ ~!@#$%^&*()_+`1234567890-={}:;'|<>,./?]");
-
-            for (int j = 0; j < findTitleArray.length; j++) {
-                if (findTitleArray[j].equals(title)) {
-                    booksFound[i] = bookArray[i];
-                    System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " is element " + (i + 1));
-                }
-            }
-
         }
         return booksFound;
     }
 
     @Override
     public boolean bookIsAlreadyRead(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            if (bookArray[i].equals(book)) {
-//                bookArray[i].setBookIsRead(true);
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " - is set as read");
+        for (Book value : booksLibrary) {
+
+            if (value.equals(book)) {
+                value.setBookIsRead(true);
                 return true;
             }
         }
-        System.out.println("There's no such book in library");
         return false;
     }
 
     @Override
     public boolean bookIsUnread(Book book) {
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
-            }
-            if (bookArray[i].equals(book)) {
-//                bookArray[i].setBookIsRead(false);
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]" + " - is set as unread");
+        for (Book value : booksLibrary) {
+
+            if (value.equals(book)) {
+                value.setBookIsRead(false);
                 return true;
             }
         }
-        System.out.println("There's no such book in library");
         return false;
     }
 
     @Override
     public void printReadBookList() {
         System.out.println("Read books list: ");
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
+        for (Book book : booksLibrary) {
+            if (book.getBookIsRead()) {
+                System.out.println(book.getTitle() + " [" + book.getAuthor() + "]");
             }
-//            if (bookArray[i].getBookIsRead()) {
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]");
-//            }
         }
     }
 
     @Override
     public void printUnreadBookList() {
         System.out.println("Unread books list: ");
-        for (int i = 0; i < bookArray.length; i++) {
-            if (bookArray[i] == null) {
-                continue;
+        for (Book book : booksLibrary) {
+            if (!book.getBookIsRead()) {
+                System.out.println(book.getTitle() + " [" + book.getAuthor() + "]");
             }
-//            if (!bookArray[i].getBookIsRead()) {
-                System.out.println(bookArray[i].getTitle() + " [" + bookArray[i].getAuthor() + "]");
-//            }
         }
     }
 }

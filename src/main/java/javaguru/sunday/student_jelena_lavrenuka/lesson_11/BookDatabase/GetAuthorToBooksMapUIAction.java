@@ -1,8 +1,10 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.*;
 
-
+@CodeReview(approved = true)
 class GetAuthorToBooksMapUIAction implements UIAction {
     private BookDatabase bookDatabase;
 

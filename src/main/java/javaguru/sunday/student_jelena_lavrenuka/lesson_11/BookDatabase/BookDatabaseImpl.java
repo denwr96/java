@@ -35,8 +35,11 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 // lesson_11 task_38
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.*;
 
+@CodeReview(approved = true)
 class BookDatabaseImpl implements BookDatabase {
     long counter = 1;
     List<Book> bookDatabase;
@@ -114,7 +117,7 @@ class BookDatabaseImpl implements BookDatabase {
 
     @Override
     public void deleteByAuthor(String author) {
-        bookDatabase.removeIf(deleteBookByAuthor -> deleteBookByAuthor.getAuthor().equals(author));
+        bookDatabase.removeIf(book -> book.getAuthor().equals(author));
     }
 
     @Override

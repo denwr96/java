@@ -7,9 +7,7 @@ import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 import java.util.ArrayList;
 import java.util.List;
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Вы используете ArrayList<> при возвращении значения из методов. Зачем? Нужно использовать интерфейс. Не переходить на имплементацию." +
-        "Зачем используете массивы? Заменить на коллекции")
+@CodeReview(approved = true)
 class BookReaderImpl implements BookReader {
 
     List<Book> bookList = new ArrayList<>();
@@ -139,3 +137,4 @@ class BookReaderImpl implements BookReader {
     }
 
 }
+

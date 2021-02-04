@@ -35,8 +35,11 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 // lesson_11 task_38
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.*;
 
+@CodeReview(approved = true)
 class BookDatabaseImplTest {
     public static void main(String[] args) {
         BookDatabaseImplTest test = new BookDatabaseImplTest();

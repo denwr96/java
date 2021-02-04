@@ -6,11 +6,13 @@ package javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5_6;
 //task28
 //task29
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
-
+@CodeReview(approved = true)
 public interface BookDatabase {
     Long save(Book book);
 

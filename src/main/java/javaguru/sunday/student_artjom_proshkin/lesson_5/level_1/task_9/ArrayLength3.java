@@ -1,6 +1,8 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_5.level_1.task_9;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class ArrayLength3 {
 
     public static void main(String[] args) {

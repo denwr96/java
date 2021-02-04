@@ -1,6 +1,9 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_4.level_6.task_17;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class StockTest {
 
     public static void main(String[] args) {

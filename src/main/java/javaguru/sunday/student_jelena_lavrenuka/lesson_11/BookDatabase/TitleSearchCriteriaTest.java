@@ -1,6 +1,8 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class TitleSearchCriteriaTest {
     public static void main(String[] args) {
         TitleSearchCriteriaTest test = new TitleSearchCriteriaTest();

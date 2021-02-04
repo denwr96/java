@@ -14,24 +14,24 @@ import java.util.Random;
 @CodeReview(approved = true)
 class ArrayUtil {
 
-    public int[] createArray(int arrayLength) {
+    public static int[] createArray(int arrayLength) {
         int[] array = new int[arrayLength];
         return array;
     }
 
-    public void fillArrayWithRandomNumbers(int[] array) {
+    public static void fillArrayWithRandomNumbers(int[] array) {
         Random random = new Random();
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(100);
         }
     }
 
-    public void printArrayToConsole(int[] array) {
+    public static void printArrayToConsole(int[] array) {
         System.out.println(Arrays.toString(array));
 
     }
 
-    public int findMaxNumber(int[] array) {
+    public static int findMaxNumber(int[] array) {
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
             if (array[i] > max){
@@ -43,7 +43,7 @@ class ArrayUtil {
 
     }
 
-    public int findMinNumber(int[] array) {
+    public static int findMinNumber(int[] array) {
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
             if (array[i] < min) {

@@ -15,7 +15,7 @@ class InMemoryDatabase2 implements Database2 {
     }
 
     @Override
-    public Optional<Product>findByTitle(String productTitle) {
+    public Optional<Product> findByTitle(String productTitle) {
         for (Product product : productList) {
             if (product.getTitle().equals(productTitle)) {
                 System.out.println("Product " + productTitle + " is in the list");

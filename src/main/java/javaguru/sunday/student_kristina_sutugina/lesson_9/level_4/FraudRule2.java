@@ -1,6 +1,10 @@
 package javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
+
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_18
 //Task_25
+@CodeReview(approved = true)
 class FraudRule2 extends FraudRule {
 
     public FraudRule2(String ruleName) {
@@ -8,10 +12,7 @@ class FraudRule2 extends FraudRule {
     }
 
     public boolean isFraud(Transaction t) {
-        if(t.getAmount()>1000000){
-            return true;
-        }
-        return false;
+        return (t.getAmount() > 1000000);
     }
 
 }

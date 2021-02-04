@@ -1,11 +1,14 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_6.level_3;
+
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 //Task_9
 //Task_10
 //Task_11
 //Task_12
 //Task_13
 //Task_14
-
+@CodeReview(approved = true)
 class ArrayUtil {
 
     boolean hasNumber(int[] myArray, int number) {

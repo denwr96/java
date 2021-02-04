@@ -23,9 +23,13 @@ package javaguru.sunday.student_jelena_lavrenuka.lesson_12.InternetShop;
 // lesson_12 task_47
 // lesson_12 task_48
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.List;
 
-
+@CodeReview(approved = true)
+@CodeReviewComment(comment = "Все хорошо, только можно было не создавать объекты exception, а проверять message, который вернулся. Но так тоже не плохо.")
 class ProductValidatorImplTest {
     ValidationException exception1 = new ValidationException("Error", "RULE-1", "Title can not be empty", "title");
     ValidationException exception2 = new ValidationException("Error", "RULE-2", "Title can not be shorter than 3 symbols", "title");

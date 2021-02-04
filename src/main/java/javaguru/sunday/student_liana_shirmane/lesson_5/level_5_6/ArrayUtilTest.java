@@ -18,9 +18,8 @@ class ArrayUtilTest {
     }
 
     void shouldCreateArray() {
-        ArrayUtil arrayUtil = new ArrayUtil();
         int arrayLength = 8;
-        int[] result = arrayUtil.createArray(arrayLength);
+        int[] result = ArrayUtil.createArray(arrayLength);
         if (result.length == arrayLength) {
             System.out.println("Test passed");
         } else System.out.println("Test failed");
@@ -29,8 +28,7 @@ class ArrayUtilTest {
 
     void shouldFillArray() {
         int[] arrayFull = new int[5];
-        ArrayUtil arrayUtil = new ArrayUtil();
-        arrayUtil.fillArrayWithRandomNumbers(arrayFull);
+        ArrayUtil.fillArrayWithRandomNumbers(arrayFull);
         boolean isFull = true;
         for (int i = 0; i < arrayFull.length; i++) {
             if (arrayFull[i] < 0) {
@@ -48,17 +46,17 @@ class ArrayUtilTest {
     void shouldFindMax() {
         int[] arrayPrint = new int[5];
         ArrayUtil arrayUtil = new ArrayUtil();
-        arrayUtil.fillArrayWithRandomNumbers(arrayPrint);
-        arrayUtil.printArrayToConsole(arrayPrint);
-        arrayUtil.findMaxNumber(arrayPrint);
+        ArrayUtil.fillArrayWithRandomNumbers(arrayPrint);
+        ArrayUtil.printArrayToConsole(arrayPrint);
+        ArrayUtil.findMaxNumber(arrayPrint);
     }
 
     void shouldFindMin() {
         int[] arrayPrint = new int[5];
         ArrayUtil arrayUtil = new ArrayUtil();
-        arrayUtil.fillArrayWithRandomNumbers(arrayPrint);
-        arrayUtil.printArrayToConsole(arrayPrint);
-        arrayUtil.findMinNumber(arrayPrint);
+        ArrayUtil.fillArrayWithRandomNumbers(arrayPrint);
+        ArrayUtil.printArrayToConsole(arrayPrint);
+        ArrayUtil.findMinNumber(arrayPrint);
     }
 }
 

@@ -1,7 +1,9 @@
 package javaguru.sunday.student_sergej_savkin.lesson_7.level_6_middle.task_11;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class CreditCard {
 
     private int creditCardNumber;

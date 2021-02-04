@@ -1,8 +1,10 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_2;
 //task15
 
-import java.util.Random;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Random;
+@CodeReview(approved = true)
 public class RandomNumbersPlusTwo {
 
     public static void main(String[] args) {

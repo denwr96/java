@@ -1,8 +1,10 @@
 package javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+//33
+@CodeReview(approved = true)
 class Trader {
-
-
 
     private String fullName;
     private String city;
@@ -20,9 +22,13 @@ class Trader {
         return city;
     }
 
-
-
-
+    @Override
+    public String toString() {
+        return "Trader{" +
+                "fullName='" + fullName + '\'' +
+                ", city='" + city + '\'' +
+                '}';
+    }
 }
 
 

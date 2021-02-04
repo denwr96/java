@@ -2,10 +2,11 @@ package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15.ui_actio
 
 import javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15.Book;
 import javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15.BookDatabaseV2;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.List;
 import java.util.Scanner;
-
+@CodeReview(approved = true)
 public class FindByTitleUIAction implements UIAction {
 
 
@@ -25,3 +26,4 @@ public class FindByTitleUIAction implements UIAction {
     }
 
 }
+

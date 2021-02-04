@@ -1,10 +1,13 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library;
 
+
 // Task 6, 7;
 // Task 18 (level 3);
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 public class Book {
     private Long id;
     private String title;

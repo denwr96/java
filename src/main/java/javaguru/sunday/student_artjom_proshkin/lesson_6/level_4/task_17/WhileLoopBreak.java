@@ -1,6 +1,8 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_6.level_4.task_17;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class WhileLoopBreak {
 
     public static void main(String[] args) {

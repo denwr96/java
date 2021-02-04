@@ -1,8 +1,10 @@
 package javaguru.sunday.student_kristina_sutugina.lesson_9.level_4;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+//33
+@CodeReview(approved = true)
 class Transaction {
-
-
 
     private Trader trader;
     private int amount;
@@ -20,6 +22,11 @@ class Transaction {
         return amount;
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Transaction {" +
+                "trader=" + trader +
+                ", amount=" + amount +
+                '}';
+    }
 }

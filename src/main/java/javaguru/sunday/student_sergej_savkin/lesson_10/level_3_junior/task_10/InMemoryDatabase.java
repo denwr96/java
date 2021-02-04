@@ -8,11 +8,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Используйте коллекцию ArrayList")
+@CodeReview(approved = true)
 class InMemoryDatabase implements Database {
 
-    List<Product> productList = new ArrayList();
+    List<Product> productList = new ArrayList<>();
 
     @Override
     public void save(Product product) {

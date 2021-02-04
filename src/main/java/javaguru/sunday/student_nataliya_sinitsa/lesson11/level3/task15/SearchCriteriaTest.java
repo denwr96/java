@@ -2,9 +2,11 @@ package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 //Task 15 --> Task 22
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
-
+@CodeReview(approved = true)
 class SearchCriteriaTest {
 
     public static void main(String[] args) {
@@ -203,3 +205,4 @@ class SearchCriteriaTest {
     }
 
 }
+

@@ -4,8 +4,7 @@ import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
 //task11
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Переменные с большой буквы.")
+@CodeReview(approved = true)
 public class TemperatureWebConverter {
 
     double Kelvin(double celsius) {

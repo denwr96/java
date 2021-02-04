@@ -2,8 +2,10 @@ package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 // Level 4: Task 23 --> Task 26 from line 101
 
-import java.util.*;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.*;
+@CodeReview(approved = true)
 public class BookDatabaseV2Impl implements BookDatabaseV2 {
 
     Long id = 0L;
@@ -151,3 +153,4 @@ public class BookDatabaseV2Impl implements BookDatabaseV2 {
     }
 
 }
+

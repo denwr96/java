@@ -1,8 +1,11 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class Book {
     private Long id;
     private String title;

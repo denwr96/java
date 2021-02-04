@@ -1,8 +1,13 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_7.task_11;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+import javaguru.sunday.teacher.annotations.CodeReviewComment;
+
 import java.util.Scanner;
 
-
+@CodeReview(approved = false)
+@CodeReviewComment(comment = "метод PinCodeApproval назван не правильно. Внимательно посмотрите на его логику," +
+        "вы подаете туда пин, потом спрашиваете пин у пользователя и сравниваете их. Выглядит не правильно")
 class CreditCard {
     String cardNumber;
     int pinCode;

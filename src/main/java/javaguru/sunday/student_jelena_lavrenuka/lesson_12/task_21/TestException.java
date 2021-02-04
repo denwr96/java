@@ -1,7 +1,9 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_21;
 
-class TestException extends Exception { }
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+class TestException extends Exception { }
+@CodeReview(approved = true)
 class Main {
     public static void main(String args[]) {
         try {

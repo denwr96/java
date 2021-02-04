@@ -1,7 +1,9 @@
 package javaguru.sunday.teacher.lesson_12.lessoncode.level_6_middle;
 
-import java.util.ArrayList;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.ArrayList;
+@CodeReview(approved = true)
 public class BookClient {
 
     public static void main(String[] args) {
@@ -22,6 +24,8 @@ public class BookClient {
             System.out.println(e.getMessage());
         } catch (BookAlreadyExistsException e) {
             System.out.println(e.getMessage());
+        }  finally {
+
         }
 
         ArrayList<String> books = bookReader.getBooks();

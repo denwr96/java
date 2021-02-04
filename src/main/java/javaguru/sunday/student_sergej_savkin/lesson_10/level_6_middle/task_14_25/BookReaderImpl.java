@@ -10,8 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Почему сделали используя массивы? Переделайте не коллекции.")
+@CodeReview(approved = true)
 class BookReaderImpl implements BookReader {
 
     List<Book> bookArray = new ArrayList<>();

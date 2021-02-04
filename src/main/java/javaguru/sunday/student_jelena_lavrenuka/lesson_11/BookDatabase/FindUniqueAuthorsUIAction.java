@@ -1,8 +1,10 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Set;
 
-
+@CodeReview(approved = true)
 public class FindUniqueAuthorsUIAction implements UIAction {
     private BookDatabase bookDatabase;
 

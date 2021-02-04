@@ -13,7 +13,7 @@ class FindByIdUIAction implements UIAction {
     public void execute() {
         // запросите id книги с консоли у пользолвателя
         // поиск книги в базе данных: Optional<Book> bookOpt = bookDatabase.findById(id);
-        // вывелите на консоль результаты поиска
+        // выведите на консоль результаты поиска
     }
 
 }

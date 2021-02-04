@@ -1,6 +1,9 @@
 package javaguru.sunday.student_liana_shirmane.lesson_6.level_5;
-//task25
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+//task25
+@CodeReview(approved = true)
 public class Move {
     private int x;
     private int y;

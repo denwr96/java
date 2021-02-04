@@ -1,8 +1,11 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_11.BookDatabase;
 
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
+@CodeReview(approved = true)
 class DeleteByBookUIAction implements UIAction {
     private BookDatabase bookDatabase;
 

@@ -1,6 +1,8 @@
 package javaguru.sunday.student_artjom_proshkin.lesson_6.level_1.task_3;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class FizzBuzz {
 
     public String detect(int number) {

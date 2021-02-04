@@ -2,8 +2,10 @@ package javaguru.sunday.student_liana_shirmane.lesson_11.level_4_5_6;
 //task36
 //task38
 
-import java.util.*;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.*;
+@CodeReview(approved = true)
 class BookLibrary {
 
     private Map<Integer, UIAction> menuNumberToActionMap;
@@ -11,7 +13,7 @@ class BookLibrary {
     public BookLibrary() {
         BookDatabase bookDatabase = new BookDatabaseImpl(new ArrayList<>());
 
-        menuNumberToActionMap = new HashMap();
+        menuNumberToActionMap = new HashMap<>();
         menuNumberToActionMap.put(1, new SaveBookUIAction(bookDatabase));
         menuNumberToActionMap.put(2, new FindByIdUIAction(bookDatabase));
         menuNumberToActionMap.put(3, new FindByAuthorUIAction(bookDatabase));

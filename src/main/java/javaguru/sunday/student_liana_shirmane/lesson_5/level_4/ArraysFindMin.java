@@ -1,8 +1,11 @@
 package javaguru.sunday.student_liana_shirmane.lesson_5.level_4;
 //task28
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Random;
 
+@CodeReview(approved = true)
 public class ArraysFindMin {
     public static void main(String[] args) {
         int[] numbersMin = new int[5];

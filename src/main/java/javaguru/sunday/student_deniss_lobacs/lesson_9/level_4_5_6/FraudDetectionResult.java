@@ -3,17 +3,11 @@ package javaguru.sunday.student_deniss_lobacs.lesson_9.level_4_5_6;
 import javaguru.sunday.teacher.annotations.CodeReview;
 import javaguru.sunday.teacher.annotations.CodeReviewComment;
 
-@CodeReview(approved = false)
-@CodeReviewComment(comment = "Что-то с конструктором странное...")
+@CodeReview(approved = true)
 public class FraudDetectionResult {
 
     private boolean fraud;
     private String ruleName;
-
-    public FraudDetectionResult() {
-        this.fraud = fraud;
-        this.ruleName = ruleName;
-    }
 
     public boolean isFraud() {
         return fraud;

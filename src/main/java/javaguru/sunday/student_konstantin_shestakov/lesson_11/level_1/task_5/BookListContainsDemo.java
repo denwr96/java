@@ -1,8 +1,12 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_1.task_5;
 
+
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@CodeReview(approved = true)
 class BookListContainsDemo {
 
     public static void main(String[] args) {

@@ -17,13 +17,6 @@ class Book {
         this.author = author;
     }
 
-    Book(String title) {
-        this.title = title;
-    }
-
-    Book() {
-    }
-
     public String getTitle() {
         return title;
     }

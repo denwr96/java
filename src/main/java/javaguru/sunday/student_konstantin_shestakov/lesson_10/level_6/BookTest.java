@@ -2,10 +2,11 @@ package javaguru.sunday.student_konstantin_shestakov.lesson_10.level_6;
 
 // Task 14 - 25
 
-import javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.book_library.Book;
 import javaguru.sunday.teacher.annotations.CodeReview;
 
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.List;
+
 @CodeReview(approved = true)
 class BookTest {
 
@@ -16,51 +17,61 @@ class BookTest {
         bookTest.printBooksListTest();
         bookTest.findBookTest();
         bookTest.findBookByAuthorTest();
-        bookTest.findBookByAuthorPartialWordSearchTest();
+        bookTest.findBookByAuthorStartsWithWordSearchTest();
         bookTest.findBookByTitleTest();
-        bookTest.findBookByTitlePartialSearchTest();
+        bookTest.findBookByTitleStartsWithWordSearchTest();
         bookTest.bookIsAlreadyReadTest();
         bookTest.bookIsUnreadTest();
         bookTest.printReadBookListTest();
         bookTest.printUnreadBookListTest();
     }
 
-    BookReader bookReader = new BookReaderImpl();
-    Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
-    Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
-    Book book3 = new Book("Остров", "Олдос Хаксли");
-    Book book4 = new Book("Остров сокровищ", "Роберт Льюис Стивенсон");
-//    Book bookWithoutAuthor = new Book("Созерцатель тени");
-//    Book bookWithoutTitleAndAuthor = new Book();
-
     void addBookTests() {
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        Book bookWithoutAuthor = new Book("Созерцатель тени", "");
+        Book bookWithoutTitleAndAuthor = new Book("", "");
+
         System.out.println("---- Add book tests ----");
+
         checkResults(bookReader.addBook(book1), "Add book test");
         checkResults(!bookReader.addBook(book1), "Don't add same book test");
-//        checkResults(!bookReader.addBook(bookWithoutAuthor), "Don't add book without author test");
-//        checkResults(!bookReader.addBook(bookWithoutTitleAndAuthor), "Don't add book without author / title test");
+        checkResults(!bookReader.addBook(bookWithoutAuthor), "Don't add book without author test");
+        checkResults(!bookReader.addBook(bookWithoutTitleAndAuthor), "Don't add book without author / title test");
     }
 
     void removeBookTest() {
-        System.out.println("\n---- Remove book test ----");
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
+
+        bookReader.addBook(book1);
         bookReader.addBook(book2);
-        System.out.println("Library before removal: ");
-        bookReader.printBookList();
-        checkResults(bookReader.removeBook(book1), "Book removal test");
-        System.out.println("Library after removal: ");
-        bookReader.printBookList();
+
+        System.out.println("\n---- Remove book test ----");
+        checkResults(bookReader.removeBook(new Book("По кочкам и ухабам", "Дэвид Барр Кетли")), "Book removal test");
     }
 
     void printBooksListTest() {
-        System.out.println("\n---- Print books list test ----");
-        System.out.println("list of books before add: ");
-        bookReader.printBookList();
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
+
         bookReader.addBook(book1);
-        System.out.println("list of books after add: ");
+        bookReader.addBook(book2);
+
+        System.out.println("\n---- Print books list test ----");
         bookReader.printBookList();
     }
 
     void findBookTest() {
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
+
+        bookReader.addBook(book1);
+        bookReader.addBook(book2);
+
         System.out.println("\n---- Find book test ----");
         System.out.println("Current list of books: ");
         bookReader.printBookList();
@@ -68,64 +79,113 @@ class BookTest {
     }
 
     void findBookByAuthorTest() {
-        System.out.println("\n---- Find book by author test ----");
-        System.out.println("Current list of books: ");
-        bookReader.printBookList();
-        Book[] expectedResultArray = new Book[6];
-        expectedResultArray[0] = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
 
-        checkResults(Arrays.equals(bookReader.findBookByAuthor("Дэвид Барр Кетли"),expectedResultArray), "Find book by author test");
+        bookReader.addBook(book1);
+        bookReader.addBook(book2);
+
+        System.out.println("\n---- Find book by author test ----");
+
+        List<Book> expectedResult = new ArrayList<>();
+        expectedResult.add(new Book("По кочкам и ухабам", "Дэвид Барр Кетли"));
+
+        checkResults(bookReader.findBookByAuthor("Дэвид Барр Кетли").containsAll(expectedResult), "Find book by author test");
     }
 
-    void findBookByAuthorPartialWordSearchTest() {
-        System.out.println("\n---- Find book by author test (partial words search) ----");
-        System.out.println("Current list of books: ");
-        bookReader.printBookList();
-        Book[] expectedResultArray = new Book[6];
-        expectedResultArray[0] = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+    void findBookByAuthorStartsWithWordSearchTest() {
+        BookReader bookReader = new BookReaderImpl();
 
-        checkResults(Arrays.equals(bookReader.findBookByAuthorPartialWordSearch("Дэвид"),expectedResultArray), "Find book by author (partial words search) test");
+        bookReader.addBook(new Book("По кочкам и ухабам", "Дэвид Барр Кетли"));
+        bookReader.addBook(new Book("Над пропастью во ржи", "Джером Сэлинджер"));
+        bookReader.addBook(new Book("Остров", "Олдос Хаксли"));
+        bookReader.addBook(new Book("Остров сокровищ", "Роберт Льюис Стивенсон"));
+
+        System.out.println("\n---- Find book by author test (starts with word search) ----");
+        List<Book> expectedResultList = new ArrayList<>();
+        expectedResultList.add(new Book("По кочкам и ухабам", "Дэвид Барр Кетли"));
+
+        checkResults(bookReader.findBookByAuthorStartsWithWordSearch("Дэвид").containsAll(expectedResultList), "Find book by author (starts with words search) test");
     }
 
     void findBookByTitleTest() {
-        System.out.println("\n---- Find book by title test ----");
-        bookReader.addBook(book3);
-        bookReader.addBook(book4);
-        Book[] expectedResultArray = new Book[6];
-        expectedResultArray[1] = new Book("Над пропастью во ржи", "Джером Сэлинджер");
+        BookReader bookReader = new BookReaderImpl();
 
-        checkResults(Arrays.equals(bookReader.findBookByTitle("Над пропастью во ржи"),expectedResultArray), "Find book by title test");
+        bookReader.addBook(new Book("По кочкам и ухабам", "Дэвид Барр Кетли"));
+        bookReader.addBook(new Book("Над пропастью во ржи", "Джером Сэлинджер"));
+        bookReader.addBook(new Book("Остров", "Олдос Хаксли"));
+        bookReader.addBook(new Book("Остров сокровищ", "Роберт Льюис Стивенсон"));
+
+        System.out.println("\n---- Find book by title test ----");
+
+        List<Book> expectedResultList = new ArrayList<>();
+        expectedResultList.add(new Book("Над пропастью во ржи", "Джером Сэлинджер"));
+
+        checkResults(bookReader.findBookByTitle("Над пропастью во ржи").containsAll(expectedResultList), "Find book by title test");
     }
 
-    void findBookByTitlePartialSearchTest() {
-        System.out.println("\n---- Find book by title test (partial words search) ----");
-        Book[] expectedResultArray = new Book[6];
-        expectedResultArray[2] = new Book("Остров", "Олдос Хаксли");
-        expectedResultArray[3] = new Book("Остров сокровищ", "Роберт Льюис Стивенсон");
+    void findBookByTitleStartsWithWordSearchTest() {
+        BookReader bookReader = new BookReaderImpl();
 
-        checkResults(Arrays.equals(bookReader.findBookByTitlePartialSearch("Остров"),expectedResultArray), "Find book by title test");
+        bookReader.addBook(new Book("По кочкам и ухабам", "Дэвид Барр Кетли"));
+        bookReader.addBook(new Book("Над пропастью во ржи", "Джером Сэлинджер"));
+        bookReader.addBook(new Book("Остров", "Олдос Хаксли"));
+        bookReader.addBook(new Book("Остров сокровищ", "Роберт Льюис Стивенсон"));
+
+        System.out.println("\n---- Find book by title test (partial words search) ----");
+
+        List<Book> expectedResultList = new ArrayList<>();
+        expectedResultList.add(new Book("Остров", "Олдос Хаксли"));
+        expectedResultList.add(new Book("Остров сокровищ", "Роберт Льюис Стивенсон"));
+
+        checkResults(bookReader.findBookByTitleStartsWithWordSearch("Остров").containsAll(expectedResultList), "Find book by title test");
     }
 
     void bookIsAlreadyReadTest() {
-        System.out.println("\n---- Set book is read test ----");
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+
+        bookReader.addBook(book1);
+
+        System.out.println("\n---- Set book is read tests ----");
         checkResults(bookReader.bookIsAlreadyRead(book1), "Set book is read test");
     }
 
     void bookIsUnreadTest() {
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+
+        bookReader.addBook(book1);
+
         System.out.println("\n---- Set book is unread test ----");
         checkResults(bookReader.bookIsUnread(book1), "Set book is unread test");
     }
 
     void printReadBookListTest() {
-        System.out.println("\n---- Print read books list test ----");
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
+
+        bookReader.addBook(book1);
+        bookReader.addBook(book2);
         bookReader.bookIsAlreadyRead(book1);
+
+        System.out.println("\n---- Print read books list test ----");
         bookReader.printReadBookList();
     }
 
     void printUnreadBookListTest() {
+        BookReader bookReader = new BookReaderImpl();
+        Book book1 = new Book("По кочкам и ухабам", "Дэвид Барр Кетли");
+        Book book2 = new Book("Над пропастью во ржи", "Джером Сэлинджер");
+
+        bookReader.addBook(book1);
+        bookReader.addBook(book2);
+        bookReader.bookIsAlreadyRead(book1);
+        bookReader.bookIsUnread(book1);
+
         System.out.println("\n---- Print unread books list test ----");
-        System.out.println("All books list: ");
-        bookReader.printBookList();
         bookReader.printUnreadBookList();
     }
 

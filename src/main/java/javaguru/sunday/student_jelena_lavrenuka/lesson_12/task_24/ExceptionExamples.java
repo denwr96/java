@@ -1,5 +1,8 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_12.task_24;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
+@CodeReview(approved = true)
 class ExceptionExamples {
     // ArrayIndexOutOfBoundsException
     // Thrown to indicate that an array has been accessed with an illegal index. The

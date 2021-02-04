@@ -2,8 +2,10 @@ package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 // Task 23 --> Task 26 from 24th line, Task 28 --> Task 29 from 28th line
 
-import java.util.*;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.*;
+@CodeReview(approved = true)
 public interface BookDatabaseV2 {
 
     List<Book> bookList = new ArrayList<>();
@@ -26,3 +28,4 @@ public interface BookDatabaseV2 {
     Map<String, Integer> getEachAuthorBookCount();
 
 }
+

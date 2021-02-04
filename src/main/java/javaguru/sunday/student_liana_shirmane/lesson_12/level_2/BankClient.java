@@ -1,8 +1,11 @@
 package javaguru.sunday.student_liana_shirmane.lesson_12.level_2;
 //task9
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Objects;
 
+@CodeReview(approved = true)
 class BankClient {
 
     private String uid;

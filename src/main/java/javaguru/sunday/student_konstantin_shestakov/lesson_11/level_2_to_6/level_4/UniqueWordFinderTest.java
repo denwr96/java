@@ -1,10 +1,13 @@
 package javaguru.sunday.student_konstantin_shestakov.lesson_11.level_2_to_6.level_4;
 
+
 // Task 27 (level 4)
+
+import javaguru.sunday.teacher.annotations.CodeReview;
 
 import java.util.HashSet;
 import java.util.Set;
-
+@CodeReview(approved = true)
 class UniqueWordFinderTest {
 
     public static void main(String[] args) {

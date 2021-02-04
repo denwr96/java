@@ -2,8 +2,10 @@ package javaguru.sunday.student_nataliya_sinitsa.lesson11.level3.task15;
 
 //Task 6 --> Task 14
 
-import java.util.Objects;
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+import java.util.Objects;
+@CodeReview(approved = true)
 public class Book {
     private Long id;
     private String title;
@@ -58,4 +60,5 @@ public class Book {
                 ", yearOfIssue='" + yearOfIssue + '\'' +
                 '}';
     }
+
 }

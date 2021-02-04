@@ -1,6 +1,8 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_10;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
 
+@CodeReview(approved = true)
 class ConstructorChaining {
 
     private String constructorName;

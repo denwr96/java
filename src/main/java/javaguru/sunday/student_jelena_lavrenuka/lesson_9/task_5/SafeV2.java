@@ -1,8 +1,10 @@
 package javaguru.sunday.student_jelena_lavrenuka.lesson_9.task_5;
 
+import javaguru.sunday.teacher.annotations.CodeReview;
+
 import java.util.Scanner;
 
-
+@CodeReview(approved = true)
 class SafeV2 {
     public int pinCode;
     public int moneyAmount;
