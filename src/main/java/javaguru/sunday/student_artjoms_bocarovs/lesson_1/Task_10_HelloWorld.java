@@ -1,4 +1,4 @@
-package javaguru.sunday.student_artjoms_bocarovs.lesson_1;
+package main.java.javaguru.sunday.student_artjoms_bocarovs.lesson_1;
 
 import javaguru.sunday.teacher.annotations.CodeReview;
 
