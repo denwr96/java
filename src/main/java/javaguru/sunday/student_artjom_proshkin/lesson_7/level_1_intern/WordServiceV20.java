@@ -1,1 +1,0 @@
-package javaguru.sunday.student_artjom_proshkin.lesson_7.level_1_intern;
