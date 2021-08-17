@@ -1,6 +1,0 @@
-- ArrayIndexOutOfBoundsException - индекс вне массива
-- IllegalArgumentException - неправильный аргумент
-- IOException - инпут/аутпут ошибка
-- StackOverflowError - размера стека маленький
-- OutOfMemoryError - не хватает памяти
-- NumberFormatException - неправильный формат, например вместо int будет string

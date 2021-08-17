@@ -1,7 +1,0 @@
-В консоли команда javac filename.java (либо из нужной папки, либо указать путь)
-
-Lianas-MacBook-Pro:~ lianashirmane$ javac IdeaProjects/java_1_sunday_2020_september/src/main/java/javaguru/sunday/student_liana_shirmane/lesson_2/task_9/Task9.java
-Task9.java:30: error: ';' expected
-        System.out.println(userNumber + " x 10 = "  + tenthRow)
-                                                               ^
-1 error
